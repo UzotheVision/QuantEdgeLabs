@@ -1,0 +1,825 @@
+# Quant Edge Labs Personalization Engine: Complete Customization Framework
+
+Here's the full architecture for a **user-configurable platform** where traders modify risk, technicals, fundamentals, and bot behavior through settings, widgets, and a command prompt interface.
+
+---
+
+## **1. Account Settings: Personalization Control Center**
+
+### **Settings Architecture** (`/api/settings/user-preferences`)
+```typescript
+// File: shared/settings-schema.ts
+
+interface UserPreferences {
+  // Risk Profile (Tier-Based)
+  risk_profile: {
+    tier: 'conservative' | 'moderate' | 'aggressive' | 'custom',
+    max_position_size_percent: number, // 2% default
+    max_daily_loss_percent: number,    // 5% default
+    max_correlated_positions: number,  // 3 default
+    require_confirmation: boolean,     // true = manual approve all trades
+  },
+  
+  // Technical Levels (Modifiable Scoring)
+  technical_thresholds: {
+    rsi: {
+      oversold: number,      // Default: 30
+      overbought: number,    // Default: 70
+      weight_adjustment: number, // ±10 points to signal weight
+    },
+    adx: {
+      trending_minimum: number,  // Default: 25
+      strong_trend: number,      // Default: 40
+      weight_adjustment: number,
+    },
+    volume: {
+      surge_ratio: number,     // Default: 2.0x
+      weight_adjustment: number,
+    },
+    macd: {
+      crossover_threshold: number, // Default: 0.5 histogram
+      weight_adjustment: number,
+    },
+  },
+  
+  // Fundamental Levels (AI Analysis Customization)
+  fundamental_filters: {
+    min_market_cap: number,      // Default: 1B
+    max_pe_ratio: number,        // Default: null (disabled)
+    require_earnings_beat: boolean, // false
+    insider_buying_weight: number, // +15 default, user can ±10
+    sector_rotation_bias: string[], // ['tech', 'healthcare']
+  },
+  
+  // Bot Modification (Per-Bot Settings)
+  bot_configuration: {
+    auto_lotto: {
+      enabled: boolean,
+      max_daily_trades: number,     // 3 default
+      min_confidence_threshold: number, // 80 (B+)
+      max_premium_percent: number,  // 5% (small account)
+      dte_range: [number, number],  // [7, 45]
+      confluence_minimum: number,   // 3 signals
+      post_loss_cooldown_days: number, // 3
+    },
+    futures_bot: {
+      enabled: boolean,
+      max_leverage: number,         // 10x default
+      session_filter: string[],     // ['opening', 'power_hour']
+    },
+    crypto_bot: {
+      enabled: boolean,
+      max_position_size_usd: number, // $500 default
+      avoid_low_liquidity: boolean, // true
+    },
+  },
+  
+  // UI Preferences
+  ui_customization: {
+    theme: 'dark' | 'light' | 'auto',
+    timezone: string, // America/Chicago default
+    compact_mode: boolean, // false = spacious, true = data-dense
+    widgets: WidgetConfig[], // See below
+    default_layout: string, // 'command_center' | 'trade_desk' | 'analytics'
+  },
+  
+  // Notifications
+  notifications: {
+    discord_webhooks: {
+      elite_setups: string,      // Custom webhook per user
+      bot_executions: string,
+      grade_changes: string,
+    },
+    email_alerts: {
+      daily_report: boolean,
+      elite_upgrade: boolean,
+      bot_error: boolean,
+    },
+    in_app: {
+      sound_enabled: boolean,
+      desktop_notifications: boolean,
+    },
+  },
+}
+```
+
+---
+
+## **2. Command Prompt System (Com Prompt)**
+
+### **Interactive Terminal Interface**
+```typescript
+// File: client/src/components/command-prompt.tsx
+
+<CommandPrompt 
+  placeholder="Type /help for commands..."
+  onCommand={(input) => parseCommand(input)}
+/>
+```
+
+### **Command Syntax & Examples**
+```bash
+# Risk Management
+/risk set max_position_size 3%          # Change position sizing
+/risk set tier aggressive               # Switch to aggressive profile
+/risk show limits                       # Display current limits
+
+# Technical Modification
+/tech set rsi_oversold 25               # Stricter RSI threshold
+/tech weight rsi +15                    # Increase RSI signal weight
+/tech disable macd                      # Ignore MACD signals
+
+# Fundamental Filters
+/fundamental set min_market_cap 5B      # Filter out small caps
+/fundamental weight insider_buying +20  # Prioritize insider activity
+/fundamental sector require tech healthcare # Only these sectors
+
+# Bot Control
+/bot auto_lotto enable                  # Turn on Auto-Lotto
+/bot auto_lotto set max_daily_trades 5  # Allow more trades
+/bot auto_lotto set confidence_threshold 85 # Stricter entry
+/bot status                             # Show all bot status
+
+# Widget Management
+/widget add performance_card            # Add widget to current page
+/widget remove mover_discovery          # Remove widget
+/widget move performance_card right     # Reorder layout
+
+# Symbol-Specific Commands
+/nio set alert grade > A               # Alert when NIO reaches A-tier
+/nio add note "Watching for earnings"  # Quick note
+/nio show history                      # Show NIO's 2026 timeline
+/nio trade buy limit 25.00             # Place limit order (if integrated)
+
+# Platform Control
+/layout save my_custom_layout          # Save current layout
+/layout load trade_focused             # Switch to saved layout
+/backup export settings                # Export all preferences
+/backup import settings                # Import from file
+
+# Help System
+/help                                   # Show all commands
+/help risk                             # Show risk commands only
+```
+
+### **Auto-Complete & Suggestions**
+```typescript
+// As user types "/risk set", show dropdown:
+/risk set [max_position_size, max_daily_loss, tier, ...]
+
+// Command validation
+if (command === '/risk set tier aggressive' && user.account_type === 'beginner') {
+  warning = "⚠️ Aggressive tier not recommended for your experience level";
+}
+```
+
+---
+
+## **3. Widget Architecture: Modular Everywhere**
+
+### **Core Widget System** (`/widgets/[widget-name].tsx`)
+```typescript
+// File: shared/widget-registry.ts
+
+export const AVAILABLE_WIDGETS = {
+  // Trading Widgets
+  'elite_setups_grid': {
+    name: 'Elite Setups',
+    default_position: 'left',
+    config_options: ['grade_filter', 'sector_filter', 'sort_by'],
+  },
+  'performance_metrics': {
+    name: 'Performance Dashboard',
+    default_position: 'right',
+    config_options: ['timeframe', 'metrics_shown', 'compare_benchmark'],
+  },
+  'market_movers': {
+    name: 'Market Movers',
+    default_position: 'full_width',
+    config_options: ['mover_type', 'update_frequency', 'volume_threshold'],
+  },
+  'bot_status': {
+    name: 'Bot Control Center',
+    default_position: 'right',
+    config_options: ['show_logs', 'show_stats', 'allow_control'],
+  },
+  'risk_monitor': {
+    name: 'Live Risk Monitor',
+    default_position: 'sticky_top',
+    config_options: ['alert_threshold', 'show_positions', 'show_projected_pnl'],
+  },
+  'symbol_notes': {
+    name: 'Research Notes',
+    default_position: 'floating',
+    config_options: ['auto_save', 'sync_discord', 'tag_suggestions'],
+  },
+  'grade_timeline': {
+    name: 'Grade Timeline',
+    default_position: 'modal',
+    config_options: ['year', 'show_events', 'show_trades'],
+  },
+  'command_prompt': {
+    name: 'Command Terminal',
+    default_position: 'bottom_overlay',
+    config_options: ['show_history', 'auto_complete', 'shortcut_keys'],
+  },
+  // Data Widgets
+  'technical_scanner': {
+    name: 'Custom Scanner',
+    default_position: 'left',
+    config_options: ['indicators', 'thresholds', 'alert_on_match'],
+  },
+  'fundamental_filter': {
+    name: 'Fundamental Screener',
+    default_position: 'left',
+    config_options: ['metrics', 'ranges', 'weighted_scoring'],
+  },
+  'correlation_matrix': {
+    name: 'Position Correlation',
+    default_position: 'right',
+    config_options: ['lookback_period', 'alert_threshold'],
+  },
+  'loss_analyzer': {
+    name: 'Loss Analysis Dashboard',
+    default_position: 'full_width',
+    config_options: ['date_range', 'categories', 'remediation_tracking'],
+  },
+};
+```
+
+### **Widget Management UI**
+```typescript
+// File: client/src/components/widget-manager.tsx
+
+<WidgetManager>
+  <WidgetPalette>  // Draggable widget library
+    {AVAILABLE_WIDGETS.map(widget => 
+      <WidgetTile 
+        draggable 
+        onDragStart={() => addWidgetToPage(widget.id)}
+      />
+    )}
+  </WidgetPalette>
+  
+  <WidgetCanvas>  // Drop zone for current page
+    {userPage.widgets.map(widget => 
+      <WidgetContainer
+        key={widget.id}
+        position={widget.position}
+        onResize={(newSize) => updateWidget(widget.id, { size: newSize })}
+        onRemove={() => removeWidget(widget.id)}
+        onConfigure={() => openWidgetConfigModal(widget.id)}
+      >
+        <WidgetComponent config={widget.config} />
+      </WidgetContainer>
+    )}
+  </WidgetCanvas>
+</WidgetManager>
+```
+
+### **Widget Configuration Modal**
+```typescript
+// For "Technical Scanner" widget
+<WidgetConfigModal widgetId="technical_scanner">
+  <FormSection title="Indicators">
+    <Toggle name="RSI" default={true} />
+    <Toggle name="MACD" default={true} />
+    <Toggle name="ADX" default={true} />
+    <NumberInput name="ADX_threshold" default={25} min={0} max={100} />
+  </FormSection>
+  
+  <FormSection title="Scoring Weights">
+    <Slider name="rsi_weight" default={12} min={0} max={30} />
+    <Slider name="adx_weight" default={15} min={0} max={30} />
+  </FormSection>
+  
+  <FormSection title="Alerts">
+    <Toggle name="sound_alert" default={false} />
+    <Select name="notification_channel" options={['in_app', 'discord', 'email']} />
+  </FormSection>
+</WidgetConfigModal>
+```
+
+---
+
+## **4. Bot Modification Framework: Layered Control**
+
+### **Tier 1: Simple Toggle Mode** (Beginners)
+```
+Bot Configuration Dashboard
+
+Auto-Lotto Bot
+├─ [ ] Enable Bot                         // Master toggle
+├─ Risk Level: [Conservative ▼]         // Dropdown
+├─ Max Daily Trades: [3 ▲▼]             // Number spinner
+└─ Confidence Required: [B+ ▼]          // Grade selector
+
+Futures Bot
+├─ [ ] Enable
+├─ Max Leverage: [10x ▲▼]
+└─ Trade Sessions: [☑ Opening ☑ Power Hour]
+
+[Save Settings] [Test Bot] [View Logs]
+```
+
+### **Tier 2: Advanced Parameter Mode** (Intermediate)
+```
+Auto-Lotto Bot - Advanced Parameters
+
+Entry Rules:
+├─ Min Confidence: 80 points
+├─ Min Confluence: 3 signals
+├─ Max Consecutive Losses: 2
+├─ Post-Loss Cooldown: 3 days
+└─ Require Confirmation: [ ]
+
+Exit Rules:
+├─ DTE Minimum: 7 days
+├─ DTE Maximum: 45 days
+├─ Target R:R: 2.0
+├─ Stop Loss: 1.5x ATR
+└─ Thesis Revalidation: [☑ Enabled]
+
+Position Sizing:
+├─ Max % per trade: 2%
+├─ Max % per sector: 15%
+├─ Kelly Multiplier: 0.25
+└─ Adjust for Volatility: [☑ Enabled]
+
+Signal Weights (Override Defaults):
+├─ RSI_OVERSOLD: [12 ▲▼]  // Default: 12
+├─ VOLUME_SURGE: [10 ▲▼]  // Default: 10
+└─ CALL_FLOW: [12 ▲▼]     // Default: 12
+```
+
+### **Tier 3: Code-Level Configuration** (Experts)
+```typescript
+// File: user-configs/[userId]/auto-lotto-config.js
+
+export default {
+  // Entry function - user can write custom logic
+  entryCondition: (signal, marketContext, userState) => {
+    // User's custom condition
+    if (signal.confidenceScore < 85) return false;
+    if (marketContext.vix > 30) return false;
+    if (userState.dailyLoss > userConfig.maxDailyLoss) return false;
+    
+    // Custom filter: Only trade if sector is in favor
+    const allowedSectors = userConfig.allowedSectors;
+    if (!allowedSectors.includes(signal.sector)) return false;
+    
+    return true;
+  },
+  
+  // Position sizing formula
+  positionSize: (signal, accountValue) => {
+    // Custom Kelly calculation
+    const kelly = calculateKelly(signal.historicalWinRate, signal.avgWin, signal.avgLoss);
+    const adjustedKelly = kelly * userConfig.kellyMultiplier;
+    
+    // Volatility adjustment
+    const atr = signal.atr;
+    const volatilityPenalty = atr > 2 ? 0.7 : 1.0;
+    
+    return Math.min(
+      accountValue * adjustedKelly * volatilityPenalty,
+      accountValue * userConfig.maxPositionPercent
+    );
+  },
+  
+  // Exit function
+  exitCondition: (position, marketContext) => {
+    // Trailing stop based on ADX
+    if (position.adx > 30) {
+      return { stop: position.price * 0.92 }; // 8% trail in trend
+    } else {
+      return { stop: position.price * 0.95 }; // 5% trail in range
+    }
+  }
+};
+```
+
+**UI for Code Mode**:
+```
+┌─────────────────────────────────────────┐
+│ Code Editor                             │
+│ function entryCondition(signal) {       │
+│   // Your custom logic here             │
+│   return signal.confidence > 85;        │
+│ }                                       │
+│                                         │
+│ [Validate] [Simulate] [Deploy]         │
+│                                         │
+│ ⚠️  Warning: Errors may stop bot      │
+└─────────────────────────────────────────┘
+```
+
+---
+
+## **5. Comprehensive Preference Management**
+
+### **Settings Categories** (`/account/settings`)
+
+```typescript
+// Navigation sidebar
+const settingsMenu = [
+  { id: 'profile', name: 'Profile', icon: '👤' },
+  { id: 'risk', name: 'Risk Management', icon: '🛡️' },
+  { id: 'technical', name: 'Technical Levels', icon: '📊' },
+  { id: 'fundamental', name: 'Fundamental Filters', icon: '📈' },
+  { id: 'bots', name: 'Trading Bots', icon: '🤖' },
+  { id: 'widgets', name: 'Widget Layout', icon: '🎛️' },
+  { id: 'notifications', name: 'Notifications', icon: '🔔' },
+  { id: 'data', name: 'Data & Privacy', icon: '🔒' },
+];
+
+// Each category is a separate page with granular controls
+```
+
+### **Risk Settings Page** (`/settings/risk`)
+```typescript
+<RiskSettings>
+  <ProfileSelect
+    value={user.risk_profile.tier}
+    options={[
+      { value: 'conservative', label: 'Conservative', desc: 'Max 1% per trade, 3% daily loss' },
+      { value: 'moderate', label: 'Moderate', desc: '2% per trade, 5% daily loss' },
+      { value: 'aggressive', label: 'Aggressive', desc: '5% per trade, 10% daily loss' },
+      { value: 'custom', label: 'Custom', desc: 'Manual configuration' },
+    ]}
+    onChange={updateRiskProfile}
+  />
+  
+  {risk_profile.tier === 'custom' && (
+    <CustomRiskControls>
+      <NumberInput
+        label="Max Position Size %"
+        value={risk_profile.max_position_size_percent}
+        min={0.1}
+        max={100}
+        step={0.1}
+      />
+      <NumberInput
+        label="Max Daily Loss %"
+        value={risk_profile.max_daily_loss_percent}
+        min={1}
+        max={50}
+      />
+      <Toggle
+        label="Require Manual Confirmation"
+        value={risk_profile.require_confirmation}
+        helpText="Bot will suggest trades but wait for your approval"
+      />
+    </CustomRiskControls>
+  )}
+
+  <RiskSummaryCard
+    title="Your Current Risk Limits"
+    maxPosition={riskProfile.max_position_size_percent}
+    maxDailyLoss={riskProfile.max_daily_loss_percent}
+    positionCap={calculatePositionCap()}
+    dailyCap={calculateDailyCap()}
+  />
+</RiskSettings>
+```
+
+---
+
+## **6. Widget Ecosystem: Every Page**
+
+### **Page-Specific Widget Defaults**
+
+**Command Center**:
+```typescript
+left_column: [
+  'engine_status',
+  'elite_setups_grid',
+  'technical_scanner'
+],
+right_column: [
+  'performance_metrics',
+  'bot_status',
+  'risk_monitor'
+],
+bottom: [
+  'command_prompt',
+  'market_ticker'
+]
+```
+
+**Trade Desk**:
+```typescript
+left_column: [
+  'signal_list',
+  'symbol_notes',
+  'grade_timeline'
+],
+right_column: [
+  'trade_quick_actions',
+  'position_correlation',
+  'loss_analyzer'
+],
+floating: [
+  'command_prompt'
+]
+```
+
+**Settings Page**:
+```typescript
+full_width: [
+  'settings_navigator',
+  'preview_panel'
+],
+right_column: [
+  'settings_help',
+  'risk_simulator'
+]
+```
+
+### **Persistent Widget State**
+```typescript
+// Store in localStorage + backend
+{
+  page: 'trade_desk',
+  widgets: [
+    {
+      id: 'elite_setups_grid',
+      position: { x: 0, y: 0, w: 8, h: 6 }, // Grid coordinates
+      is_visible: true,
+      config: {
+        grade_filter: ['S', 'A+', 'A'],
+        sort_by: 'confidence_score',
+        auto_refresh: 900 // 15 minutes
+      }
+    },
+    {
+      id: 'command_prompt',
+      position: { x: 0, y: 24, w: 12, h: 2 },
+      is_visible: true,
+      config: {
+        show_history: true,
+        auto_complete: true,
+        shortcut_key: '/' // Press '/' to focus
+      }
+    }
+  ],
+  last_modified: '2026-01-09T18:30:00Z'
+}
+```
+
+---
+
+## **7. Command Prompt (Com Prompt) Deep Dive**
+
+### **Implementation** (`/components/command-prompt.tsx`)
+```typescript
+<CommandPrompt
+  ref={terminalRef}
+  commands={COMMAND_REGISTRY}
+  history={commandHistory}
+  autoComplete={true}
+  shortcutKey="/"  // Press "/" anywhere to open
+  onExecute={handleCommand}
+  onError={handleCommandError}
+  suggestions={generateSuggestions}
+/>
+```
+
+### **Command Registry** (`/shared/command-registry.ts`)
+```typescript
+export const COMMAND_REGISTRY = {
+  '/risk': {
+    description: 'Risk management commands',
+    subcommands: {
+      'set': {
+        description: 'Set risk parameter',
+        syntax: '/risk set <parameter> <value>',
+        examples: ['/risk set max_position_size 3%', '/risk set tier aggressive'],
+        handler: handleRiskSet,
+        validation: validateRiskSet
+      },
+      'show': {
+        description: 'Show current risk settings',
+        handler: handleRiskShow
+      }
+    }
+  },
+  '/bot': {
+    description: 'Bot control commands',
+    subcommands: {
+      'enable': { handler: handleBotEnable },
+      'disable': { handler: handleBotDisable },
+      'set': {
+        description: 'Set bot parameter',
+        syntax: '/bot <bot_name> set <param> <value>',
+        examples: ['/bot auto_lotto set confidence_threshold 85'],
+        handler: handleBotSet
+      },
+      'status': { handler: handleBotStatus },
+      'logs': { handler: handleBotLogs }
+    }
+  },
+  '/widget': {
+    description: 'Widget management',
+    subcommands: {
+      'add': { handler: handleWidgetAdd },
+      'remove': { handler: handleWidgetRemove },
+      'move': { handler: handleWidgetMove },
+      'configure': { handler: handleWidgetConfigure }
+    }
+  },
+  '/layout': {
+    description: 'Layout management',
+    subcommands: {
+      'save': { handler: handleLayoutSave },
+      'load': { handler: handleLayoutLoad },
+      'list': { handler: handleLayoutList },
+      'delete': { handler: handleLayoutDelete }
+    }
+  },
+  '/symbol': {
+    description: 'Symbol-specific actions',
+    subcommands: {
+      'add': { handler: handleSymbolAdd },
+      'remove': { handler: handleSymbolRemove },
+      'note': { handler: handleSymbolNote },
+      'alert': { handler: handleSymbolAlert },
+      'history': { handler: handleSymbolHistory }
+    }
+  }
+};
+```
+
+### **Auto-Suggestions Engine**
+```typescript
+function generateSuggestions(input: string): string[] {
+  if (input.startsWith('/risk set')) {
+    return [
+      'max_position_size <percent>',
+      'max_daily_loss <percent>',
+      'tier <conservative|moderate|aggressive|custom>'
+    ];
+  }
+  
+  if (input.startsWith('/bot auto_lotto set')) {
+    return [
+      'confidence_threshold <50-100>',
+      'max_daily_trades <number>',
+      'confluence_minimum <number>'
+    ];
+  }
+  
+  if (input.startsWith('/symbol')) {
+    // Fetch user's watchlist symbols
+    return getUserWatchlistSymbols(user.id);
+  }
+}
+```
+
+---
+
+## **8. Trading Bot Modification: User Stories**
+
+### **User Story 1: Conservative Beginner**
+```bash
+"I want to limit risk to 1% per trade and never trade options with <70% confidence"
+
+Settings:
+/risk set tier conservative
+/risk set max_position_size 1%
+/bot auto_lotto set confidence_threshold 70
+/bot auto_lotto set max_daily_trades 1
+/require_confirmation true
+```
+
+### **User Story 2: Aggressive Day Trader**
+```bash
+"I want to trade breakouts during opening session, max 5% per trade, tight stops"
+
+Settings:
+/risk set tier aggressive
+/risk set max_position_size 5%
+/tech set adx_trending_minimum 30      // Strong trend requirement
+/bot auto_lotto set session_filter opening,power_hour
+/bot auto_lotto set max_daily_trades 10
+/bot auto_lotto set post_loss_cooldown 0  // No cooldown
+```
+
+### **User Story 3: Sector Specialist (Healthcare)**
+```bash
+"I only trade biotech and healthcare, require insider buying"
+
+Settings:
+/fundamental set sector only healthcare biotech
+/fundamental weight insider_buying +25  // Heavy weight
+/tech disable adx                        // Don't care about trend
+/require_confirmation false              // Auto-execute
+```
+
+### **User Story 4: Quant Developer**
+```bash
+"I want to modify the entry logic with custom code"
+
+Settings:
+/bot auto_lotto set mode code
+# Opens code editor
+# User pastes custom JavaScript entry function
+```
+
+---
+
+## **9. Implementation Roadmap: 6-Week Sprint**
+
+### **Week 1: Foundation**
+- [ ] **Day 1-2**: Create `user_preferences` table with JSONB column
+- [ ] **Day 3-4**: Build `/settings` API endpoints (CRUD)
+- [ ] **Day 5-7**: Design settings UI with tabs (Risk, Technical, Bots, etc.)
+
+### **Week 2: Risk & Technical**
+- [ ] **Day 8-10**: Implement risk profile presets (conservative/moderate/aggressive)
+- [ ] **Day 11-12**: Build technical threshold sliders in UI
+- [ ] **Day 13-14**: Connect thresholds to signal generator (`universal-idea-generator.ts`)
+
+### **Week 3: Bot Configuration**
+- [ ] **Day 15-17**: Build per-bot settings forms (Auto-Lotto, Futures, Crypto)
+- [ ] **Day 18-20**: Implement bot enable/disable toggles
+- [ ] **Day 21-22**: Add "Test Bot" simulation mode (dry run)
+
+### **Week 4: Widget System**
+- [ ] **Day 23-25**: Create widget registry and manager UI
+- [ ] **Day 26-28**: Build drag-and-drop canvas for Command Center
+- [ ] **Day 29-30**: Add widget configuration modals
+
+### **Week 5: Command Prompt**
+- [ ] **Day 31-33**: Build command parser and registry
+- [ ] **Day 34-36**: Implement auto-complete and suggestions
+- [ ] **Day 37-38**: Add keyboard shortcut (/) and overlay UI
+
+### **Week 6: Polish & Testing**
+- [ ] **Day 39-41**: Import/export settings functionality
+- [ ] **Day 42-44**: Create preset templates ("Conservative", "Day Trader", "Sector Specialist")
+- [ ] **Day 45-46**: Beta testing with 5 users
+- [ ] **Day 47-48**: Documentation and help system
+- [ ] **Day 49-50**: Launch to all users
+
+---
+
+## **10. Command Prompt Cheat Sheet (User-Facing)**
+
+```plaintext
+╔═══════════════════════════════════════════════════════════╗
+║  Quant Edge Labs Command Prompt - Quick Reference        ║
+╚═══════════════════════════════════════════════════════════╝
+
+BASIC COMMANDS
+──────────────────────────────────────────────────────────────
+/settings                           Open settings page
+/help                               Show all commands
+/help <command>                     Show help for specific command
+
+RISK MANAGEMENT
+──────────────────────────────────────────────────────────────
+/risk set tier <conservative|moderate|aggressive|custom>
+/risk set max_position_size <0.1-100>%
+/risk set max_daily_loss <1-50>%
+/risk set max_correlated_positions <number>
+/risk show                          Display current limits
+
+TECHNICAL LEVELS
+──────────────────────────────────────────────────────────────
+/tech set rsi_oversold <0-50>
+/tech set rsi_overbought <50-100>
+/tech set adx_trending <0-100>
+/tech set volume_surge <0-10>
+/tech weight <signal> +<0-30> | -<0-30>
+/tech enable <indicator>
+/tech disable <indicator>
+
+FUNDAMENTAL FILTERS
+──────────────────────────────────────────────────────────────
+/fundamental set min_market_cap <number>
+/fundamental set max_pe <number>
+/fundamental require earnings_beat <true|false>
+/fundamental weight <signal> +<0-30> | -<0-30>
+/fundamental sector <add|remove> <sector_name>
+
+BOT CONTROL
+──────────────────────────────────────────────────────────────
+/bot <bot_name> enable
+/bot <bot_name> disable
+/bot <bot_name> set <parameter> <value>
+/bot <bot_name> status
+/bot <bot_name> logs
+/bot status                           Show all bots
+/bot stop_all                         Emergency stop
+
+WIDGETS
+──────────────────────────────────────────────────────────────
+/widget add <widget_name>
+/widget remove <widget_name>
+/widget move <widget_name> <left|right|top|bottom>
+/widget configure <widget_name>
+/widget reset                         Reset to defaults
+
+SYMBOL ACTIONS
+───────────────────────────────────────────────────────────

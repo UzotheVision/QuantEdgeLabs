@@ -1,0 +1,46 @@
+{
+  "reviews": [
+    {
+      "stage": "typography",
+      "name": "Engineered",
+      "premise": "Archivo carries headings and prose across a real weight range; Martian Mono holds every number. Built like equipment.",
+      "keywords": ["engineered", "wide", "industrial"],
+      "palette": [],
+      "logo_ideas": [],
+      "display_font": { "family": "Archivo", "source": "google:Archivo", "weight": 700 },
+      "body_font": { "family": "Martian Mono", "source": "google:Martian Mono", "weight": 400 },
+      "headline": "38.5% win rate. −0.36% expectancy.",
+      "body": "Marks are delayed and labelled delayed. Trades that resolved neither way are shown, not dropped. The bot reports no win rate until real trades close, because a number before then would be invented.",
+      "background_color": "#0E1420",
+      "text_color": "#D6DEE8"
+    },
+    {
+      "stage": "typography",
+      "name": "Technical Editorial",
+      "premise": "Space Grotesk has drawn quirks that survive at large sizes; Spline Sans Mono keeps dense columns calm underneath.",
+      "keywords": ["distinctive", "contemporary", "measured"],
+      "palette": [],
+      "logo_ideas": [],
+      "display_font": { "family": "Space Grotesk", "source": "google:Space Grotesk", "weight": 700 },
+      "body_font": { "family": "Spline Sans Mono", "source": "google:Spline Sans Mono", "weight": 400 },
+      "headline": "38.5% win rate. −0.36% expectancy.",
+      "body": "Marks are delayed and labelled delayed. Trades that resolved neither way are shown, not dropped. The bot reports no win rate until real trades close, because a number before then would be invented.",
+      "background_color": "#0E1420",
+      "text_color": "#D6DEE8"
+    },
+    {
+      "stage": "typography",
+      "name": "Forensic",
+      "premise": "Chivo is a sturdy journalistic grotesque that stays legible small; DM Mono is quiet and low-contrast, so data never shouts.",
+      "keywords": ["journalistic", "legible", "understated"],
+      "palette": [],
+      "logo_ideas": [],
+      "display_font": { "family": "Chivo", "source": "google:Chivo", "weight": 700 },
+      "body_font": { "family": "DM Mono", "source": "google:DM Mono", "weight": 400 },
+      "headline": "38.5% win rate. −0.36% expectancy.",
+      "body": "Marks are delayed and labelled delayed. Trades that resolved neither way are shown, not dropped. The bot reports no win rate until real trades close, because a number before then would be invented.",
+      "background_color": "#0E1420",
+      "text_color": "#D6DEE8"
+    }
+  ]
+}

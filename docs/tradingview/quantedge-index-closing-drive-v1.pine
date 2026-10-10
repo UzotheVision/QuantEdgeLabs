@@ -1,0 +1,141 @@
+//@version=6
+indicator("QuantEdge Index Closing Drive v1", overlay=true, max_labels_count=100, max_lines_count=100)
+
+// QuantEdge's late-session index alert. Apply to SPX/SPY/QQQ/IWM on a 1m or
+// 2m chart. Alerts are confirmed only after the bar closes; the server still
+// resolves the live option chain, debit cap and account-fit execution vehicle.
+
+string tz = "America/New_York"
+string setupSession = input.session("1520-1535", "Level-building window (ET)")
+string entrySession = input.session("1535-1550", "Allowed entry window (ET)")
+int fastLength = input.int(9, "Fast EMA", minval=2)
+int slowLength = input.int(20, "Slow EMA", minval=5)
+int atrLength = input.int(14, "ATR length", minval=5)
+float stopAtr = input.float(0.60, "Stop ATR", minval=0.25, step=0.05)
+float t1R = input.float(1.50, "T1 in R", minval=1.0, step=0.25)
+float t2R = input.float(2.50, "T2 in R", minval=1.5, step=0.25)
+float volumeMultiple = input.float(1.20, "Volume expansion", minval=0.5, step=0.05)
+float riskBudget = input.float(200, "Maximum debit / risk dollars", minval=10, step=10)
+float accountSize = input.float(10000, "Paper account size", minval=100, step=100)
+string webhookSecret = input.string("", "QuantEdge webhook secret")
+
+bool supported = syminfo.ticker == "SPX" or syminfo.ticker == "SPY" or syminfo.ticker == "QQQ" or syminfo.ticker == "IWM"
+bool intradayOk = timeframe.isminutes and timeframe.multiplier <= 5
+bool building = not na(time(timeframe.period, setupSession + ":12345", tz))
+bool entryWindow = not na(time(timeframe.period, entrySession + ":12345", tz))
+bool newDay = ta.change(time("D")) != 0
+
+var float rangeHigh = na
+var float rangeLow = na
+var bool fired = false
+var int activeDirection = 0
+var float trigger = na
+var float invalidation = na
+var float target1 = na
+var float target2 = na
+var bool t1Notified = false
+var bool t2Notified = false
+var bool stopNotified = false
+
+if newDay
+    rangeHigh := na
+    rangeLow := na
+    fired := false
+    activeDirection := 0
+    trigger := na
+    invalidation := na
+    target1 := na
+    target2 := na
+    t1Notified := false
+    t2Notified := false
+    stopNotified := false
+
+if building
+    rangeHigh := na(rangeHigh) ? high : math.max(rangeHigh, high)
+    rangeLow := na(rangeLow) ? low : math.min(rangeLow, low)
+
+float emaFast = ta.ema(close, fastLength)
+float emaSlow = ta.ema(close, slowLength)
+float sessionVwap = ta.vwap(hlc3)
+float atr = ta.atr(atrLength)
+float volumeBase = ta.sma(volume, 20)
+bool volumeConfirms = volume <= 0 or na(volumeBase) or volume >= volumeBase * volumeMultiple
+bool completed = barstate.isconfirmed
+
+bool longBreak = supported and intradayOk and entryWindow and completed and not fired and not na(rangeHigh) and close > rangeHigh and close[1] <= rangeHigh and close > sessionVwap and emaFast > emaSlow and volumeConfirms
+bool shortBreak = supported and intradayOk and entryWindow and completed and not fired and not na(rangeLow) and close < rangeLow and close[1] >= rangeLow and close < sessionVwap and emaFast < emaSlow and volumeConfirms
+
+if longBreak
+    fired := true
+    activeDirection := 1
+    trigger := close
+    invalidation := math.min(rangeHigh - syminfo.mintick, close - atr * stopAtr)
+    float risk = close - invalidation
+    target1 := close + risk * t1R
+    target2 := close + risk * t2R
+    label.new(bar_index, low, "QE RECLAIM\n" + str.tostring(trigger, format.mintick), style=label.style_label_up, color=color.new(color.teal, 0), textcolor=color.white)
+    string payload = '{"secret":"' + webhookSecret + '","ticker":"' + syminfo.tickerid + '","direction":"long","price":' + str.tostring(close) + ',"entry":' + str.tostring(trigger) + ',"stop":' + str.tostring(invalidation) + ',"t1":' + str.tostring(target1) + ',"t2":' + str.tostring(target2) + ',"strategy":"QE_INDEX_CLOSING_DRIVE_V1","timeframe":"' + timeframe.period + '","confidence":78,"signal_type":"confirmed_reclaim","message":"CLOSING DRIVE completed-bar reclaim with VWAP, EMA and volume confirmation","event":"entry","confirmed":true,"expiry_tier":"0DTE","dte":0,"account_size":' + str.tostring(accountSize) + ',"risk_budget":' + str.tostring(riskBudget) + ',"max_debit":' + str.tostring(riskBudget) + ',"bar_time":' + str.tostring(time) + '}'
+    alert(payload, alert.freq_once_per_bar_close)
+
+if shortBreak
+    fired := true
+    activeDirection := -1
+    trigger := close
+    invalidation := math.max(rangeLow + syminfo.mintick, close + atr * stopAtr)
+    float risk = invalidation - close
+    target1 := close - risk * t1R
+    target2 := close - risk * t2R
+    label.new(bar_index, high, "QE FAILED RECLAIM\n" + str.tostring(trigger, format.mintick), style=label.style_label_down, color=color.new(color.red, 0), textcolor=color.white)
+    string payload = '{"secret":"' + webhookSecret + '","ticker":"' + syminfo.tickerid + '","direction":"short","price":' + str.tostring(close) + ',"entry":' + str.tostring(trigger) + ',"stop":' + str.tostring(invalidation) + ',"t1":' + str.tostring(target1) + ',"t2":' + str.tostring(target2) + ',"strategy":"QE_INDEX_CLOSING_DRIVE_V1","timeframe":"' + timeframe.period + '","confidence":78,"signal_type":"failed_reclaim","message":"CLOSING DRIVE completed-bar breakdown with VWAP, EMA and volume confirmation","event":"entry","confirmed":true,"expiry_tier":"0DTE","dte":0,"account_size":' + str.tostring(accountSize) + ',"risk_budget":' + str.tostring(riskBudget) + ',"max_debit":' + str.tostring(riskBudget) + ',"bar_time":' + str.tostring(time) + '}'
+    alert(payload, alert.freq_once_per_bar_close)
+
+// These are underlying-level updates, not claims about an option fill. The
+// server reconciles the exact contract mark independently before assigning an
+// option outcome in Cockpit.
+bool touchedStop = activeDirection == 1 ? low <= invalidation : activeDirection == -1 ? high >= invalidation : false
+bool touchedT1 = activeDirection == 1 ? high >= target1 : activeDirection == -1 ? low <= target1 : false
+bool touchedT2 = activeDirection == 1 ? high >= target2 : activeDirection == -1 ? low <= target2 : false
+
+if activeDirection != 0 and touchedStop and not stopNotified and barstate.isconfirmed
+    stopNotified := true
+    string side = activeDirection == 1 ? "long" : "short"
+    label.new(bar_index, close, "UNDERLYING INVALIDATED", style=label.style_label_left, color=color.new(color.red, 0), textcolor=color.white)
+    string payload = '{"secret":"' + webhookSecret + '","ticker":"' + syminfo.tickerid + '","direction":"' + side + '","price":' + str.tostring(close) + ',"entry":' + str.tostring(trigger) + ',"stop":' + str.tostring(invalidation) + ',"t1":' + str.tostring(target1) + ',"t2":' + str.tostring(target2) + ',"strategy":"QE_INDEX_CLOSING_DRIVE_V1","timeframe":"' + timeframe.period + '","signal_type":"underlying_invalidation","message":"STOP underlying level touched; reconcile exact option mark","event":"exit","confirmed":true,"expiry_tier":"0DTE","dte":0,"bar_time":' + str.tostring(time) + '}'
+    alert(payload, alert.freq_once_per_bar_close)
+    activeDirection := 0
+
+if activeDirection != 0 and touchedT1 and not t1Notified and barstate.isconfirmed
+    t1Notified := true
+    string side = activeDirection == 1 ? "long" : "short"
+    label.new(bar_index, close, "UNDERLYING T1", style=label.style_label_left, color=color.new(color.lime, 0), textcolor=color.black)
+    string payload = '{"secret":"' + webhookSecret + '","ticker":"' + syminfo.tickerid + '","direction":"' + side + '","price":' + str.tostring(close) + ',"entry":' + str.tostring(trigger) + ',"stop":' + str.tostring(invalidation) + ',"t1":' + str.tostring(target1) + ',"t2":' + str.tostring(target2) + ',"strategy":"QE_INDEX_CLOSING_DRIVE_V1","timeframe":"' + timeframe.period + '","signal_type":"underlying_t1","message":"TP1 underlying level touched; reconcile exact option mark and protect principal","event":"update","confirmed":true,"expiry_tier":"0DTE","dte":0,"bar_time":' + str.tostring(time) + '}'
+    alert(payload, alert.freq_once_per_bar_close)
+
+if activeDirection != 0 and touchedT2 and not t2Notified and barstate.isconfirmed
+    t2Notified := true
+    string side = activeDirection == 1 ? "long" : "short"
+    label.new(bar_index, close, "UNDERLYING T2", style=label.style_label_left, color=color.new(color.green, 0), textcolor=color.white)
+    string payload = '{"secret":"' + webhookSecret + '","ticker":"' + syminfo.tickerid + '","direction":"' + side + '","price":' + str.tostring(close) + ',"entry":' + str.tostring(trigger) + ',"stop":' + str.tostring(invalidation) + ',"t1":' + str.tostring(target1) + ',"t2":' + str.tostring(target2) + ',"strategy":"QE_INDEX_CLOSING_DRIVE_V1","timeframe":"' + timeframe.period + '","signal_type":"underlying_t2","message":"TP2 underlying level touched; reconcile exact option mark and exit runner","event":"exit","confirmed":true,"expiry_tier":"0DTE","dte":0,"bar_time":' + str.tostring(time) + '}'
+    alert(payload, alert.freq_once_per_bar_close)
+    activeDirection := 0
+
+int etHour = hour(time, tz)
+int etMinute = minute(time, tz)
+bool forceFlat = activeDirection != 0 and etHour == 15 and etMinute >= 57
+if forceFlat and barstate.isconfirmed
+    label.new(bar_index, close, "FORCE FLAT 0DTE", style=label.style_label_left, color=color.new(color.orange, 0), textcolor=color.black)
+    string side = activeDirection == 1 ? "long" : "short"
+    string payload = '{"secret":"' + webhookSecret + '","ticker":"' + syminfo.tickerid + '","direction":"' + side + '","price":' + str.tostring(close) + ',"entry":' + str.tostring(trigger) + ',"stop":' + str.tostring(invalidation) + ',"t1":' + str.tostring(target1) + ',"strategy":"QE_INDEX_CLOSING_DRIVE_V1","timeframe":"' + timeframe.period + '","signal_type":"time_exit","message":"TIME 15:57 ET mandatory 0DTE exit","event":"exit","confirmed":true,"expiry_tier":"0DTE","dte":0,"bar_time":' + str.tostring(time) + '}'
+    alert(payload, alert.freq_once_per_bar_close)
+    activeDirection := 0
+
+plot(building or entryWindow ? rangeHigh : na, "Reclaim level", color=color.new(color.aqua, 0), linewidth=2, style=plot.style_linebr)
+plot(building or entryWindow ? rangeLow : na, "Breakdown level", color=color.new(color.orange, 0), linewidth=2, style=plot.style_linebr)
+plot(activeDirection != 0 ? trigger : na, "Trigger", color=color.new(color.blue, 0), linewidth=2, style=plot.style_linebr)
+plot(activeDirection != 0 ? invalidation : na, "Invalidation", color=color.new(color.red, 0), linewidth=2, style=plot.style_linebr)
+plot(activeDirection != 0 ? target1 : na, "T1", color=color.new(color.lime, 0), linewidth=2, style=plot.style_linebr)
+plot(activeDirection != 0 ? target2 : na, "T2", color=color.new(color.green, 35), linewidth=1, style=plot.style_linebr)
+plot(sessionVwap, "VWAP", color=color.new(color.purple, 25))
+
+bgcolor(building ? color.new(color.blue, 93) : entryWindow ? color.new(color.teal, 94) : na)
+plotshape(not supported, title="Unsupported symbol", text="Use SPX/SPY/QQQ/IWM", style=shape.labeldown, location=location.top, color=color.new(color.red, 0), textcolor=color.white, size=size.tiny)

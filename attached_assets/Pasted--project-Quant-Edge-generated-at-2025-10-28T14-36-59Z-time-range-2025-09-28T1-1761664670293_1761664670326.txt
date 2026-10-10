@@ -1,0 +1,91 @@
+{
+  "project": "Quant Edge",
+  "generated_at": "2025/10/28T14:36:59Z",
+  "time_range": "2025/09/28T14:36:59Z_to_2025/10/28T14:36:59Z",
+  "overall": {
+    "total_trades": 181,
+    "open_trades": 17,
+    "closed_trades": 164,
+    "win_rate_pct": 31.097560975609756,
+    "avg_risk_reward": 2.656906077348066,
+    "profit_factor": 19.327963019690056,
+    "max_drawdown": 4834.49,
+    "avg_holding_hours": 18.02382629107981
+  },
+  "key_findings": {
+    "confidence_miscalibration": {
+      "issue": "High confidence scores massively overestimate true win probability. Top score bucket 90_100 shows win rate 15.6 pct but expected 90 pct. Low confidence bucket shows better realized win rate.",
+      "impact": "Strategy weighting and position sizing are inverted. System will allocate more capital to lower quality trades unless fixed."
+    },
+    "signal_failures": {
+      "issue": "Excellent R R 3 1 plus category has 95 average confidence but only 5 pct win rate. Volume spike early entry has zero wins. Unknown signal type shows inconsistent metrics with extreme avg_return values.",
+      "impact": "Signal generation rules are producing false positives and giving them unjustified trust."
+    },
+    "options_catastrophe": {
+      "issue": "Option trades show avg_return near negative 99 which indicates catastrophic losses, bad strike selection or mis recorded pnl.",
+      "impact": "Options are dominating negative returns and skewing portfolio metrics."
+    },
+    "data_integrity": {
+      "examples": [
+        "Long trades with target below entry",
+        "Short trades with target above entry",
+        "Stop equals entry price",
+        "Outcome status conflicts with actual price movement"
+      ],
+      "impact": "Backtest and live metrics are unreliable until validation layer is enforced."
+    },
+    "version_regression": {
+      "issue": "Latest engine v3.2.0 shows 0 pct wins while unknown build shows highest win rate. Recent release likely introduced scoring or serialization bug.",
+      "impact": "Deployments may be harmful. Rollback or hotfix needed."
+    },
+    "time_of_day_effects": {
+      "observations": {
+        "strong": ["03 ET", "10 ET"],
+        "weak": ["12 ET", "13 ET"]
+      },
+      "impact": "Strategy performance is session dependent. Execution and risk rules should be session aware."
+    }
+  },
+  "recommended_actions": [
+    {
+      "task": "Block bad trades with pre execution validation",
+      "priority": "critical",
+      "notes": "Prevent logically impossible trades from entering dataset or execution path"
+    },
+    {
+      "task": "Quarantine options trades",
+      "priority": "high",
+      "notes": "Pause options from live sizing until option pricing logic and payoff calculation is audited"
+    },
+    {
+      "task": "Calibrate confidence scores",
+      "priority": "critical",
+      "notes": "Use probability calibration methods and reliability diagrams. Recompute expected win rate mapping then reassign position sizing"
+    },
+    {
+      "task": "Roll back or audit v3.2.0",
+      "priority": "high",
+      "notes": "Compare serialized inputs and score outputs between v2.3.0 and v3.2.0 to find where probabilities diverge"
+    },
+    {
+      "task": "Session aware execution rules",
+      "priority": "medium",
+      "notes": "Apply stricter filters after 11 30 ET or reduce position sizing outside proven windows"
+    },
+    {
+      "task": "Data integrity alerting",
+      "priority": "critical",
+      "notes": "Add CI gating with automated checks and alerts for detected violations"
+    },
+    {
+      "task": "Backtest cleanup and rerun",
+      "priority": "high",
+      "notes": "After fixes, rerun n equals 50 rolling backtests to validate expected win rate alignment"
+    }
+  ],
+  "top_issues_sample": {
+    "confidence_examples_count": 29,
+    "data_integrity_examples_count": 18,
+    "outcome_validation_conflicts_count": 4
+  }
+}

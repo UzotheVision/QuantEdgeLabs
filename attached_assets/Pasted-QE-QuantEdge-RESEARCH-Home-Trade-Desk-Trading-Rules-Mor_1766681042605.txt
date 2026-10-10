@@ -1,0 +1,474 @@
+QE
+QuantEdge
+RESEARCH
+
+Home
+
+Trade Desk
+
+Trading Rules
+More
+
+Performance
+
+Market
+
+Chart Analysis
+System
+
+Pricing
+
+Settings
+
+Admin
+
+Collapse
+Toggle theme
+abdulmalikajisegiri@gmail.com
+
+Logout
+Toggle theme
+Trade Desk
+Thursday, Dec 25 · 11 active ideas
+
+
+Admin
+Generate
+All Plays
+11
+Today/Tomorrow
+11
+Next Few Days
+0
+Next Week
+0
+Next Month+
+0
+Search symbols...
+
+All
+Watch Out For These
+View All (7)
+TSLY
+STOCK
+$8.27
+-2.17%
+EOSE
+STOCK
+Tracking for insights and opportunities
+$15.38
++3.50%
+YYAI
+STOCK
+Tracking for insights and opportunities
+$1.38
+-8.63%
+TSLA
+STOCK
+Added from symbol search - Current: $440.78
+$447.62
+-3.13%
+XRP
+CRYPTO
+Added from symbol search - Current: $2.36
+$2.21
+-6.08%
++2 more on watchlist
+Active Trades
+11 open
+
+
+
+Stock Options
+11 ideas
+1.5x R:R
+
+GOOGL
+FLOW
+LONG
+OPTION
+C+
+Posted:
+10:15 AM
+●
+Enter:
+11:15 AM
+●
+Exit:
+4:15 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$3.80
+ENTRY PREMIUM
+$3.80
+TARGET PREMIUM
+$3.99
+STOP PREMIUM
+$3.67
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$315.00
+EXPIRY
+Jan 01, 2026
+Unusual CALL Flow: 104 contracts, $23.78M premium
+
+
+MSFT
+FLOW
+LONG
+OPTION
+C+
+Posted:
+10:15 AM
+●
+Enter:
+11:15 AM
+●
+Exit:
+4:15 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$54.87
+ENTRY PREMIUM
+$54.87
+TARGET PREMIUM
+$62.01
+STOP PREMIUM
+$50.11
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$495.00
+EXPIRY
+Dec 17, 2026
+Unusual CALL Flow: 76 contracts, $25.74M premium
+
+
+TSLA
+FLOW
+LONG
+OPTION
+B+
+Posted:
+10:15 AM
+●
+Enter:
+11:15 AM
+●
+Exit:
+4:15 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$7.19
+ENTRY PREMIUM
+$7.19
+TARGET PREMIUM
+$7.55
+STOP PREMIUM
+$6.95
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$480.00
+EXPIRY
+Dec 25, 2025
+Unusual CALL Flow: 464 contracts, $540.00M premium
+
+
+NVDA
+FLOW
+LONG
+OPTION
+A
+Posted:
+10:15 AM
+●
+Enter:
+11:15 AM
+●
+Exit:
+4:15 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.82
+ENTRY PREMIUM
+$1.82
+TARGET PREMIUM
+$1.91
+STOP PREMIUM
+$1.76
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$187.50
+EXPIRY
+Dec 25, 2025
+Unusual CALL Flow: 182 contracts, $122.42M premium
+
+
+MSTR
+FLOW
+LONG
+OPTION
+C+
+Posted:
+9:45 AM
+●
+Enter:
+10:45 AM
+●
+Exit:
+3:45 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$5.30
+ENTRY PREMIUM
+$5.30
+TARGET PREMIUM
+$5.57
+STOP PREMIUM
+$5.12
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$160.00
+EXPIRY
+Jan 01, 2026
+Unusual CALL Flow: 224 contracts, $28.38M premium
+
+
+HOOD
+FLOW
+LONG
+OPTION
+C
+Posted:
+9:45 AM
+●
+Enter:
+10:45 AM
+●
+Exit:
+3:45 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$20.85
+ENTRY PREMIUM
+$20.85
+TARGET PREMIUM
+$26.06
+STOP PREMIUM
+$17.38
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$150.00
+EXPIRY
+Dec 17, 2026
+Unusual CALL Flow: 178 contracts, $9.06M premium
+
+
+PLTR
+FLOW
+LONG
+OPTION
+C+
+Posted:
+9:45 AM
+●
+Enter:
+10:45 AM
+●
+Exit:
+3:45 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$79.05
+ENTRY PREMIUM
+$79.05
+TARGET PREMIUM
+$87.22
+STOP PREMIUM
+$73.60
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$115.00
+EXPIRY
+Dec 25, 2025
+Unusual CALL Flow: 116 contracts, $20.66M premium
+
+
+BA
+FLOW
+LONG
+OPTION
+C
+Posted:
+9:45 AM
+●
+Enter:
+10:45 AM
+●
+Exit:
+3:45 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$24.49
+ENTRY PREMIUM
+$24.49
+TARGET PREMIUM
+$25.71
+STOP PREMIUM
+$23.67
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$195.00
+EXPIRY
+Jan 01, 2026
+Unusual CALL Flow: 38 contracts, $3.96M premium
+
+
+DIS
+FLOW
+LONG
+OPTION
+C+
+Posted:
+9:45 AM
+●
+Enter:
+10:45 AM
+●
+Exit:
+3:45 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$3.44
+ENTRY PREMIUM
+$3.44
+TARGET PREMIUM
+$3.61
+STOP PREMIUM
+$3.33
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$111.00
+EXPIRY
+Dec 25, 2025
+Unusual CALL Flow: 17 contracts, $1.01M premium
+
+
+AMD
+FLOW
+LONG
+OPTION
+C+
+Posted:
+9:45 AM
+●
+Enter:
+10:45 AM
+●
+Exit:
+3:45 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$35.60
+ENTRY PREMIUM
+$35.60
+TARGET PREMIUM
+$37.38
+STOP PREMIUM
+$34.41
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$180.00
+EXPIRY
+Dec 25, 2025
+Unusual CALL Flow: 115 contracts, $17.23M premium
+
+
+META
+FLOW
+LONG
+OPTION
+C+
+Posted:
+9:45 AM
+●
+Enter:
+10:45 AM
+●
+Exit:
+3:45 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$4.69
+ENTRY PREMIUM
+$4.69
+TARGET PREMIUM
+$4.92
+STOP PREMIUM
+$4.53
+OPTION CONTRACT DETAILS
+
+TYPE
+CALL
+STRIKE
+$665.00
+EXPIRY
+Dec 25, 2025
+Unusual CALL Flow: 114 contracts, $50.93M premium
+
+Recent Performance:
+247 wins
+108 losses
+(1742 closed)
+View Performance
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CST
+© 2025 QuantEdge Research. All rights reserved.•by UN/TITLD
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past performance does not guarantee future results.

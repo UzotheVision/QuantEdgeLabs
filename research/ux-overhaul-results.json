@@ -1,0 +1,19 @@
+{
+ "measuredAt": "2026-09-24, signed-in, live quantedgelabs.net",
+ "readability": {
+  "before": {"deskUnder11": 81, "phoneUnder11": 79, "phoneUnder12": 79, "deskUnder12": 96,
+             "source": "desk: 1180px desktop-layout scorecard run (1154/1427 under 11px); phone: 778/987 under 11px; desk under 12: v2 NEXUS 74/77"},
+  "after": {"deskUnder11": 0, "phoneUnder11": 0, "phoneUnder12": 1, "deskUnder12": 55, "deskMedian": 11, "phoneMedian": 13,
+            "proseUpper": 0, "proseMono": 27, "proseLH": 1.5, "upperAll": 44}
+ },
+ "palette": {
+  "swatches": [["accent", "#4fd1c5", "#3b8cff"], ["gain", "#3ddc97", "#6ee7b7"], ["loss", "#ff5470", "#ff6b3d"], ["caution", "#f5b642", "#facc15"]],
+  "pairs": [
+   {"pair": "gain vs loss", "before": [124.0, 15.2, 37.9], "after": [108.7, 49.4, 39.3]},
+   {"pair": "accent vs gain", "before": [32.7, 26.4, 29.4], "after": [100.9, 82.5, 82.1]},
+   {"pair": "gain vs caution", "before": [80.8, 46.7, 37.1], "after": [83.7, 70.4, 71.6]},
+   {"pair": "loss vs caution", "before": [71.4, 39.0, 63.9], "after": [63.4, 28.8, 53.8]}
+  ]
+ },
+ "routeWalk": {"n": 22, "ok": 22, "rows": [{"to": "/t", "landed": "/t", "notFound": false, "err": false, "chars": 2162}, {"to": "/t?tab=chart", "landed": "/t?tab=chart", "notFound": false, "err": false, "chars": 2359}, {"to": "/t?tab=flow", "landed": "/t?tab=flow", "notFound": false, "err": false, "chars": 6526}, {"to": "/t?tab=gex", "landed": "/t?tab=gex", "notFound": false, "err": false, "chars": 2751}, {"to": "/t?tab=leaps", "landed": "/t?tab=leaps", "notFound": false, "err": false, "chars": 2339}, {"to": "/t?tab=crypto", "landed": "/t?tab=crypto", "notFound": false, "err": false, "chars": 4240}, {"to": "/t?tab=catalyst", "landed": "/t?tab=catalyst", "notFound": false, "err": false, "chars": 3103}, {"to": "/t?tab=bot", "landed": "/t?tab=bot", "notFound": false, "err": false, "chars": 7918}, {"to": "/t?tab=positions", "landed": "/t?tab=positions", "notFound": false, "err": false, "chars": 1609}, {"to": "/t?tab=journal", "landed": "/t?tab=journal", "notFound": false, "err": false, "chars": 1787}, {"to": "/slate", "landed": "/slate", "notFound": false, "err": false, "chars": 2043}, {"to": "/radar", "landed": "/radar", "notFound": false, "err": false, "chars": 555}, {"to": "/performance", "landed": "/performance", "notFound": false, "err": false, "chars": 415}, {"to": "/alerts", "landed": "/alerts", "notFound": false, "err": false, "chars": 1510}, {"to": "/how-to", "landed": "/how-to", "notFound": false, "err": false, "chars": 3118}, {"to": "/settings", "landed": "/settings", "notFound": false, "err": false, "chars": 692}, {"to": "/r/META", "landed": "/r/META", "notFound": false, "err": false, "chars": 387}, {"to": "/trade-desk (retired)", "landed": "/slate", "notFound": false, "err": false, "chars": 2151}, {"to": "/automations (retired)", "landed": "/t?tab=bot", "notFound": false, "err": false, "chars": 7863}, {"to": "/stock/NVDA (legacy)", "landed": "/r/NVDA", "notFound": false, "err": false, "chars": 372}, {"to": "/about", "landed": "/about", "notFound": false, "err": false, "chars": 3311}, {"to": "/w", "landed": "/w", "notFound": false, "err": false, "chars": 631}]}
+}

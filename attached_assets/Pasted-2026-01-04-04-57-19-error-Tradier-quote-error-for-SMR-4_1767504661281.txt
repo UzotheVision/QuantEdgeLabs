@@ -1,0 +1,1028 @@
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SMR HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SMR {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:19 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/OKLO HTTP 429
+2026-01-04 04:57:19 [info]: ⚠️ Watchlist Monitor: Could not fetch price for OKLO {"service":"quantedge-api"}
+2026-01-04 04:57:19 [error]: Tradier quote error for PLTR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PLTR HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for AI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/AI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for AI {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for SOUN: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/SOUN HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for SOUN {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for PATH: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/PATH HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for BBAI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for SNOW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/BBAI HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for BBAI {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/SNOW HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching gov contracts for: Amazon.com, Inc.
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ACHR HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for ACHR {"service":"quantedge-api"}
+4:57:20 AM [intel] [CATALYST] USASpending request failed: 422
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for DDOG: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/DDOG HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/JOBY HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for JOBY {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for MDB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/MDB HTTP 429
+[ERROR] api: Yahoo Finance API error: /chart/MARA HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for MARA {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:20 AM [intel] [CATALYST] Fetching SEC filings from: https://data.sec.gov/submissions/CIK0001326801.json
+[ERROR] api: Yahoo Finance API error: /chart/RIOT HTTP 429
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for RIOT {"service":"quantedge-api"}
+2026-01-04 04:57:20 [error]: Tradier quote error for ESTC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Yahoo Finance API error: /chart/ESTC HTTP 429
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:20 [error]: Tradier quote error for HIMS: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:20 [info]: ⚠️ Watchlist Monitor: Could not fetch price for HIMS {"service":"quantedge-api"}
+[ERROR] api: Yahoo Finance API error: /chart/HIMS HTTP 429
+2026-01-04 04:57:20 [error]: Tradier quote error for GTLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:38 [error]: Tradier quote error for SPY: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:38 [error]: Tradier quote error for IWM: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:38 [error]: Tradier quote error for MARA: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:38 [error]: Tradier quote error for RIOT: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for CLSK: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for GME: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:39 [error]: Tradier quote error for AMC: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for SMR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for OKLO: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for IONQ: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for RGTI: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for QBTS: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:39 AM [intel] [CATALYST] No company name mapping for ticker: UNH
+2026-01-04 04:57:39 [error]: Tradier quote error for RKLB: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for LUNR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for ACHR: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+4:57:39 AM [intel] [CATALYST] Refresh complete: 183 filings, 0 contracts
+4:57:39 AM [intel] [CATALYST] Scheduled refresh complete: 183 filings, 0 contracts
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [error]: Tradier quote error for JOBY: 401 Unauthorized {"service":"quantedge-api"}
+2026-01-04 04:57:39 [error]: Tradier quote error for RDW: 401 Unauthorized {"service":"quantedge-api"}
+[ERROR] api: Tradier API error: /markets/quotes HTTP 401: Unauthorized
+2026-01-04 04:57:39 [info]: 📋 [WEEKLY-PICKS] Generated 0 premium picks (0 lotto, 0 day trades, 0 swings) {"service":"quantedge-api"}
+2026-01-04 04:57:40 [warn]: 📋 [WEEKLY-PICKS] AI analysis failed, using default risk analysis: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CWmkBRj8ZXoKFJmjo8Yax"} {"service":"quantedge-api","status":400,"headers":{"anthropic-organization-id":"cf4cce20-59ee-4deb-9856-d61979cdd21c","cf-cache-status":"DYNAMIC","cf-ray":"9b882808682e8e5d-PDX","connection":"keep-alive","content-length":"234","content-type":"application/json","date":"Sun, 04 Jan 2026 04:57:40 GMT","request-id":"req_011CWmkBRj8ZXoKFJmjo8Yax","server":"cloudflare","strict-transport-security":"max-age=31536000; includeSubDomains; preload","x-envoy-upstream-service-time":"24","x-robots-tag":"none","x-should-retry":"false"},"request_id":"req_011CWmkBRj8ZXoKFJmjo8Yax","error":{"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CWmkBRj8ZXoKFJmjo8Yax"},"stack":"Error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CWmkBRj8ZXoKFJmjo8Yax\"}\n    at APIError.generate (file:///opt/render/project/src/node_modules/@anthropic-ai/sdk/error.mjs:37:20)\n    at Anthropic.makeStatusError (file:///opt/render/project/src/node_modules/@anthropic-ai/sdk/core.mjs:300:25)\n    at Anthropic.makeRequest (file:///opt/render/project/src/node_modules/@anthropic-ai/sdk/core.mjs:344:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async addAIAnalysisToPicks (file:///opt/render/project/src/dist/index.js:21292:22)\n    at async generateNextWeekPicks (file:///opt/render/project/src/dist/index.js:21283:29)\n    at async file:///opt/render/project/src/dist/index.js:39383:25"}
+2026-01-04 04:57:40 [warn]: ⚠️  [STARTUP] No weekly picks generated {"service":"quantedge-api"}
+4:57:43 AM [intel] [CATALYST] Catalyst snapshots updated
+2026-01-04 04:59:11 [info]: [WS-BROADCAST] Client disconnected (total: 0) {"service":"quantedge-api"}
+2026-01-04 05:00:00 [info]: 🔮 [FUTURES-BOT] CME market closed - skipping futures scan {"service":"quantedge-api"}
+2026-01-04 05:00:00 [info]: 🪙 [CRYPTO-BOT] Starting crypto market scan... {"service":"quantedge-api"}
+2026-01-04 05:00:00 [info]: 🪙 [CRYPTO BOT] Starting crypto scan... {"service":"quantedge-api"}
+2026-01-04 05:00:01 [info]: 🪙 [CRYPTO BOT] Found portfolio: 083ef53f-8f5c-44ed-a1ba-746212df8b96 (Balance: $50.42) {"service":"quantedge-api"}
+2026-01-04 05:00:01 [info]: 🪙 [CRYPTO BOT] Max positions reached (5/5) {"service":"quantedge-api"}
+2026-01-04 05:00:01 [info]: 🪙 [CRYPTO BOT] Monitoring 5 open crypto positions... {"service":"quantedge-api"}
+2026-01-04 05:00:01 [warn]: 🪙 [CRYPTO BOT] CoinGecko API returned 429 - using cache if available {"service":"quantedge-api"}

@@ -1,0 +1,602 @@
+Quant Edge Labs
+Quant Edge
+Labs
+TRADING
+
+Command Center
+LIVE
+
+Trade Desk
+
+Watchlist
+ANALYTICS
+
+Performance
+
+Chart Analysis
+
+Options
+
+Trends
+
+Historical
+LEARN
+
+Academy
+ACCOUNT
+
+Settings
+
+Admin
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+Watchlist Intelligence
+96 symbols analyzed with quantitative grading
+
+
+All
+96
+
+Penny
+<$5 · 1
+
+Stocks
+$5+ · 94
+
+Options
+0
+
+Crypto
+1
+By Conviction
+All Symbols
+Showing 94 of 96 symbols
+ELITE SETUPS
+17
+
+S + A tier symbols
+
+AVERAGE SCORE
+60/100
+
+DISTRIBUTION
+17
+/
+68
+/
+9
+Strong / Neutral / Weak
+
+LAST UPDATE
+11, 2026 4:13 PM CT
+
+Auto-refresh: 15m
+
+How Grading Works
+Each symbol is scored 0-100 using quantitative factors: RSI momentum, trend strength (ADX), volume activity, and moving average signals. Grades auto-refresh every 15 minutes during market hours. Click any symbol to see the full breakdown and understand why it received its grade.
+
+Elite Setups (S & A Tier)
+High-conviction opportunities with multiple bullish factors aligned
+
+17
+
+S
+NIO
+--
+STOCK
+98/100
+China volume surge - 4-month high turnover Jan 2026
+
+Elite
+
+S
+HIMS
+--
+STOCK
+93/100
+Healthcare
+Entry: Accumulate $28-31 zone | +130% upside to 52H
+
+Elite
+
+S
+HIMS
+--
+STOCK
+93/100
+Healthcare/Telehealth
+2026 Breakout Candidate - Healthcare/Telehealth
+
+Elite
+
+S
+ASTS
+--
+STOCK
+88/100
+User watchlist - momentum tracking
+
+Elite
+
+S
+BIDU
+--
+STOCK
+86/100
+China volume surge - 4-month high turnover Jan 2026
+
+Elite
+
+S
+LUNR
+--
+STOCK
+86/100
+Space
+Entry: Buy dips to $17-18 | +34% upside - NASA lunar contracts
+
+Elite
+
+S
+UAMY
+--
+STOCK
+85/100
+Materials
+Entry: HOT - buy any pullback under $7.50 | +158% upside - 390x volume breakout!
+
+Elite
+
+S
+YYAI
+--
+STOCK
+85/100
+Tracking for insights and opportunities
+
+Elite
+
+A
+ONDS
+--
+STOCK
+83/100
+Entry: Already near highs - buy breakout above $15.20 | +10% then runners
+
+Strong
+
+A
+RKLB
+--
+STOCK
+81/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+NBIS
+--
+STOCK
+80/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+SMR
+--
+STOCK
+79/100
+Nuclear/Clean Energy
+Entry: Accumulate $19-20 zone | +180% upside - nuclear SMR leader!
+
+Strong
+
+A
+MNTS
+--
+STOCK
+78/100
+Industrials
+Entry: Buy pullbacks under $12 | +1189% upside (squeeze candidate!)
+
+Strong
+
+A
+SOUN
+--
+STOCK
+78/100
+AI/ML
+Entry: Accumulate $11-11.50 zone | +89% upside to 52H
+
+Strong
+
+A
+AFRM
+--
+STOCK
+78/100
+Fintech
+2026 Breakout Candidate - Fintech
+
+Strong
+
+A
+ZETA
+--
+STOCK
+78/100
+Entry: Buy pullbacks to $23-24 | +9% then new highs - MarTech leader
+
+Strong
+
+A
+JOBY
+--
+STOCK
+76/100
+eVTOL/Flying Cars
+2026 Breakout Candidate - eVTOL/Flying Cars
+
+Strong
+Developing Setups (B & C Tier)
+Neutral to positive conditions - monitor for improvement
+
+27
+
+B
+ACHR
+--
+STOCK
+73/100
+eVTOL/Flying Cars
+2026 Breakout Candidate - eVTOL/Flying Cars
+
+Solid
+
+B
+INTC
+--
+STOCK
+72/100
+Technology
+Entry: At breakout zone - buy on any dip under $45 | turnaround play
+
+Solid
+
+B
+NVDA
+--
+STOCK
+72/100
+Added from symbol search
+
+Solid
+
+B
+BBAI
+--
+STOCK
+72/100
+AI/ML
+2026 Breakout Candidate - AI/ML
+
+Solid
+
+B
+NVO
+--
+STOCK
+72/100
+User watchlist - momentum tracking
+
+Solid
+
+B
+RIOT
+--
+STOCK
+70/100
+Crypto/Mining
+2026 Breakout Candidate - Crypto/Mining
+
+Solid
+
+B
+UEC
+--
+STOCK
+69/100
+Energy
+Entry: Accumulate $14-14.50 zone | +21% upside - uranium leader
+
+Solid
+
+B
+PSTV
+--
+STOCK
+68/100
+Biotech
+Entry: Short-term 2-3x potential | Cancer testing platform Texas
+
+Solid
+
+B
+NNE
+--
+STOCK
+68/100
+Added from symbol search
+
+Solid
+
+B
+NNE
+--
+STOCK
+68/100
+Nuclear/Clean Energy
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Solid
+
+B
+QBTS
+--
+STOCK
+67/100
+Quantum Computing
+2026 Breakout Candidate - Quantum Computing
+
+Solid
+
+B
+OKLO
+--
+STOCK
+67/100
+Nuclear/Clean Energy
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Solid
+
+B
+IREN
+--
+STOCK
+67/100
+Entry: Buy pullbacks to $43-45 | +67% upside - BTC miner
+
+Solid
+
+B
+EOSE
+--
+STOCK
+66/100
+Tracking for insights and opportunities
+
+Solid
+
+B
+SMCI
+--
+STOCK
+65/100
+Technology
+Entry: Buy on pullbacks $28-30 | +120% upside - AI server leader
+
+Solid
+
+B
+JD
+--
+STOCK
+65/100
+China volume surge - 4-month high turnover Jan 2026
+
+Solid
+
+C
+ENVX
+--
+STOCK
+62/100
+Batteries
+Entry: Buy pullbacks | Next gen silicon battery anodes
+
+Neutral
+
+C
+IONQ
+--
+STOCK
+62/100
+Technology
+Entry: Accumulate $45-48 | +71% upside to 52H
+
+Neutral
+
+C
+NAK
+--
+STOCK
+62/100
+Materials
+Entry: Buy dips to $2.00-2.10 | +35% upside to 52H
+
+Neutral
+
+C
+BABA
+--
+STOCK
+62/100
+China volume surge - 4-month high turnover Jan 2026
+
+Neutral
+
+C
+IONQ
+--
+STOCK
+62/100
+Quantum Computing
+2026 Breakout Candidate - Quantum Computing
+
+Neutral
+
+C
+RGTI
+--
+STOCK
+62/100
+Quantum Computing
+2026 Breakout Candidate - Quantum Computing
+
+Neutral
+
+C
+AI
+--
+STOCK
+62/100
+AI/ML
+2026 Breakout Candidate - AI/ML
+
+Neutral
+
+C
+PATH
+--
+STOCK
+62/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+SPCE
+--
+STOCK
+59/100
+Aerospace
+Entry: Wait for $2.80 support test or break above $3.50 | +109% upside to 52H
+
+Neutral
+
+C
+MARA
+--
+STOCK
+57/100
+Crypto/Mining
+2026 Breakout Candidate - Crypto/Mining
+
+Neutral
+
+C
+TSLY
+--
+STOCK
+57/100
+Neutral
+Weak Setups (D & F Tier)
+Poor conditions - avoid or consider as contrarian plays only
+
+9
+
+D
+SOFI
+--
+STOCK
+54/100
+Fintech
+Entry: Buy pullbacks to $25-26 | +19% upside
+
+Weak
+
+D
+SOFI
+--
+STOCK
+54/100
+Added from symbol search
+
+Weak
+
+D
+SOFI
+--
+STOCK
+54/100
+Added from symbol search
+
+Weak
+
+D
+APP
+--
+STOCK
+52/100
+AdTech/Gaming
+2026 Breakout Candidate - AdTech/Gaming
+
+Weak
+
+D
+AMZN
+--
+STOCK
+47/100
+Added from symbol search
+
+Weak
+
+D
+AMZN
+--
+STOCK
+47/100
+User watchlist - momentum tracking
+
+Weak
+
+D
+TSLA
+--
+STOCK
+47/100
+Added from symbol search - Current: $440.78
+
+Weak
+
+F
+IWM
+--
+STOCK
+40/100
+Added from symbol search
+
+Avoid
+
+F
+IWM
+--
+STOCK
+40/100
+Added from symbol search
+
+Avoid
+Quant Edge Labs
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only
+Bot Connected
+$125000

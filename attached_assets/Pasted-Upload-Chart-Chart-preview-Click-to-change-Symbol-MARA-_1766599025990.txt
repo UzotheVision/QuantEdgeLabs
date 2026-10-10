@@ -1,0 +1,90 @@
+Upload Chart
+Chart preview
+Click to change
+
+Symbol
+MARA
+Chart Timeframe
+What time period does each candle/bar represent on your chart?
+
+
+1 Hour
+15 Min
+1 Hour
+4 Hour
+Daily
+Context (Optional)
+Market conditions, specific patterns to look for...
+Analyze
+Reset
+MARA
+1H
+CAUTIOUSLY BULLISH
+80% Confidence • 1 Patterns
+
+Entry
+
+$14.05
+
+Target
+
+$15.50
+
++10.3%
+
+Stop
+
+$13.50
+
+-3.9%
+
+R:R
+
+2.6:1
+
+AI Analysis
+Quant Signals
+Levels
+Predicted Trend
+±10.3%
+Expected
+
+AI Confidence
+80%
+Bears
+Signal Balance
+Bulls
+0%
+100%
+Price Target Range
+Stop $13.50
+Entry $14.05
+Target $15.50
+Detected Patterns
+Descending Triangle
+Technical Analysis
+The chart for MARA on the 1-hour timeframe displays a classic Descending Triangle pattern. This pattern is formed after a significant downtrend, indicating a period of consolidation. The price has established a clear horizontal support level around 12.05, demonstrating strong buying interest at this price point over multiple touches. Simultaneously, a declining resistance trendline is visible, connecting two distinct swing highs, with the most recent price action currently testing this resistance around 13.95. The current market sentiment is cautiously bullish for a potential breakout scenario. While descending triangles are typically bearish continuation patterns, the price is currently showing momentum pushing upwards against the declining resistance. A confirmed breakout above this trendline would invalidate the bearish continuation bias and signal a potential short-term reversal or significant upward move. **Trade Setup for a Breakout:** * **Entry Point:** A long entry is recommended upon a confirmed candle close above the declining resistance line. A precise entry point is set at 14.05, allowing for a clear breach of the current resistance point (approx 13.95). * **Target Price:** The initial target for this breakout is the previous significant resistance level, represented by the dashed horizontal line, at 15.50. This level acted as support earlier and then resistance, making it a strong potential price magnet. * **Stop Loss:** To manage risk, a stop loss is placed below the declining resistance line and the recent consolidation highs, at 13.50. This protects against a false breakout or a breakdown below the short-term structure. **Risk/Reward Calculation:** * Risk: (Entry Price - Stop Loss) = 14.05 - 13.50 = 0.55 * Reward: (Target Price - Entry Price) = 15.50 - 14.05 = 1.45 * Risk/Reward Ratio: 1.45 / 0.55 = 2.63. This indicates a favorable risk-reward profile, offering more than twice the potential reward for the risk taken.
+
+Educational purposes only. Not financial advice. Always conduct your own research before trading.
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CST
+© 2025 QuantEdge Research. All rights reserved.•by UN/TITLD
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past perform

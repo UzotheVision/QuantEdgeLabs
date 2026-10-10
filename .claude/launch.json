@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "quantedge-dev",
+      "runtimeExecutable": "/bin/zsh",
+      "runtimeArgs": ["-l", "-c", "npx tsx server/index.ts"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}

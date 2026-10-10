@@ -1,0 +1,1714 @@
+QuantEdge
+QuantEdge
+2 Engines. 1 Edge.
+TRADING TOOLS
+
+Dashboard
+
+Research Desk
+Popular
+
+Live Trading
+ANALYSIS & RESEARCH
+
+Chart Analysis
+AI
+
+Performance
+
+Market Data
+
+Chart Database
+LEARNING
+
+Trading Rules
+
+Academy
+
+Blog
+ACCOUNT
+
+Pricing
+
+Settings
+
+Admin
+Admin
+Abdulmalik
+abdulmalikajisegiri@gmail.com
+Market Closed
+abdulmalikajisegiri@gmail.com
+MONDAY, DEC 29
+
+Research Desk
+69 Active Briefs
+69 Fresh
+Admin
+Search symbols...
+
+All
+Watch Out For These
+TSLY
+STOCK
+$40.71
++0.05%
+EOSE
+STOCK
+Tracking for insights and opportunities
+$12.02
++0.51%
+YYAI
+STOCK
+Tracking for insights and opportunities
+$1.04
++6.41%
+TSLA
+STOCK
+Near Target
+Added from symbol search - Current: $440.78
+$485.40
+-0.04%
+XRP
+CRYPTO
+Near Stop
+Added from symbol search - Current: $2.36
+$1.83
+-1.66%
+Active Research
+69 open patterns
+
+Cheapest First
+
+Stock Options
+50 ideas
+3.4x R:R
+
+META
+LOTTO
+SHORT
+OPTION
+LOTTO
+0 signals
+Posted:
+10:45 AM
+●
+Window:
+10:45 AM
+●
+Expires:
+9:30 AM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.20
+ENTRY PREMIUM
+$0.20
+TARGET PREMIUM
+$0.01
+STOP PREMIUM
+$0.30
+🎰
+Lotto Potential:
+-95%(0x)
+OPTION CONTRACT DETAILS
+TYPE
+PUT
+STRIKE
+$620.00
+EXPIRY
+Jan 02, 2026
+🎰 Lotto Play: Far OTM weekly option targeting 20x return
+
+
+SOFI
+LOTTO
+LONG
+OPTION
+LOTTO
+0 signals
+Posted:
+10:45 AM
+●
+Window:
+10:45 AM
+●
+Expires:
+9:30 AM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.21
+ENTRY PREMIUM
+$0.21
+TARGET PREMIUM
+$4.10
+STOP PREMIUM
+$0.10
+🎰
+Lotto Potential:
+1900%(20x)
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$27.50
+EXPIRY
+Jan 02, 2026
+🎰 Lotto Play: Far OTM weekly option targeting 20x return
+
+
+NVAX
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+9:58 AM
+●
+Window:
+10:44 AM
+●
+Expires:
+1:58 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.21
+ENTRY PREMIUM
+$0.21
+TARGET PREMIUM
+$0.26
+STOP PREMIUM
+$0.18
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$30.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 12 contracts, $0.01M premium
+
+
+CGC
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+5:30 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.22
+ENTRY PREMIUM
+$0.22
+TARGET PREMIUM
+$0.32
+STOP PREMIUM
+$0.14
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$1.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 24 contracts, $0.03M premium
+
+
+DKNG
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:34 AM
+●
+Expires:
+12:35 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.26
+ENTRY PREMIUM
+$0.26
+TARGET PREMIUM
+$0.39
+STOP PREMIUM
+$0.17
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$35.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 18 contracts, $0.05M premium
+
+
+LI
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:30 AM
+●
+Expires:
+1:41 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.28
+ENTRY PREMIUM
+$0.28
+TARGET PREMIUM
+$0.42
+STOP PREMIUM
+$0.19
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$18.00
+EXPIRY
+Jan 09, 2026
+Unusual CALL Flow: 10 contracts, $0.08M premium
+
+
+FCEL
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+3:49 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.30
+ENTRY PREMIUM
+$0.30
+TARGET PREMIUM
+$0.44
+STOP PREMIUM
+$0.20
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$8.50
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 19 contracts, $0.01M premium
+
+
+UEC
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:26 AM
+●
+Expires:
+2:09 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.30
+ENTRY PREMIUM
+$0.30
+TARGET PREMIUM
+$0.45
+STOP PREMIUM
+$0.20
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$12.50
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 31 contracts, $0.07M premium
+
+
+RIVN
+LOTTO
+LONG
+OPTION
+LOTTO
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:30 AM
+●
+Expires:
+2:43 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.32
+ENTRY PREMIUM
+$0.32
+TARGET PREMIUM
+$6.40
+STOP PREMIUM
+$0.21
+🎰
+Lotto Potential:
+1900%(20x)
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$21.50
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 95 contracts, $0.84M premium
+
+
+BWXT
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:13 AM
+●
+Expires:
+3:21 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.40
+ENTRY PREMIUM
+$0.40
+TARGET PREMIUM
+$0.60
+STOP PREMIUM
+$0.27
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$270.00
+EXPIRY
+Feb 20, 2026
+Unusual CALL Flow: 1 contracts, $0.00M premium
+
+
+CLSK
+FLOW
+SHORT
+OPTION
+3 signals
+Posted:
+9:58 AM
+●
+Window:
+10:44 AM
+●
+Expires:
+2:01 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.44
+ENTRY PREMIUM
+$0.44
+TARGET PREMIUM
+$0.38
+STOP PREMIUM
+$0.47
+OPTION CONTRACT DETAILS
+TYPE
+PUT
+STRIKE
+$9.50
+EXPIRY
+Jan 30, 2026
+Unusual PUT Flow: 53 contracts, $0.48M premium
+
+
+RGTI
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+2:46 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.45
+ENTRY PREMIUM
+$0.45
+TARGET PREMIUM
+$0.67
+STOP PREMIUM
+$0.30
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$22.50
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 129 contracts, $1.08M premium
+
+
+PLUG
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+2:02 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.47
+ENTRY PREMIUM
+$0.47
+TARGET PREMIUM
+$0.71
+STOP PREMIUM
+$0.31
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$4.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 30 contracts, $0.07M premium
+
+
+VST
+LOTTO
+LONG
+OPTION
+LOTTO
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:31 AM
+●
+Expires:
+1:23 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.48
+ENTRY PREMIUM
+$0.48
+TARGET PREMIUM
+$9.50
+STOP PREMIUM
+$0.32
+🎰
+Lotto Potential:
+1900%(20x)
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$170.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 7 contracts, $0.07M premium
+
+
+BITF
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+2:14 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.54
+ENTRY PREMIUM
+$0.54
+TARGET PREMIUM
+$0.67
+STOP PREMIUM
+$0.45
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$3.00
+EXPIRY
+May 15, 2026
+Unusual CALL Flow: 24 contracts, $0.04M premium
+
+
+SNOW
+LOTTO
+LONG
+OPTION
+LOTTO
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:37 AM
+●
+Expires:
+1:33 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.70
+ENTRY PREMIUM
+$0.70
+TARGET PREMIUM
+$14.00
+STOP PREMIUM
+$0.58
+🎰
+Lotto Potential:
+1900%(20x)
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$230.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 10 contracts, $0.40M premium
+
+
+LAC
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+1:54 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.78
+ENTRY PREMIUM
+$0.78
+TARGET PREMIUM
+$0.97
+STOP PREMIUM
+$0.65
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$5.00
+EXPIRY
+May 15, 2026
+Unusual CALL Flow: 30 contracts, $0.06M premium
+
+
+U
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:36 AM
+●
+Expires:
+2:03 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$0.86
+ENTRY PREMIUM
+$0.86
+TARGET PREMIUM
+$1.08
+STOP PREMIUM
+$0.72
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$45.50
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 61 contracts, $0.18M premium
+
+
+FCX
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:32 AM
+●
+Expires:
+1:38 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.29
+ENTRY PREMIUM
+$1.29
+TARGET PREMIUM
+$1.61
+STOP PREMIUM
+$1.08
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$52.00
+EXPIRY
+Jan 09, 2026
+Unusual CALL Flow: 27 contracts, $0.49M premium
+
+
+HOOD
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:23 AM
+●
+Expires:
+12:53 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.32
+ENTRY PREMIUM
+$1.32
+TARGET PREMIUM
+$1.64
+STOP PREMIUM
+$1.10
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$120.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 171 contracts, $6.52M premium
+
+
+QUBT
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+3:20 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.45
+ENTRY PREMIUM
+$1.45
+TARGET PREMIUM
+$1.81
+STOP PREMIUM
+$1.21
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$9.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 66 contracts, $0.30M premium
+
+
+DIS
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+12:00 PM
+●
+Expires:
+1:16 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.52
+ENTRY PREMIUM
+$1.52
+TARGET PREMIUM
+$1.89
+STOP PREMIUM
+$1.26
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$114.00
+EXPIRY
+Jan 09, 2026
+Unusual CALL Flow: 6 contracts, $0.28M premium
+
+
+MSFT
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+12:03 PM
+●
+Expires:
+1:18 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.67
+ENTRY PREMIUM
+$1.67
+TARGET PREMIUM
+$2.09
+STOP PREMIUM
+$1.39
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$490.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 47 contracts, $6.77M premium
+
+
+AMZN
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:44 AM
+●
+Expires:
+1:10 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.68
+ENTRY PREMIUM
+$1.68
+TARGET PREMIUM
+$2.10
+STOP PREMIUM
+$1.40
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$232.50
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 60 contracts, $11.20M premium
+
+
+STEM
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+2:58 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.70
+ENTRY PREMIUM
+$1.70
+TARGET PREMIUM
+$2.13
+STOP PREMIUM
+$1.42
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$17.50
+EXPIRY
+Feb 20, 2026
+Unusual CALL Flow: 6 contracts, $0.01M premium
+
+
+QS
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+1:30 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.81
+ENTRY PREMIUM
+$1.81
+TARGET PREMIUM
+$2.26
+STOP PREMIUM
+$1.51
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$12.00
+EXPIRY
+May 15, 2026
+Unusual CALL Flow: 52 contracts, $0.30M premium
+
+
+RKLB
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+2:10 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$1.86
+ENTRY PREMIUM
+$1.86
+TARGET PREMIUM
+$2.33
+STOP PREMIUM
+$1.55
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$73.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 154 contracts, $5.90M premium
+
+
+ENVX
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+3:41 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$2.20
+ENTRY PREMIUM
+$2.20
+TARGET PREMIUM
+$2.74
+STOP PREMIUM
+$1.83
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$10.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 36 contracts, $0.13M premium
+
+
+BBAI
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+2:15 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$2.39
+ENTRY PREMIUM
+$2.39
+TARGET PREMIUM
+$2.99
+STOP PREMIUM
+$1.99
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$5.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 60 contracts, $0.75M premium
+
+
+NVDA
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:52 AM
+●
+Expires:
+1:29 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$2.46
+ENTRY PREMIUM
+$2.46
+TARGET PREMIUM
+$2.82
+STOP PREMIUM
+$2.21
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$187.50
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 178 contracts, $90.79M premium
+
+
+SOUN
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+3:07 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$2.55
+ENTRY PREMIUM
+$2.55
+TARGET PREMIUM
+$3.18
+STOP PREMIUM
+$2.12
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$15.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 77 contracts, $0.47M premium
+
+
+QBTS
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+2:13 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$2.59
+ENTRY PREMIUM
+$2.59
+TARGET PREMIUM
+$2.97
+STOP PREMIUM
+$2.33
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$24.00
+EXPIRY
+Jan 09, 2026
+Unusual CALL Flow: 135 contracts, $1.21M premium
+
+
+ACHR
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+3:10 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$2.97
+ENTRY PREMIUM
+$2.97
+TARGET PREMIUM
+$3.71
+STOP PREMIUM
+$2.47
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$7.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 51 contracts, $0.37M premium
+
+
+SPCE
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:53 AM
+●
+Expires:
+1:17 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$2.97
+ENTRY PREMIUM
+$2.97
+TARGET PREMIUM
+$3.42
+STOP PREMIUM
+$2.67
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$1.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 20 contracts, $0.17M premium
+
+
+BEAM
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+4:25 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$3.10
+ENTRY PREMIUM
+$3.10
+TARGET PREMIUM
+$3.67
+STOP PREMIUM
+$2.72
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$30.00
+EXPIRY
+Feb 20, 2026
+Unusual CALL Flow: 20 contracts, $0.06M premium
+
+
+AI
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:24 AM
+●
+Expires:
+2:31 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$3.68
+ENTRY PREMIUM
+$3.68
+TARGET PREMIUM
+$4.59
+STOP PREMIUM
+$3.06
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$15.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 38 contracts, $0.17M premium
+
+
+PATH
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:10 AM
+●
+Expires:
+1:56 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$3.78
+ENTRY PREMIUM
+$3.78
+TARGET PREMIUM
+$4.72
+STOP PREMIUM
+$3.15
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$20.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 66 contracts, $2.09M premium
+
+
+RDW
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+9:58 AM
+●
+Window:
+10:48 AM
+●
+Expires:
+1:36 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$3.80
+ENTRY PREMIUM
+$3.80
+TARGET PREMIUM
+$4.75
+STOP PREMIUM
+$3.17
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$5.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 33 contracts, $0.12M premium
+
+
+NTLA
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+4:05 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$4.25
+ENTRY PREMIUM
+$4.25
+TARGET PREMIUM
+$5.31
+STOP PREMIUM
+$3.54
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$7.50
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 17 contracts, $0.03M premium
+
+
+S
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:36 AM
+●
+Expires:
+12:53 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$4.50
+ENTRY PREMIUM
+$4.50
+TARGET PREMIUM
+$5.63
+STOP PREMIUM
+$3.75
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$13.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 11 contracts, $0.05M premium
+
+
+RBLX
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:26 AM
+●
+Expires:
+3:35 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$4.85
+ENTRY PREMIUM
+$4.85
+TARGET PREMIUM
+$5.58
+STOP PREMIUM
+$4.37
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$77.00
+EXPIRY
+Jan 02, 2026
+Unusual CALL Flow: 28 contracts, $0.39M premium
+
+
+UPST
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:28 AM
+●
+Expires:
+1:27 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$5.15
+ENTRY PREMIUM
+$5.15
+TARGET PREMIUM
+$5.92
+STOP PREMIUM
+$4.64
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$42.00
+EXPIRY
+Jan 09, 2026
+Unusual CALL Flow: 73 contracts, $0.31M premium
+
+
+LUNR
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+2:44 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$5.38
+ENTRY PREMIUM
+$5.38
+TARGET PREMIUM
+$6.72
+STOP PREMIUM
+$4.48
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$14.00
+EXPIRY
+Jun 18, 2026
+Unusual CALL Flow: 82 contracts, $4.75M premium
+
+
+XPEV
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+9:58 AM
+●
+Window:
+10:45 AM
+●
+Expires:
+2:17 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$5.55
+ENTRY PREMIUM
+$5.55
+TARGET PREMIUM
+$6.94
+STOP PREMIUM
+$4.63
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$20.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 36 contracts, $0.14M premium
+
+
+UUUU
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+2:38 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$5.95
+ENTRY PREMIUM
+$5.95
+TARGET PREMIUM
+$7.44
+STOP PREMIUM
+$4.96
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$15.00
+EXPIRY
+Jan 15, 2027
+Unusual CALL Flow: 95 contracts, $1.59M premium
+
+
+NU
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+7:16 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$6.68
+ENTRY PREMIUM
+$6.68
+TARGET PREMIUM
+$8.08
+STOP PREMIUM
+$5.74
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$10.00
+EXPIRY
+Jan 09, 2026
+Unusual CALL Flow: 9 contracts, $1.06M premium
+
+
+IONQ
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:15 AM
+●
+Expires:
+3:11 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$6.80
+ENTRY PREMIUM
+$6.80
+TARGET PREMIUM
+$8.38
+STOP PREMIUM
+$5.75
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$50.00
+EXPIRY
+Apr 17, 2026
+Unusual CALL Flow: 115 contracts, $0.99M premium
+
+
+IRDM
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:30 AM
+●
+Window:
+11:00 AM
+●
+Expires:
+3:06 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$7.30
+ENTRY PREMIUM
+$7.30
+TARGET PREMIUM
+$9.13
+STOP PREMIUM
+$6.08
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$10.00
+EXPIRY
+Apr 17, 2026
+Unusual CALL Flow: 7 contracts, $0.01M premium
+
+
+NFLX
+FLOW
+SHORT
+OPTION
+3 signals
+Posted:
+9:45 AM
+●
+Window:
+10:49 AM
+●
+Expires:
+12:29 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$8.08
+ENTRY PREMIUM
+$8.08
+TARGET PREMIUM
+$7.67
+STOP PREMIUM
+$8.34
+OPTION CONTRACT DETAILS
+TYPE
+PUT
+STRIKE
+$102.00
+EXPIRY
+Jan 09, 2026
+Unusual PUT Flow: 19 contracts, $12.16M premium
+
+
+BA
+FLOW
+LONG
+OPTION
+3 signals
+Posted:
+10:45 AM
+●
+Window:
+11:52 AM
+●
+Expires:
+12:47 PM
+ENTRY PREMIUM
+Live pricing not yet supported
+$8.38
+ENTRY PREMIUM
+$8.38
+TARGET PREMIUM
+$9.63
+STOP PREMIUM
+$7.54
+OPTION CONTRACT DETAILS
+TYPE
+CALL
+STRIKE
+$240.00
+EXPIRY
+May 15, 2026
+Unusual CALL Flow: 24 contracts, $3.29M premium
+
+Recent Performance:
+246 wins
+140 losses
+(2035 closed)
+QE
+QuantEdge Research
+Privacy
+Terms
+SEC Education
+Not financial advice.Educational only.

@@ -1,0 +1,322 @@
+Here’s how to transform the ACHR detail page into a **year-long research terminal** that tracks evolution, captures your insights, and links performance to your actual trading decisions.
+
+---
+
+## **1. Historical Grade Timeline (Core Feature)**
+
+### **Add to Top of ACHR Page**
+```typescript
+// New component: <GradeTimeline />
+// File: client/src/components/symbol-timeline.tsx
+
+<GradeTimeline 
+  symbol="ACHR"
+  year={2026}
+  height="h-64"
+/>
+```
+
+**Visual Design** (per your v2.0 guidelines):
+- **Chart**: Recharts line chart with `font-mono` y-axis (0-100 scores)
+- **Background**: Glassmorphism Tier-3 (`bg-slate-800/30 backdrop-blur-sm`)
+- **Event Markers**: Clickable dots for:
+  - 📰 **News** (earnings, SEC filings)
+  - 📝 **Your Notes** (e.g., "Added to watchlist")
+  - 💰 **Your Trades** (green dot = you traded it)
+  - 🎯 **Grade Changes** (B→A upgrade on Jan 5th)
+
+**Data Source**:
+```sql
+-- Fetch from watchlist_history table
+SELECT date, grade, confidence_score, price 
+FROM watchlist_history 
+WHERE symbol = 'ACHR' AND year = 2026
+ORDER BY date ASC;
+```
+
+---
+
+## **2. Personal Notes & Annotation System**
+
+### **Replace Static "eVTOL/Flying Cars" Note**
+
+**Current**: Static text, no edit capability  
+**Enhanced**: Rich text editor with timestamps
+
+```typescript
+// File: client/src/components/symbol-notes.tsx
+
+<NotesPanel symbol="ACHR">
+  <NoteEntry 
+    date="2026-01-09 6:17 PM CT"
+    author="You"
+    content="4-month high turnover Jan 2026 - watching for policy catalyst"
+    tags={["volume_surge", "china_ev"]}
+  />
+  <NoteEntry 
+    date="2026-01-15 9:45 AM CT"
+    author="AI_Catalyst"
+    content="SEC filing: Archer announces FAA certification progress"
+    tags={["SEC_Filing", "catalyst"]}
+    link="/catalyst/achr-20260115"
+  />
+</NotesPanel>
+```
+
+**Features**:
+- **Add Note** button: `+` icon in top-right
+- **Tag system**: Auto-suggest from existing tags (`#breakout`, `#earnings`)
+- **Privacy**: "Private" toggle for personal thoughts vs. public notes
+- **Search**: Find all notes with "FAA" across your entire watchlist
+
+**Backend**:
+```sql
+CREATE TABLE symbol_notes (
+  id UUID PRIMARY KEY,
+  user_id UUID REFERENCES users(id),
+  symbol VARCHAR(20),
+  content TEXT,
+  tags JSONB,
+  is_private BOOLEAN DEFAULT true,
+  created_at TIMESTAMP
+);
+```
+
+---
+
+## **3. Performance Attribution: Watched vs. Traded**
+
+### **Add Performance Card** (Below Confluence Score)
+```
+Your ACHR Track Record
+├─ Watched: 47 days (added Jan 9, 2026)
+├─ Traded: ❌ No (missed opportunity)
+├─ Grade Evolution: B (73) → A (85) [+12 points in 14 days]
+├─ Price Performance: +12.3% since addition
+├─ SPY同期: +3.1%
+└─ Alpha: +9.2%
+```
+
+**If Traded**:
+```
+Your ACHR Trade
+├─ Entered: Jan 15 @ $4.20 (when grade hit A-)
+├─ Exited: Jan 25 @ $5.10
+├─ Return: +21.4% (+$900)
+├─ Grade at Entry: A- (83)
+└─ Trade Rating: ✅ Perfect timing (entered on upgrade)
+```
+
+**Data Link**:
+```typescript
+// Connect watchlist to trade journal
+const trade = await db.query(`
+  SELECT * FROM trades 
+  WHERE symbol = 'ACHR' 
+  AND user_id = $1 
+  AND trade_date >= watchlist_entry.added_at
+`);
+```
+
+---
+
+## **4. Year-Over-Year Comparison**
+
+### **Add "Historical Context" Section**
+```
+ACHR in Previous Years
+├─ 2025: Watched for 23 days, never exceeded B-tier, -8% return
+├─ 2024: Not in watchlist (FAA certification delayed)
+└─ Pattern: Performs best in Q1 (policy announcement season)
+```
+
+**Implementation**:
+```typescript
+// server/watchlist-history-service.ts
+async function getMultiYearComparison(symbol: string) {
+  return db.query(`
+    SELECT 
+      year,
+      AVG(confidence_score) as avg_grade,
+      AVG(price) as avg_price,
+      COUNT(*) as days_watched
+    FROM watchlist_history
+    WHERE symbol = $1
+    GROUP BY year
+    ORDER BY year DESC
+    LIMIT 3
+  `);
+}
+```
+
+---
+
+## **5. Alert & Tracking Automation**
+
+### **Proactive Notifications for ACHR**
+```typescript
+// server/watchlist-alert-service.ts
+const alerts = [
+  {
+    type: "GRADE_UPGRADE",
+    condition: "ACHR grade ≥ A",
+    message: "ACHR upgraded to A-tier (85/100) - Trend accelerating",
+    triggered_at: "2026-01-20 10:30 AM CT"
+  },
+  {
+    type: "STALE_WATCH",
+    condition: "ACHR grade < C for 30+ days",
+    message: "ACHR has been D-tier (52/100) for 32 days. Remove?",
+    actions: ["Keep", "Remove", "Set Alert"]
+  },
+  {
+    type: "PRICE_TARGET",
+    condition: "ACHR price ≥ $6.00 (your target)",
+    message: "ACHR hit your $6 target! Current: $6.15 (+23%)",
+    actions: ["Take Profits", "Move Stop", "Add Notes"]
+  }
+];
+```
+
+**UI Badge on Watchlist**:
+```
+ACHR  B→A  ⭐ Grade upgraded
+```
+
+---
+
+## **6. Enhanced Confluence Score (Personalized)**
+
+### **Current**: 100% (1 bullish / 0 bearish)  
+**Problem**: Generic, doesn't reflect *your* trading style
+
+### **Enhanced**: **My Confluence Score**
+```typescript
+// Weight signals based on your historical edge
+const myEdgeScores = {
+  VOLUME_SURGE: 0.68, // You win 68% when this signal fires
+  MACD_BULLISH: 0.55, // You win 55%
+  RSI2_ELEVATED: 0.42  // You win only 42% (ignore this signal)
+};
+
+// Personalized confluence
+my_confluence = Σ(signal_weight × myEdgeScore) / Σ(signal_weight);
+
+// For ACHR:
+// VOLUME_SURGE: +10 × 0.68 = 6.8
+// MACD_BULLISH: +10 × 0.55 = 5.5
+// RSI2_ELEVATED: +8 × 0.42 = 3.4
+// Total: 15.3 / 28 = 0.546 = **55% My Confluence**
+```
+
+**UI Display**:
+```
+Confluence Score (Generic): 100% ⚡
+My Confluence Score: 55% (based on your win rate)
+Confidence: Moderate (MACD and Volume work for you, RSI2 doesn't)
+```
+
+---
+
+## **7. Trade Psychology Enhancement**
+
+### **Current**: Generic AI text  
+**Enhanced**: **Personalized Psychology**
+
+```typescript
+// server/personal-psychology-service.ts
+
+const psychology = {
+  generic: "Setup is developing but not yet optimal",
+  
+  personalized: `Your ACHR Pattern:
+  ├─ You've traded eVTOL stocks 3 times this year
+  ├─ Win rate: 33% (1 win, 2 losses)
+  ├─ Avg loss: -12% (stopped too loose)
+  └─ Recommendation: Wait for A-tier (70%+ confidence), tighten stops to 1.5×ATR`
+};
+```
+
+**Display as collapsible panel**:
+```
+Trade Psychology ▼
+⚠️ You've struggled with eVTOL sector (33% win rate)
+💡 Wait for A-tier entry and use tighter stops
+```
+
+---
+
+## **8. Quick Implementation: 3-Day Sprint**
+
+### **Day 1: Database & API**
+- [ ] Create `watchlist_history`, `symbol_notes` tables
+- [ ] Build `GET /api/watchlist/:symbol/history?year=2026`
+- [ ] Add `POST /api/symbol/:symbol/notes` endpoint
+
+### **Day 2: UI Components**
+- [ ] Build `<GradeTimeline />` component (Recharts line chart)
+- [ ] Add `<NotesPanel />` with rich text editor (TipTap or Slate)
+- [ ] Modify ACHR page to fetch and display historical data
+
+### **Day 3: Automation & Polish**
+- [ ] Deploy daily snapshot cron job (4:00 PM CT market close)
+- [ ] Add alert badges to main watchlist grid
+- [ ] Performance attribution card (link to trade journal)
+
+---
+
+## **9. Design System Compliance**
+
+**Typography**:
+- **Timestamps**: `text-xs font-mono text-slate-500` (per guidelines)
+- **Notes**: `text-sm leading-relaxed` (body text)
+- **Grades**: `text-3xl font-bold font-mono tabular-nums` (large metric)
+
+**Glassmorphism**:
+- **Timeline chart**: Tier-3 (`bg-slate-800/30 backdrop-blur-sm`)
+- **Notes panel**: Tier-2 (`bg-slate-800/50 backdrop-blur-md`)
+
+**Color Accents**:
+- **Your trades**: Green-400 dot (`bg-green-400`)
+- **AI notes**: Purple-400 (`text-purple-400`) for AI-generated content
+- **Missed opportunity**: Amber-400 warning
+
+---
+
+## **10. Year-Long Tracking Example (ACHR Journey)**
+
+```
+ACHR — 2026 Timeline
+├─ Jan 9: Added to "2026 Breakouts" @ B (73)
+│  └─ Note: "eVTOL policy catalyst, watching FAA"
+├─ Jan 12: Grade unchanged, price +2%
+│  └─ Note: "Volume surge but ADX still weak"
+├─ Jan 15: ⬆️ UPGRADED to A- (83)
+│  └─ Note: "MACD crossover confirmed, entered trade @ $4.20"
+├─ Jan 22: ⬆️ UPGRADED to A (90)
+│  └─ Note: "FAA certification news! +15% since entry"
+├─ Jan 28: Grade dropped to B+ (87)
+│  └─ Note: "Profit-taking, moved stop to breakeven"
+└─ Feb 3: REMOVED from watchlist
+   └─ Note: "Stopped out at $4.10 (-2.4%), FAA news was noise"
+```
+
+**Analytics**:
+- **Watched**: 25 days
+- **Traded**: ✅ Yes
+- **Return**: -2.4% (stopped too tight)
+- **Lesson**: Add volatility filter to avoid regime shift losses
+
+---
+
+## **Bottom Line: Year-Long Value**
+
+The enhanced watchlist becomes a **feedback loop**:
+1. **Track** what you watch and why
+2. **Measure** performance (watched vs. traded)
+3. **Learn** from patterns (eVTOL sector = 33% win rate)
+4. **Improve** decisions next time
+
+**First Step**: Add the **GradeTimeline** component and **NotesPanel** to ACHR page. This gives you immediate historical context and captures your thinking process.
+
+Ready to build the timeline component first?

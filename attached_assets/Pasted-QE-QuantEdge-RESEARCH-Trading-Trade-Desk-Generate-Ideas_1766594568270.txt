@@ -1,0 +1,5072 @@
+QE
+QuantEdge
+RESEARCH
+Trading
+
+Trade Desk
+
+Generate Ideas
+Market
+
+Overview
+
+Watchlist
+Research
+
+Performance
+
+Chart Analysis
+System
+
+Settings
+
+Collapse
+Toggle theme
+Toggle theme
+Trade Desk
+Wednesday, Dec 24 · 12 active ideas
+
+Generate
+Search symbols...
+
+All
+Top Picks Today
+5
+Best quality + R:R + probability
+
+1
+BTC
+LONG
+SWING
+Anticipation of further institutional adoption and spot ETF inflows following recent consolidation above a key support level.
+
+B
+R:R 2.0 • Score: 80
+
+2
+MSTR
+LONG
+DAY
+Unusual CALL Flow: 199 contracts, $13.86M premium
+
+C+
+R:R 1.5 • Score: 51
+
+3
+MARA
+LONG
+DAY
+Unusual CALL Flow: 76 contracts, $1.58M premium
+
+C+
+R:R 1.5 • Score: 58
+
+4
+RIOT
+SHORT
+DAY
+Unusual PUT Flow: 37 contracts, $0.09M premium
+
+C+
+R:R 1.5 • Score: 46
+
+5
+SOFI
+LONG
+DAY
+Unusual CALL Flow: 83 contracts, $1.01M premium
+
+C+
+R:R 1.5 • Score: 48
+
+Active Trades
+12 open
+
+Stock Options
+11 ideas
+1.5x R:R
+
+Crypto
+1 idea
+2.0x R:R
+
+BTC
+HYBRID
+LONG
+A
+Posted:
+10:42 AM
+●
+Enter:
+12:45 PM
+●
+Exit:
+7:55 PM
+LIVE PRICE
+Updates every 30s
+-18.37%
+$87,341.00
+ENTRY
+$107,000.00
+TARGET
+$115,000.00
+STOP
+$103,000.00
+Anticipation of further institutional adoption and spot ETF inflows following recent consolidation above a key support level.
+
+Closed Trades
+1640 total
+247 wins
+109 losses
+Symbol
+Type
+Dir
+Entry
+Exit
+P&L %
+Status
+Exit Date
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 24, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 24, 2025
+HOOD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 24, 2025
+MSFT	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 24, 2025
+GOOGL	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 24, 2025
+SPY	Option	
+LONG
+$1.02	$1.02	0.0%	EXP	Dec 24, 2025
+MSTR	Option	
+SHORT
+$233.75	$233.75	0.0%	EXP	Dec 22, 2025
+BA	Option	
+LONG
+$3.67	$3.67	0.0%	EXP	Dec 22, 2025
+MARA	Option	
+SHORT
+$3.40	$3.40	0.0%	EXP	Dec 22, 2025
+RIOT	Option	
+LONG
+$2.23	$2.23	0.0%	EXP	Dec 22, 2025
+HOOD	Option	
+LONG
+$2.92	$2.92	0.0%	EXP	Dec 22, 2025
+COIN	Option	
+SHORT
+$117.75	$117.75	0.0%	EXP	Dec 22, 2025
+MSFT	Option	
+SHORT
+$33.61	$33.61	0.0%	EXP	Dec 22, 2025
+GOOGL	Option	
+LONG
+$45.70	$45.70	0.0%	EXP	Dec 22, 2025
+SOFI	Option	
+LONG
+$0.32	$0.32	0.0%	EXP	Dec 22, 2025
+PLTR	Option	
+LONG
+$4.82	$4.82	0.0%	EXP	Dec 22, 2025
+DIS	Option	
+LONG
+$5.27	$5.27	0.0%	EXP	Dec 22, 2025
+META	Option	
+SHORT
+$62.30	$62.30	0.0%	EXP	Dec 22, 2025
+AMZN	Option	
+LONG
+$153.10	$153.10	0.0%	EXP	Dec 22, 2025
+TSLA	Option	
+LONG
+$27.65	$27.65	0.0%	EXP	Dec 22, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+NVDA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+QQQ	Option	
+LONG
+$2.95	$2.95	0.0%	EXP	Dec 16, 2025
+SPY	Option	
+LONG
+$2.99	$2.99	0.0%	EXP	Dec 16, 2025
+AMD	Option	
+SHORT
+$11.99	$11.99	0.0%	EXP	Dec 16, 2025
+NVDA	Option	
+LONG
+$77.49	$77.49	0.0%	EXP	Dec 16, 2025
+AAPL	Option	
+LONG
+$1.80	$1.80	0.0%	EXP	Dec 16, 2025
+COIN	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Dec 16, 2025
+HOOD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+TSLA	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Dec 16, 2025
+QQQ	Option	
+LONG
+$2.81	$2.81	0.0%	EXP	Dec 16, 2025
+SPY	Option	
+LONG
+$2.30	$2.30	0.0%	EXP	Dec 16, 2025
+MSTR	Option	
+SHORT
+$234.70	$234.70	0.0%	EXP	Dec 16, 2025
+BA	Option	
+LONG
+$3.31	$3.31	0.0%	EXP	Dec 16, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+QQQ	Option	
+LONG
+$2.00	$2.00	0.0%	EXP	Dec 16, 2025
+SPY	Option	
+LONG
+$1.54	$1.54	0.0%	EXP	Dec 16, 2025
+MARA	Option	
+SHORT
+$3.50	$3.50	0.0%	EXP	Dec 16, 2025
+HOOD	Option	
+LONG
+$2.56	$2.56	0.0%	EXP	Dec 16, 2025
+COIN	Option	
+LONG
+$17.10	$17.10	0.0%	EXP	Dec 16, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+QQQ	Option	
+LONG
+$1.78	$1.78	0.0%	EXP	Dec 16, 2025
+SPY	Option	
+LONG
+$1.24	$1.24	0.0%	EXP	Dec 16, 2025
+RIOT	Option	
+LONG
+$2.10	$2.10	0.0%	EXP	Dec 16, 2025
+SOFI	Option	
+LONG
+$0.34	$0.34	0.0%	EXP	Dec 16, 2025
+GOOGL	Option	
+LONG
+$45.14	$45.14	0.0%	EXP	Dec 16, 2025
+PLTR	Option	
+LONG
+$4.35	$4.35	0.0%	EXP	Dec 16, 2025
+DIS	Option	
+LONG
+$1.55	$1.55	0.0%	EXP	Dec 16, 2025
+MSFT	Option	
+LONG
+$12.60	$12.60	0.0%	EXP	Dec 16, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+QQQ	Option	
+LONG
+$1.68	$1.68	0.0%	EXP	Dec 16, 2025
+NFLX	Option	
+LONG
+$2.71	$2.71	0.0%	EXP	Dec 16, 2025
+AMZN	Option	
+LONG
+$153.10	$153.10	0.0%	EXP	Dec 16, 2025
+NVDA	Option	
+LONG
+$77.30	$77.30	0.0%	EXP	Dec 16, 2025
+AAPL	Option	
+LONG
+$1.45	$1.45	0.0%	EXP	Dec 16, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+NVDA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+SPY	Option	
+SHORT
+$2.12	$2.12	0.0%	EXP	Dec 16, 2025
+TSLA	Option	
+LONG
+$21.23	$21.23	0.0%	EXP	Dec 16, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+HOOD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+SPY	Stock	
+LONG
+$580.00	$676.04	+16.6%	EXP	Dec 16, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104000.00	-2.8%	LOSS	Dec 16, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+MARA	Option	
+SHORT
+$3.40	$3.40	0.0%	EXP	Dec 16, 2025
+META	Option	
+LONG
+$645.35	$645.35	0.0%	EXP	Dec 16, 2025
+RIOT	Option	
+LONG
+$2.05	$2.05	0.0%	EXP	Dec 16, 2025
+TSLA	Option	
+LONG
+$22.68	$22.68	0.0%	EXP	Dec 16, 2025
+HOOD	Option	
+LONG
+$2.69	$2.69	0.0%	EXP	Dec 16, 2025
+SOFI	Option	
+LONG
+$0.35	$0.35	0.0%	EXP	Dec 16, 2025
+PLTR	Option	
+LONG
+$4.00	$4.00	0.0%	EXP	Dec 16, 2025
+BA	Option	
+LONG
+$4.20	$4.20	0.0%	EXP	Dec 16, 2025
+DIS	Option	
+LONG
+$4.02	$4.02	0.0%	EXP	Dec 16, 2025
+NFLX	Option	
+LONG
+$2.66	$2.66	0.0%	EXP	Dec 16, 2025
+GOOGL	Option	
+LONG
+$45.03	$45.03	0.0%	EXP	Dec 16, 2025
+AMZN	Option	
+LONG
+$153.10	$153.10	0.0%	EXP	Dec 16, 2025
+MSFT	Option	
+LONG
+$12.20	$12.20	0.0%	EXP	Dec 16, 2025
+NVDA	Option	
+LONG
+$77.50	$77.50	0.0%	EXP	Dec 16, 2025
+AAPL	Option	
+LONG
+$1.50	$1.50	0.0%	EXP	Dec 16, 2025
+QQQ	Option	
+SHORT
+$23.67	$23.67	0.0%	EXP	Dec 16, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+MSFT	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+SPY	Option	
+SHORT
+$2.73	$2.73	0.0%	EXP	Dec 16, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 16, 2025
+SPY	Option	
+SHORT
+$2.05	$2.05	0.0%	EXP	Dec 16, 2025
+MARA	Option	
+SHORT
+$6.28	$6.28	0.0%	EXP	Dec 15, 2025
+SOFI	Option	
+LONG
+$0.48	$0.48	0.0%	EXP	Dec 15, 2025
+AMZN	Option	
+LONG
+$1.82	$1.82	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+LONG
+$22.31	$22.31	0.0%	EXP	Dec 15, 2025
+NVDA	Option	
+LONG
+$76.65	$76.65	0.0%	EXP	Dec 15, 2025
+AAPL	Option	
+LONG
+$58.71	$58.71	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+MSTR	Option	
+SHORT
+$175.55	$175.55	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+LONG
+$249.86	$249.86	0.0%	EXP	Dec 15, 2025
+META	Option	
+LONG
+$9.01	$9.01	0.0%	EXP	Dec 15, 2025
+MARA	Option	
+LONG
+$1.60	$1.60	0.0%	EXP	Dec 15, 2025
+SOFI	Option	
+LONG
+$0.73	$0.73	0.0%	EXP	Dec 15, 2025
+PLTR	Option	
+LONG
+$4.77	$4.77	0.0%	EXP	Dec 15, 2025
+DIS	Option	
+LONG
+$30.66	$30.66	0.0%	EXP	Dec 15, 2025
+AMD	Option	
+LONG
+$5.60	$5.60	0.0%	EXP	Dec 15, 2025
+AMZN	Option	
+LONG
+$163.87	$163.87	0.0%	EXP	Dec 15, 2025
+MSFT	Option	
+LONG
+$11.65	$11.65	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+LONG
+$20.69	$20.69	0.0%	EXP	Dec 15, 2025
+NVDA	Option	
+LONG
+$77.60	$77.60	0.0%	EXP	Dec 15, 2025
+AAPL	Option	
+LONG
+$58.87	$58.87	0.0%	EXP	Dec 15, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+NVDA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+META	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Dec 15, 2025
+HOOD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+LONG
+$85.00	$85.00	0.0%	EXP	Dec 15, 2025
+DIS	Option	
+LONG
+$30.66	$30.66	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+LONG
+$22.07	$22.07	0.0%	EXP	Dec 15, 2025
+NVDA	Option	
+LONG
+$78.20	$78.20	0.0%	EXP	Dec 15, 2025
+MSTR	Option	
+SHORT
+$6.90	$6.90	0.0%	EXP	Dec 15, 2025
+MARA	Option	
+SHORT
+$6.35	$6.35	0.0%	EXP	Dec 15, 2025
+HOOD	Option	
+LONG
+$92.00	$92.00	0.0%	EXP	Dec 15, 2025
+SOFI	Option	
+LONG
+$0.22	$0.22	0.0%	EXP	Dec 15, 2025
+NFLX	Option	
+LONG
+$2.80	$2.80	0.0%	EXP	Dec 15, 2025
+AMD	Option	
+LONG
+$3.80	$3.80	0.0%	EXP	Dec 15, 2025
+GOOGL	Option	
+LONG
+$71.60	$71.60	0.0%	EXP	Dec 15, 2025
+META	Option	
+LONG
+$9.42	$9.42	0.0%	EXP	Dec 15, 2025
+AMZN	Option	
+LONG
+$163.87	$163.87	0.0%	EXP	Dec 15, 2025
+MSFT	Option	
+LONG
+$12.00	$12.00	0.0%	EXP	Dec 15, 2025
+PLTR	Option	
+LONG
+$111.27	$111.27	0.0%	EXP	Dec 15, 2025
+BA	Option	
+LONG
+$84.82	$84.82	0.0%	EXP	Dec 15, 2025
+SPY	Option	
+SHORT
+$2.62	$2.62	0.0%	EXP	Dec 15, 2025
+QQQ	Option	
+SHORT
+$2.51	$2.51	0.0%	EXP	Dec 15, 2025
+RIOT	Option	
+LONG
+$2.51	$2.51	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+LONG
+$88.30	$88.30	0.0%	EXP	Dec 15, 2025
+DIS	Option	
+LONG
+$3.63	$3.63	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+LONG
+$472.20	$472.20	0.0%	EXP	Dec 15, 2025
+NVDA	Option	
+LONG
+$78.00	$78.00	0.0%	EXP	Dec 15, 2025
+MARA	Option	
+LONG
+$0.42	$0.42	0.0%	EXP	Dec 15, 2025
+HOOD	Option	
+LONG
+$3.40	$3.40	0.0%	EXP	Dec 15, 2025
+SOFI	Option	
+LONG
+$0.27	$0.27	0.0%	EXP	Dec 15, 2025
+NFLX	Option	
+LONG
+$1.33	$1.33	0.0%	EXP	Dec 15, 2025
+AMD	Option	
+LONG
+$3.80	$3.80	0.0%	EXP	Dec 15, 2025
+GOOGL	Option	
+LONG
+$27.15	$27.15	0.0%	EXP	Dec 15, 2025
+META	Option	
+LONG
+$8.90	$8.90	0.0%	EXP	Dec 15, 2025
+AMZN	Option	
+LONG
+$163.87	$163.87	0.0%	EXP	Dec 15, 2025
+MSFT	Option	
+LONG
+$12.25	$12.25	0.0%	EXP	Dec 15, 2025
+AAPL	Option	
+LONG
+$60.20	$60.20	0.0%	EXP	Dec 15, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+SPY	Option	
+SHORT
+$2.04	$2.04	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+QQQ	Option	
+LONG
+$3.04	$3.04	0.0%	EXP	Dec 15, 2025
+SPY	Option	
+LONG
+$1.52	$1.52	0.0%	EXP	Dec 15, 2025
+MSFT	Option	
+LONG
+$17.30	$17.30	0.0%	EXP	Dec 15, 2025
+RIOT	Option	
+LONG
+$0.59	$0.59	0.0%	EXP	Dec 15, 2025
+BA	Option	
+LONG
+$2.16	$2.16	0.0%	EXP	Dec 15, 2025
+DIS	Option	
+LONG
+$21.22	$21.22	0.0%	EXP	Dec 15, 2025
+META	Option	
+LONG
+$343.10	$343.10	0.0%	EXP	Dec 15, 2025
+AMZN	Option	
+LONG
+$1.92	$1.92	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+LONG
+$470.80	$470.80	0.0%	EXP	Dec 15, 2025
+NVDA	Option	
+LONG
+$1.92	$1.92	0.0%	EXP	Dec 15, 2025
+AAPL	Option	
+LONG
+$0.93	$0.93	0.0%	EXP	Dec 15, 2025
+MARA	Option	
+SHORT
+$6.55	$6.55	0.0%	EXP	Dec 15, 2025
+HOOD	Option	
+LONG
+$71.00	$71.00	0.0%	EXP	Dec 15, 2025
+SOFI	Option	
+LONG
+$0.51	$0.51	0.0%	EXP	Dec 15, 2025
+PLTR	Option	
+LONG
+$140.35	$140.35	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+LONG
+$9.90	$9.90	0.0%	EXP	Dec 15, 2025
+NFLX	Option	
+SHORT
+$10.34	$10.34	0.0%	EXP	Dec 15, 2025
+AMD	Option	
+LONG
+$4.20	$4.20	0.0%	EXP	Dec 15, 2025
+GOOGL	Option	
+LONG
+$72.60	$72.60	0.0%	EXP	Dec 15, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 15, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 14, 2025
+MARA	Option	
+LONG
+$3.10	$3.10	0.0%	EXP	Dec 14, 2025
+META	Option	
+LONG
+$8.36	$8.36	0.0%	EXP	Dec 14, 2025
+AMZN	Option	
+LONG
+$3.00	$3.00	0.0%	EXP	Dec 14, 2025
+TSLA	Option	
+LONG
+$19.69	$19.69	0.0%	EXP	Dec 14, 2025
+MSTR	Option	
+LONG
+$10.25	$10.25	0.0%	EXP	Dec 14, 2025
+RIOT	Option	
+LONG
+$1.78	$1.78	0.0%	EXP	Dec 14, 2025
+HOOD	Option	
+LONG
+$5.53	$5.53	0.0%	EXP	Dec 14, 2025
+SOFI	Option	
+LONG
+$0.80	$0.80	0.0%	EXP	Dec 14, 2025
+DIS	Option	
+LONG
+$1.88	$1.88	0.0%	EXP	Dec 14, 2025
+NFLX	Option	
+LONG
+$1.84	$1.84	0.0%	EXP	Dec 14, 2025
+AMD	Option	
+LONG
+$5.40	$5.40	0.0%	EXP	Dec 14, 2025
+GOOGL	Option	
+LONG
+$3.05	$3.05	0.0%	EXP	Dec 14, 2025
+MSFT	Option	
+LONG
+$9.24	$9.24	0.0%	EXP	Dec 14, 2025
+NVDA	Option	
+LONG
+$2.96	$2.96	0.0%	EXP	Dec 14, 2025
+AAPL	Option	
+LONG
+$3.57	$3.57	0.0%	EXP	Dec 14, 2025
+PLTR	Option	
+LONG
+$6.10	$6.10	0.0%	EXP	Dec 14, 2025
+COIN	Option	
+LONG
+$7.80	$7.80	0.0%	EXP	Dec 14, 2025
+QQQ	Option	
+LONG
+$2.00	$2.00	0.0%	EXP	Dec 1, 2025
+META	Option	
+LONG
+$9.19	$9.19	0.0%	EXP	Dec 1, 2025
+AMZN	Option	
+LONG
+$3.53	$3.53	0.0%	EXP	Dec 1, 2025
+TSLA	Option	
+LONG
+$7.85	$7.85	0.0%	EXP	Dec 1, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+QQQ	Option	
+LONG
+$2.24	$2.24	0.0%	EXP	Dec 1, 2025
+MSTR	Option	
+SHORT
+$5.99	$5.99	0.0%	EXP	Dec 1, 2025
+MARA	Option	
+LONG
+$3.09	$3.09	0.0%	EXP	Dec 1, 2025
+RIOT	Option	
+LONG
+$1.87	$1.87	0.0%	EXP	Dec 1, 2025
+HOOD	Option	
+LONG
+$5.12	$5.12	0.0%	EXP	Dec 1, 2025
+SOFI	Option	
+LONG
+$0.84	$0.84	0.0%	EXP	Dec 1, 2025
+DIS	Option	
+LONG
+$2.14	$2.14	0.0%	EXP	Dec 1, 2025
+NFLX	Option	
+LONG
+$1.98	$1.98	0.0%	EXP	Dec 1, 2025
+AMD	Option	
+LONG
+$5.50	$5.50	0.0%	EXP	Dec 1, 2025
+GOOGL	Option	
+LONG
+$3.55	$3.55	0.0%	EXP	Dec 1, 2025
+MSFT	Option	
+LONG
+$10.05	$10.05	0.0%	EXP	Dec 1, 2025
+NVDA	Option	
+LONG
+$3.10	$3.10	0.0%	EXP	Dec 1, 2025
+AAPL	Option	
+LONG
+$2.93	$2.93	0.0%	EXP	Dec 1, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+QQQ	Option	
+LONG
+$3.42	$3.42	0.0%	EXP	Dec 1, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+QQQ	Option	
+LONG
+$3.32	$3.32	0.0%	EXP	Dec 1, 2025
+SPY	Option	
+LONG
+$1.92	$1.92	0.0%	EXP	Dec 1, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+QQQ	Option	
+LONG
+$2.92	$2.92	0.0%	EXP	Dec 1, 2025
+SPY	Option	
+LONG
+$1.93	$1.93	0.0%	EXP	Dec 1, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+AMZN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Dec 1, 2025
+SPY	Option	
+LONG
+$1.68	$1.68	0.0%	EXP	Dec 1, 2025
+HOOD	Option	
+SHORT
+$9.52	$9.52	0.0%	EXP	Dec 1, 2025
+AMZN	Option	
+SHORT
+$6.55	$6.55	0.0%	EXP	Dec 1, 2025
+MARA	Option	
+SHORT
+$3.00	$3.00	0.0%	EXP	Dec 1, 2025
+GOOGL	Option	
+LONG
+$4.60	$4.60	0.0%	EXP	Dec 1, 2025
+RIOT	Option	
+LONG
+$0.23	$0.23	0.0%	EXP	Dec 1, 2025
+SOFI	Option	
+LONG
+$8.50	$8.50	0.0%	EXP	Dec 1, 2025
+META	Option	
+SHORT
+$14.85	$14.85	0.0%	EXP	Dec 1, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+QQQ	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+SPY	Option	
+SHORT
+$16.51	$16.51	0.0%	EXP	Nov 20, 2025
+MSTR	Option	
+SHORT
+$9.00	$9.00	0.0%	EXP	Nov 20, 2025
+BA	Option	
+SHORT
+$11.88	$11.88	0.0%	EXP	Nov 20, 2025
+DIS	Option	
+SHORT
+$1.79	$1.79	0.0%	EXP	Nov 20, 2025
+HOOD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+GOOGL	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+HOOD	Option	
+SHORT
+$9.35	$9.35	0.0%	EXP	Nov 20, 2025
+NVDA	Option	
+LONG
+$26.14	$26.14	0.0%	EXP	Nov 20, 2025
+AAPL	Option	
+SHORT
+$4.10	$4.10	0.0%	EXP	Nov 20, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+QQQ	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+SPY	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+MARA	Option	
+SHORT
+$3.00	$3.00	0.0%	EXP	Nov 20, 2025
+PLTR	Option	
+SHORT
+$11.00	$11.00	0.0%	EXP	Nov 20, 2025
+GOOGL	Option	
+LONG
+$4.70	$4.70	0.0%	EXP	Nov 20, 2025
+TSLA	Option	
+SHORT
+$15.89	$15.89	0.0%	EXP	Nov 20, 2025
+SPY	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+QQQ	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+QQQ	Option	
+SHORT
+$16.66	$16.66	0.0%	EXP	Nov 20, 2025
+SOFI	Option	
+LONG
+$9.50	$9.50	0.0%	EXP	Nov 20, 2025
+MSFT	Option	
+SHORT
+$9.00	$9.00	0.0%	EXP	Nov 20, 2025
+HOOD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+AMD	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 20, 2025
+TSLA	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 20, 2025
+SPY	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+QQQ	Option	
+SHORT
+$16.75	$16.75	0.0%	EXP	Nov 20, 2025
+QQQ	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+QQQ	Option	
+SHORT
+$17.01	$17.01	0.0%	EXP	Nov 20, 2025
+SPY	Option	
+SHORT
+$14.67	$14.67	0.0%	EXP	Nov 20, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+AAPL	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+SPY	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+QQQ	Option	
+SHORT
+$15.74	$15.74	0.0%	EXP	Nov 20, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+NVDA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 20, 2025
+HOOD	Option	
+LONG
+$28.40	$28.40	0.0%	EXP	Nov 19, 2025
+PLTR	Option	
+LONG
+$2.25	$2.25	0.0%	EXP	Nov 19, 2025
+MARA	Option	
+LONG
+$1.73	$1.73	0.0%	EXP	Nov 19, 2025
+NFLX	Option	
+LONG
+$1.11	$1.11	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+LONG
+$16.34	$16.34	0.0%	EXP	Nov 19, 2025
+SOFI	Option	
+SHORT
+$3.21	$3.21	0.0%	EXP	Nov 19, 2025
+COIN	Option	
+SHORT
+$269.95	$269.95	0.0%	EXP	Nov 19, 2025
+DIS	Option	
+LONG
+$26.78	$26.78	0.0%	EXP	Nov 19, 2025
+AMZN	Option	
+LONG
+$12.30	$12.30	0.0%	EXP	Nov 19, 2025
+MSFT	Option	
+LONG
+$355.95	$355.95	0.0%	EXP	Nov 19, 2025
+NVDA	Option	
+LONG
+$6.94	$6.94	0.0%	EXP	Nov 19, 2025
+AAPL	Option	
+LONG
+$39.60	$39.60	0.0%	EXP	Nov 19, 2025
+QQQ	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+QQQ	Option	
+LONG
+$2.95	$2.95	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+SHORT
+$145.90	$145.90	0.0%	EXP	Nov 19, 2025
+META	Option	
+SHORT
+$136.15	$136.15	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+SPY	Option	
+LONG
+$2.52	$2.52	0.0%	EXP	Nov 19, 2025
+HOOD	Option	
+LONG
+$28.40	$28.40	0.0%	EXP	Nov 19, 2025
+GOOGL	Option	
+LONG
+$45.90	$45.90	0.0%	EXP	Nov 19, 2025
+MARA	Option	
+SHORT
+$2.56	$2.56	0.0%	EXP	Nov 19, 2025
+RIOT	Option	
+SHORT
+$2.84	$2.84	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+LONG
+$16.63	$16.63	0.0%	EXP	Nov 19, 2025
+COIN	Option	
+SHORT
+$6.81	$6.81	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+NVDA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+QQQ	Option	
+SHORT
+$4.41	$4.41	0.0%	EXP	Nov 19, 2025
+PLTR	Option	
+SHORT
+$4.50	$4.50	0.0%	EXP	Nov 19, 2025
+SOFI	Option	
+SHORT
+$3.45	$3.45	0.0%	EXP	Nov 19, 2025
+BA	Option	
+SHORT
+$12.06	$12.06	0.0%	EXP	Nov 19, 2025
+DIS	Option	
+LONG
+$26.78	$26.78	0.0%	EXP	Nov 19, 2025
+NFLX	Option	
+SHORT
+$1.91	$1.91	0.0%	EXP	Nov 19, 2025
+AMZN	Option	
+LONG
+$11.50	$11.50	0.0%	EXP	Nov 19, 2025
+MSFT	Option	
+LONG
+$356.40	$356.40	0.0%	EXP	Nov 19, 2025
+NVDA	Option	
+LONG
+$6.69	$6.69	0.0%	EXP	Nov 19, 2025
+AAPL	Option	
+LONG
+$40.75	$40.75	0.0%	EXP	Nov 19, 2025
+META	Option	
+LONG
+$106.57	$106.57	0.0%	EXP	Nov 19, 2025
+AMD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+SPY	Option	
+SHORT
+$3.88	$3.88	0.0%	EXP	Nov 19, 2025
+SPY	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+NVDA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+QQQ	Option	
+SHORT
+$3.10	$3.10	0.0%	EXP	Nov 19, 2025
+AMD	Option	
+SHORT
+$10.30	$10.30	0.0%	EXP	Nov 19, 2025
+GOOGL	Option	
+LONG
+$46.00	$46.00	0.0%	EXP	Nov 19, 2025
+META	Option	
+LONG
+$104.53	$104.53	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 19, 2025
+HOOD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+AMD	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+RIOT	Option	
+SHORT
+$2.75	$2.75	0.0%	EXP	Nov 19, 2025
+PLTR	Option	
+SHORT
+$4.50	$4.50	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+LONG
+$16.81	$16.81	0.0%	EXP	Nov 19, 2025
+BA	Option	
+SHORT
+$11.90	$11.90	0.0%	EXP	Nov 19, 2025
+NFLX	Option	
+SHORT
+$1.55	$1.55	0.0%	EXP	Nov 19, 2025
+AMZN	Option	
+LONG
+$12.24	$12.24	0.0%	EXP	Nov 19, 2025
+MSFT	Option	
+SHORT
+$5.06	$5.06	0.0%	EXP	Nov 19, 2025
+NVDA	Option	
+LONG
+$6.37	$6.37	0.0%	EXP	Nov 19, 2025
+AAPL	Option	
+LONG
+$40.46	$40.46	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+SHORT
+$9.00	$9.00	0.0%	EXP	Nov 19, 2025
+MARA	Option	
+SHORT
+$2.53	$2.53	0.0%	EXP	Nov 19, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+SPY	Option	
+SHORT
+$4.32	$4.32	0.0%	EXP	Nov 19, 2025
+COIN	Option	
+SHORT
+$6.55	$6.55	0.0%	EXP	Nov 19, 2025
+HOOD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+PLTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+SPY	Option	
+SHORT
+$4.50	$4.50	0.0%	EXP	Nov 19, 2025
+GOOGL	Option	
+LONG
+$47.00	$47.00	0.0%	EXP	Nov 19, 2025
+META	Option	
+LONG
+$107.00	$107.00	0.0%	EXP	Nov 19, 2025
+GOOGL	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+QQQ	Option	
+SHORT
+$4.24	$4.24	0.0%	EXP	Nov 19, 2025
+RIOT	Option	
+SHORT
+$2.80	$2.80	0.0%	EXP	Nov 19, 2025
+PLTR	Option	
+LONG
+$2.64	$2.64	0.0%	EXP	Nov 19, 2025
+DIS	Option	
+LONG
+$26.78	$26.78	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+LONG
+$7.80	$7.80	0.0%	EXP	Nov 19, 2025
+GOOGL	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+QQQ	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+MSFT	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+NVDA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+MSFT	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+HOOD	Option	
+SHORT
+$14.51	$14.51	0.0%	EXP	Nov 19, 2025
+SOFI	Option	
+LONG
+$0.64	$0.64	0.0%	EXP	Nov 19, 2025
+BA	Option	
+SHORT
+$12.25	$12.25	0.0%	EXP	Nov 19, 2025
+NFLX	Option	
+LONG
+$7.35	$7.35	0.0%	EXP	Nov 19, 2025
+AMD	Option	
+LONG
+$5.80	$5.80	0.0%	EXP	Nov 19, 2025
+AMZN	Option	
+LONG
+$11.98	$11.98	0.0%	EXP	Nov 19, 2025
+MSFT	Option	
+LONG
+$1.60	$1.60	0.0%	EXP	Nov 19, 2025
+NVDA	Option	
+LONG
+$6.93	$6.93	0.0%	EXP	Nov 19, 2025
+AAPL	Option	
+LONG
+$39.45	$39.45	0.0%	EXP	Nov 19, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+QQQ	Option	
+SHORT
+$2.99	$2.99	0.0%	EXP	Nov 19, 2025
+MSFT	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+HOOD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+RIOT	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+GOOGL	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 19, 2025
+RIOT	Option	
+LONG
+$0.67	$0.67	0.0%	EXP	Nov 19, 2025
+HOOD	Option	
+LONG
+$3.50	$3.50	0.0%	EXP	Nov 19, 2025
+PLTR	Option	
+LONG
+$136.15	$136.15	0.0%	EXP	Nov 19, 2025
+BA	Option	
+LONG
+$2.09	$2.09	0.0%	EXP	Nov 19, 2025
+DIS	Option	
+SHORT
+$26.55	$26.55	0.0%	EXP	Nov 19, 2025
+AMZN	Option	
+LONG
+$24.92	$24.92	0.0%	EXP	Nov 19, 2025
+NVDA	Option	
+LONG
+$5.68	$5.68	0.0%	EXP	Nov 19, 2025
+AAPL	Option	
+LONG
+$3.10	$3.10	0.0%	EXP	Nov 19, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 17, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 17, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 17, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 17, 2025
+MSFT	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 17, 2025
+QQQ	Option	
+LONG
+$2.60	$2.60	0.0%	EXP	Nov 17, 2025
+SPY	Option	
+LONG
+$1.76	$1.76	0.0%	EXP	Nov 17, 2025
+SOFI	Option	
+LONG
+$7.00	$7.00	0.0%	EXP	Nov 14, 2025
+BA	Option	
+SHORT
+$10.00	$10.00	0.0%	EXP	Nov 14, 2025
+AMZN	Option	
+LONG
+$28.15	$28.15	0.0%	EXP	Nov 14, 2025
+RIOT	Option	
+LONG
+$2.39	$2.39	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$15.27	$15.27	0.0%	EXP	Nov 14, 2025
+MSTR	Option	
+SHORT
+$201.00	$201.00	0.0%	EXP	Nov 14, 2025
+DIS	Option	
+SHORT
+$5.30	$5.30	0.0%	EXP	Nov 14, 2025
+GOOGL	Option	
+LONG
+$56.25	$56.25	0.0%	EXP	Nov 14, 2025
+HOOD	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 14, 2025
+MARA	Option	
+SHORT
+$1.92	$1.92	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$6.15	$6.15	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$5.28	$5.28	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$4.68	$4.68	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$4.06	$4.06	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+LONG
+$5.19	$5.19	0.0%	EXP	Nov 14, 2025
+HOOD	Option	
+SHORT
+$4.15	$4.15	0.0%	EXP	Nov 14, 2025
+META	Option	
+LONG
+$58.82	$58.82	0.0%	EXP	Nov 14, 2025
+AAPL	Option	
+LONG
+$45.07	$45.07	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+SHORT
+$0.27	$0.27	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$0.25	$0.25	0.0%	EXP	Nov 14, 2025
+AAPL	Option	
+SHORT
+$0.23	$0.23	0.0%	EXP	Nov 14, 2025
+MARA	Option	
+SHORT
+$1.93	$1.93	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$4.85	$4.85	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$6.62	$6.62	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$5.20	$5.20	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$4.69	$4.69	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+LONG
+$2.78	$2.78	0.0%	EXP	Nov 14, 2025
+SOFI	Option	
+LONG
+$7.65	$7.65	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+LONG
+$78.00	$78.00	0.0%	EXP	Nov 14, 2025
+BA	Option	
+SHORT
+$10.04	$10.04	0.0%	EXP	Nov 14, 2025
+AMZN	Option	
+LONG
+$28.30	$28.30	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+SHORT
+$0.22	$0.22	0.0%	EXP	Nov 14, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+MARA	Option	
+SHORT
+$1.96	$1.96	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$5.50	$5.50	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$14.75	$14.75	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$9.00	$9.00	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$5.58	$5.58	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$7.98	$7.98	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$5.25	$5.25	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$5.86	$5.86	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+LONG
+$3.78	$3.78	0.0%	EXP	Nov 14, 2025
+AMZN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$0.26	$0.26	0.0%	EXP	Nov 14, 2025
+MARA	Option	
+SHORT
+$1.75	$1.75	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$6.38	$6.38	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$7.50	$7.50	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$9.50	$9.50	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$6.00	$6.00	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$9.77	$9.77	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$3.26	$3.26	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$6.68	$6.68	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+LONG
+$4.80	$4.80	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+SHORT
+$0.25	$0.25	0.0%	EXP	Nov 14, 2025
+MSTR	Option	
+SHORT
+$0.25	$0.25	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$6.75	$6.75	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$5.80	$5.80	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$8.67	$8.67	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$5.20	$5.20	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$6.41	$6.41	0.0%	EXP	Nov 14, 2025
+MARA	Option	
+SHORT
+$1.77	$1.77	0.0%	EXP	Nov 14, 2025
+META	Option	
+SHORT
+$0.23	$0.23	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+SHORT
+$0.22	$0.22	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+SHORT
+$0.23	$0.23	0.0%	EXP	Nov 14, 2025
+HOOD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$6.29	$6.29	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$6.50	$6.50	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$9.00	$9.00	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$5.25	$5.25	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$4.95	$4.95	0.0%	EXP	Nov 14, 2025
+AAPL	Option	
+LONG
+$1.55	$1.55	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$1109.88	$1109.88	0.0%	EXP	Nov 14, 2025
+MSTR	Option	
+SHORT
+$22.33	$22.33	0.0%	EXP	Nov 14, 2025
+AMZN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+HOOD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$5.73	$5.73	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+LONG
+$11.00	$11.00	0.0%	EXP	Nov 14, 2025
+META	Option	
+LONG
+$8.85	$8.85	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$4.67	$4.67	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$9.76	$9.76	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$4.75	$4.75	0.0%	EXP	Nov 14, 2025
+AAPL	Option	
+LONG
+$1.99	$1.99	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$6.64	$6.64	0.0%	EXP	Nov 14, 2025
+MARA	Option	
+SHORT
+$4.88	$4.88	0.0%	EXP	Nov 14, 2025
+RIOT	Option	
+LONG
+$3.75	$3.75	0.0%	EXP	Nov 14, 2025
+SOFI	Option	
+LONG
+$7.70	$7.70	0.0%	EXP	Nov 14, 2025
+BA	Option	
+LONG
+$2.06	$2.06	0.0%	EXP	Nov 14, 2025
+DIS	Option	
+SHORT
+$5.22	$5.22	0.0%	EXP	Nov 14, 2025
+GOOGL	Option	
+LONG
+$13.70	$13.70	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 14, 2025
+META	Option	
+SHORT
+$0.22	$0.22	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 14, 2025
+HOOD	Option	
+LONG
+$5.77	$5.77	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$4.25	$4.25	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+LONG
+$9.50	$9.50	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$11.17	$11.17	0.0%	EXP	Nov 14, 2025
+META	Option	
+LONG
+$11.98	$11.98	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$4.70	$4.70	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$9.60	$9.60	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$5.10	$5.10	0.0%	EXP	Nov 14, 2025
+AAPL	Option	
+LONG
+$2.32	$2.32	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$7.41	$7.41	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+HOOD	Option	
+LONG
+$5.25	$5.25	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$4.54	$4.54	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+LONG
+$8.00	$8.00	0.0%	EXP	Nov 14, 2025
+META	Option	
+LONG
+$9.50	$9.50	0.0%	EXP	Nov 14, 2025
+AMZN	Option	
+LONG
+$2.94	$2.94	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$3.19	$3.19	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$5.85	$5.85	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$3.52	$3.52	0.0%	EXP	Nov 14, 2025
+AAPL	Option	
+LONG
+$1.80	$1.80	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$5.16	$5.16	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+LONG
+$3.25	$3.25	0.0%	EXP	Nov 14, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$0.22	$0.22	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$5.33	$5.33	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+LONG
+$6.80	$6.80	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$9.20	$9.20	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$9.25	$9.25	0.0%	EXP	Nov 14, 2025
+META	Option	
+LONG
+$10.62	$10.62	0.0%	EXP	Nov 14, 2025
+AMZN	Option	
+LONG
+$3.03	$3.03	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$2.91	$2.91	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$7.10	$7.10	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$3.90	$3.90	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+LONG
+$3.39	$3.39	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+HOOD	Option	
+LONG
+$4.34	$4.34	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+LONG
+$6.30	$6.30	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$14.00	$14.00	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$7.03	$7.03	0.0%	EXP	Nov 14, 2025
+AMZN	Option	
+LONG
+$2.89	$2.89	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$3.60	$3.60	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$4.83	$4.83	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+LONG
+$4.80	$4.80	0.0%	EXP	Nov 14, 2025
+MSFT	Stock	
+LONG
+$380.00	$390.00	+2.6%	WIN	Nov 14, 2025
+AAPL	Stock	
+LONG
+$150.00	$155.00	+3.3%	WIN	Nov 14, 2025
+TSLA	Stock	
+SHORT
+$250.00	$255.00	-2.0%	LOSS	Nov 14, 2025
+RIOT	Option	
+LONG
+$1.85	$1.85	0.0%	EXP	Nov 14, 2025
+SOFI	Option	
+LONG
+$7.90	$7.90	0.0%	EXP	Nov 14, 2025
+AMZN	Option	
+LONG
+$7.80	$7.80	0.0%	EXP	Nov 14, 2025
+COIN	Option	
+LONG
+$72.60	$72.60	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+SOFI	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 14, 2025
+MARA	Option	
+SHORT
+$1.43	$1.43	0.0%	EXP	Nov 14, 2025
+PLTR	Option	
+LONG
+$4.00	$4.00	0.0%	EXP	Nov 14, 2025
+BA	Option	
+LONG
+$1.43	$1.43	0.0%	EXP	Nov 14, 2025
+DIS	Option	
+LONG
+$1.65	$1.65	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$625.55	$625.55	0.0%	EXP	Nov 14, 2025
+AMD	Option	
+LONG
+$7.70	$7.70	0.0%	EXP	Nov 14, 2025
+META	Option	
+LONG
+$6.41	$6.41	0.0%	EXP	Nov 14, 2025
+MSFT	Option	
+LONG
+$3.90	$3.90	0.0%	EXP	Nov 14, 2025
+TSLA	Option	
+LONG
+$10.10	$10.10	0.0%	EXP	Nov 14, 2025
+NVDA	Option	
+LONG
+$2.91	$2.91	0.0%	EXP	Nov 14, 2025
+AAPL	Option	
+LONG
+$1.54	$1.54	0.0%	EXP	Nov 14, 2025
+QQQ	Option	
+LONG
+$6.58	$6.58	0.0%	EXP	Nov 14, 2025
+SPY	Option	
+LONG
+$3.42	$3.42	0.0%	EXP	Nov 14, 2025
+NFLX	Option	
+LONG
+$23.51	$23.51	0.0%	EXP	Nov 13, 2025
+MSFT	Option	
+LONG
+$12.16	$12.16	0.0%	EXP	Nov 13, 2025
+MSTR	Option	
+SHORT
+$34.60	$34.60	0.0%	EXP	Nov 13, 2025
+MARA	Option	
+LONG
+$3.68	$3.68	0.0%	EXP	Nov 13, 2025
+RIOT	Option	
+SHORT
+$1.53	$1.53	0.0%	EXP	Nov 13, 2025
+SOFI	Option	
+LONG
+$2.20	$2.20	0.0%	EXP	Nov 13, 2025
+PLTR	Option	
+SHORT
+$6.77	$6.77	0.0%	EXP	Nov 13, 2025
+AMD	Option	
+LONG
+$5.40	$5.40	0.0%	EXP	Nov 13, 2025
+AMZN	Option	
+LONG
+$19.50	$19.50	0.0%	EXP	Nov 13, 2025
+AAPL	Option	
+LONG
+$0.77	$0.77	0.0%	EXP	Nov 13, 2025
+NVDA	Option	
+LONG
+$1.05	$1.05	0.0%	EXP	Nov 13, 2025
+AAVE	Crypto	
+LONG
+$205.00	$195.00	-4.9%	LOSS	Nov 13, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+HOOD	Option	
+SHORT
+$13.18	$13.18	0.0%	EXP	Nov 13, 2025
+DIS	Option	
+SHORT
+$5.85	$5.85	0.0%	EXP	Nov 13, 2025
+GOOGL	Option	
+LONG
+$2.30	$2.30	0.0%	EXP	Nov 13, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+NFLX	Option	
+LONG
+$25.00	$25.00	0.0%	EXP	Nov 13, 2025
+META	Option	
+SHORT
+$5.41	$5.41	0.0%	EXP	Nov 13, 2025
+MSFT	Option	
+LONG
+$12.82	$12.82	0.0%	EXP	Nov 13, 2025
+MSTR	Option	
+SHORT
+$33.00	$33.00	0.0%	EXP	Nov 13, 2025
+MARA	Option	
+SHORT
+$0.33	$0.33	0.0%	EXP	Nov 13, 2025
+RIOT	Option	
+SHORT
+$1.45	$1.45	0.0%	EXP	Nov 13, 2025
+AMD	Option	
+LONG
+$5.86	$5.86	0.0%	EXP	Nov 13, 2025
+AMZN	Option	
+LONG
+$24.85	$24.85	0.0%	EXP	Nov 13, 2025
+AAPL	Option	
+LONG
+$1.05	$1.05	0.0%	EXP	Nov 13, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+SOFI	Option	
+LONG
+$2.40	$2.40	0.0%	EXP	Nov 13, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+QQQ	Option	
+SHORT
+$5.17	$5.17	0.0%	EXP	Nov 13, 2025
+COIN	Option	
+SHORT
+$11.00	$11.00	0.0%	EXP	Nov 13, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+GOOGL	Option	
+LONG
+$2.27	$2.27	0.0%	EXP	Nov 13, 2025
+BA	Option	
+LONG
+$5.05	$5.05	0.0%	EXP	Nov 13, 2025
+NFLX	Option	
+LONG
+$22.20	$22.20	0.0%	EXP	Nov 13, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+HOOD	Option	
+SHORT
+$12.75	$12.75	0.0%	EXP	Nov 13, 2025
+RIOT	Option	
+SHORT
+$1.31	$1.31	0.0%	EXP	Nov 13, 2025
+MSFT	Option	
+LONG
+$4.60	$4.60	0.0%	EXP	Nov 13, 2025
+AMD	Option	
+LONG
+$7.33	$7.33	0.0%	EXP	Nov 13, 2025
+AMZN	Option	
+LONG
+$25.50	$25.50	0.0%	EXP	Nov 13, 2025
+AAPL	Option	
+LONG
+$0.79	$0.79	0.0%	EXP	Nov 13, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+TSLA	Option	
+SHORT
+$15.89	$15.89	0.0%	EXP	Nov 13, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+SOFI	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+QQQ	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 13, 2025
+QQQ	Option	
+SHORT
+$4.17	$4.17	0.0%	EXP	Nov 13, 2025
+SPY	Option	
+SHORT
+$3.10	$3.10	0.0%	EXP	Nov 13, 2025
+MSTR	Option	
+SHORT
+$189.05	$189.05	0.0%	EXP	Nov 13, 2025
+RIOT	Option	
+SHORT
+$2.59	$2.59	0.0%	EXP	Nov 13, 2025
+SOFI	Option	
+LONG
+$2.53	$2.53	0.0%	EXP	Nov 13, 2025
+BA	Option	
+SHORT
+$5.98	$5.98	0.0%	EXP	Nov 13, 2025
+DIS	Option	
+LONG
+$3.90	$3.90	0.0%	EXP	Nov 13, 2025
+NFLX	Option	
+LONG
+$24.90	$24.90	0.0%	EXP	Nov 13, 2025
+AMD	Option	
+LONG
+$3.30	$3.30	0.0%	EXP	Nov 13, 2025
+MARA	Option	
+SHORT
+$18.61	$18.61	0.0%	EXP	Nov 12, 2025
+HOOD	Option	
+LONG
+$4.10	$4.10	0.0%	EXP	Nov 12, 2025
+COIN	Option	
+SHORT
+$216.73	$216.73	0.0%	EXP	Nov 12, 2025
+AMZN	Option	
+LONG
+$25.55	$25.55	0.0%	EXP	Nov 12, 2025
+TSLA	Option	
+LONG
+$12.80	$12.80	0.0%	EXP	Nov 12, 2025
+NVDA	Option	
+LONG
+$1.31	$1.31	0.0%	EXP	Nov 12, 2025
+QQQ	Option	
+LONG
+$1.24	$1.24	0.0%	EXP	Nov 12, 2025
+SPY	Option	
+LONG
+$1.78	$1.78	0.0%	EXP	Nov 12, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+MSTR	Option	
+SHORT
+$10.40	$10.40	0.0%	EXP	Nov 12, 2025
+DIS	Option	
+LONG
+$5.56	$5.56	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$37.82	$37.82	0.0%	EXP	Nov 12, 2025
+AMD	Option	
+LONG
+$2.75	$2.75	0.0%	EXP	Nov 12, 2025
+META	Option	
+LONG
+$514.02	$514.02	0.0%	EXP	Nov 12, 2025
+AAPL	Option	
+LONG
+$2.00	$2.00	0.0%	EXP	Nov 12, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+MARA	Option	
+SHORT
+$18.61	$18.61	0.0%	EXP	Nov 12, 2025
+RIOT	Option	
+SHORT
+$2.75	$2.75	0.0%	EXP	Nov 12, 2025
+HOOD	Option	
+LONG
+$4.60	$4.60	0.0%	EXP	Nov 12, 2025
+SOFI	Option	
+LONG
+$2.43	$2.43	0.0%	EXP	Nov 12, 2025
+PLTR	Option	
+LONG
+$146.58	$146.58	0.0%	EXP	Nov 12, 2025
+COIN	Option	
+SHORT
+$76.50	$76.50	0.0%	EXP	Nov 12, 2025
+BA	Option	
+LONG
+$0.91	$0.91	0.0%	EXP	Nov 12, 2025
+GOOGL	Option	
+LONG
+$55.50	$55.50	0.0%	EXP	Nov 12, 2025
+AMZN	Option	
+LONG
+$25.75	$25.75	0.0%	EXP	Nov 12, 2025
+MSFT	Option	
+LONG
+$9.75	$9.75	0.0%	EXP	Nov 12, 2025
+TSLA	Option	
+LONG
+$14.33	$14.33	0.0%	EXP	Nov 12, 2025
+NVDA	Option	
+LONG
+$1.64	$1.64	0.0%	EXP	Nov 12, 2025
+QQQ	Option	
+LONG
+$7.04	$7.04	0.0%	EXP	Nov 12, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+SOFI	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+MSTR	Option	
+SHORT
+$9.60	$9.60	0.0%	EXP	Nov 12, 2025
+RIOT	Option	
+SHORT
+$2.55	$2.55	0.0%	EXP	Nov 12, 2025
+HOOD	Option	
+LONG
+$2.57	$2.57	0.0%	EXP	Nov 12, 2025
+MSFT	Option	
+LONG
+$5.98	$5.98	0.0%	EXP	Nov 12, 2025
+TSLA	Option	
+LONG
+$7.60	$7.60	0.0%	EXP	Nov 12, 2025
+MARA	Option	
+SHORT
+$18.61	$18.61	0.0%	EXP	Nov 12, 2025
+SOFI	Option	
+LONG
+$2.05	$2.05	0.0%	EXP	Nov 12, 2025
+PLTR	Option	
+LONG
+$146.64	$146.64	0.0%	EXP	Nov 12, 2025
+DIS	Option	
+LONG
+$4.90	$4.90	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$30.97	$30.97	0.0%	EXP	Nov 12, 2025
+META	Option	
+SHORT
+$109.50	$109.50	0.0%	EXP	Nov 12, 2025
+AMZN	Option	
+LONG
+$1.47	$1.47	0.0%	EXP	Nov 12, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+SPY	Option	
+LONG
+$1.28	$1.28	0.0%	EXP	Nov 12, 2025
+COIN	Option	
+SHORT
+$76.50	$76.50	0.0%	EXP	Nov 12, 2025
+BA	Option	
+LONG
+$0.73	$0.73	0.0%	EXP	Nov 12, 2025
+AMD	Option	
+LONG
+$5.65	$5.65	0.0%	EXP	Nov 12, 2025
+GOOGL	Option	
+LONG
+$35.65	$35.65	0.0%	EXP	Nov 12, 2025
+NVDA	Option	
+LONG
+$1.89	$1.89	0.0%	EXP	Nov 12, 2025
+AAPL	Option	
+LONG
+$2.07	$2.07	0.0%	EXP	Nov 12, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+QQQ	Option	
+SHORT
+$1.78	$1.78	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+MSTR	Option	
+SHORT
+$134.45	$134.45	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+MARA	Option	
+SHORT
+$18.61	$18.61	0.0%	EXP	Nov 12, 2025
+HOOD	Option	
+SHORT
+$20.13	$20.13	0.0%	EXP	Nov 12, 2025
+SOFI	Option	
+LONG
+$2.50	$2.50	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$27.90	$27.90	0.0%	EXP	Nov 12, 2025
+META	Option	
+SHORT
+$8.29	$8.29	0.0%	EXP	Nov 12, 2025
+AMZN	Option	
+LONG
+$1.63	$1.63	0.0%	EXP	Nov 12, 2025
+RIOT	Option	
+LONG
+$2.30	$2.30	0.0%	EXP	Nov 12, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+SPY	Option	
+SHORT
+$1.55	$1.55	0.0%	EXP	Nov 12, 2025
+PLTR	Option	
+LONG
+$3.80	$3.80	0.0%	EXP	Nov 12, 2025
+COIN	Option	
+LONG
+$1.70	$1.70	0.0%	EXP	Nov 12, 2025
+BA	Option	
+LONG
+$0.80	$0.80	0.0%	EXP	Nov 12, 2025
+DIS	Option	
+LONG
+$5.80	$5.80	0.0%	EXP	Nov 12, 2025
+AMD	Option	
+LONG
+$6.74	$6.74	0.0%	EXP	Nov 12, 2025
+GOOGL	Option	
+LONG
+$1.76	$1.76	0.0%	EXP	Nov 12, 2025
+MSFT	Option	
+LONG
+$7.80	$7.80	0.0%	EXP	Nov 12, 2025
+TSLA	Option	
+LONG
+$4.62	$4.62	0.0%	EXP	Nov 12, 2025
+NVDA	Option	
+LONG
+$1.98	$1.98	0.0%	EXP	Nov 12, 2025
+AAPL	Option	
+LONG
+$17.85	$17.85	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+SPY	Option	
+SHORT
+$1.67	$1.67	0.0%	EXP	Nov 12, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+QQQ	Option	
+SHORT
+$1.55	$1.55	0.0%	EXP	Nov 12, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+SOFI	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 12, 2025
+QQQ	Option	
+SHORT
+$1.43	$1.43	0.0%	EXP	Nov 12, 2025
+HOOD	Option	
+LONG
+$5.95	$5.95	0.0%	EXP	Nov 12, 2025
+AMD	Option	
+LONG
+$5.84	$5.84	0.0%	EXP	Nov 12, 2025
+MSFT	Option	
+LONG
+$6.62	$6.62	0.0%	EXP	Nov 12, 2025
+TSLA	Option	
+LONG
+$9.03	$9.03	0.0%	EXP	Nov 12, 2025
+NVDA	Option	
+LONG
+$2.71	$2.71	0.0%	EXP	Nov 12, 2025
+AAPL	Option	
+LONG
+$2.67	$2.67	0.0%	EXP	Nov 12, 2025
+NFLX	Option	
+LONG
+$21.11	$21.11	0.0%	EXP	Nov 12, 2025
+MSTR	Option	
+SHORT
+$163.87	$163.87	0.0%	EXP	Nov 12, 2025
+BA	Option	
+SHORT
+$11.81	$11.81	0.0%	EXP	Nov 12, 2025
+DIS	Option	
+LONG
+$5.75	$5.75	0.0%	EXP	Nov 12, 2025
+GOOGL	Option	
+LONG
+$99.00	$99.00	0.0%	EXP	Nov 12, 2025
+SPY	Option	
+LONG
+$3.16	$3.16	0.0%	EXP	Nov 11, 2025
+SOFI	Option	
+LONG
+$29.41	$29.41	0.0%	EXP	Nov 11, 2025
+PLTR	Option	
+LONG
+$16.65	$16.65	0.0%	EXP	Nov 11, 2025
+COIN	Option	
+LONG
+$8.75	$8.75	0.0%	EXP	Nov 11, 2025
+META	Option	
+LONG
+$46.49	$46.49	0.0%	EXP	Nov 11, 2025
+AMZN	Option	
+LONG
+$2.58	$2.58	0.0%	EXP	Nov 11, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+QQQ	Option	
+LONG
+$1.91	$1.91	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$2.96	$2.96	0.0%	EXP	Nov 11, 2025
+HOOD	Option	
+LONG
+$5.90	$5.90	0.0%	EXP	Nov 11, 2025
+AMD	Option	
+LONG
+$9.64	$9.64	0.0%	EXP	Nov 11, 2025
+MSFT	Option	
+LONG
+$5.30	$5.30	0.0%	EXP	Nov 11, 2025
+TSLA	Option	
+LONG
+$8.89	$8.89	0.0%	EXP	Nov 11, 2025
+NVDA	Option	
+LONG
+$2.93	$2.93	0.0%	EXP	Nov 11, 2025
+AAPL	Option	
+LONG
+$44.76	$44.76	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$3.15	$3.15	0.0%	EXP	Nov 11, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+QQQ	Option	
+LONG
+$2.16	$2.16	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$3.00	$3.00	0.0%	EXP	Nov 11, 2025
+QQQ	Option	
+LONG
+$2.68	$2.68	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$3.29	$3.29	0.0%	EXP	Nov 11, 2025
+DIS	Option	
+LONG
+$5.60	$5.60	0.0%	EXP	Nov 11, 2025
+GOOGL	Option	
+LONG
+$99.00	$99.00	0.0%	EXP	Nov 11, 2025
+COIN	Option	
+LONG
+$3.65	$3.65	0.0%	EXP	Nov 11, 2025
+QQQ	Option	
+LONG
+$1.95	$1.95	0.0%	EXP	Nov 11, 2025
+MSTR	Option	
+SHORT
+$163.87	$163.87	0.0%	EXP	Nov 11, 2025
+SOFI	Option	
+LONG
+$29.40	$29.40	0.0%	EXP	Nov 11, 2025
+PLTR	Option	
+LONG
+$14.48	$14.48	0.0%	EXP	Nov 11, 2025
+NFLX	Option	
+LONG
+$16.98	$16.98	0.0%	EXP	Nov 11, 2025
+META	Option	
+LONG
+$522.26	$522.26	0.0%	EXP	Nov 11, 2025
+SOFI	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$2.96	$2.96	0.0%	EXP	Nov 11, 2025
+HOOD	Option	
+LONG
+$6.05	$6.05	0.0%	EXP	Nov 11, 2025
+AMD	Option	
+LONG
+$94.88	$94.88	0.0%	EXP	Nov 11, 2025
+AMZN	Option	
+LONG
+$2.07	$2.07	0.0%	EXP	Nov 11, 2025
+MSFT	Option	
+LONG
+$31.05	$31.05	0.0%	EXP	Nov 11, 2025
+TSLA	Option	
+LONG
+$8.30	$8.30	0.0%	EXP	Nov 11, 2025
+NVDA	Option	
+LONG
+$2.25	$2.25	0.0%	EXP	Nov 11, 2025
+AAPL	Option	
+LONG
+$42.83	$42.83	0.0%	EXP	Nov 11, 2025
+QQQ	Option	
+LONG
+$1.52	$1.52	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$2.45	$2.45	0.0%	EXP	Nov 11, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+QQQ	Option	
+LONG
+$1.58	$1.58	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$1.70	$1.70	0.0%	EXP	Nov 11, 2025
+BA	Option	
+SHORT
+$12.30	$12.30	0.0%	EXP	Nov 11, 2025
+DIS	Option	
+LONG
+$5.65	$5.65	0.0%	EXP	Nov 11, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+QQQ	Option	
+LONG
+$1.32	$1.32	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$1.48	$1.48	0.0%	EXP	Nov 11, 2025
+MSTR	Option	
+SHORT
+$161.46	$161.46	0.0%	EXP	Nov 11, 2025
+SOFI	Option	
+LONG
+$29.14	$29.14	0.0%	EXP	Nov 11, 2025
+PLTR	Option	
+LONG
+$14.58	$14.58	0.0%	EXP	Nov 11, 2025
+COIN	Option	
+SHORT
+$7.99	$7.99	0.0%	EXP	Nov 11, 2025
+NFLX	Option	
+LONG
+$16.32	$16.32	0.0%	EXP	Nov 11, 2025
+TSLA	Option	
+LONG
+$7.10	$7.10	0.0%	EXP	Nov 11, 2025
+HOOD	Option	
+LONG
+$5.75	$5.75	0.0%	EXP	Nov 11, 2025
+AMD	Option	
+LONG
+$123.17	$123.17	0.0%	EXP	Nov 11, 2025
+GOOGL	Option	
+LONG
+$99.00	$99.00	0.0%	EXP	Nov 11, 2025
+META	Option	
+LONG
+$522.26	$522.26	0.0%	EXP	Nov 11, 2025
+AMZN	Option	
+LONG
+$2.00	$2.00	0.0%	EXP	Nov 11, 2025
+NVDA	Option	
+LONG
+$2.36	$2.36	0.0%	EXP	Nov 11, 2025
+AAPL	Option	
+LONG
+$1.65	$1.65	0.0%	EXP	Nov 11, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$0.83	$0.83	0.0%	EXP	Nov 11, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$1.05	$1.05	0.0%	EXP	Nov 11, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 11, 2025
+RIOT	Option	
+LONG
+$8.65	$8.65	0.0%	EXP	Nov 11, 2025
+HOOD	Option	
+LONG
+$9.00	$9.00	0.0%	EXP	Nov 11, 2025
+SOFI	Option	
+LONG
+$1.18	$1.18	0.0%	EXP	Nov 11, 2025
+PLTR	Option	
+LONG
+$6.67	$6.67	0.0%	EXP	Nov 11, 2025
+BA	Option	
+LONG
+$0.81	$0.81	0.0%	EXP	Nov 11, 2025
+NFLX	Option	
+LONG
+$14.33	$14.33	0.0%	EXP	Nov 11, 2025
+AMD	Option	
+LONG
+$4.96	$4.96	0.0%	EXP	Nov 11, 2025
+GOOGL	Option	
+LONG
+$70.33	$70.33	0.0%	EXP	Nov 11, 2025
+META	Option	
+LONG
+$514.46	$514.46	0.0%	EXP	Nov 11, 2025
+MSFT	Option	
+LONG
+$5.50	$5.50	0.0%	EXP	Nov 11, 2025
+TSLA	Option	
+LONG
+$13.10	$13.10	0.0%	EXP	Nov 11, 2025
+AAPL	Option	
+LONG
+$2.43	$2.43	0.0%	EXP	Nov 11, 2025
+QQQ	Option	
+LONG
+$4.77	$4.77	0.0%	EXP	Nov 11, 2025
+SPY	Option	
+LONG
+$2.88	$2.88	0.0%	EXP	Nov 11, 2025
+AMZN	Option	
+LONG
+$2.80	$2.80	0.0%	EXP	Nov 11, 2025
+NVDA	Option	
+LONG
+$2.86	$2.86	0.0%	EXP	Nov 11, 2025
+META	Option	
+LONG
+$11.14	$11.14	0.0%	EXP	Nov 11, 2025
+RIOT	Option	
+LONG
+$8.86	$8.86	0.0%	EXP	Nov 11, 2025
+HOOD	Option	
+LONG
+$9.00	$9.00	0.0%	EXP	Nov 11, 2025
+DIS	Option	
+LONG
+$5.15	$5.15	0.0%	EXP	Nov 11, 2025
+MARA	Option	
+LONG
+$3.77	$3.77	0.0%	EXP	Nov 11, 2025
+PLTR	Option	
+LONG
+$6.48	$6.48	0.0%	EXP	Nov 11, 2025
+COIN	Option	
+LONG
+$26.00	$26.00	0.0%	EXP	Nov 11, 2025
+BA	Option	
+LONG
+$0.67	$0.67	0.0%	EXP	Nov 11, 2025
+NFLX	Option	
+LONG
+$24.96	$24.96	0.0%	EXP	Nov 11, 2025
+AMD	Option	
+LONG
+$5.45	$5.45	0.0%	EXP	Nov 11, 2025
+MSFT	Option	
+LONG
+$4.18	$4.18	0.0%	EXP	Nov 11, 2025
+BTC	Crypto	
+LONG
+$107000.00	$107000.00	0.0%	EXP	Nov 11, 2025
+QQQ	Option	
+LONG
+$2.31	$2.31	0.0%	EXP	Nov 10, 2025
+SPY	Option	
+LONG
+$2.34	$2.34	0.0%	EXP	Nov 10, 2025
+MSTR	Option	
+LONG
+$4.10	$4.10	0.0%	EXP	Nov 10, 2025
+SOFI	Option	
+LONG
+$1.11	$1.11	0.0%	EXP	Nov 10, 2025
+GOOGL	Option	
+LONG
+$2.95	$2.95	0.0%	EXP	Nov 10, 2025
+TSLA	Option	
+LONG
+$14.85	$14.85	0.0%	EXP	Nov 10, 2025
+AAPL	Option	
+LONG
+$2.42	$2.42	0.0%	EXP	Nov 10, 2025
+COIN	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+QQQ	Option	
+LONG
+$2.42	$2.42	0.0%	EXP	Nov 10, 2025
+SPY	Option	
+LONG
+$1.70	$1.70	0.0%	EXP	Nov 10, 2025
+AMZN	Option	
+LONG
+$2.23	$2.23	0.0%	EXP	Nov 10, 2025
+NVDA	Option	
+LONG
+$2.20	$2.20	0.0%	EXP	Nov 10, 2025
+QQQ	Option	
+LONG
+$2.91	$2.91	0.0%	EXP	Nov 10, 2025
+SPY	Option	
+LONG
+$2.17	$2.17	0.0%	EXP	Nov 10, 2025
+PLTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+QQQ	Option	
+LONG
+$2.75	$2.75	0.0%	EXP	Nov 10, 2025
+SPY	Option	
+LONG
+$1.89	$1.89	0.0%	EXP	Nov 10, 2025
+RIOT	Option	
+LONG
+$8.86	$8.86	0.0%	EXP	Nov 10, 2025
+DIS	Option	
+LONG
+$4.95	$4.95	0.0%	EXP	Nov 10, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+QQQ	Option	
+LONG
+$2.55	$2.55	0.0%	EXP	Nov 10, 2025
+SPY	Option	
+LONG
+$1.72	$1.72	0.0%	EXP	Nov 10, 2025
+META	Option	
+LONG
+$11.90	$11.90	0.0%	EXP	Nov 10, 2025
+BTC	Crypto	
+LONG
+$107000.00	$107000.00	0.0%	EXP	Nov 10, 2025
+HOOD	Option	
+LONG
+$7.85	$7.85	0.0%	EXP	Nov 10, 2025
+BA	Option	
+LONG
+$0.66	$0.66	0.0%	EXP	Nov 10, 2025
+PLTR	Option	
+LONG
+$5.45	$5.45	0.0%	EXP	Nov 10, 2025
+COIN	Option	
+LONG
+$7.56	$7.56	0.0%	EXP	Nov 10, 2025
+MSFT	Option	
+LONG
+$3.25	$3.25	0.0%	EXP	Nov 10, 2025
+MARA	Option	
+LONG
+$0.52	$0.52	0.0%	EXP	Nov 10, 2025
+NFLX	Option	
+LONG
+$25.72	$25.72	0.0%	EXP	Nov 10, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+QQQ	Option	
+LONG
+$1.79	$1.79	0.0%	EXP	Nov 10, 2025
+AMD	Option	
+LONG
+$5.24	$5.24	0.0%	EXP	Nov 10, 2025
+SOFI	Option	
+LONG
+$1.00	$1.00	0.0%	EXP	Nov 10, 2025
+GOOGL	Option	
+LONG
+$2.49	$2.49	0.0%	EXP	Nov 10, 2025
+TSLA	Option	
+LONG
+$15.56	$15.56	0.0%	EXP	Nov 10, 2025
+AAPL	Option	
+LONG
+$2.49	$2.49	0.0%	EXP	Nov 10, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+META	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 10, 2025
+SPY	Option	
+LONG
+$1.22	$1.22	0.0%	EXP	Nov 10, 2025
+QQQ	Option	
+LONG
+$2.12	$2.12	0.0%	EXP	Nov 10, 2025
+SPY	Stock	
+LONG
+$580.00	$677.34	+16.8%	EXP	Nov 10, 2025
+NVDA	Stock	
+LONG
+$140.00	$195.65	+39.8%	EXP	Nov 10, 2025
+HOOD	Option	
+LONG
+$6.20	$6.20	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+LONG
+$0.84	$0.84	0.0%	EXP	Nov 7, 2025
+PLTR	Option	
+LONG
+$3.26	$3.26	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+LONG
+$9.00	$9.00	0.0%	EXP	Nov 7, 2025
+BA	Option	
+SHORT
+$10.06	$10.06	0.0%	EXP	Nov 7, 2025
+DIS	Option	
+LONG
+$0.98	$0.98	0.0%	EXP	Nov 7, 2025
+AMD	Option	
+LONG
+$4.35	$4.35	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+LONG
+$3.74	$3.74	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+SHORT
+$0.22	$0.22	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+LONG
+$6.54	$6.54	0.0%	EXP	Nov 7, 2025
+NVDA	Option	
+LONG
+$4.80	$4.80	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+LONG
+$6.54	$6.54	0.0%	EXP	Nov 7, 2025
+SPY	Option	
+LONG
+$4.58	$4.58	0.0%	EXP	Nov 7, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+LONG
+$0.25	$0.25	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$0.26	$0.26	0.0%	EXP	Nov 7, 2025
+MARA	Option	
+SHORT
+$0.32	$0.32	0.0%	EXP	Nov 7, 2025
+RIOT	Option	
+SHORT
+$1.77	$1.77	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+LONG
+$6.00	$6.00	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+LONG
+$0.83	$0.83	0.0%	EXP	Nov 7, 2025
+PLTR	Option	
+LONG
+$2.84	$2.84	0.0%	EXP	Nov 7, 2025
+SPY	Option	
+LONG
+$0.25	$0.25	0.0%	EXP	Nov 7, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+SHORT
+$0.25	$0.25	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+LONG
+$9.80	$9.80	0.0%	EXP	Nov 7, 2025
+DIS	Option	
+LONG
+$0.90	$0.90	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$12.57	$12.57	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+LONG
+$9.50	$9.50	0.0%	EXP	Nov 7, 2025
+META	Option	
+LONG
+$14.60	$14.60	0.0%	EXP	Nov 7, 2025
+MSFT	Option	
+SHORT
+$9.00	$9.00	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+LONG
+$7.35	$7.35	0.0%	EXP	Nov 7, 2025
+AAPL	Option	
+LONG
+$27.77	$27.77	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+LONG
+$6.64	$6.64	0.0%	EXP	Nov 7, 2025
+RIOT	Option	
+SHORT
+$1.70	$1.70	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+LONG
+$4.68	$4.68	0.0%	EXP	Nov 7, 2025
+SPY	Option	
+LONG
+$0.24	$0.24	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+LONG
+$0.74	$0.74	0.0%	EXP	Nov 7, 2025
+PLTR	Option	
+LONG
+$4.03	$4.03	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+LONG
+$7.85	$7.85	0.0%	EXP	Nov 7, 2025
+BA	Option	
+SHORT
+$10.63	$10.63	0.0%	EXP	Nov 7, 2025
+DIS	Option	
+LONG
+$0.90	$0.90	0.0%	EXP	Nov 7, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+LONG
+$0.22	$0.22	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$9.60	$9.60	0.0%	EXP	Nov 7, 2025
+AMD	Option	
+LONG
+$4.25	$4.25	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+LONG
+$8.74	$8.74	0.0%	EXP	Nov 7, 2025
+META	Option	
+LONG
+$13.00	$13.00	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+LONG
+$3.20	$3.20	0.0%	EXP	Nov 7, 2025
+NVDA	Option	
+LONG
+$4.16	$4.16	0.0%	EXP	Nov 7, 2025
+AAPL	Option	
+LONG
+$27.77	$27.77	0.0%	EXP	Nov 7, 2025
+MARA	Option	
+SHORT
+$0.54	$0.54	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+LONG
+$3.00	$3.00	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+LONG
+$0.84	$0.84	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+LONG
+$5.65	$5.65	0.0%	EXP	Nov 7, 2025
+META	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+MSTR	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+LONG
+$7.39	$7.39	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+LONG
+$1.56	$1.56	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+LONG
+$3.20	$3.20	0.0%	EXP	Nov 7, 2025
+SPY	Option	
+LONG
+$2.68	$2.68	0.0%	EXP	Nov 7, 2025
+MARA	Option	
+SHORT
+$0.56	$0.56	0.0%	EXP	Nov 7, 2025
+RIOT	Option	
+SHORT
+$1.77	$1.77	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+LONG
+$0.82	$0.82	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+LONG
+$7.56	$7.56	0.0%	EXP	Nov 7, 2025
+META	Option	
+LONG
+$9.46	$9.46	0.0%	EXP	Nov 7, 2025
+SPY	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+LONG
+$4.35	$4.35	0.0%	EXP	Nov 7, 2025
+NVDA	Option	
+LONG
+$2.71	$2.71	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+MARA	Option	
+SHORT
+$0.66	$0.66	0.0%	EXP	Nov 7, 2025
+RIOT	Option	
+SHORT
+$1.82	$1.82	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+LONG
+$3.00	$3.00	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+LONG
+$2.04	$2.04	0.0%	EXP	Nov 7, 2025
+PLTR	Option	
+LONG
+$2.45	$2.45	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+LONG
+$6.10	$6.10	0.0%	EXP	Nov 7, 2025
+DIS	Option	
+LONG
+$0.65	$0.65	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$6.10	$6.10	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+LONG
+$6.94	$6.94	0.0%	EXP	Nov 7, 2025
+META	Option	
+LONG
+$8.79	$8.79	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+LONG
+$1.10	$1.10	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+LONG
+$4.10	$4.10	0.0%	EXP	Nov 7, 2025
+AAPL	Option	
+LONG
+$28.47	$28.47	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+LONG
+$4.49	$4.49	0.0%	EXP	Nov 7, 2025
+SPY	Option	
+LONG
+$2.40	$2.40	0.0%	EXP	Nov 7, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104000.00	-2.8%	LOSS	Nov 7, 2025
+BTC	Crypto	
+LONG
+$107000.00	$103000.00	-3.7%	LOSS	Nov 7, 2025
+META	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+SPY	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+NVDA	Stock	
+LONG
+$140.00	$184.40	+31.7%	EXP	Nov 7, 2025
+NVDA	Stock	
+LONG
+$140.00	$184.40	+31.7%	EXP	Nov 7, 2025
+NVDA	Option	
+LONG
+$2.45	$2.57	+5.0%	WIN	Nov 7, 2025
+MARA	Option	
+SHORT
+$1.87	$1.87	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+SHORT
+$1.50	$1.50	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+AMD	Option	
+LONG
+$0.22	$0.22	0.0%	EXP	Nov 7, 2025
+MSTR	Option	
+LONG
+$0.22	$0.22	0.0%	EXP	Nov 7, 2025
+BA	Option	
+SHORT
+$7.15	$7.15	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+LONG
+$7.20	$7.20	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+SHORT
+$3.69	$3.69	0.0%	EXP	Nov 7, 2025
+AAPL	Option	
+LONG
+$28.95	$28.95	0.0%	EXP	Nov 7, 2025
+MARA	Option	
+SHORT
+$2.08	$2.08	0.0%	EXP	Nov 7, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+RIOT	Option	
+SHORT
+$2.49	$2.49	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+SHORT
+$1.84	$1.84	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+BA	Option	
+SHORT
+$8.79	$8.79	0.0%	EXP	Nov 7, 2025
+META	Option	
+SHORT
+$22.09	$22.09	0.0%	EXP	Nov 7, 2025
+NVDA	Option	
+SHORT
+$1.79	$1.79	0.0%	EXP	Nov 7, 2025
+AAPL	Option	
+LONG
+$28.73	$28.73	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+SHORT
+$5.11	$5.11	0.0%	EXP	Nov 7, 2025
+MARA	Option	
+SHORT
+$2.17	$2.17	0.0%	EXP	Nov 7, 2025
+RIOT	Option	
+SHORT
+$2.49	$2.49	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+SHORT
+$2.12	$2.12	0.0%	EXP	Nov 7, 2025
+SPY	Option	
+SHORT
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+SHORT
+$57.50	$57.50	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$61.79	$61.79	0.0%	EXP	Nov 7, 2025
+MSTR	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+AMD	Option	
+SHORT
+$4.50	$4.50	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+LONG
+$6.00	$6.00	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+SHORT
+$1.55	$1.55	0.0%	EXP	Nov 7, 2025
+NVDA	Option	
+SHORT
+$2.60	$2.60	0.0%	EXP	Nov 7, 2025
+MARA	Option	
+SHORT
+$1.91	$1.91	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$65.56	$65.56	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+SHORT
+$57.50	$57.50	0.0%	EXP	Nov 7, 2025
+MSTR	Option	
+SHORT
+$57.51	$57.51	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+SHORT
+$0.22	$0.22	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+LONG
+$0.21	$0.21	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+LONG
+$7.06	$7.06	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+SHORT
+$1.20	$1.20	0.0%	EXP	Nov 7, 2025
+NVDA	Option	
+SHORT
+$2.29	$2.29	0.0%	EXP	Nov 7, 2025
+AAPL	Option	
+LONG
+$0.64	$0.64	0.0%	EXP	Nov 7, 2025
+SPY	Option	
+SHORT
+$2.73	$2.73	0.0%	EXP	Nov 7, 2025
+RIOT	Option	
+SHORT
+$2.25	$2.25	0.0%	EXP	Nov 7, 2025
+AAPL	Option	
+LONG
+$1.59	$1.59	0.0%	EXP	Nov 7, 2025
+PLTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+MSTR	Option	
+SHORT
+$57.51	$57.51	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+SHORT
+$8.08	$8.08	0.0%	EXP	Nov 7, 2025
+AMD	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+SHORT
+$4.89	$4.89	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+SHORT
+$8.82	$8.82	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+SHORT
+$4.19	$4.19	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+SHORT
+$1.43	$1.43	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+MSFT	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+MSFT	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+MSTR	Option	
+LONG
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+SHORT
+$0.20	$0.20	0.0%	EXP	Nov 7, 2025
+QQQ	Option	
+SHORT
+$4.98	$4.98	0.0%	EXP	Nov 7, 2025
+BTC	Crypto	
+LONG
+$107000.00	$103000.00	-3.7%	LOSS	Nov 7, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104000.00	-2.8%	LOSS	Nov 7, 2025
+SPY	Stock	
+LONG
+$580.00	$663.15	+14.3%	EXP	Nov 7, 2025
+NVDA	Stock	
+LONG
+$140.00	$179.10	+27.9%	EXP	Nov 7, 2025
+RIOT	Option	
+SHORT
+$1.95	$1.95	0.0%	EXP	Nov 7, 2025
+AMZN	Option	
+LONG
+$1.71	$1.71	0.0%	EXP	Nov 7, 2025
+NVDA	Option	
+SHORT
+$1.54	$1.54	0.0%	EXP	Nov 7, 2025
+MARA	Option	
+SHORT
+$24.64	$24.64	0.0%	EXP	Nov 7, 2025
+HOOD	Option	
+SHORT
+$5.85	$5.85	0.0%	EXP	Nov 7, 2025
+BA	Option	
+SHORT
+$3.95	$3.95	0.0%	EXP	Nov 7, 2025
+DIS	Option	
+LONG
+$1.42	$1.42	0.0%	EXP	Nov 7, 2025
+AMD	Option	
+SHORT
+$1.43	$1.43	0.0%	EXP	Nov 7, 2025
+TSLA	Option	
+LONG
+$6.25	$6.25	0.0%	EXP	Nov 7, 2025
+COIN	Option	
+SHORT
+$61.91	$61.91	0.0%	EXP	Nov 7, 2025
+NFLX	Option	
+LONG
+$102.35	$102.35	0.0%	EXP	Nov 7, 2025
+GOOGL	Option	
+SHORT
+$2.25	$2.25	0.0%	EXP	Nov 7, 2025
+AAPL	Option	
+LONG
+$23.59	$23.59	0.0%	EXP	Nov 7, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104000.00	-2.8%	LOSS	Nov 7, 2025
+MSTR	Option	
+SHORT
+$102.25	$102.25	0.0%	EXP	Nov 7, 2025
+SOFI	Option	
+SHORT
+$1.19	$1.19	0.0%	EXP	Nov 7, 2025
+MSFT	Option	
+LONG
+$0.01	$0.01	0.0%	EXP	Nov 7, 2025
+DIS	Option	
+LONG
+$1.10	$1.10	0.0%	EXP	Nov 6, 2025
+MSTR	Option	
+SHORT
+$62.35	$62.35	0.0%	EXP	Nov 6, 2025
+HOOD	Option	
+SHORT
+$6.11	$6.11	0.0%	EXP	Nov 6, 2025
+TSLA	Option	
+LONG
+$9.54	$9.54	0.0%	EXP	Nov 6, 2025
+BA	Option	
+LONG
+$0.63	$0.63	0.0%	EXP	Nov 6, 2025
+META	Option	
+SHORT
+$74.50	$74.50	0.0%	EXP	Nov 6, 2025
+MARA	Option	
+SHORT
+$2.52	$2.52	0.0%	EXP	Nov 6, 2025
+RIOT	Option	
+LONG
+$0.22	$0.22	0.0%	EXP	Nov 6, 2025
+PLTR	Option	
+SHORT
+$3.99	$3.99	0.0%	EXP	Nov 6, 2025
+COIN	Option	
+SHORT
+$66.90	$66.90	0.0%	EXP	Nov 6, 2025
+NFLX	Option	
+LONG
+$8.45	$8.45	0.0%	EXP	Nov 6, 2025
+GOOGL	Option	
+LONG
+$2.73	$2.73	0.0%	EXP	Nov 6, 2025
+NVDA	Option	
+SHORT
+$2.05	$2.05	0.0%	EXP	Nov 6, 2025
+AAPL	Option	
+LONG
+$2.20	$2.20	0.0%	EXP	Nov 6, 2025
+QQQ	Option	
+SHORT
+$5.04	$5.04	0.0%	EXP	Nov 6, 2025
+SPY	Option	
+LONG
+$3.10	$3.10	0.0%	EXP	Nov 6, 2025
+QQQ	Option	
+LONG
+$3.57	$3.57	0.0%	EXP	Nov 6, 2025
+SPY	Option	
+LONG
+$3.02	$3.02	0.0%	EXP	Nov 6, 2025
+TSLA	Option	
+LONG
+$9.55	$9.55	0.0%	EXP	Nov 6, 2025
+SPY	Option	
+LONG
+$3.00	$3.00	0.0%	EXP	Nov 6, 2025
+MSFT	Option	
+SHORT
+$4.32	$4.32	0.0%	EXP	Nov 6, 2025
+MSTR	Option	
+SHORT
+$18.09	$18.09	0.0%	EXP	Nov 6, 2025
+PLTR	Option	
+SHORT
+$5.17	$5.17	0.0%	EXP	Nov 6, 2025
+COIN	Option	
+SHORT
+$7.25	$7.25	0.0%	EXP	Nov 6, 2025
+HOOD	Option	
+SHORT
+$6.90	$6.90	0.0%	EXP	Nov 6, 2025
+AMZN	Option	
+SHORT
+$2.75	$2.75	0.0%	EXP	Nov 6, 2025
+NVDA	Option	
+SHORT
+$2.02	$2.02	0.0%	EXP	Nov 6, 2025
+AAVE	Crypto	
+LONG
+$200.00	$200.00	0.0%	EXP	Nov 6, 2025
+MARA	Option	
+SHORT
+$2.48	$2.48	0.0%	EXP	Nov 6, 2025
+SPY	Option	
+SHORT
+$4.37	$4.37	0.0%	EXP	Nov 6, 2025
+AMD	Option	
+SHORT
+$6.20	$6.20	0.0%	EXP	Nov 6, 2025
+QQQ	Option	
+SHORT
+$7.51	$7.51	0.0%	EXP	Nov 6, 2025
+RIOT	Option	
+LONG
+$0.15	$0.15	0.0%	EXP	Nov 6, 2025
+SOFI	Option	
+SHORT
+$1.20	$1.20	0.0%	EXP	Nov 6, 2025
+BA	Option	
+LONG
+$1.12	$1.12	0.0%	EXP	Nov 6, 2025
+DIS	Option	
+LONG
+$0.05	$0.05	0.0%	EXP	Nov 6, 2025
+NFLX	Option	
+LONG
+$11.90	$11.90	0.0%	EXP	Nov 6, 2025
+GOOGL	Option	
+LONG
+$4.49	$4.49	0.0%	EXP	Nov 6, 2025
+META	Option	
+SHORT
+$9.35	$9.35	0.0%	EXP	Nov 6, 2025
+AAPL	Option	
+LONG
+$3.42	$3.42	0.0%	EXP	Nov 6, 2025
+NVDA	Stock	
+LONG
+$141.00	$155.00	+9.9%	WIN	Nov 6, 2025
+BTC	Crypto	
+LONG
+$108000.00	$104000.00	-3.7%	LOSS	Nov 6, 2025
+AAVE	Crypto	
+LONG
+$205.00	$198.00	-3.4%	LOSS	Nov 6, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104500.00	-2.3%	LOSS	Nov 6, 2025
+NVDA	Stock	
+LONG
+$140.00	$148.00	+5.7%	WIN	Nov 6, 2025
+AAVE	Crypto	
+LONG
+$205.00	$198.00	-3.4%	LOSS	Nov 6, 2025
+MSTR	Option	
+SHORT
+$100.15	$89.31	-10.8%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.60	$0.63	+5.0%	WIN	Nov 5, 2025
+PLTR	Option	
+LONG
+$6.20	$6.51	+5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$6.90	$7.25	+5.0%	WIN	Nov 5, 2025
+DIS	Option	
+LONG
+$0.64	$0.67	+5.0%	WIN	Nov 5, 2025
+NFLX	Option	
+LONG
+$7.92	$8.32	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$10.10	$10.61	+5.0%	WIN	Nov 5, 2025
+META	Option	
+LONG
+$7.85	$8.24	+5.0%	WIN	Nov 5, 2025
+AMZN	Option	
+LONG
+$2.00	$2.10	+5.0%	WIN	Nov 5, 2025
+MSFT	Option	
+LONG
+$3.25	$3.41	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$19.29	$20.25	+5.0%	WIN	Nov 5, 2025
+NVDA	Option	
+LONG
+$3.51	$3.69	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$2.17	$2.28	+5.0%	WIN	Nov 5, 2025
+QQQ	Option	
+LONG
+$3.28	$3.44	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$2.32	$2.44	+5.0%	WIN	Nov 5, 2025
+MSTR	Option	
+SHORT
+$51.25	$48.49	-5.4%	WIN	Nov 5, 2025
+MARA	Option	
+SHORT
+$0.36	$0.34	-5.0%	WIN	Nov 5, 2025
+HOOD	Option	
+LONG
+$7.20	$7.58	+5.3%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.60	$0.63	+5.0%	WIN	Nov 5, 2025
+PLTR	Option	
+LONG
+$5.90	$6.20	+5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$6.84	$7.18	+5.0%	WIN	Nov 5, 2025
+DIS	Option	
+LONG
+$0.66	$0.69	+5.0%	WIN	Nov 5, 2025
+NFLX	Option	
+LONG
+$8.38	$8.80	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$9.93	$10.43	+5.0%	WIN	Nov 5, 2025
+META	Option	
+LONG
+$6.88	$7.22	+5.0%	WIN	Nov 5, 2025
+AMZN	Option	
+LONG
+$2.12	$2.23	+5.0%	WIN	Nov 5, 2025
+MSFT	Option	
+LONG
+$3.25	$3.41	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$18.30	$19.21	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$2.38	$2.50	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$2.35	$2.47	+5.0%	WIN	Nov 5, 2025
+MSTR	Option	
+LONG
+$6.32	$6.64	+5.0%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.70	$0.73	+5.0%	WIN	Nov 5, 2025
+PLTR	Option	
+LONG
+$5.05	$5.30	+5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$5.82	$6.11	+5.0%	WIN	Nov 5, 2025
+DIS	Option	
+LONG
+$0.86	$0.90	+5.0%	WIN	Nov 5, 2025
+NFLX	Option	
+LONG
+$18.85	$19.79	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$9.50	$9.97	+5.0%	WIN	Nov 5, 2025
+GOOGL	Option	
+LONG
+$4.75	$4.99	+5.0%	WIN	Nov 5, 2025
+AMZN	Option	
+LONG
+$2.96	$3.11	+5.0%	WIN	Nov 5, 2025
+MSFT	Option	
+LONG
+$3.40	$3.57	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$12.80	$13.44	+5.0%	WIN	Nov 5, 2025
+NVDA	Option	
+LONG
+$3.49	$3.66	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$2.43	$2.55	+5.0%	WIN	Nov 5, 2025
+QQQ	Option	
+LONG
+$3.28	$3.44	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$2.48	$2.60	+5.0%	WIN	Nov 5, 2025
+MSTR	Option	
+LONG
+$6.25	$6.56	+5.0%	WIN	Nov 5, 2025
+RIOT	Option	
+SHORT
+$1.06	$1.01	-5.0%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.73	$0.77	+5.0%	WIN	Nov 5, 2025
+PLTR	Option	
+LONG
+$4.45	$4.67	+5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$5.65	$5.93	+5.0%	WIN	Nov 5, 2025
+DIS	Option	
+LONG
+$0.93	$0.98	+5.0%	WIN	Nov 5, 2025
+NFLX	Option	
+LONG
+$22.45	$23.57	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$8.55	$8.98	+5.0%	WIN	Nov 5, 2025
+GOOGL	Option	
+LONG
+$4.75	$4.99	+5.0%	WIN	Nov 5, 2025
+META	Option	
+LONG
+$8.15	$8.56	+5.0%	WIN	Nov 5, 2025
+AMZN	Option	
+LONG
+$2.94	$3.09	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$12.85	$13.49	+5.0%	WIN	Nov 5, 2025
+NVDA	Option	
+LONG
+$3.75	$3.94	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$2.53	$2.66	+5.0%	WIN	Nov 5, 2025
+QQQ	Option	
+LONG
+$3.52	$3.70	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$2.88	$3.02	+5.0%	WIN	Nov 5, 2025
+MSTR	Option	
+LONG
+$5.90	$6.20	+5.0%	WIN	Nov 5, 2025
+RIOT	Option	
+SHORT
+$1.06	$1.01	-5.0%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.63	$0.66	+5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$5.67	$5.95	+5.0%	WIN	Nov 5, 2025
+BA	Option	
+SHORT
+$12.75	$12.11	-5.0%	WIN	Nov 5, 2025
+DIS	Option	
+LONG
+$0.95	$1.00	+5.0%	WIN	Nov 5, 2025
+NFLX	Option	
+LONG
+$22.20	$23.31	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$8.40	$8.82	+5.0%	WIN	Nov 5, 2025
+GOOGL	Option	
+LONG
+$4.85	$5.09	+5.0%	WIN	Nov 5, 2025
+META	Option	
+LONG
+$6.51	$6.84	+5.0%	WIN	Nov 5, 2025
+MSFT	Option	
+LONG
+$3.55	$3.73	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$12.16	$12.77	+5.0%	WIN	Nov 5, 2025
+NVDA	Option	
+LONG
+$3.55	$3.73	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$2.14	$2.25	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$2.33	$2.45	+5.0%	WIN	Nov 5, 2025
+MSTR	Option	
+LONG
+$6.17	$6.48	+5.0%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.70	$0.73	+5.0%	WIN	Nov 5, 2025
+PLTR	Option	
+LONG
+$4.10	$4.30	+5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$5.15	$5.41	+5.0%	WIN	Nov 5, 2025
+NFLX	Option	
+LONG
+$21.70	$22.79	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$6.36	$6.68	+5.0%	WIN	Nov 5, 2025
+GOOGL	Option	
+LONG
+$5.46	$5.73	+5.0%	WIN	Nov 5, 2025
+META	Option	
+LONG
+$7.32	$7.69	+5.0%	WIN	Nov 5, 2025
+AMZN	Option	
+LONG
+$2.12	$2.23	+5.0%	WIN	Nov 5, 2025
+MSFT	Option	
+LONG
+$3.76	$3.95	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$11.99	$12.59	+5.0%	WIN	Nov 5, 2025
+NVDA	Option	
+LONG
+$3.75	$3.94	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$2.00	$2.10	+5.0%	WIN	Nov 5, 2025
+QQQ	Option	
+LONG
+$4.20	$4.41	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$1.92	$2.02	+5.0%	WIN	Nov 5, 2025
+MSTR	Option	
+LONG
+$6.80	$7.14	+5.0%	WIN	Nov 5, 2025
+MARA	Option	
+LONG
+$0.59	$0.62	+5.0%	WIN	Nov 5, 2025
+RIOT	Option	
+LONG
+$0.42	$0.44	+5.0%	WIN	Nov 5, 2025
+HOOD	Option	
+LONG
+$6.05	$6.36	+5.2%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.75	$0.79	+5.0%	WIN	Nov 5, 2025
+PLTR	Option	
+SHORT
+$2.05	$1.95	-5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$5.85	$6.14	+5.0%	WIN	Nov 5, 2025
+DIS	Option	
+LONG
+$0.79	$0.83	+5.0%	WIN	Nov 5, 2025
+NFLX	Option	
+LONG
+$16.45	$17.27	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$6.30	$6.62	+5.0%	WIN	Nov 5, 2025
+GOOGL	Option	
+LONG
+$5.65	$5.93	+5.0%	WIN	Nov 5, 2025
+META	Option	
+LONG
+$7.55	$7.93	+5.0%	WIN	Nov 5, 2025
+AMZN	Option	
+LONG
+$2.32	$2.44	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$11.41	$11.98	+5.0%	WIN	Nov 5, 2025
+NVDA	Option	
+LONG
+$4.05	$4.25	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$2.10	$2.21	+5.0%	WIN	Nov 5, 2025
+QQQ	Option	
+LONG
+$2.65	$2.78	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$2.75	$2.89	+5.0%	WIN	Nov 5, 2025
+MSFT	Option	
+LONG
+$3.60	$3.78	+5.0%	WIN	Nov 5, 2025
+NVDA	Stock	
+LONG
+$140.00	$150.00	+7.1%	WIN	Nov 5, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104000.00	-2.8%	LOSS	Nov 5, 2025
+NVDA	Stock	
+LONG
+$140.00	$148.00	+5.7%	WIN	Nov 5, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104500.00	-2.3%	LOSS	Nov 5, 2025
+MSTR	Option	
+LONG
+$0.34	$0.36	+5.0%	WIN	Nov 5, 2025
+MARA	Option	
+LONG
+$0.79	$0.83	+5.0%	WIN	Nov 5, 2025
+RIOT	Option	
+LONG
+$0.41	$0.43	+5.0%	WIN	Nov 5, 2025
+HOOD	Option	
+LONG
+$5.83	$6.13	+5.2%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.59	$0.62	+5.0%	WIN	Nov 5, 2025
+PLTR	Option	
+LONG
+$4.45	$4.67	+5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$7.00	$7.35	+5.0%	WIN	Nov 5, 2025
+DIS	Option	
+LONG
+$0.66	$0.69	+5.0%	WIN	Nov 5, 2025
+NFLX	Option	
+LONG
+$14.50	$15.22	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$7.60	$7.98	+5.0%	WIN	Nov 5, 2025
+META	Option	
+LONG
+$6.89	$7.23	+5.0%	WIN	Nov 5, 2025
+AMZN	Option	
+LONG
+$2.19	$2.30	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$11.70	$12.29	+5.0%	WIN	Nov 5, 2025
+NVDA	Option	
+LONG
+$4.10	$4.30	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$2.30	$2.42	+5.0%	WIN	Nov 5, 2025
+QQQ	Option	
+LONG
+$4.08	$4.28	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$2.43	$2.55	+5.0%	WIN	Nov 5, 2025
+RIOT	Option	
+LONG
+$0.33	$0.35	+5.0%	WIN	Nov 5, 2025
+HOOD	Option	
+LONG
+$5.90	$6.20	+5.2%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.56	$0.59	+5.0%	WIN	Nov 5, 2025
+PLTR	Option	
+LONG
+$5.54	$5.82	+5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$7.00	$7.35	+5.0%	WIN	Nov 5, 2025
+DIS	Option	
+LONG
+$0.58	$0.61	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$6.05	$6.35	+5.0%	WIN	Nov 5, 2025
+META	Option	
+LONG
+$6.85	$7.19	+5.0%	WIN	Nov 5, 2025
+MSFT	Option	
+LONG
+$3.03	$3.18	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$11.41	$11.98	+5.0%	WIN	Nov 5, 2025
+NVDA	Option	
+LONG
+$4.37	$4.59	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$2.42	$2.54	+5.0%	WIN	Nov 5, 2025
+QQQ	Option	
+LONG
+$3.80	$3.99	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$2.00	$2.10	+5.0%	WIN	Nov 5, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104500.00	-2.3%	LOSS	Nov 5, 2025
+SOL	Crypto	
+LONG
+$170.00	$165.00	-2.9%	LOSS	Nov 5, 2025
+BTC	Crypto	
+LONG
+$107000.00	$105000.00	-1.9%	LOSS	Nov 5, 2025
+BA	Option	
+SHORT
+$1.78	$1.69	-5.0%	WIN	Nov 5, 2025
+AMZN	Option	
+LONG
+$1.76	$1.85	+5.0%	WIN	Nov 5, 2025
+MSTR	Option	
+LONG
+$0.33	$0.35	+5.0%	WIN	Nov 5, 2025
+RIOT	Option	
+LONG
+$0.36	$0.38	+5.0%	WIN	Nov 5, 2025
+SOFI	Option	
+LONG
+$0.50	$0.53	+5.0%	WIN	Nov 5, 2025
+PLTR	Option	
+LONG
+$4.35	$4.57	+5.0%	WIN	Nov 5, 2025
+COIN	Option	
+LONG
+$4.35	$4.57	+5.0%	WIN	Nov 5, 2025
+DIS	Option	
+LONG
+$0.52	$0.55	+5.0%	WIN	Nov 5, 2025
+NFLX	Option	
+LONG
+$16.00	$16.80	+5.0%	WIN	Nov 5, 2025
+AMD	Option	
+LONG
+$5.64	$5.92	+5.0%	WIN	Nov 5, 2025
+GOOGL	Option	
+LONG
+$4.70	$4.93	+5.0%	WIN	Nov 5, 2025
+META	Option	
+LONG
+$6.30	$6.62	+5.0%	WIN	Nov 5, 2025
+TSLA	Option	
+LONG
+$9.52	$10.00	+5.0%	WIN	Nov 5, 2025
+NVDA	Option	
+LONG
+$4.05	$4.25	+5.0%	WIN	Nov 5, 2025
+AAPL	Option	
+LONG
+$1.87	$1.96	+5.0%	WIN	Nov 5, 2025
+QQQ	Option	
+LONG
+$2.57	$2.70	+5.0%	WIN	Nov 5, 2025
+SPY	Option	
+LONG
+$1.28	$1.34	+5.0%	WIN	Nov 5, 2025
+MARA	Stock	
+SHORT
+$16.74	$17.37	-3.8%	EXP	Nov 5, 2025
+META	Stock	
+SHORT
+$627.83	$627.32	+0.1%	EXP	Nov 4, 2025
+AMD	Stock	
+LONG
+$254.96	$250.05	-1.9%	EXP	Nov 4, 2025
+RIOT	Stock	
+SHORT
+$19.95	$19.27	+3.4%	EXP	Nov 4, 2025
+MSTR	Stock	
+SHORT
+$250.69	$246.99	+1.5%	EXP	Nov 4, 2025
+HOOD	Stock	
+LONG
+$141.72	$136.80	-3.5%	EXP	Nov 4, 2025
+SOFI	Stock	
+LONG
+$30.18	$29.37	-2.7%	EXP	Nov 4, 2025
+PLTR	Stock	
+SHORT
+$191.00	$190.74	+0.1%	EXP	Nov 4, 2025
+DIS	Stock	
+LONG
+$111.53	$111.47	-0.0%	EXP	Nov 4, 2025
+NFLX	Stock	
+LONG
+$1092.56	$1092.96	+0.0%	EXP	Nov 4, 2025
+GOOGL	Stock	
+LONG
+$278.81	$277.54	-0.5%	EXP	Nov 4, 2025
+AMZN	Stock	
+LONG
+$252.44	$249.32	-1.2%	EXP	Nov 4, 2025
+MSFT	Stock	
+LONG
+$513.32	$514.33	+0.2%	EXP	Nov 4, 2025
+TSLA	Stock	
+LONG
+$452.78	$444.26	-1.9%	EXP	Nov 4, 2025
+NVDA	Stock	
+LONG
+$201.85	$198.69	-1.6%	EXP	Nov 4, 2025
+AAPL	Stock	
+LONG
+$270.64	$270.04	-0.2%	EXP	Nov 4, 2025
+QQQ	Stock	
+SHORT
+$623.98	$619.25	+0.8%	EXP	Nov 4, 2025
+SPY	Stock	
+LONG
+$678.18	$675.24	-0.4%	EXP	Nov 4, 2025
+COIN	Option	
+SHORT
+$16.67	$15.84	-5.0%	WIN	Nov 4, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104500.00	-2.3%	LOSS	Nov 4, 2025
+SOL	Crypto	
+LONG
+$170.00	$162.00	-4.7%	LOSS	Nov 4, 2025
+SOL	Crypto	
+LONG
+$170.00	$162.00	-4.7%	LOSS	Nov 4, 2025
+LINK	Crypto	
+LONG
+$16.50	$15.80	-4.2%	LOSS	Nov 4, 2025
+BTC	Crypto	
+LONG
+$107500.00	$105000.00	-2.3%	LOSS	Nov 4, 2025
+MARA	Stock	
+LONG
+$17.32	$16.71	-3.5%	LOSS	Nov 4, 2025
+SOL	Crypto	
+LONG
+$170.00	$162.00	-4.7%	LOSS	Nov 4, 2025
+BTC	Crypto	
+LONG
+$107000.00	$104500.00	-2.3%	LOSS	Nov 4, 2025
+SPY	Stock	
+SHORT
+$580.00	$585.00	-0.9%	LOSS	Nov 4, 2025
+AAPL	Stock	
+LONG
+$262.66	$270.01	+2.8%	EXP	Nov 4, 2025
+MSFT	Stock	
+LONG
+$515.97	$513.47	-0.5%	EXP	Nov 4, 2025
+MARA	Stock	
+LONG
+$17.73	$17.81	+0.4%	EXP	Nov 3, 2025
+TSLA	Stock	
+LONG
+$468.88	$468.37	-0.1%	EXP	Nov 3, 2025
+BA	Stock	
+LONG
+$204.69	$204.55	-0.1%	EXP	Nov 3, 2025
+AMD	Stock	
+LONG
+$256.35	$259.65	+1.3%	EXP	Nov 3, 2025
+NVDA	Stock	
+LONG
+$208.06	$206.88	-0.6%	EXP	Nov 3, 2025
+MSTR	Stock	
+SHORT
+$262.36	$264.67	-0.9%	EXP	Nov 3, 2025
+RIOT	Stock	
+LONG
+$20.74	$20.72	-0.1%	EXP	Nov 3, 2025
+HOOD	Stock	
+LONG
+$143.49	$147.08	+2.5%	EXP	Nov 3, 2025
+SOFI	Stock	
+LONG
+$29.71	$30.63	+3.1%	EXP	Nov 3, 2025
+PLTR	Stock	
+LONG
+$202.93	$207.18	+2.1%	EXP	Nov 3, 2025
+COIN	Stock	
+SHORT
+$330.80	$330.42	+0.1%	EXP	Nov 3, 2025
+DIS	Stock	
+SHORT
+$111.15	$112.12	-0.9%	EXP	Nov 3, 2025
+NFLX	Stock	
+SHORT
+$1099.55	$1100.09	-0.0%	EXP	Nov 3, 2025
+GOOGL	Stock	
+LONG
+$282.63	$283.72	+0.4%	EXP	Nov 3, 2025
+META	Stock	
+LONG
+$648.41	$637.71	-1.6%	EXP	Nov 3, 2025
+AMZN	Stock	
+LONG
+$255.34	$254.00	-0.5%	EXP	Nov 3, 2025
+QQQ	Stock	
+SHORT
+$630.48	$632.08	-0.3%	EXP	Nov 3, 2025
+SPY	Stock	
+SHORT
+$680.39	$683.34	-0.4%	EXP	Nov 3, 2025
+BTC	Crypto	
+LONG
+$67000.00	$69500.00	+3.7%	WIN	Nov 3, 2025
+BTC	Crypto	
+LONG
+$67200.00	$68500.00	+1.9%	WIN	Nov 3, 2025
+NVDA	Stock	
+LONG
+$140.50	$143.00	+1.8%	WIN	Nov 3, 2025
+ETH	Crypto	
+LONG
+$2600.00	$2750.00	+5.8%	WIN	Nov 3, 2025
+BTC	Crypto	
+LONG
+$67050.00	$70100.00	+4.5%	WIN	Nov 3, 2025
+NVDA	Stock	
+LONG
+$140.50	$145.20	+3.3%	WIN	Nov 3, 2025
+MSTR	Stock	
+SHORT
+$263.29	$254.57	+3.3%	EXP	Oct 30, 2025
+SOFI	Stock	
+LONG
+$29.44	$29.03	-1.4%	EXP	Oct 30, 2025
+PLTR	Stock	
+LONG
+$196.84	$194.55	-1.2%	EXP	Oct 30, 2025
+COIN	Stock	
+SHORT
+$338.12	$328.51	+2.8%	EXP	Oct 30, 2025
+BA	Stock	
+SHORT
+$203.38	$200.08	+1.6%	EXP	Oct 30, 2025
+DIS	Stock	
+LONG
+$112.84	$111.84	-0.9%	EXP	Oct 30, 2025
+NFLX	Stock	
+LONG
+$1090.92	$1089.00	-0.2%	EXP	Oct 30, 2025
+GOOGL	Stock	
+LONG
+$289.39	$281.48	-2.7%	EXP	Oct 30, 2025
+META	Stock	
+SHORT
+$664.58	$666.47	-0.3%	EXP	Oct 30, 2025
+MSFT	Stock	
+SHORT
+$523.92	$525.76	-0.4%	EXP	Oct 30, 2025
+TSLA	Stock	
+SHORT
+$440.52	$440.10	+0.1%	EXP	Oct 30, 2025
+AAPL	Stock	
+LONG
+$270.47	$271.40	+0.3%	EXP	Oct 30, 2025
+QQQ	Stock	
+SHORT
+$629.14	$626.05	+0.5%	EXP	Oct 30, 2025
+SPY	Stock	
+SHORT
+$683.66	$679.83	+0.6%	EXP	Oct 30, 2025
+MSTR	Stock	
+SHORT
+$263.28	$254.57	+3.3%	EXP	Oct 30, 2025
+MARA	Stock	
+LONG
+$18.09	$17.76	-1.9%	EXP	Oct 30, 2025
+RIOT	Stock	
+LONG
+$21.20	$21.09	-0.5%	EXP	Oct 30, 2025
+HOOD	Stock	
+LONG
+$141.11	$138.07	-2.2%	EXP	Oct 30, 2025
+BA	Stock	
+SHORT
+$203.27	$200.08	+1.6%	EXP	Oct 30, 2025
+NFLX	Stock	
+LONG
+$1090.92	$1089.00	-0.2%	EXP	Oct 30, 2025
+AMD	Stock	
+LONG
+$257.67	$254.84	-1.1%	EXP	Oct 30, 2025
+GOOGL	Stock	
+LONG
+$289.43	$281.48	-2.7%	EXP	Oct 30, 2025
+META	Stock	
+SHORT
+$664.27	$666.47	-0.3%	EXP	Oct 30, 2025
+AMZN	Stock	
+LONG
+$227.32	$222.86	-2.0%	EXP	Oct 30, 2025
+MSFT	Stock	
+SHORT
+$523.93	$525.76	-0.3%	EXP	Oct 30, 2025
+TSLA	Stock	
+SHORT
+$439.75	$440.10	-0.1%	EXP	Oct 30, 2025
+NVDA	Stock	
+LONG
+$202.42	$202.89	+0.2%	EXP	Oct 30, 2025
+QQQ	Stock	
+SHORT
+$628.91	$626.05	+0.5%	EXP	Oct 30, 2025
+SPY	Stock	
+SHORT
+$683.50	$679.83	+0.5%	EXP	Oct 30, 2025
+MSTR	Stock	
+SHORT
+$263.33	$254.57	+3.3%	EXP	Oct 30, 2025
+MARA	Stock	
+LONG
+$18.12	$17.76	-2.0%	EXP	Oct 30, 2025
+HOOD	Stock	
+LONG
+$141.22	$138.07	-2.2%	EXP	Oct 30, 2025
+COIN	Stock	
+SHORT
+$338.67	$328.51	+3.0%	EXP	Oct 30, 2025
+BA	Stock	
+SHORT
+$203.39	$200.08	+1.6%	EXP	Oct 30, 2025
+AMD	Stock	
+LONG
+$257.92	$254.84	-1.2%	EXP	Oct 30, 2025
+GOOGL	Stock	
+LONG
+$289.62	$281.48	-2.8%	EXP	Oct 30, 2025
+META	Stock	
+SHORT
+$664.82	$666.47	-0.2%	EXP	Oct 30, 2025
+AMZN	Stock	
+LONG
+$227.40	$222.86	-2.0%	EXP	Oct 30, 2025
+MSFT	Stock	
+SHORT
+$524.05	$525.76	-0.3%	EXP	Oct 30, 2025
+TSLA	Stock	
+SHORT
+$440.25	$440.10	+0.0%	EXP	Oct 30, 2025
+NVDA	Stock	
+LONG
+$202.42	$202.89	+0.2%	EXP	Oct 30, 2025
+QQQ	Stock	
+SHORT
+$629.12	$626.05	+0.5%	EXP	Oct 30, 2025
+SPY	Stock	
+SHORT
+$683.63	$679.83	+0.6%	EXP	Oct 30, 2025
+AAPL	Stock	
+LONG
+$262.66	$271.41	+3.3%	EXP	Oct 30, 2025
+TSLA	Stock	
+LONG
+$439.90	$442.51	+0.6%	EXP	Oct 30, 2025
+MSFT	Stock	
+LONG
+$515.97	$523.88	+1.5%	EXP	Oct 30, 2025
+ETH	Crypto	
+LONG
+$2605.00	$2750.00	+5.6%	WIN	Oct 30, 2025
+BTC	Crypto	
+LONG
+$67050.00	$70000.00	+4.4%	WIN	Oct 30, 2025
+ETH	Crypto	
+LONG
+$2610.00	$2780.00	+6.5%	WIN	Oct 30, 2025
+BTC	Crypto	
+LONG
+$67100.00	$70500.00	+5.1%	WIN	Oct 30, 2025
+XOM	Stock	
+LONG
+$116.20	$115.64	-0.5%	EXP	Oct 30, 2025
+VLY	Stock	
+LONG
+$10.44	$10.87	+4.1%	EXP	Oct 30, 2025
+SPY	Stock	
+LONG
+$580.30	$585.00	+0.8%	WIN	Oct 30, 2025
+BTC	Crypto	
+LONG
+$67200.00	$69500.00	+3.4%	WIN	Oct 30, 2025
+NVDA	Stock	
+LONG
+$140.50	$145.00	+3.2%	WIN	Oct 30, 2025
+SMCI	Stock	
+LONG
+$910.00	$895.00	-1.6%	LOSS	Oct 30, 2025
+QQQ	Stock	
+LONG
+$495.00	$500.00	+1.0%	WIN	Oct 30, 2025
+NVDA	Stock	
+LONG
+$142.50	$148.00	+3.9%	WIN	Oct 30, 2025
+BTC	Crypto	
+LONG
+$67500.00	$69000.00	+2.2%	WIN	Oct 30, 2025
+SPY	Stock	
+LONG
+$582.00	$588.00	+1.0%	WIN	Oct 30, 2025
+SMCI	Stock	
+LONG
+$810.00	$790.00	-2.5%	LOSS	Oct 30, 2025
+NVDA	Stock	
+LONG
+$145.00	$155.00	+6.9%	WIN	Oct 30, 2025
+NVDA	Stock	
+SHORT
+$140.20	$142.50	-1.6%	LOSS	Oct 30, 2025
+SPY	Stock	
+LONG
+$580.00	$585.00	+0.9%	WIN	Oct 30, 2025
+NVDA	Stock	
+LONG
+$140.00	$145.75	+4.1%	WIN	Oct 30, 2025
+ELS	Stock	
+LONG
+$60.38	$60.56	+0.3%	EXP	Oct 30, 2025
+SFI	Option	
+LONG
+$2.50	$2.50	0.0%	EXP	Oct 29, 2025
+SFI	Option	
+LONG
+$2.50	$2.50	0.0%	EXP	Oct 29, 2025
+VLY	Stock	
+LONG
+$10.42	$11.28	+8.3%	WIN	Oct 29, 2025
+BTC	Crypto	
+LONG
+$67150.00	$69500.00	+3.5%	WIN	Oct 29, 2025
+NVDA	Stock	
+SHORT
+$140.70	$143.50	-2.0%	LOSS	Oct 29, 2025
+SPY	Stock	
+LONG
+$580.25	$585.50	+0.9%	WIN	Oct 29, 2025
+CNC	Stock	
+LONG
+$33.52	$36.28	+8.2%	WIN	Oct 29, 2025
+UPS	Stock	
+LONG
+$174.00	$172.50	-0.9%	LOSS	Oct 29, 2025
+NVDA	Stock	
+LONG
+$140.50	$143.00	+1.8%	WIN	Oct 29, 2025
+GT	Crypto	
+LONG
+$14.97	$14.55	-2.8%	LOSS	Oct 28, 2025
+TLK	Stock	
+LONG
+$19.52	$20.48	+4.9%	EXP	Oct 28, 2025
+BTC	Crypto	
+LONG
+$67000.00	$69500.00	+3.7%	WIN	Oct 28, 2025
+SPY	Stock	
+LONG
+$580.50	$586.20	+1.0%	WIN	Oct 28, 2025
+DASH	Crypto	
+LONG
+$49.03	$47.66	-2.8%	LOSS	Oct 28, 2025
+ETH	Crypto	
+LONG
+$2610.00	$2700.00	+3.4%	WIN	Oct 28, 2025
+BTC	Crypto	
+LONG
+$67200.00	$69000.00	+2.7%	WIN	Oct 28, 2025
+NVDA	Stock	
+LONG
+$141.00	$145.00	+2.8%	WIN	Oct 28, 2025
+ITGR	Option	
+LONG
+$79.82	$68.80	+13.8%	EXP	Oct 28, 2025
+BTC	Crypto	
+LONG
+$67200.00	$70500.00	+4.9%	WIN	Oct 27, 2025
+SPY	Stock	
+LONG
+$580.50	$586.20	+1.0%	WIN	Oct 27, 2025
+ETH	Crypto	
+LONG
+$3250.00	$4000.00	+23.1%	WIN	Oct 27, 2025
+TNL	Option	
+LONG
+$67.85	$65.80	-3.0%	EXP	Oct 27, 2025
+NVDA	Stock	
+LONG
+$140.00	$145.00	+3.6%	WIN	Oct 25, 2025
+SPY	Stock	
+SHORT
+$580.20	$582.50	-0.4%	LOSS	Oct 25, 2025
+BTC	Crypto	
+LONG
+$66000.00	$69000.00	+4.5%	WIN	Oct 25, 2025
+NVDA	Stock	
+LONG
+$140.20	$145.50	+3.8%	WIN	Oct 25, 2025
+QBTS	Option	
+LONG
+$32.87	$32.65	+0.7%	EXP	Oct 25, 2025
+JOBY	Option	
+LONG
+$15.88	$16.13	+1.6%	EXP	Oct 25, 2025
+DASH	Crypto	
+LONG
+$41.38	$40.22	-2.8%	LOSS	Oct 24, 2025
+IWM	Option	
+LONG
+$244.88	$249.78	-2.0%	LOSS	Oct 24, 2025
+SMPL	Stock	
+LONG
+$19.98	$20.71	+3.7%	EXP	Oct 24, 2025
+GTX	Stock	
+SHORT
+$15.57	$16.03	-3.0%	EXP	Oct 24, 2025
+BTC	Crypto	
+LONG
+$67500.00	$70000.00	+3.7%	WIN	Oct 24, 2025
+NVDA	Stock	
+SHORT
+$142.50	$145.00	-1.8%	LOSS	Oct 24, 2025
+SPY	Stock	
+LONG
+$580.50	$585.00	+0.8%	WIN	Oct 24, 2025
+NVDA	Stock	
+LONG
+$142.00	$147.00	+3.5%	WIN	Oct 24, 2025
+SPY	Stock	
+LONG
+$580.50	$585.50	+0.9%	WIN	Oct 24, 2025
+BTC	Crypto	
+LONG
+$67000.00	$68500.00	+2.2%	WIN	Oct 23, 2025
+DASH	Crypto	
+LONG
+$49.19	$47.22	-4.0%	LOSS	Oct 23, 2025
+NVDA	Stock	
+SHORT
+$140.00	$143.00	-2.1%	LOSS	Oct 23, 2025
+SPY	Stock	
+LONG
+$580.00	$585.00	+0.9%	WIN	Oct 23, 2025
+BTC	Crypto	
+LONG
+$67200.00	$69500.00	+3.4%	WIN	Oct 23, 2025
+NVDA	Stock	
+SHORT
+$140.20	$143.80	-2.6%	LOSS	Oct 23, 2025
+SPY	Stock	
+LONG
+$580.50	$585.80	+0.9%	WIN	Oct 23, 2025
+BTC	Crypto	
+LONG
+$67000.00	$69000.00	+3.0%	WIN	Oct 23, 2025
+NVDA	Stock	
+SHORT
+$140.00	$142.50	-1.8%	LOSS	Oct 23, 2025
+SPY	Stock	
+LONG
+$580.00	$585.00	+0.9%	WIN	Oct 23, 2025
+NVDA	Option	
+LONG
+$920.00	$880.00	-4.3%	LOSS	Oct 23, 2025
+MSFT	Stock	
+LONG
+$435.00	$460.00	+5.8%	WIN	Oct 23, 2025
+PG	Stock	
+LONG
+$160.50	$154.00	-4.0%	LOSS	Oct 23, 2025
+NVDA	Stock	
+LONG
+$905.00	$850.00	-6.1%	LOSS	Oct 23, 2025
+SIGI	Stock	
+LONG
+$77.49	$76.09	-1.8%	LOSS	Oct 23, 2025
+TNL	Option	
+LONG
+$69.69	$65.34	-6.2%	LOSS	Oct 23, 2025
+PINS	Option	
+SHORT
+$0.75	$37.00	-4833.3%	WIN	Oct 23, 2025
+GOOGL	Stock	
+LONG
+$156.00	$170.00	+9.0%	WIN	Oct 23, 2025
+ETH	Crypto	
+LONG
+$3250.00	$3800.00	+16.9%	WIN	Oct 23, 2025
+NVDA	Stock	
+LONG
+$905.00	$845.00	-6.6%	LOSS	Oct 23, 2025
+SPY	Option	
+SHORT
+$5.50	$0.50	+90.9%	WIN	Oct 23, 2025
+SMCI	Stock	
+LONG
+$880.00	$830.00	-5.7%	LOSS	Oct 23, 2025
+NVDA	Stock	
+LONG
+$925.00	$880.00	-4.9%	LOSS	Oct 23, 2025
+SMH	Option	
+LONG
+$220.00	$235.00	+6.8%	WIN	Oct 23, 2025
+BTC	Crypto	
+LONG
+$66000.00	$78000.00	+18.2%	WIN	Oct 23, 2025
+RIVN	Stock	
+SHORT
+$10.50	$12.50	-19.1%	LOSS	Oct 23, 2025
+NVDA	Stock	
+LONG
+$925.00	$880.00	-4.9%	LOSS	Oct 23, 2025
+STM	Stock	
+LONG
+$25.73	$25.26	-1.8%	LOSS	Oct 23, 2025
+HUT	Option	
+LONG
+$38.71	$41.13	+6.3%	LOSS	Oct 23, 2025
+MOH	Stock	
+SHORT
+$154.53	$157.63	-2.0%	LOSS	Oct 23, 2025
+GTX	Option	
+LONG
+$14.94	$15.24	-2.0%	EXP	Oct 23, 2025
+LEU	Option	
+LONG
+$296.53	$315.06	+6.3%	LOSS	Oct 23, 2025
+VICR	Option	
+LONG
+$83.50	$83.50	0.0%	EXP	Oct 23, 2025
+ASTS	Option	
+LONG
+$71.22	$71.22	0.0%	EXP	Oct 23, 2025
+VICR	Option	
+LONG
+$87.44	$88.20	-0.9%	EXP	Oct 23, 2025
+DRD	Option	
+LONG
+$25.84	$25.88	-0.2%	EXP	Oct 23, 2025
+AU	Option	
+LONG
+$68.07	$68.07	0.0%	EXP	Oct 23, 2025
+GOF	Option	
+LONG
+$12.88	$13.40	-4.1%	EXP	Oct 23, 2025
+OKLO	Stock	
+SHORT
+$120.32	$122.72	-2.0%	LOSS	Oct 23, 2025
+ITGR	Option	
+LONG
+$72.44	$67.91	-6.3%	LOSS	Oct 23, 2025
+SMCI	Stock	
+LONG
+$50.21	$49.30	-1.8%	LOSS	Oct 23, 2025
+ITGR	Stock	
+LONG
+$72.30	$70.99	-1.8%	LOSS	Oct 23, 2025
+ICLR	Stock	
+LONG
+$179.99	$176.75	-1.8%	LOSS	Oct 23, 2025
+ITGR	Stock	
+LONG
+$79.66	$78.22	-1.8%	LOSS	Oct 23, 2025
+QBTS	Stock	
+SHORT
+$31.91	$32.55	-2.0%	LOSS	Oct 23, 2025
+TSLA	Option	
+LONG
+$440.78	$425.00	-3.6%	LOSS	Oct 23, 2025
+TSLA	Stock	
+LONG
+$440.78	$425.00	-3.6%	LOSS	Oct 23, 2025
+CLF	Stock	
+LONG
+$13.26	$12.88	-2.9%	LOSS	Oct 23, 2025
+LEU	Stock	
+SHORT
+$316.10	$314.83	+0.4%	EXP	Oct 22, 2025
+ASTER	Crypto	
+LONG
+$0.97	$0.94	-3.1%	LOSS	Oct 22, 2025
+MYX	Crypto	
+LONG
+$2.78	$2.70	-2.9%	LOSS	Oct 22, 2025
+ARB	Crypto	
+LONG
+$0.31	$0.30	-3.2%	LOSS	Oct 22, 2025
+YYAI	Stock	
+LONG
+$0.19	$0.19	0.0%	LOSS	Oct 22, 2025
+YYAI	Stock	
+LONG
+$0.19	$0.19	0.0%	LOSS	Oct 22, 2025
+TSLY	Option	
+LONG
+$0.50	$1.50	+200.0%	WIN	Oct 22, 2025
+OKLO	Stock	
+SHORT
+$116.39	$118.71	-2.0%	LOSS	Oct 22, 2025
+HUT	Stock	
+SHORT
+$36.48	$37.21	-2.0%	LOSS	Oct 22, 2025
+PEGA	Stock	
+SHORT
+$64.13	$64.16	-0.0%	EXP	Oct 22, 2025
+OKLO	Stock	
+SHORT
+$124.35	$114.40	+8.0%	WIN	Oct 22, 2025
+GLXY	Option	
+LONG
+$38.69	$36.27	-6.3%	LOSS	Oct 22, 2025
+MTDR	Stock	
+LONG
+$39.93	$39.56	-0.9%	EXP	Oct 22, 2025
+FET	Crypto	
+LONG
+$0.25	$0.24	-4.0%	LOSS	Oct 22, 2025
+CLF	Option	
+LONG
+$13.28	$13.12	-1.2%	EXP	Oct 22, 2025
+USAR	Option	
+LONG
+$26.45	$23.97	-9.4%	LOSS	Oct 22, 2025
+LEU	Stock	
+SHORT
+$341.00	$313.72	+8.0%	WIN	Oct 22, 2025
+CIFR	Stock	
+LONG
+$17.53	$17.04	-2.8%	LOSS	Oct 22, 2025
+TSLA	Option	
+LONG
+$440.78	$418.74	-5.0%	WIN	Oct 22, 2025
+SNX	Crypto	
+LONG
+$1.47	$1.43	-2.7%	LOSS	Oct 22, 2025
+PRAX	Stock	
+SHORT
+$187.88	$190.02	-1.1%	EXP	Oct 21, 2025
+PPTA	Stock	
+LONG
+$23.55	$23.71	+0.7%	EXP	Oct 21, 2025
+GM	Option	
+LONG
+$67.07	$65.73	-2.0%	LOSS	Oct 21, 2025
+GFI	Stock	
+SHORT
+$38.92	$37.36	+4.0%	WIN	Oct 21, 2025
+METC	Stock	
+LONG
+$40.49	$42.92	+6.0%	WIN	Oct 21, 2025
+IAG	Option	
+LONG
+$12.14	$12.87	+6.0%	WIN	Oct 21, 2025
+KGC	Option	
+LONG
+$22.93	$24.31	+6.0%	WIN	Oct 21, 2025
+PAAS	Stock	
+LONG
+$35.21	$37.32	+6.0%	WIN	Oct 21, 2025
+PAAS	Stock	
+SHORT
+$35.11	$35.81	-2.0%	LOSS	Oct 21, 2025
+VICR	Stock	
+LONG
+$63.50	$66.04	+4.0%	WIN	Oct 21, 2025
+SSRM	Stock	
+LONG
+$21.47	$22.50	+4.8%	WIN	Oct 21, 2025
+PAXG	Crypto	
+SHORT
+$4129.27	$4129.27	0.0%	EXP	Oct 21, 2025
+NVTS	Stock	
+LONG
+$14.94	$15.47	+3.5%	WIN	Oct 21, 2025
+SBSW	Option	
+LONG
+$10.15	$10.64	+4.8%	WIN	Oct 21, 2025
+SKE	Option	
+LONG
+$16.74	$17.65	+5.4%	WIN	Oct 21, 2025
+CLF	Option	
+LONG
+$13.59	$13.18	-3.0%	LOSS	Oct 21, 2025
+GM	Stock	
+SHORT
+$66.02	$68.00	-3.0%	LOSS	Oct 21, 2025
+METC	Option	
+LONG
+$41.44	$43.92	+6.0%	WIN	Oct 21, 2025
+SA	Stock	
+LONG
+$23.34	$24.74	+6.0%	WIN	Oct 21, 2025
+USAR	Option	
+LONG
+$27.62	$26.79	-3.0%	LOSS	Oct 21, 2025
+CDE	Option	
+LONG
+$18.66	$18.10	-3.0%	LOSS	Oct 21, 2025
+ETHFI	Crypto	
+LONG
+$1.00	$1.00	0.0%	EXP	Oct 21, 2025
+CAKE	Crypto	
+LONG
+$2.69	$2.69	0.0%	EXP	Oct 21, 2025
+XPL	Crypto	
+SHORT
+$0.40	$0.40	0.0%	EXP	Oct 21, 2025
+GKOS	Stock	
+SHORT
+$79.91	$73.52	+8.0%	WIN	Oct 21, 2025
+AAOI	Stock	
+LONG
+$35.09	$33.69	-4.0%	LOSS	Oct 21, 2025
+QBTS	Stock	
+SHORT
+$34.80	$32.02	+8.0%	WIN	Oct 21, 2025
+ENVX	Option	
+LONG
+$12.46	$11.96	-4.0%	LOSS	Oct 21, 2025
+XPL	Crypto	
+SHORT
+$0.39	$0.39	0.0%	EXP	Oct 21, 2025
+COAI	Crypto	
+SHORT
+$5.31	$5.31	0.0%	EXP	Oct 21, 2025
+RIOT	Stock	
+LONG
+$22.19	$21.30	-4.0%	LOSS	Oct 21, 2025
+币安人生	Crypto	
+LONG
+$0.37	$0.37	0.0%	EXP	Oct 21, 2025
+CLSK	Stock	
+LONG
+$21.84	$20.97	-4.0%	LOSS	Oct 21, 2025
+NVTS	Stock	
+LONG
+$17.16	$16.47	-4.0%	LOSS	Oct 21, 2025
+RXRX	Penny	
+LONG
+$6.83	$6.55	-4.1%	LOSS	Oct 21, 2025
+BBAI	Penny	
+LONG
+$7.62	$7.32	-3.9%	LOSS	Oct 21, 2025
+BVN	Option	
+LONG
+$22.69	$24.05	+6.0%	WIN	Oct 21, 2025
+HL	Stock	
+LONG
+$12.80	$13.57	+6.0%	WIN	Oct 21, 2025
+BITF	Penny	
+LONG
+$4.47	$4.74	+6.0%	WIN	Oct 21, 2025
+VICR	Stock	
+LONG
+$65.76	$68.39	+4.0%	WIN	Oct 21, 2025
+GLXY	Stock	
+SHORT
+$44.43	$41.76	+6.0%	WIN	Oct 21, 2025
+SNX	Crypto	
+LONG
+$1.50	$1.50	0.0%	EXP	Oct 21, 2025
+PAXG	Crypto	
+LONG
+$4363.37	$4363.37	0.0%	EXP	Oct 21, 2025
+0G	Crypto	
+LONG
+$1.94	$1.94	0.0%	EXP	Oct 21, 2025
+STUB	Stock	
+LONG
+$18.68	$20.18	+8.0%	WIN	Oct 21, 2025
+IMVT	Option	
+LONG
+$19.08	$20.61	+8.0%	WIN	Oct 21, 2025
+IE	Stock	
+LONG
+$16.61	$15.95	-4.0%	LOSS	Oct 21, 2025
+FET	Crypto	
+SHORT
+$0.28	$0.28	0.0%	EXP	Oct 21, 2025
+APLS	Stock	
+LONG
+$27.23	$29.41	+8.0%	WIN	Oct 21, 2025
+QURE	Stock	
+LONG
+$64.70	$62.11	-4.0%	LOSS	Oct 21, 2025
+CELC	Stock	
+LONG
+$72.10	$69.22	-4.0%	LOSS	Oct 21, 2025
+CLF	Option	
+LONG
+$15.66	$15.03	-4.0%	LOSS	Oct 21, 2025
+RXRX	Penny	
+LONG
+$6.80	$6.53	-4.0%	LOSS	Oct 21, 2025
+SNX	Crypto	
+LONG
+$1.60	$1.60	0.0%	EXP	Oct 21, 2025
+PENDLE	Crypto	
+SHORT
+$3.16	$3.16	0.0%	EXP	Oct 21, 2025
+AXL	Penny	
+LONG
+$5.68	$6.14	+8.1%	WIN	Oct 21, 2025
+WBNB	Crypto	
+SHORT
+$1094.72	$1094.72	0.0%	EXP	Oct 21, 2025
+VOYG	Option	
+LONG
+$35.30	$33.89	-4.0%	LOSS	Oct 21, 2025
+GRAL	Stock	
+LONG
+$90.11	$86.51	-4.0%	LOSS	Oct 21, 2025
+WBNB	Crypto	
+SHORT
+$1094.14	$1094.14	0.0%	EXP	Oct 21, 2025
+DASH	Crypto	
+LONG
+$46.05	$49.73	+8.0%	WIN	Oct 21, 2025
+CAKE	Crypto	
+SHORT
+$2.87	$2.87	0.0%	EXP	Oct 21, 2025
+NTLA	Option	
+LONG
+$28.05	$26.93	-4.0%	LOSS	Oct 21, 2025
+BITF	Penny	
+LONG
+$5.18	$4.98	-3.9%	LOSS	Oct 21, 2025
+EXEL	Stock	
+SHORT
+$34.33	$35.70	-4.0%	LOSS	Oct 21, 2025
+CELC	Stock	
+LONG
+$71.75	$68.88	-4.0%	LOSS	Oct 21, 2025
+ETHFI	Crypto	
+SHORT
+$1.08	$1.08	0.0%	EXP	Oct 21, 2025
+EIGEN	Crypto	
+SHORT
+$1.10	$1.10	0.0%	EXP	Oct 21, 2025
+CLF	Option	
+LONG
+$15.66	$15.04	-4.0%	LOSS	Oct 21, 2025
+BEAM	Option	
+LONG
+$30.13	$28.92	-4.0%	LOSS	Oct 21, 2025
+FRMI	Stock	
+LONG
+$22.10	$21.44	-3.0%	LOSS	Oct 21, 2025
+VICR	Stock	
+LONG
+$68.01	$66.11	-2.8%	LOSS	Oct 21, 2025
+VICR	Stock	
+LONG
+$68.15	$66.11	-3.0%	LOSS	Oct 21, 2025
+JOBY	Option	
+LONG
+$17.21	$16.52	-4.0%	LOSS	Oct 21, 2025
+MARA	Option	
+LONG
+$21.38	$20.52	-4.0%	LOSS	Oct 21, 2025
+USAR	Option	
+LONG
+$31.19	$29.94	-4.0%	LOSS	Oct 21, 2025
+Click any row to view full trade details
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CST
+© 2025 QuantEdge Research. All rights reserved.•by UN/TITLD
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past performance does not guarantee future results.
+0

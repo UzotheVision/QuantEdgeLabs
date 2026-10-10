@@ -1,0 +1,221 @@
+Apollo.io
+
+
+Q
+QuantEdge's workspace
+My project
+
+Production
+
+QuantEdge Labs
+
+
+Search
+Command+
+K
+
+New
+
+Upgrade
+
+
+q
+Environment
+QuantEdge Labs
+Events
+Settings
+Monitor
+Logs
+Metrics
+Manage
+Environment
+Shell
+Scaling
+Previews
+Disk
+Jobs
+
+Changelog
+Invite a friend
+
+Contact support
+Render Status
+Web Service
+QuantEdge Labs
+Node
+Free
+Upgrade your instance
+
+Connect
+
+Manual Deploy
+Service ID:
+srv-d5cu0dje5dus738unnm0
+
+Maleek23 / QuantEdgeResearch
+main
+
+quantedgelabs.net
+Settings
+Table of contents
+General
+Build & Deploy
+Custom Domains
+PR Previews
+Edge Caching
+Notifications
+Health Checks
+Maintenance Mode
+Delete or suspend
+General
+Name
+A unique name for your Web Service.
+QuantEdge Labs
+
+Edit
+Region
+Your services in the same region can communicate over a private network.
+Oregon (US West)
+Instance Type
+Free
+0.1 CPU
+512 MB
+Update
+Please enter your payment information to select an instance type with higher limits.
+See remaining free usage, or learn about free service limits.
+Build & Deploy
+Repository
+The repository used for your Web Service.
+https://github.com/Maleek23/QuantEdgeResearch
+
+Edit
+Branch
+The Git branch to build and deploy.
+branch
+
+main
+
+Edit
+Git Credentials
+User providing the credentials to pull the repository.
+quantedgerd@gmail.com (you)
+Use My Credentials
+Root DirectoryOptional
+If set, Render runs commands from this directory instead of the repository root. Additionally, code changes outside of this directory do not trigger an auto-deploy. Most commonly used with a monorepo.
+
+Edit
+Build Filters
+Include or ignore specific paths in your repo when determining whether to trigger an auto-deploy. Paths are relative to your repo's root directory. Learn more.
+
+Edit
+Included Paths
+Changes that match these paths will trigger a new build.
+
+
+Add Included Path
+Ignored Paths
+Changes that match these paths will not trigger a new build.
+
+
+Add Ignored Path
+Build Command
+Render runs this command to build your app before each deploy.
+$
+npm install; npm run build
+
+Edit
+Pre-Deploy CommandOptional
+Render runs this command before the start command. Useful for database migrations and static asset uploads.
+$
+
+Edit
+Start Command
+Render runs this command to start your app with each deploy.
+$
+npm run start
+
+Edit
+Auto-Deploy
+By default, Render automatically deploys your service whenever you update its code or configuration. Disable to handle deploys manually. Learn more.
+autoDeployTrigger
+
+On Commit
+
+Edit
+Deploy Hook
+Your private URL to trigger a deploy for this server. Remember to keep this a secret.
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+
+
+Regenerate hook
+Custom Domains
+You can point custom domains you own to this service. See DNS configuration instructions.
+www.quantedgelabs.net
+redirects to quantedgelabs.net
+Domain VerifiedCertificate Issued
+quantedgelabs.net
+Domain VerifiedCertificate Issued
+Delete
+
+Add Custom Domain
+Render Subdomain
+If enabled, your service remains reachable at its onrender.com subdomain in addition to all custom domains. Disable to serve exclusively from custom domains.
+
+
+enabled
+Your service is reachable at https://quantedgeresearch.onrender.com.
+PR Previews
+Pull Request Previews
+Spin up temporary instances to test pull requests opened against the main branch of Maleek23/QuantEdgeResearch. Choose Automatic to preview all PRs, or Manual for only PRs with [render preview] in their title. Pull Request Previews create a new instance for just this service. Use Preview Environments to clone a group of services for every PR.
+prPreviewsEnabled
+
+Off
+
+Edit
+Edge Caching
+Serve static content at the edge to improve performance and reduce service load. Learn more.
+Paid
+Edge Caching is only available for paid instances.
+Upgrade
+Notifications
+Service Notifications
+Set notifications to receive for your service. This setting will override your workspace's default settings.
+notificationsToSend
+
+Use workspace default (Only failure notifications)
+
+Edit
+Preview Environment Notifications
+Configure notifications for preview environments and service previews.
+previewNotificationsEnabled
+
+Use account default (Disabled)
+
+Edit
+Health Checks
+Health Check Path
+Provide an HTTP endpoint path that Render messages periodically to monitor your service. Learn More.
+/healthz
+
+Edit
+Maintenance Mode
+
+
+Paid
+Maintenance mode is only available for paid instances.
+Upgrade
+
+Delete Web Service
+
+Suspend Web Service
+0 services selected:
+
+Move
+
+Generate Blueprint
+
+Resume
+
+Suspend
+

@@ -1,0 +1,410 @@
+{
+  "generatedAt": "2026-09-24T04:32:00.333Z",
+  "mockTests": [
+    {
+      "id": "A1",
+      "group": "Probability math",
+      "name": "Normal CDF vs published table values (5 points)",
+      "expected": "max error < 1e-4",
+      "actual": "max error 4.48e-5",
+      "pass": true
+    },
+    {
+      "id": "A2",
+      "group": "Probability math",
+      "name": "CDF symmetry Φ(x)+Φ(−x)=1",
+      "expected": "< 1e-7",
+      "actual": "0.00e+0",
+      "pass": true
+    },
+    {
+      "id": "A3",
+      "group": "Probability math",
+      "name": "Expected move 1σ (spot 100, IV 40%, 9 DTE)",
+      "expected": "$6.28",
+      "actual": "$6.28",
+      "pass": true
+    },
+    {
+      "id": "A4",
+      "group": "Probability math",
+      "name": "Driftless touch odds at 1σ (reflection principle)",
+      "expected": "≈ 31.7%",
+      "actual": "31.7%",
+      "pass": true
+    },
+    {
+      "id": "A5",
+      "group": "Bottom-reversal detector",
+      "name": "Planted V-recovery (−20% then 55% retrace in 4 sessions)",
+      "expected": "fires as v_recovery",
+      "actual": "v_recovery",
+      "pass": true
+    },
+    {
+      "id": "A5b",
+      "group": "Bottom-reversal detector",
+      "name": "Planted V-recovery, moderate pace (−14% then 54% retrace over 5 sessions)",
+      "expected": "fires as v_recovery",
+      "actual": "v_recovery",
+      "pass": true
+    },
+    {
+      "id": "A6",
+      "group": "Bottom-reversal detector",
+      "name": "Planted higher-lows base (−16% then ascending floors)",
+      "expected": "fires as higher_lows_base",
+      "actual": "higher_lows_base",
+      "pass": true
+    },
+    {
+      "id": "A7",
+      "group": "Bottom-reversal detector",
+      "name": "NEGATIVE CONTROL: steady uptrend, no bottom",
+      "expected": "no fire",
+      "actual": "no fire",
+      "pass": true
+    },
+    {
+      "id": "A8",
+      "group": "Bottom-reversal detector",
+      "name": "NEGATIVE CONTROL: ongoing crash, no recovery",
+      "expected": "no fire",
+      "actual": "no fire",
+      "pass": true
+    },
+    {
+      "id": "A9",
+      "group": "Bottom-reversal detector",
+      "name": "Level ordering on a fired signal",
+      "expected": "stop < entry < T1 ≤ T2",
+      "actual": "86.94 < 92.00 < 102.12 ≤ 107.17",
+      "pass": true
+    },
+    {
+      "id": "A10",
+      "group": "Bottom-reversal detector",
+      "name": "T1 is declared 2R",
+      "expected": "2.00R ± 0.02",
+      "actual": "2.00R",
+      "pass": true
+    },
+    {
+      "id": "A11",
+      "group": "Index-swing detector",
+      "name": "Planted 2% pullback inside a rising trend",
+      "expected": "fires",
+      "actual": "fires (2.5% pullback)",
+      "pass": true
+    },
+    {
+      "id": "A12",
+      "group": "Index-swing detector",
+      "name": "NEGATIVE CONTROL: downtrend (no counter-trend longs)",
+      "expected": "no fire",
+      "actual": "no fire",
+      "pass": true
+    },
+    {
+      "id": "A13",
+      "group": "Index-swing detector",
+      "name": "NEGATIVE CONTROL: at the high, no discount",
+      "expected": "no fire",
+      "actual": "no fire",
+      "pass": true
+    },
+    {
+      "id": "A14",
+      "group": "Discipline gates",
+      "name": "Short with measured evidence, no news event (policy 2026-09-24)",
+      "expected": "allowed",
+      "actual": "allowed",
+      "pass": true
+    },
+    {
+      "id": "A15",
+      "group": "Discipline gates",
+      "name": "BTC-proxy short while bitcoin is rising",
+      "expected": "blocked",
+      "actual": "blocked",
+      "pass": true
+    },
+    {
+      "id": "A16",
+      "group": "Discipline gates",
+      "name": "BTC-proxy short while bitcoin is falling",
+      "expected": "allowed",
+      "actual": "allowed",
+      "pass": true
+    },
+    {
+      "id": "A17",
+      "group": "Discipline gates",
+      "name": "Leveraged/inverse wrappers blocked, sector ETFs allowed",
+      "expected": "TQQQ/SOXL/UCO/SCO blocked; SPY/SMH/QQQ allowed",
+      "actual": "as expected",
+      "pass": true
+    }
+  ],
+  "outcomes": {
+    "overall": {
+      "n": 756,
+      "decided": 274,
+      "wins": 61,
+      "stops": 213,
+      "expired": 482,
+      "hitRate": 0.22262773722627738,
+      "breakEvenRate": 0.3298623196662048,
+      "zVsRandomWalk": -3.9132978009846466,
+      "expectancyR": -0.2446666906950604,
+      "sdR": 1.1242573037876555,
+      "nR": 458,
+      "tStat": -4.657382094561024,
+      "profitFactor": 0.5800031336281348
+    },
+    "bySource": {
+      "quant": {
+        "n": 393,
+        "decided": 136,
+        "wins": 44,
+        "stops": 92,
+        "expired": 257,
+        "hitRate": 0.3235294117647059,
+        "breakEvenRate": 0.29192142061626947,
+        "zVsRandomWalk": 0.847996584463326,
+        "expectancyR": -0.1646528581434197,
+        "sdR": 1.1962303273277535,
+        "nR": 173,
+        "tStat": -1.810412405156343,
+        "profitFactor": 0.7206465387624976
+      },
+      "spx_session": {
+        "n": 190,
+        "decided": 107,
+        "wins": 13,
+        "stops": 94,
+        "expired": 83,
+        "hitRate": 0.12149532710280374,
+        "breakEvenRate": 0.4021928459451605,
+        "zVsRandomWalk": -5.9583424603222435,
+        "expectancyR": -0.5106214136849695,
+        "sdR": 0.9402127386228477,
+        "nR": 151,
+        "tStat": -6.673618344493016,
+        "profitFactor": 0.27680792410738414
+      },
+      "gex_scanner": {
+        "n": 28,
+        "decided": 9,
+        "wins": 2,
+        "stops": 7,
+        "expired": 19,
+        "hitRate": 0.2222222222222222,
+        "breakEvenRate": 0.3570718932879571,
+        "zVsRandomWalk": -0.8667958485934512,
+        "expectancyR": -0.19100927787090707,
+        "sdR": 0.903808751147632,
+        "nR": 18,
+        "tStat": -0.8966318735942533,
+        "profitFactor": 0.5247952048185316
+      },
+      "market_scanner": {
+        "n": 143,
+        "decided": 22,
+        "wins": 2,
+        "stops": 20,
+        "expired": 121,
+        "hitRate": 0.09090909090909091,
+        "breakEvenRate": 0.20148549222743425,
+        "zVsRandomWalk": -1.337535444858443,
+        "expectancyR": -0.026738872157351712,
+        "sdR": 1.2126122916075215,
+        "nR": 115,
+        "tStat": -0.23646672625830814,
+        "profitFactor": 0.9396907232245658
+      }
+    },
+    "byDir": {
+      "long": {
+        "n": 606,
+        "decided": 191,
+        "wins": 47,
+        "stops": 144,
+        "expired": 415,
+        "hitRate": 0.24607329842931938,
+        "breakEvenRate": 0.3020996515615959,
+        "zVsRandomWalk": -1.7582141812135879,
+        "expectancyR": -0.1988966011123165,
+        "sdR": 1.1271825480039623,
+        "nR": 352,
+        "tStat": -3.3105826703386616,
+        "profitFactor": 0.6390030481830598
+      },
+      "short": {
+        "n": 150,
+        "decided": 83,
+        "wins": 14,
+        "stops": 69,
+        "expired": 67,
+        "hitRate": 0.1686746987951807,
+        "breakEvenRate": 0.3937499053045206,
+        "zVsRandomWalk": -4.248848057037402,
+        "expectancyR": -0.396657931573606,
+        "sdR": 1.1061789163734936,
+        "nR": 106,
+        "tStat": -3.691847038053558,
+        "profitFactor": 0.4229685292792353
+      }
+    },
+    "discrimination": {
+      "n": 337,
+      "spearmanRho": 0.025995432323896145,
+      "aucTargetVsStop": 0.4600972540045767,
+      "quintiles": [
+        {
+          "bucket": "Q1",
+          "scoreRange": "0–6",
+          "n": 67,
+          "expectancyR": -0.21988654377155206
+        },
+        {
+          "bucket": "Q2",
+          "scoreRange": "6–9",
+          "n": 67,
+          "expectancyR": -0.3108563483912962
+        },
+        {
+          "bucket": "Q3",
+          "scoreRange": "9–13",
+          "n": 68,
+          "expectancyR": -0.3281154636173931
+        },
+        {
+          "bucket": "Q4",
+          "scoreRange": "13–19",
+          "n": 67,
+          "expectancyR": 0.029121820788792805
+        },
+        {
+          "bucket": "Q5",
+          "scoreRange": "19–36",
+          "n": 68,
+          "expectancyR": -0.2545177562359697
+        }
+      ]
+    },
+    "calibration": [
+      {
+        "band": "0–60",
+        "n": 31,
+        "meanConfidence": 0.5196774193548387,
+        "realizedHitRate": 0.0967741935483871
+      },
+      {
+        "band": "60–70",
+        "n": 111,
+        "meanConfidence": 0.6356756756756756,
+        "realizedHitRate": 0.11711711711711711
+      },
+      {
+        "band": "70–80",
+        "n": 28,
+        "meanConfidence": 0.7560714285714286,
+        "realizedHitRate": 0.42857142857142855
+      },
+      {
+        "band": "80–100",
+        "n": 104,
+        "meanConfidence": 0.8879807692307692,
+        "realizedHitRate": 0.3173076923076923
+      }
+    ],
+    "stability": {
+      "firstHalf": {
+        "n": 378,
+        "decided": 194,
+        "wins": 53,
+        "stops": 141,
+        "expired": 184,
+        "hitRate": 0.27319587628865977,
+        "breakEvenRate": 0.3501626551125126,
+        "zVsRandomWalk": -2.313721106131498,
+        "expectancyR": -0.2424347442457726,
+        "sdR": 1.1159479447647662,
+        "nR": 228,
+        "tStat": -3.2803361285792128,
+        "profitFactor": 0.6085378476226949
+      },
+      "secondHalf": {
+        "n": 378,
+        "decided": 80,
+        "wins": 8,
+        "stops": 72,
+        "expired": 298,
+        "hitRate": 0.1,
+        "breakEvenRate": 0.2806340062089078,
+        "zVsRandomWalk": -3.76553438846792,
+        "expectancyR": -0.24687922891435424,
+        "sdR": 1.1348639375039902,
+        "nR": 230,
+        "tStat": -3.2991698488515167,
+        "profitFactor": 0.5479248042512349
+      },
+      "splitAt": "2026-08-26T18:23:05.175Z"
+    },
+    "window": {
+      "from": "2026-08-24T13:00:20.834Z",
+      "to": "2026-09-23T20:13:47.716Z"
+    }
+  },
+  "detectorBenchmark": {
+    "horizonSessions": 10,
+    "universeSamples": 37611,
+    "fires": 2174,
+    "fireMeanRet": 0.012110006637079422,
+    "universeMeanRet": 0.003901161408572193,
+    "excess": 0.00820884522850723,
+    "tStat": 4.047225191570094,
+    "fireHitPositive": 0.5400183992640294,
+    "universeHitPositive": 0.4730530961686741,
+    "fireMedian": 0.006239242685025959
+  },
+  "paperBook": {
+    "trades": 27,
+    "net": 429,
+    "winRate": 0.37037037037037035,
+    "avgWin": 1036,
+    "avgLoss": -584.1764705882352,
+    "profitFactor": 1.0431980666599536,
+    "maxDrawdown": -6298,
+    "curve": [
+      -117,
+      132,
+      -813,
+      1920,
+      2781,
+      4152,
+      4516,
+      3295,
+      3256,
+      3205,
+      5425,
+      4525,
+      4309,
+      3919,
+      5179,
+      4930,
+      4762,
+      3662,
+      3377,
+      2587,
+      1870,
+      1576,
+      -489,
+      -873,
+      -270,
+      0,
+      429
+    ]
+  }
+}

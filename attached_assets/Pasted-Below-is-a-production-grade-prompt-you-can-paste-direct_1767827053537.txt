@@ -1,0 +1,153 @@
+Below is a production-grade prompt you can paste directly into Replit AI (or any coding agent). It is written to force senior-level quantitative, UX, and engineering thinking and to build on top of your existing Quant Edge Labs codebase, not start over.
+
+⸻
+
+🔥 MASTER PROMPT — Quant Edge Labs Dashboard Redesign
+
+Role & Mindset
+
+You are a principal quantitative engineer / hedge fund technologist with 30–40 years of experience, collaborating with:
+	•	a senior UI/UX designer (financial dashboards, Bloomberg-level clarity)
+	•	a statistician (signal validation, confidence calibration)
+	•	a senior software engineer (scalable front-end + data pipelines)
+
+You think in signal quality, decision velocity, cognitive load, and risk-adjusted outcomes.
+
+⸻
+
+🎯 Objective
+
+Redesign and extend the existing Quant Edge Labs dashboard into a professional, institutional-grade research command center with 20–30 modular widgets, while building on top of the current architecture and components.
+
+Do NOT rewrite the app from scratch.
+Refactor, extend, and enhance what already exists.
+
+⸻
+
+🧠 Core Design Philosophy
+	•	Optimize for signal conviction, not visual noise
+	•	Every widget must answer one of:
+	•	Is this trade worth taking?
+	•	Why or why not?
+	•	What is changing right now?
+	•	UI should feel like:
+	•	Bloomberg Terminal × Notion × modern SaaS
+	•	Fast scanning → deep drill-down
+	•	Designed for self-directed traders, not beginners
+
+⸻
+
+🧩 Dashboard Structure (Required)
+
+Design the dashboard as modular, resizable widgets with saved layouts.
+
+Top-Level Zones
+	1.	Global Market Context
+	2.	Active Signal Intelligence
+	3.	Engine-Level Diagnostics
+	4.	Risk & Performance
+	5.	Execution & Experimentation
+
+⸻
+
+📊 REQUIRED WIDGETS (20–30 TOTAL)
+
+1️⃣ Market Overview (5–6 widgets)
+	•	Market Regime Detector (Risk-On / Risk-Off / Neutral)
+	•	Volatility Snapshot (VIX, VVIX, realized vs implied)
+	•	Index Heatmap (SPX, NQ, RTY, BTC, ETH)
+	•	Futures Bias Panel (NQ, GC – trend, levels, tick bias)
+	•	Economic Calendar Impact Meter
+	•	Correlation Matrix (assets vs indices)
+
+⸻
+
+2️⃣ Signal & Idea Intelligence (6–8 widgets)
+	•	Live Research Brief Feed (sortable by conviction)
+	•	Signal Confidence Score (0–100 composite)
+	•	Multi-Engine Convergence Gauge (visual overlap)
+	•	AI Consensus Summary (bullish / bearish / mixed)
+	•	Time-to-Invalidation Countdown
+	•	Idea Lifecycle Tracker (new → active → resolved)
+	•	Win Probability vs R:R Scatter Plot
+
+⸻
+
+3️⃣ Engine Diagnostics (5–6 widgets)
+	•	AI Engine Status (sources, agreement %, sentiment drift)
+	•	Quant Engine Panel (RSI(2), VWAP distance, z-scores)
+	•	Flow Scanner Tape (sweeps, blocks, dark pool)
+	•	Chart Pattern Detector (with thumbnail previews)
+	•	Futures Engine Levels (CME ticks, targets, invalidation)
+
+⸻
+
+4️⃣ Risk & Performance (5–6 widgets)
+	•	Rolling Win Rate (7d / 30d / all-time)
+	•	Confidence Calibration Curve
+	•	Symbol Leaderboard (best / worst)
+	•	Drawdown Heatmap
+	•	Loss Pattern Clustering (auto-tagged)
+	•	Strategy Attribution (which engine contributed)
+
+⸻
+
+5️⃣ Trading & Experimentation (4–5 widgets)
+	•	Paper Portfolio Overview
+	•	Auto-Lotto Bot Activity Monitor
+	•	Live R:R Opportunity Scanner
+	•	Backtest Preview Panel (Pro-ready)
+	•	Alerts & Notifications Center
+
+⸻
+
+🎨 UI / UX REQUIREMENTS
+	•	Dark-mode first (quant-friendly contrast)
+	•	Dense but readable (no wasted space)
+	•	Color used only for meaning (risk, confidence, delta)
+	•	Hover = explanation, never clutter
+	•	Click = drill-down, not navigation hell
+	•	Mobile responsive only for monitoring, not analysis
+
+⸻
+
+🛠 Engineering Constraints
+	•	Reuse existing components where possible
+	•	Abstract widgets into reusable modules
+	•	Prepare for:
+	•	WebSockets / real-time data
+	•	Feature flags (Free / Advanced / Pro)
+	•	Future API & backtesting integration
+	•	Keep performance top-tier (lazy loading, memoization)
+
+⸻
+
+📦 Deliverables
+	1.	Redesigned dashboard layout
+	2.	Widget architecture & naming
+	3.	UI component structure
+	4.	Data flow explanation (high-level)
+	5.	Any refactors required to support scale
+	6.	Clear TODOs for Pro-tier expansion
+
+⸻
+
+⚠️ Hard Rules
+	•	Do NOT simplify for beginners
+	•	Do NOT remove existing functionality
+	•	Do NOT treat this as a marketing page
+	•	This is a decision-support system, not a charting toy
+
+⸻
+
+Build like this will be used by professional traders managing real risk.
+
+⸻
+
+If you want, next I can:
+	•	Reduce this into a short “agent-optimized” Replit prompt
+	•	Design only the widget taxonomy
+	•	Convert this into tickets / tasks
+	•	Create one flagship “killer widget” (your moat)
+
+Just tell me.

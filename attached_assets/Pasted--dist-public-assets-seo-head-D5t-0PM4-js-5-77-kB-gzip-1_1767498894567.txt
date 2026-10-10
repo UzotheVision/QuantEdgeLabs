@@ -1,0 +1,91 @@
+../dist/public/assets/seo-head-D5t-0PM4.js                            5.77 kB │ gzip:   1.82 kB
+../dist/public/assets/login-D46MHpaY.js                               5.78 kB │ gzip:   1.95 kB
+../dist/public/assets/signup-BFpePsEx.js                              6.08 kB │ gzip:   1.98 kB
+../dist/public/assets/tier-gate-DXz7HwF1.js                           6.16 kB │ gzip:   1.96 kB
+../dist/public/assets/tabs-DntTQzoV.js                                6.48 kB │ gzip:   2.57 kB
+../dist/public/assets/CartesianGrid-CJFf29l0.js                       6.84 kB │ gzip:   2.39 kB
+../dist/public/assets/privacy-policy-CtxjvTPl.js                      7.71 kB │ gzip:   2.21 kB
+../dist/public/assets/success-stories-C5mwEDNj.js                     8.23 kB │ gzip:   2.11 kB
+../dist/public/assets/signal-attribution-dashboard-C8_xey5f.js        8.42 kB │ gzip:   2.52 kB
+../dist/public/assets/terms-of-service-Bt-c-Q_d.js                    9.51 kB │ gzip:   2.69 kB
+../dist/public/assets/pricing-CyD-lSJa.js                             9.70 kB │ gzip:   3.25 kB
+../dist/public/assets/chart-database-BfCVQJpR.js                      9.95 kB │ gzip:   2.42 kB
+../dist/public/assets/Line-DsCY0-1n.js                               10.97 kB │ gzip:   4.22 kB
+../dist/public/assets/loss-patterns-dashboard-CNg7z0dE.js            11.06 kB │ gzip:   3.39 kB
+../dist/public/assets/scroll-area-DlnQW9L7.js                        12.52 kB │ gzip:   3.94 kB
+../dist/public/assets/blog-Co5MNtcC.js                               13.31 kB │ gzip:   3.61 kB
+../dist/public/assets/academy-RvndntkN.js                            14.04 kB │ gzip:   4.15 kB
+../dist/public/assets/dashboard-D8XKke_G.js                          14.59 kB │ gzip:   4.01 kB
+../dist/public/assets/backtest-COlUVeIQ.js                           15.01 kB │ gzip:   3.82 kB
+../dist/public/assets/settings-B4to45za.js                           15.82 kB │ gzip:   3.66 kB
+../dist/public/assets/admin-security-BaqztoaJ.js                     16.20 kB │ gzip:   4.11 kB
+../dist/public/assets/about-Di-CpUAR.js                              16.41 kB │ gzip:   4.30 kB
+../dist/public/assets/market-scanner-B4htpiFg.js                     16.75 kB │ gzip:   4.08 kB
+../dist/public/assets/wallet-tracker-DHjpdmnZ.js                     16.76 kB │ gzip:   4.56 kB
+../dist/public/assets/my-account-B9yvHAyf.js                         17.98 kB │ gzip:   4.85 kB
+../dist/public/assets/paper-trading-CmB9WYYr.js                      20.08 kB │ gzip:   4.94 kB
+../dist/public/assets/technical-guide-DVHNRzoi.js                    20.15 kB │ gzip:   5.54 kB
+../dist/public/assets/automations-D-EjWvAL.js                        20.66 kB │ gzip:   3.85 kB
+../dist/public/assets/ct-tracker-s7SvoTk6.js                         21.12 kB │ gzip:   5.94 kB
+../dist/public/assets/select-R6DF2kRW.js                             21.44 kB │ gzip:   7.51 kB
+../dist/public/assets/data-audit-center-ZgMhLY80.js                  22.23 kB │ gzip:   4.71 kB
+../dist/public/assets/purify.es-C5KSVp3G.js                          22.74 kB │ gzip:   8.79 kB
+../dist/public/assets/home-DZzDr_sk.js                               23.77 kB │ gzip:   6.20 kB
+../dist/public/assets/PieChart-ByBFq81_.js                           26.02 kB │ gzip:   7.04 kB
+../dist/public/assets/admin-reports-BsMag4cX.js                      26.52 kB │ gzip:   5.40 kB
+../dist/public/assets/futures-CvC8ivc8.js                            27.88 kB │ gzip:   5.87 kB
+../dist/public/assets/trade-audit-dfLg7ESU.js                        28.71 kB │ gzip:   6.00 kB
+../dist/public/assets/features-B90GBsMd.js                           28.95 kB │ gzip:   5.18 kB
+../dist/public/assets/calibration-curve-DHxChdM3.js                  30.78 kB │ gzip:   8.42 kB
+../dist/public/assets/pdf-export-BdmTLa5N.js                         38.05 kB │ gzip:  11.93 kB
+../dist/public/assets/landing-Bu6aPo8M.js                            40.88 kB │ gzip:   8.32 kB
+../dist/public/assets/performance-BpTrXpZh.js                        42.65 kB │ gzip:   9.49 kB
+../dist/public/assets/trading-rules-BCDeNscF.js                      43.54 kB │ gzip:   5.63 kB
+../dist/public/assets/chart-analysis-Cc2n5Q63.js                     63.68 kB │ gzip:  15.07 kB
+../dist/public/assets/blog-post-DJlRJLMI.js                          66.96 kB │ gzip:  18.32 kB
+../dist/public/assets/admin-VNMmgvNz.js                              70.87 kB │ gzip:  14.54 kB
+../dist/public/assets/market-CN0O0F1y.js                             75.00 kB │ gzip:  16.90 kB
+../dist/public/assets/form-CZT2t6Xs.js                               82.39 kB │ gzip:  22.92 kB
+../dist/public/assets/index-Dn9VSvex.js                             117.53 kB │ gzip:  36.12 kB
+../dist/public/assets/watchlist-bot-EedrXppq.js                     124.72 kB │ gzip:  29.27 kB
+../dist/public/assets/index.es-HZqnzW9U.js                          150.60 kB │ gzip:  51.53 kB
+../dist/public/assets/lightweight-charts.production-CJhR9a5F.js     172.10 kB │ gzip:  55.36 kB
+../dist/public/assets/trade-desk-BPmkg9zT.js                        193.91 kB │ gzip:  47.72 kB
+../dist/public/assets/html2canvas.esm-CBrSDip1.js                   201.42 kB │ gzip:  48.03 kB
+../dist/public/assets/generateCategoricalChart-CIcY6AWq.js          367.63 kB │ gzip: 101.69 kB
+../dist/public/assets/index-DX_tUuBd.js                             374.04 kB │ gzip: 119.95 kB
+../dist/public/assets/jspdf.es.min-BwbWI-23.js                      413.71 kB │ gzip: 135.04 kB
+../dist/public/assets/market-globe-huWF3jeT.js                      826.14 kB │ gzip: 224.23 kB
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 20.19s
+  dist/index.js  1.5mb ⚠️
+⚡ Done in 68ms
+==> Uploading build...
+==> Uploaded in 8.1s. Compression took 31.3s
+==> Build successful 🎉
+==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+==> Deploying...
+==> Running 'npm run start'
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.js
+file:///opt/render/project/src/dist/index.js:1451
+      throw new Error(
+            ^
+Error: DATABASE_URL must be set. Did you forget to provision a database?
+    at server/db.ts (file:///opt/render/project/src/dist/index.js:1451:13)
+    at __init (file:///opt/render/project/src/dist/index.js:4:56)
+    at server/storage.ts (file:///opt/render/project/src/dist/index.js:1558:5)
+    at __init (file:///opt/render/project/src/dist/index.js:4:56)
+    at file:///opt/render/project/src/dist/index.js:24697:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+Node.js v20.19.6
+==> Exited with status 1
+==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+==> Running 'npm run start'
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.js

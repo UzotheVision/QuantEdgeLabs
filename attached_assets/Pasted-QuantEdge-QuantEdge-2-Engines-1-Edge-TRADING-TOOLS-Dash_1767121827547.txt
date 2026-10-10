@@ -1,0 +1,228 @@
+QuantEdge
+QuantEdge
+2 Engines. 1 Edge.
+TRADING TOOLS
+
+Dashboard
+
+Research Desk
+Popular
+
+Live Trading
+
+Auto-Lotto Bot
+New
+ANALYSIS & RESEARCH
+
+Chart Analysis
+AI
+
+Performance
+
+Market Data
+
+Chart Database
+LEARNING
+
+Trading Rules
+
+Academy
+
+Blog
+ACCOUNT
+
+Pricing
+
+Settings
+
+Admin
+Admin
+Abdulmalik
+abdulmalikajisegiri@gmail.com
+Market Closed
+abdulmalikajisegiri@gmail.com
+Complete Trading Guide
+How to Trade Like a Pro
+A complete step-by-step guide to analyzing charts, picking the right options, and executing trades with confidence.
+
+1
+Step 1
+Find Ideas
+2
+Step 2
+Analyze Chart
+3
+Step 3
+Pick Strike/Expiry
+4
+Step 4
+Execute Trade
+1
+Find Trade Ideas
+Use our research briefs to discover high-probability setups
+
+Trade Desk
+Fresh AI + Quant research briefs generated daily at market open
+
+Flow Scanner
+Unusual options activity from institutional traders
+
+Lotto Ideas
+High R:R weekly options with 2:1+ risk/reward
+
+Chart Analysis
+Upload your own chart for AI-powered analysis
+
+Understanding Signal Grades
+Signal grades show how many technical indicators agree on the trade direction:
+
+A+
+5 signals
+Strong consensus - highest probability
+A
+4 signals
+Good consensus - reliable setup
+B
+3 signals
+Moderate - proceed with caution
+C
+2 signals
+Weak - consider skipping
+D
+1 signal
+Conflicting signals - avoid
+Pro Tip:Focus on A and B grade setups with clear risk/reward. Skip C and D grades unless you have additional confirmation.
+2
+Analyze the Chart
+Match your timeframe to your expiration date
+
+Which Timeframe for Which Expiry?
+This is the most important concept. Your chart timeframe should match your trade duration:
+
+5-15 Minute
+Same-day (0DTE)
+Quick momentum plays that resolve in hours
+1 Hour
+1-3 day swings
+Catching overnight moves or 2-day momentum
+4 Hour
+Weekly options (5-7 days)
+Best for Friday expirations bought Mon-Wed
+Daily
+2-4 week swings
+Monthly options or longer-dated plays
+For Weekly Options (Expiring Friday)
+Primary
+4-Hour Chart
+Shows the weekly trend and key support/resistance levels
+
+Entry
+1-Hour Chart
+Fine-tune your entry point within the larger trend
+
+Confirmation
+Daily Chart
+Make sure you're trading WITH the larger trend
+
+Bullish Signs
+Price above key moving averages
+Higher highs and higher lows
+Bouncing off support levels
+RSI below 30 (oversold bounce)
+Volume increasing on up moves
+Bearish Signs
+Price below key moving averages
+Lower highs and lower lows
+Rejecting at resistance levels
+RSI above 70 (overbought fade)
+Volume increasing on down moves
+3
+Pick Your Strike & Expiry
+Balance probability vs. reward potential
+
+Strike Price Selection
+ITM
+In-The-Money
+Delta 0.60-0.80
+Higher cost, higher probability. Best for directional conviction plays.
+
+ATM
+At-The-Money
+Delta ~0.50
+Balanced risk/reward. Good for uncertain direction but expecting a move.
+
+OTM
+Out-of-The-Money
+Delta 0.20-0.40
+Cheaper, higher reward but lower probability. Use for lotto plays only.
+
+Expiration Selection Rules
+Give yourself 2x the time you think you need
+Weekly plays: Buy Monday-Wednesday for Friday expiry
+Avoid buying options expiring in less than 3 days
+Theta decay accelerates rapidly in final 5 days
+Risk/Reward Quick Guide
+2:1
+Minimum R:R
+Risk $1 to make $2
+3:1
+Good R:R
+Risk $1 to make $3
+5:1+
+Lotto R:R
+Risk $1 to make $5+
+4
+Execute the Trade
+Set your levels and manage risk properly
+
+Before You Click Buy
+1
+Know your stop loss BEFORE entering (max 50% of premium)
+2
+Know your profit target (minimum 2x your risk)
+3
+Size correctly: Risk only 1-2% of account per trade
+4
+Write it down in your trading journal
+Position Sizing Example
+Account Size
+$10,000
+Max Risk (2%)
+$200
+Option Price
+$2.00
+Stop Loss (50%)
+$1.00 loss/contract
+Max Contracts
+2 contracts
+Golden Rule:Never risk more than you can afford to lose. Options can go to zero. Only trade with money you can lose completely.
+Pre-Trade Checklist
+Run through this before every trade
+
+
+Signal grade is A or B?
+
+Chart timeframe matches expiry?
+
+Trend on higher timeframe confirms?
+
+R:R is at least 2:1?
+
+Stop loss is set before entry?
+
+Position size is max 2% of account?
+
+At least 3+ days to expiration?
+
+No major earnings/events during hold?
+Educational Disclaimer: This guide is for educational purposes only and does not constitute financial advice. Trading options involves substantial risk of loss and is not suitable for all investors. Past performance does not guarantee future results. Always do your own research and consider consulting a financial advisor before making investment decisions.
+
+Ready to Start Trading?
+Put what you've learned into practice with our AI-powered research tools
+
+QE
+QuantEdge Research
+Privacy
+Terms
+SEC Education
+Not financial advice.Educational only.

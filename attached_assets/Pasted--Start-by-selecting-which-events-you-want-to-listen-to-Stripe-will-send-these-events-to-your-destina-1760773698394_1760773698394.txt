@@ -1,0 +1,234 @@
+
+Start by selecting which events you want to listen to
+Stripe will send these events to your destination.
+Events from
+Choose which accounts this destination listens to. Receive events fired in your account or from other accounts you manage which includes your v1 and v2 accounts. Learn more about Connect and v2 account webhooks.
+
+Your account
+Receive events from resources in this account.
+
+Connected and v2 accounts
+Receive events that fire in the context of connected accounts and v2 accounts.
+API version
+
+API version
+2025-09-30.clover
+Events
+
+Find event by name or description…
+Select all
+
+
+Account Link
+v2
+1 event
+
+Account Person
+v2
+3 events
+
+Account
+4 events
+
+Account
+v2
+12 events
+
+Adjustment
+v2
+1 event
+
+Balance Settings
+1 event
+
+Balance
+1 event
+
+Billing Meter
+2 events
+
+Billing Portal
+3 events
+
+Billing
+8 events
+
+Capability
+1 event
+
+Cash Balance
+1 event
+
+Charge
+13 events
+
+Checkout
+4 events
+
+Climate
+7 events
+
+Coupon
+3 events
+
+Credit Note
+3 events
+
+Customer Cash Balance Transaction
+1 event
+
+Customer
+21 events
+
+Entitlements
+1 event
+
+File
+1 event
+
+Financial Account
+v2
+2 events
+
+Financial Address
+v2
+2 events
+
+Financial Connections
+7 events
+
+Identity
+6 events
+
+Inbound Transfer
+v2
+6 events
+
+Invoice Payment
+1 event
+
+Invoice
+17 events
+
+Invoiceitem
+2 events
+
+Issuing Authorization
+3 events
+
+Issuing Card
+2 events
+
+Issuing Cardholder
+2 events
+
+Issuing Dispute
+6 events
+
+Issuing Personalization Design
+4 events
+
+Issuing Token
+2 events
+
+Issuing Transaction
+3 events
+
+Mandate
+1 event
+
+Outbound Payment
+v2
+6 events
+
+Outbound Transfer
+v2
+6 events
+
+Payment Intent
+8 events
+
+Payment Link
+2 events
+
+Payment Method
+4 events
+
+Payout Method
+v2
+1 event
+
+Payout
+6 events
+
+Person
+3 events
+
+Plan
+3 events
+
+Price
+3 events
+
+Product
+3 events
+
+Promotion Code
+2 events
+
+Quote
+5 events
+
+Radar
+2 events
+
+Received Credit
+v2
+4 events
+
+Received Debit
+v2
+5 events
+
+Refund
+3 events
+
+Reporting
+3 events
+
+Review
+2 events
+
+Setup Intent
+5 events
+
+Sigma
+1 event
+
+Source
+7 events
+
+Subscription Schedule
+7 events
+
+Tax Rate
+2 events
+
+Tax
+1 event
+
+Terminal
+3 events
+
+Test Helpers
+5 events
+
+Topup
+5 events
+
+Transaction
+v2
+2 events
+
+Transfer
+3 events

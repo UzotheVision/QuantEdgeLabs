@@ -1,0 +1,282 @@
+Here’s a comprehensive enhancement plan to evolve the watchlist into a **year-long personal research database** that tracks your custom symbols, performance, and insights over time.
+
+---
+
+## **1. Core Architecture: From Static Scanner to Historical Database**
+
+### **Current State**
+- 45 symbols, 15-minute refresh, snapshot-only data
+- No persistence of *your* additions/removals
+- No historical tracking (what was NIO's grade in March?)
+
+### **New Database Schema**
+```sql
+-- Multiple named watchlists per user/year
+CREATE TABLE user_watchlists (
+  id UUID PRIMARY KEY,
+  user_id UUID REFERENCES users(id),
+  name VARCHAR(255), -- "2026 Breakouts", "China Plays", "Nuclear Macro"
+  year INT NOT NULL, -- Enables year-over-year analysis
+  created_at TIMESTAMP DEFAULT NOW(),
+  notes TEXT -- "Tracking for Biden policy impact"
+);
+
+-- Individual entries with lifecycle tracking
+CREATE TABLE watchlist_entries (
+  id UUID PRIMARY KEY,
+  watchlist_id UUID REFERENCES user_watchlists(id),
+  symbol VARCHAR(20),
+  added_at TIMESTAMP,
+  removed_at TIMESTAMP, -- NULL = currently watching
+  added_grade VARCHAR(2), -- Grade when first added
+  added_confidence INT,   -- Snapshot for performance tracking
+  tags JSONB, -- ["breakout", "china", "volume_surge"]
+  notes TEXT, -- "4-month high turnover Jan 2026"
+  added_reason VARCHAR(50) -- "user_search", "scanner", "news"
+);
+
+-- Daily historical snapshots
+CREATE TABLE watchlist_history (
+  id UUID PRIMARY KEY,
+  entry_id UUID REFERENCES watchlist_entries(id),
+  date DATE,
+  grade VARCHAR(2),
+  confidence_score INT,
+  technical_snapshot JSONB, -- Full RSI, ADX, volume data
+  price DECIMAL(10,2),
+  UNIQUE(entry_id, date)
+);
+```
+
+---
+
+## **2. Year-Long Tracking Features**
+
+### **Historical Grade Timeline**
+**UI Component**: Interactive timeline chart for each symbol
+- **X-axis**: Days from addition date (0 to 365)
+- **Y-axis**: Grade tier (S=100, A=85, B=70, etc.)
+- **Events**: Clickable markers for earnings, news, your manual notes
+- **Performance overlay**: Price change % since addition
+
+**Implementation**:
+```typescript
+// server/watchlist-history-service.ts
+async function getGradeHistory(symbol: string, year: 2026) {
+  return db.query(`
+    SELECT date, grade, confidence_score, price 
+    FROM watchlist_history 
+    WHERE symbol = $1 AND year = $2
+    ORDER BY date ASC
+  `);
+}
+```
+
+### **"Watched vs. Traded" Analytics**
+**Critical Metric**: Compare symbols you *watched* vs. *actually traded*
+```typescript
+// server/watchlist-analytics-service.ts
+const analytics = {
+  hit_rate: 0, // % of S-tier symbols that became profitable trades
+  missed_opportunities: [], // Symbols that went S→A→B (you missed the run)
+  early_warnings: [], // Symbols that stayed F-tier (good avoidance)
+  avg_days_to_target: 0 // How long do A-tier setups take to play out?
+};
+```
+
+**UI Display**:
+- **Performance Card**: "Your 2026 Breakout watchlist: +23% avg return, 68% hit rate"
+- **Missed Trades Table**: "TSLA: Watched at B (72), hit S (95) in 4 days, +18% move — Not traded"
+
+---
+
+## **3. Enhanced Watchlist Management UI**
+
+### **New Command Center Integration**
+**Replace**: Static "45 symbols analyzed"  
+**With**: Personalized dashboard
+```
+Your 2026 Watchlists
+├─ Main Portfolio (23 symbols) — +18.3% avg return
+├─ China Macro (8 symbols) — +9.7% avg return  
+└─ Nuclear Energy (14 symbols) — Awaiting catalyst
+
+Performance This Year
+├─ 42 symbols watched
+├─ 15 symbols traded (36% conversion)
+├─ 27 symbols not traded (64% missed)
+└─ Hit Rate: 68% of S-tier setups were profitable
+```
+
+### **Symbol Detail Modal** (Click any symbol)
+**Tabs**:
+1. **Timeline**: 12-month grade chart with events
+2. **Notes**: Your annotations + auto-generated catalyst list
+3. **Performance**: Return since addition, vs. SPY, vs. sector
+4. **Similar Symbols**: "Users who watched NIO also watched XPEV, LI"
+
+### **Add Symbols with Context**
+**Current**: Click "Add from search" → No metadata  
+**Enhanced**:
+```typescript
+// When adding symbol, capture:
+{
+  symbol: "NIO",
+  watchlist: "China Macro",
+  tags: ["ev", "china", "volume_surge"],
+  notes: "4-month high turnover Jan 2026",
+  catalyst_date: "2026-02-15", // NIO earnings
+  target_grade: "S", // Alert me when it reaches S-tier
+}
+```
+
+---
+
+## **4. Year-Over-Year Comparison Features**
+
+### **Annual Review Generator** (`server/year-review-generator.ts`)
+**Auto-generated report** (think Spotify Wrapped for traders):
+```markdown
+## Your 2026 Watchlist Year in Review
+
+**Top Performers You Watched**
+1. TSLA: +89% (added at B, exited at S)
+2. NVDA: +67% (added at A, never traded 😔)
+3. ASTS: +45% (added at S, traded +31%)
+
+**Best Watchlist**: "2026 Breakouts" — 23 symbols, 73% hit rate
+
+**Most Improved**: DNA (F → A in 112 days)
+
+**Missed Opportunities**: 12 symbols hit S-tier, you didn't trade 7
+```
+
+### **Multi-Year Trends**
+```sql
+-- Analyze if your watchlist quality improves over years
+SELECT 
+  year,
+  AVG(added_confidence) as avg_entry_quality,
+  COUNT(*) as symbols_watched,
+  AVG(EXTRACT(days FROM removed_at - added_at)) as avg_watch_duration
+FROM watchlist_entries
+GROUP BY year;
+```
+
+---
+
+## **5. Alert & Notification System**
+
+### **Proactive Alerts** (Not just passive scanning)
+```typescript
+// server/watchlist-alert-service.ts
+const alerts = [
+  {
+    type: "GRADE_UPGRADE",
+    message: "NIO upgraded to S-tier (98/100) — Trend accelerating",
+    action: "View Trade Idea"
+  },
+  {
+    type: "STALE_SYMBOL",
+    message: "SOFI has been D-tier for 45 days. Remove from watchlist?",
+    action: ["Keep Watching", "Remove"]
+  },
+  {
+    type: "EARNINGS_APPROACHING",
+    message: "NVDA earnings in 3 days. Current grade: B (72/100)",
+    action: "Set Earnings Alert"
+  }
+];
+```
+
+### **Discord Integration** (Already have webhooks)
+```typescript
+// Only alert on YOUR watchlist upgrades, not random scans
+if (newGrade === "S" && watchlist.has(symbol)) {
+  discord.send({
+    webhook: process.env.DISCORD_WEBHOOK_MY_WATCHLIST,
+    message: `🎯 ${symbol} reached S-tier on your watchlist!`
+  });
+}
+```
+
+---
+
+## **6. Performance Tracking & Analytics**
+
+### **New Metrics Dashboard**
+```
+Watchlist Health Score: 82/100
+├─ Diversity: 90/100 (7 sectors represented)
+├─ Freshness: 75/100 (68% symbols updated in last 30 days)
+└─ Hit Rate: 68/100 (S-tier → profitable trade conversion)
+
+Grade Migration Patterns
+├─ B → A: 23 occurrences (avg 18 days)
+├─ A → S: 12 occurrences (avg 9 days)
+└─ S → F: 4 occurrences (avg 33 days) "Crashes"
+```
+
+### **Symbol-Specific Insights**
+- **Average time in grade**: How long does a symbol stay A-tier before moving up/down?
+- **Volatility by grade**: Do S-tier symbols have lower volatility than B-tier?
+- **Sector rotation**: Are your "Nuclear" watchlist symbols outperforming when uranium is hot?
+
+---
+
+## **7. Implementation Priority (6-Week Roadmap)**
+
+### **Week 1-2: Foundation**
+- **Day 1-2**: Create database schema, migration scripts
+- **Day 3-4**: Implement daily snapshot cron job (`0 16 * * 1-5` CT market close)
+- **Day 5-7**: Build "Watchlist Manager" UI (sidebar to create/rename/delete lists)
+- **Day 8-10**: Add symbol detail modal with timeline chart (using Recharts/Chart.js)
+
+### **Week 3-4: Analytics Engine**
+- **Day 11-13**: Build `watchlist-analytics-service.ts` for hit rate calculations
+- **Day 14-16**: Implement "Watched vs. Traded" comparison (link to trade journal)
+- **Day 17-20**: Add year-review generator (annual report PDF export)
+
+### **Week 5-6: Polish & Alerts**
+- **Day 21-23**: Build alert system (grade changes, earnings, staleness)
+- **Day 24-26**: Add notes/annotations to symbols (rich text editor)
+- **Day 27-30**: Performance dashboard with "Watchlist Health Score"
+
+---
+
+## **8. Design System Compliance**
+
+**Typography**: All numeric data (grades, dates, performance) must use `font-mono` (JetBrains Mono) per your guidelines v2.0.
+
+**Color Coding**:
+- **S-tier**: Green-400 (`text-green-400`) for positive performance
+- **F-tier**: Red-400 (`text-red-400`) for weak setups
+- **Timeline chart**: Use glassmorphism Tier-3 styling (`bg-slate-800/30 backdrop-blur-sm`)
+
+**Interactive Elements**:
+- **Add to watchlist**: Primary button (`bg-cyan-500`)
+- **Remove**: Ghost button (`hover:bg-slate-800/50`)
+- **Notes icon**: Small icon button with `hover:bg-slate-800/50`
+
+---
+
+## **9. Monetization Strategy**
+
+**Free Tier**: 1 watchlist, 30-day history, basic analytics  
+**Pro Tier** ($49/mo): Unlimited watchlists, full year history, hit rate analytics  
+**Institutional** ($199/mo): Team watchlist sharing, multi-year comparison, white-label reports
+
+---
+
+## **10. First Step: Build This Today**
+
+1. **Add "My Watchlists" sidebar** to Command Center
+2. **Create personal watchlist** on first login: `2026 Main Watchlist`
+3. **Modify add-symbol flow** to capture `added_reason` and `notes`
+4. **Enable daily snapshot** (runs at market close, stores grade + price)
+
+This creates the data foundation for all year-long tracking features.
+
+---
+
+**Bottom Line**: Transform the watchlist from a passive scanner into a **compounding research database** that gets smarter as you use it, providing personalized insights no generic platform can match.

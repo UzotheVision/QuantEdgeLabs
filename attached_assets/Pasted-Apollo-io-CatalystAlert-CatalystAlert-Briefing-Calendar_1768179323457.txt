@@ -1,0 +1,436 @@
+Apollo.io
+CatalystAlert
+CatalystAlert
+Briefing
+Calendar
+IPOs
+Opportunities
+Companies
+Compare
+Analytics
+Watchlist
+
+Search...
+Search CatalystAlert
+Search for companies, drugs, and catalysts
+
+Search CatalystAlert
+Search for companies, drugs, and catalysts
+
+
+Toggle theme
+Sign In
+Top Gainers
+(24h)
+#1
+LPTX
+$2.05
++368.57%
+#2
+NBY
+$19.16
++183.85%
+#3
+ZVSA
+$0.27
++65.63%
+#4
+AGL
+$0.99
++43.26%
+#5
+VXRT
+$0.68
++41.67%
+#6
+CHTH
+$5.21
++38.93%
+#7
+ZNTL
+$3.74
++31.69%
+#8
+CGON
+$54.20
++29.26%
+#9
+SLRX
+$0.84
++29.23%
+#10
+MLTX
+$18.49
++28.94%
+#1
+LPTX
+$2.05
++368.57%
+#2
+NBY
+$19.16
++183.85%
+#3
+ZVSA
+$0.27
++65.63%
+#4
+AGL
+$0.99
++43.26%
+#5
+VXRT
+$0.68
++41.67%
+#6
+CHTH
+$5.21
++38.93%
+#7
+ZNTL
+$3.74
++31.69%
+#8
+CGON
+$54.20
++29.26%
+#9
+SLRX
+$0.84
++29.23%
+#10
+MLTX
+$18.49
++28.94%
+#1
+LPTX
+$2.05
++368.57%
+#2
+NBY
+$19.16
++183.85%
+#3
+ZVSA
+$0.27
++65.63%
+#4
+AGL
+$0.99
++43.26%
+#5
+VXRT
+$0.68
++41.67%
+#6
+CHTH
+$5.21
++38.93%
+#7
+ZNTL
+$3.74
++31.69%
+#8
+CGON
+$54.20
++29.26%
+#9
+SLRX
+$0.84
++29.23%
+#10
+MLTX
+$18.49
++28.94%
+
+Top Losers
+(24h)
+#1
+SXTC
+$0.15
+-87.92%
+#2
+PASW
+$0.20
+-67.65%
+#3
+SONN
+$1.26
+-59.35%
+#4
+MHUA
+$7.61
+-45.72%
+#5
+AQST
+$3.91
+-37.04%
+#6
+ATRA
+$13.67
+-21.62%
+#7
+GRI
+$0.23
+-20.77%
+#8
+PRQR
+$1.77
+-15.71%
+#9
+ESLA
+$1.20
+-14.89%
+#10
+CDIO
+$2.05
+-14.58%
+#1
+SXTC
+$0.15
+-87.92%
+#2
+PASW
+$0.20
+-67.65%
+#3
+SONN
+$1.26
+-59.35%
+#4
+MHUA
+$7.61
+-45.72%
+#5
+AQST
+$3.91
+-37.04%
+#6
+ATRA
+$13.67
+-21.62%
+#7
+GRI
+$0.23
+-20.77%
+#8
+PRQR
+$1.77
+-15.71%
+#9
+ESLA
+$1.20
+-14.89%
+#10
+CDIO
+$2.05
+-14.58%
+#1
+SXTC
+$0.15
+-87.92%
+#2
+PASW
+$0.20
+-67.65%
+#3
+SONN
+$1.26
+-59.35%
+#4
+MHUA
+$7.61
+-45.72%
+#5
+AQST
+$3.91
+-37.04%
+#6
+ATRA
+$13.67
+-21.62%
+#7
+GRI
+$0.23
+-20.77%
+#8
+PRQR
+$1.77
+-15.71%
+#9
+ESLA
+$1.20
+-14.89%
+#10
+CDIO
+$2.05
+-14.58%
+Analytics Dashboard
+Industry success rates, pipeline rankings, and therapeutic area insights. Press ? for keyboard shortcuts.
+
+Catalysts
+51
+
+Companies
+1,311
+
+Drug Programs
+8,113
+
+This Week
+8
+
+
+Next 30 days
+Insights
+Pipeline
+Therapeutic
+Heatmap
+AI
+
+?
+AI Prediction System
+Machine learning models for biotech catalyst analysis
+Online
+System Status
+
+XGBoost
+
+Impact Model
+
+xgb-v20260111_030112
+
+Random Forest
+
+LOA Model
+
+rf-v202601090400
+
+Impact Prediction
+Predicts stock price direction (up/down/neutral) and magnitude based on catalyst type, phase, therapeutic area, and market conditions.
+
+880+ catalyst patterns
+3-class classification
+Likelihood of Approval
+Estimates FDA approval probability using phase, indication, trial design, and special designations (Breakthrough, Fast Track, Orphan).
+
+BIO 2024 calibrated
+Platt scaling
+Upcoming Phase 3 & PDUFA Events
+View predictions on individual company pages for detailed analysis
+Phase 3
+MRK
+•
+pembrolizumab
+Non-small Cell Lung Cancer
+
+Jan 11, 2026
+
+Expected Date
+
+View AI
+Phase 3
+AZN
+•
+Durvalumab
+Non-Small Cell Lung Cancer
+
+Jan 11, 2026
+
+Expected Date
+
+View AI
+PDUFA
+TVTX
+•
+FDA PDUFA Date sparsentan (priority)
+
+Jan 12, 2026
+
+Expected Date
+
+View AI
+Phase 3
+BCTXZ
+•
+SV-BR-1-GM
+Breastcancer
+
+Jan 14, 2026
+
+Expected Date
+
+View AI
+Phase 3
+TBPH
+•
+ampreloxetine
+Symptomatic Neurogenic Orthostatic Hypotension
+
+Jan 14, 2026
+
+Expected Date
+
+View AI
+Phase 3
+PVLA
+•
+QTORIN 3.9% Rapamycin Anhydrous Gel
+Microcystic Lymphatic Malformation
+
+Jan 14, 2026
+
+Expected Date
+
+View AI
+View all 10 events
+How Our AI Works
+1. Data Collection
+
+Historical data from ClinicalTrials.gov, FDA decisions, and market outcomes
+
+2. Feature Engineering
+
+Phase, therapeutic area, designations, trial design, market conditions
+
+3. Model Training
+
+XGBoost for impact, Random Forest for LOA with probability calibration
+
+4. Continuous Learning
+
+Weekly retraining with new outcomes to improve accuracy
+
+Predictions are for informational purposes only and NOT financial advice. Past performance does not guarantee future results.
+
+C
+CatalystAlert
+Free biotech catalyst calendar with AI-powered predictions. Track FDA decisions, PDUFA dates, clinical trial results, and Phase 3 readouts. Real-time alerts for biotech investors.
+
+Quick Links
+This Week's Catalysts
+Full Calendar
+Catalyst Types
+Search Companies
+Biotech Glossary
+Embed Widget
+Legal
+About
+ML Track Record
+Privacy
+Terms
+Data Sources
+ClinicalTrials.gov
+SEC EDGAR
+FDA
+⚠️ Not Financial Advice (NFA)
+
+CatalystAlert provides data aggregation and analysis tools only. All probability scores and predictions are based on historical data and are NOT guarantees of future results. Past performance does not indicate future success. We are not responsible for the accuracy of third-party data sources. Always consult a qualified financial advisor before making investment decisions.
+
+© 2026 CatalystAlert. All rights reserved.
+
+Data may be delayed or incomplete. Use at your own risk.
+
+
+Feedback
+Biotech Analytics & AI Predictions | FDA Success Rates & ML Insights | CatalystAlert | CatalystAlert

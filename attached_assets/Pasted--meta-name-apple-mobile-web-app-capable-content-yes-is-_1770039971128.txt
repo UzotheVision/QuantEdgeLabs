@@ -1,0 +1,33 @@
+<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">
+index-CCPYQfxu.js:346 [BOT-WS] Connected to bot notifications
+chrome-extension://pbanhockgagggenencehbnadejlgchfc/assets/userReportLinkedCandidate.json:1  Failed to load resource: net::ERR_FILE_NOT_FOUND
+inject.bundle.js:216 [ChromePolyfill] Chrome API support enabled for web context
+INTC:1 Loading the font 'data:font/woff;base64,d09GRgABAAAAAOhcAAsAAAABzbAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADsAAABUIIslek9TLzIAAAFEAAAARAAAAGBHJFykY21hcAAAAYgAAAnNAAAcuhYP96xnbHlmAAALWAAAyOAAAYYQvcHGamhlYWQAANQ4AAAAMQAAADZbVKXNaGhlYQAA1GwAAAAfAAAAJAfUBdRobXR4AADUjAAAAEMAAAe4hEn/+2xvY2EAANTQAAAD3gAAA95uVgqUbWF4cAAA2LAAAAAfAAAAIAMIAa5uYW1lAADY0AAAATUAAAJG+3VIVnBvc3QAANoIAAAOUgAAGxWBh8AAeJxjYGRgYOBiMGCwY2BycfMJYeDLSSzJY5BiYGGAAJA8MpsxJzM9kYEDxgPKsYBpDiBmg4gCACY7BUgAeJxjYGF+yjiBgZWBgXUK0x4GBoYeCM34gMGQkYmBgYmBlZkBKwhIc01hO...GWKab0n9RNkaY0Wc3Yh1quZnM/2sjpxMDe3yJQp55lwlWYWZcSPKdmPB8TIRp3QPcptaHqe0xnCl9qVwqHmPurOU1kOr4SOo60QjvXI9tpUmZUcz2RSTfPxHBIzrVdTZUkM+4Q6/I3PHvMq9P2RiOZ0YM6pSbOzdrxks2JmhNaeVYwvcRGHsvnKrdd92YnVPfaZpGQT22jTEjXioTb8VZBHUWm6JgZdWl37vMHf9PpFWlkE5ICVVGg1Fy9brMRA/d1rGWxOzU5aDd9zOJTGbxvtXQ2icXUtkjuFbdGN5JrSSxkCutaVKZWx0qedNy7bpvuBY4gN4p1esdD52cnWFdY6FsPxlX+MbUZtX8662/WT24xO4cKqhNs2Wt5TCywzT1hYM8E9suSFR3SKrRFujbjjyyyNhf8AbFJwSkz8lhcn8vBmI5ZfboalXN7afjMbjpMlNTyk+1F3PNC2fasZN+jVOc6i6PanNr8cAyLylLGaeVA6+mRI/8E5iF48wAA' violates the following Content Security Policy directive: "font-src 'self' https://fonts.gstatic.com". The action has been blocked.
+INTC:1 Loading the font 'data:font/woff2;base64,d09GMgABAAAAALsgAAsAAAABzbAAALrMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYAC5OgqGjBCFgUgBNgIkA484C4deAAQgBYRGB7YVW8KDcWaM04ax24F51P/P4xVwY1x2N4oQkUZTdSiEjQMDs95S9v///2cmjTHWbcDuACGzStX/QOYQHmJRrZHo5kyLdRxB1Sc8aog2WJ/bK+lV3kM4QOWIzwzvMVhk9/SAJvqZM2kuvFEXbeneqUQ/GUW/Kr6mN9stsHPxgcKq/EfOpZCOA8VPXVRiB8aZ9Sp3u92q2Er/+FPs33oh1SJVdjhxq17IzvdvP+3CX76e7mkrNBj3jVvQ8Qvm3LMtMXY9CEqHLLnXEp5qv73dvftiiDaaSaJkkqZsoTCd0onZKmQbIt1qKAk9jRRIgXQIIUAKBHrabgIplITQemgqTQiooChIsZyoeICoiAiKpyeW8xSs7Sz1PMHSz4aH+mf5...pe4k3oPNlGDmDuOFs1Hcv6Zr19PkDqxn1PapUhyNZed0RFnBzLyLO3Y6V2xLsF3t75buSyiIuPY7tm75xOJ29SzWFqriuJJkFOWO8fWroicm8FiX6ESLFzLyDzXihb6b5DBg/fbsERoGFlbEpeew9iTOTjtdSesCxQpF1pX18Vqn4L8iCrhy1bzwGKiBlf/D8Y4O4CQarOaGjm9FAnGZ0KqZrTFf8y7ZwPaLgF+GGupY8OKGyay0/GI/jvERS+stVN3bygtDIm2pDMmMgDtFh82fpqbzFnNITbRd7cI4JOmkeoEHcEgqrWkYd7bVqJPkYVDilG2kiQS7ZZKcCAq/5Mxpg8wzDAlrod+JGXX58uVzudJZ1t53tQf9/6hOwiYPJU+9BZ/Bp34UnzgWpVtuaVnNIOzkAvVFxGPDZUB2KENQcMevvTWh+8rind54M7BwPt2o1NmvtD4tOTQudScYpoLk/8lcKT76Q8rNFXRyBu/fn+44FxLx6dtp8AAAAA' violates the following Content Security Policy directive: "font-src 'self' https://fonts.gstatic.com". The action has been blocked.
+INTC:1 Unchecked runtime.lastError: The message port closed before a response was received.
+/api/tracking/pageview:1  Failed to load resource: the server responded with a status of 403 (Forbidden)
+index-CCPYQfxu.js:41 TypeError: Cannot read properties of null (reading 'toFixed')
+    at A (stock-detail-BIcy9lNN.js:10:5704)
+    at stock-detail-BIcy9lNN.js:10:85078
+    at Array.map (<anonymous>)
+    at il (stock-detail-BIcy9lNN.js:10:84060)
+    at gm (index-CCPYQfxu.js:39:16998)
+    at wh (index-CCPYQfxu.js:41:3139)
+    at FS (index-CCPYQfxu.js:41:44737)
+    at OS (index-CCPYQfxu.js:41:39727)
+    at FN (index-CCPYQfxu.js:41:39655)
+    at Uu (index-CCPYQfxu.js:41:39508)
+xh @ index-CCPYQfxu.js:41
+index-CCPYQfxu.js:346 Uncaught error: TypeError: Cannot read properties of null (reading 'toFixed')
+    at A (stock-detail-BIcy9lNN.js:10:5704)
+    at stock-detail-BIcy9lNN.js:10:85078
+    at Array.map (<anonymous>)
+    at il (stock-detail-BIcy9lNN.js:10:84060)
+    at gm (index-CCPYQfxu.js:39:16998)
+    at wh (index-CCPYQfxu.js:41:3139)
+    at FS (index-CCPYQfxu.js:41:44737)
+    at OS (index-CCPYQfxu.js:41:39727)
+    at FN (index-CCPYQfxu.js:41:39655)
+    at Uu (index-CCPYQfxu.js:41:39508) Object
+componentDidCatch @ index-CCPYQfxu.js:346
+INTC:1 Loading the stylesheet 'https://p.typekit.net/p.css?s=1&k=waz7wks&ht=tk&f=34505.34762.34763.34764.34765.34766.34767.34768.34769.34770.34771.34772.34773.34774.34775.34776.34777.34778.34779.34780.34781.34782.34783.34784.34785.34786.34787.34788.34789.34790.34791.34792.34793.34794.34795.34796.34797.34798.34799.34800.34801.34802&a=120118335&app=typekit&e=css' violates the following Content Security Policy directive: "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The action has been blocked.

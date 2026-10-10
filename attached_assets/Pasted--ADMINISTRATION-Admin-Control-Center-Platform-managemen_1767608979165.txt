@@ -1,0 +1,223 @@
+
+ADMINISTRATION
+
+Admin Control Center
+Platform management and analytics dashboard
+
+Administrator
+TOTAL USERS
+9
+3 premium • 6 free
+
+RESEARCH BRIEFS
+2844
+15 active • 2829 closed
+
+WIN RATE
+13%
+From 2829 closed briefs
+
+DATABASE
+Online
+System operational
+
+MANAGEMENT
+
+Users
+9
+themetest@quantedge.test
+
+themetest@quantedge.test
+
+free
+authtest@quantedge.test
+
+authtest@quantedge.test
+
+free
+aKtMu3@example.com
+
+aKtMu3@example.com
+
+free
+test_GlvzehDY@example.com
+
+test_GlvzehDY@example.com
+
+free
+leekaxile@gmail.com
+
+leekaxile@gmail.com
+
+free
+YvenVP@example.com
+
+YvenVP@example.com
+
+advanced
+ayotundeolaotan@gmail.com
+
+ayotundeolaotan@gmail.com
+
+admin
+dev@quantedge.local
+
+dev@quantedge.local
+
+free
+abdulmalikajisegiri@gmail.com
+
+abdulmalikajisegiri@gmail.com
+
+admin
+RECENT
+
+Research Briefs
+Recent platform briefs
+2844
+RENDER
+
+crypto
+bot • 1/4/2026
+
+Active
+PEPE
+
+crypto
+bot • 1/4/2026
+
+Active
+MSFT
+
+stock
+quant • 1/4/2026
+
+Target Met
+AAPL
+
+stock
+quant • 1/4/2026
+
+Target Met
+MSFT
+
+stock
+quant • 1/3/2026
+
+Target Met
+AAPL
+
+stock
+quant • 1/3/2026
+
+Target Met
+WHYPE
+
+crypto
+quant • 1/3/2026
+
+Brief Closed
+WLD
+
+crypto
+quant • 1/3/2026
+
+Brief Closed
+RENDER
+
+crypto
+bot • 1/3/2026
+
+Target Met
+WLD
+
+crypto
+quant • 1/3/2026
+
+Brief Closed
+ADMIN TOOLS
+
+Users
+Win/Loss
+Reports
+Security
+Analytics
+System
+Losses
+Alerts
+Database
+AI Test
+Activity
+Settings
+Waitlist
+TOTAL USERS
+
+9
+
+FREE TIER
+
+6
+
+ADVANCED
+
+1
+
+PRO
+
+0
+
+ALL USERS
+9
+User	Email	Tier	Status	Joined	Actions
+T
+Theme Tester
+themetest@quantedge.test	free	active	11/19/2025	
+
+Free
+A
+Auth Tester
+authtest@quantedge.test	free	active	11/19/2025	
+
+Free
+J
+John Doe
+aKtMu3@example.com	free	active	12/14/2025	
+
+Free
+T
+Test User
+test_GlvzehDY@example.com	free	active	12/14/2025	
+
+Free
+
+LEEKSHOTIT
+leekaxile@gmail.com	free	active	12/24/2025	
+
+Free
+T
+Test User
+YvenVP@example.com	advanced	active	11/19/2025	
+
+Advanced
+A
+Ayotunde Olaotan
+ayotundeolaotan@gmail.com	admin	active	1/4/2026	
+
+Admin
+D
+Dev User
+dev@quantedge.local	free	active	1/2/2026	
+
+Free
+
+Abdulmalik Ajisegiri
+abdulmalikajisegiri@gmail.com	admin	active	12/24/2025	
+
+Admin
+Quant Edge Labs
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only

@@ -1,0 +1,207 @@
+QuantEdge
+Trade Engine
+Trade Ideas
+Performance
+Market Intelligence
+Market
+System
+Settings
+About
+Admin
+
+Collapse
+Trade Ideas
+Thursday, Oct 30
+Stocks, options, crypto opportunities
+
+Educational Research Only: This platform provides quantitative trade ideas for educational and research purposes. Not financial advice. Markets are risky. Always do your own research and consult a licensed advisor before trading.Engine: v2.2.0
+Posted:
+
+All Time
+74 trades
+Search symbols or catalysts...
+
+Quant
+
+AI
+
+Hybrid
+
+News
+
+Flow
+
+
+Filters
+1
+
+FRESH
+
+ACTIVE
+5
+
+WINNERS
+12
+
+LOSERS
+31
+
+EXPIRED
+26
+
+Stock Shares
+5 ideas
+
+AAPL
+QUANT ENGINE
+LONG
+DAY TRADE
+STOCK
+EARNINGS Oct 30
+Oct 28
+·
+2d ago
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Oct 28, 8:46 AM
+CST
+CURRENT
++2.69%
+$269.72
+ENTRY
+$262.66
+TARGET
+$284.25
+STOP
+$257.93
+2/7
+Apple Inc Earnings Report
+
+
+MSFT
+QUANT ENGINE
+LONG
+DAY TRADE
+STOCK
+Oct 28
+·
+2d ago
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Oct 28, 8:46 AM
+CST
+CURRENT
++4.28%
+$538.04
+ENTRY
+$515.97
+TARGET
+$558.36
+STOP
+$506.66
+2/7
+Microsoft Corporation Earnings Report
+
+
+AAPL
+QUANT ENGINE
+LONG
+DAY TRADE
+STOCK
+EARNINGS Oct 30
+Oct 23
+·
+6d ago
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Oct 23, 2:44 PM
+CST
+CURRENT
++2.69%
+$269.72
+ENTRY
+$262.66
+TARGET
+$284.25
+STOP
+$257.93
+2/7
+Apple Inc Earnings Report
+
+
+TSLA
+QUANT ENGINE
+LONG
+DAY TRADE
+STOCK
+Oct 23
+·
+6d ago
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Oct 23, 2:44 PM
+CST
+CURRENT
++4.40%
+$459.25
+ENTRY
+$439.90
+TARGET
+$476.04
+STOP
+$431.96
+2/7
+Tesla Inc Earnings Report
+
+
+MSFT
+QUANT ENGINE
+LONG
+DAY TRADE
+STOCK
+Oct 23
+·
+6d ago
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Oct 23, 2:44 PM
+CST
+CURRENT
++4.28%
+$538.04
+ENTRY
+$515.97
+TARGET
+$558.36
+STOP
+$506.66
+2/7
+Microsoft Corporation Earnings Report
+
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CDT
+© 2025 QuantEdge Research. All rights reserved.•by UN/TITLD
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past performance does not guarantee future results.

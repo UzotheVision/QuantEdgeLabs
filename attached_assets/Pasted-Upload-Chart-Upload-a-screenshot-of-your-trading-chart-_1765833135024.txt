@@ -1,0 +1,58 @@
+Upload Chart
+Upload a screenshot of your trading chart for analysis
+Chart Image
+Chart preview
+Click to change image
+
+Symbol *
+RIVN
+Required to save analysis as trade idea
+
+Timeframe
+1D
+Additional Context (Optional)
+Any additional information about the chart, market conditions, or specific patterns you want analyzed...
+Analyze Chart
+Reset
+Analysis Results
+BULLISH
+RIVN • 1D • 85% Confidence
+Saved as Draft
+Entry Point
+
+$41.00
+
+Target
+
+$70.00
+
+Stop Loss
+
+$37.00
+
+R:R Ratio
+
+7.25:1
+
+AI Analysis
+The RIVN 1D chart displays a clear Symmetrical Triangle pattern, which is a common continuation or reversal pattern indicating a period of consolidation. The upper trendline is formed by a series of declining swing highs, while the lower trendline is defined by ascending swing lows, illustrating price compression and decreasing volatility. The pattern has resolved with a strong bullish breakout above the upper trendline, marked by robust green candles. Key Levels Identified: - **Upper Trendline (now support)**: This trendline, which previously acted as resistance, has been decisively broken. It is now expected to serve as immediate support, estimated around **41.00**. A retest of this level would confirm its new role as support. - **Lower Trendline (strong support)**: The ascending lower trendline of the triangle provides strong underlying support. At the point of the breakout, this level was approximately **36.00**. - **Immediate Resistance**: The recent peak achieved immediately after the breakout is a new short-term resistance, visually estimated around **62.00**. - **Key Resistance**: A more significant resistance level is identified from previous swing highs within the triangle, located around **70.00**. This level represents a historical price point where upward momentum was previously rejected. Trade Setup Rationale: - **Entry Point**: A conservative and high-probability entry strategy for a triangle breakout is to wait for a retest of the broken upper trendline, which should now act as support. This provides a favorable risk-reward opportunity. Therefore, the entry point is set at **41.00**. - **Target Price**: The target for a symmetrical triangle breakout can be measured by projecting the height of the widest part of the triangle from the breakout point. However, a more conservative and often reliable target is a significant prior resistance level. The key resistance at **70.00** (a previous swing high within the pattern) is chosen as the primary target. - **Stop Loss**: The stop loss is placed below the broken upper trendline and beneath the most recent consolidation low before the breakout, at **37.00**. This placement ensures that if the price re-enters the triangle pattern, the bullish breakout is invalidated, and the trade is exited with a controlled risk. The overall market sentiment for RIVN based on this chart is **bullish**, driven by the definitive breakout from a significant consolidation pattern with strong upward momentum. The calculated risk-reward ratio of **7.25** indicates a very favorable setup.
+
+View in Trade Desk
+Promote to Published
+
+Patterns Detected (2)
+
+Support & Resistance Levels
+Educational Purpose Only
+
+This analysis is for educational and research purposes only. Not financial advice. Always conduct your own research and risk management before trading.
+
+How Chart Analysis Works
+1
+Upload Chart
+Upload any trading chart screenshot from your platform (TradingView, MetaTrader, etc.)
+
+2
+AI Analysis
+Our AI analyzes patterns, support/resistance, trend strength, and generates trade parameters
+

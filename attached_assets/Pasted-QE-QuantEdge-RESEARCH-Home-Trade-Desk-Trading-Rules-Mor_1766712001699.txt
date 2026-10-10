@@ -1,0 +1,126 @@
+QE
+QuantEdge
+RESEARCH
+
+Home
+
+Trade Desk
+
+Trading Rules
+More
+
+Performance
+
+Market
+
+Chart Analysis
+System
+
+Pricing
+
+Settings
+
+Admin
+Abdulmalik
+abdulmalikajisegiri@gmail.com
+abdulmalikajisegiri@gmail.com
+Chart Analysis
+AI + Quantitative analysis for precise trade setups
+
+AI Vision
+Quant Engine
+Upload Chart
+Chart preview
+Click to change
+
+Symbol
+SPY
+Chart Timeframe
+What time period does each candle/bar represent on your chart?
+
+
+Monthly
+15 Min
+1 Hour
+4 Hour
+Daily
+Context (Optional)
+Market conditions, specific patterns to look for...
+SPY
+1M
+BEARISH
+85% Confidence • 3 Patterns
+
+Draft
+Current SPY Price: $690.38
+Entry
+
+$687.50
+
+Target
+
+$650.00
+
++-5.5%
+
+Stop
+
+$692.50
+
+-0.7%
+
+R:R
+
+7.5:1
+
+Validation Alerts
+
+• R:R of 7.5:1 is unusually high - verify levels
+AI Analysis
+Quant Signals
+Levels
+Predicted Trend
+-5.5%
+Expected
+
+AI Confidence
+85%
+Bears
+Signal Balance
+Bulls
+100%
+0%
+Price Target Range
+Stop $692.50
+Entry $687.50
+Target $650.00
+Detected Patterns
+Double Top
+Bearish Consolidation
+Resistance Rejection
+Technical Analysis
+The S&P 500 (SPY) chart, displayed on a WEEKLY timeframe, shows a significant uptrend from May '25 to Jan '26, bringing the price from approximately $475 to over $680. Currently, the price is consolidating in a range labeled 'Q4 - Q1' (Nov '25 - Mar '26) between roughly $675 and $690. This consolidation occurs at the peak of a strong rally, often signaling potential trend exhaustion. The price recently challenged the upper boundary of this consolidation around $690-$691, with the latest price shown as $690.02 (which is consistent with the provided live price of $690.38). The yellow arrow indicates a projected scenario where the price attempts to break out above the $690 resistance but fails, leading to a strong reversal and a move downward. This suggests a potential 'Double Top' pattern or a strong rejection from a significant resistance zone after a failed breakout attempt. A short position is favored upon confirmation of this rejection. Key resistance is identified between $680 and $690, with an immediate overhead resistance at the recent high around $692.00. Immediate support is at the bottom of the current consolidation zone around $675.00. A more significant support level, also targeted by the yellow arrow, is at $650.00, which acted as a previous resistance point and psychological level.
+
+Educational purposes only. Not financial advice. Always conduct your own research before trading.
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CST
+© 2025 QuantEdge Research. All rights reserved.•by UN/TITLD
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past performance does not guarantee future results.

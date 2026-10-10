@@ -1,0 +1,133 @@
+You already nailed the chart mechanics. Here's what separates a *trade* from a *gamble* when you're holding options into events.
+
+---
+
+## **1. Implied Volatility is the Real Undercurrent**
+
+Your chart says "bounce." The options chain says *"we're pricing a ±18% move by expiry."*
+
+**Check this BEFORE you buy:**
+- **IV Rank/IV Percentile**: If it's above 70th percentile, you're buying expensive premium. A bounce to $24 might still lose money if IV collapses.
+- **IV vs HV**: If implied is trading 2x historical, the market's already scared. You need a *parabolic* move, not a disciplined bounce.
+- **Earnings vol crush**: That 1/26 expiry is begging for it. Post-earnings IV can drop 40-60% overnight. Your delta gains evaporate if vega kicks you in the teeth.
+
+**Action**: If IV > 50%, consider a vertical spread to short some premium. Don't be the sucker holding naked calls into vol collapse.
+
+---
+
+## **2. Time Decay is Non-Negotiable Math**
+
+You mentioned theta-burning. Let's quantify it.
+
+- **Current theta** on a 21-strike call: likely -$0.04/day now, accelerating to -$0.12/day in the final week.
+- **Breakeven acceleration**: Price needs to rise ~$0.50/week just to *offset* decay.
+
+Your "hold above 19.5" invalidation is fine, but **time invalidation** is stricter: if you're not above $22 by 1/19, you're statistically dead.
+
+**Action**: Set a time stop, not just a price stop. If it hasn't moved by Jan 15th, exit. Don't hope.
+
+---
+
+## **3. Position Sizing: The Only Thing That Actually Prevents Blowups**
+
+Your analysis is solid. Still doesn't matter if you're 30% allocated.
+
+**Rule for mean reversion trades**: 
+- Risk 0.5–1% of *total account* per trade. 
+- Your stop is $19 (delta ≈ -0.30 on a 21C). 
+- If call premium is $1.50, you need position size = (0.5% × Account) / ($1.50 - $0.60 expected residual). 
+
+**This keeps you in the game when 3 of these fail sequentially** — which they will.
+
+---
+
+## **4. Liquidity is Your Exit Strategy**
+
+SMR isn't SPY. Check:
+- **Open Interest** at 21C, 22C strikes: >1,000? Or 47?
+- **Bid-Ask spread**: $0.10 wide? Acceptable. $0.35 wide? You're already down 15% on entry/exit slippage.
+- **Volume**: If daily call volume is 200 contracts, you're the whale. Good luck getting out.
+
+**Action**: If spreads are trash, use limit orders mid-market and pray. Or don't play.
+
+---
+
+## **5. Market Context > Individual Chart**
+
+SMR is a beta-chasing name. Ask:
+
+- **QQQ trend**: If tech is rolling over, "nuclear optimism" won't save you. Sector rotation is gravity.
+- **VVIX**: If vol-of-vol is spiking, all options get repriced. Your trade becomes a derivative of a derivative.
+- **Correlation to XLU/energy ETF**: If utilities are selling off, SMR's "nuclear" narrative is just a story.
+
+**Action**: Only take this trade if QQQ is above its 5-day SMA. Otherwise, you're fighting the tide with a time limit.
+
+---
+
+## **6. Order Flow Tells You Who's Confident**
+
+You're buying calls. **Who's selling them?**
+
+- **Unusual options flow**: Are whales selling 22C spreads, or buying 25C lotto tickets? Check the tape.
+- ** dealer gamma**: If market makers are short gamma at 22, they'll *buy stock* as it approaches, creating a squeeze. That's fuel.
+- **Put/Call ratio**: SMR PCR < 0.40 means everyone's already long calls. No one left to buy.
+
+**Action**: If calls are pricing a 25% move and dealers are long gamma, you're the exit liquidity.
+
+---
+
+## **7. Your Outcome Classification Needs a Greeks Overlay**
+
+Based on your saved methodology:
+- **Win = hit_target**: But was it *delta* or *vega* that paid you? Know the difference.
+- **Loss = hit_stop**: Did you stop out because price moved, or because theta bled you dry at -3%?
+
+**Track these separately**: 
+- "Win-delta" vs "Win-vega" 
+- "Loss-price" vs "Loss-decay"
+
+This tells you if you're actually good at direction, or just getting lucky on volatility.
+
+---
+
+## **8. Fundamental Tripwires (Because Charts Don't Warn You)**
+
+You mentioned earnings, but check:
+- **Short interest**: >20% float? That bounce is 60% short-covering, not long demand. It reverses instantly.
+- **Insider selling**: If execs are dumping at $20, your $22 target is their liquidity.
+- **Analyst PTs**: Consensus $35? Cool. But are they *upgrading* into earnings or *quietly cutting* estimates?
+
+**Action**: Open *Finviz* and scan for red flags. Takes 90 seconds. Charts don't show you a CFO resignation.
+
+---
+
+## **9. The Psychological X-Factor**
+
+Your analysis is rational. The market is not.
+
+- **"Character development arc"**: You said it. SMR doesn't love you. **Set a profit target at entry**: "I sell 50% at 22.5, 50% at 24.5." No exceptions.
+- **Revenge trading**: If this fails, it's not the chart's fault. It's a 40% probability trade. Don't double down.
+- **Narrative addiction**: "Nuclear optimism" feels good. That's why premium is expensive. You're paying for feelings.
+
+**Action**: Write your exit rules in a text file. Close the tab. That's the trade.
+
+---
+
+## **Final Sanity Check for SMR 1/26 Calls**
+
+| Factor | Green Light | Red Flag |
+|--------|-------------|----------|
+| IV Rank | < 50% | **Definitely > 70%** (check) |
+| Volume vs OI | OI > 2k, daily vol > 500 | **Likely thin** |
+| QQQ trend | Above 5d SMA | **If below, skip** |
+| Earnings vol crush | Post-earnings expiry | **1/26 = crush victim** |
+| Position size | <1% risk | **Verify** |
+
+**Verdict**: Your chart read is correct. But the options market is pricing it *too correctly*. This is a **stock trade disguised as an options trade**. 
+
+If you must play, consider:
+- **Buying stock + selling 25C** (covered call to harvest IV)
+- **22/25 call debit spread** (long delta, short vega)
+- **Half-size, 1/31 expiry** (skip earnings, play the reaction)
+
+Don't let the right chart turn into the wrong product. That's how good analysts still donate money.

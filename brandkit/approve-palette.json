@@ -1,0 +1,14 @@
+{
+  "approval_summary": "User selected the Cold Read palette — forensic navy-black base, cool light text, ice-blue signal, moss/clay for direction.",
+  "palette": {
+    "colors": [
+      { "hex": "#0E1420", "name": "Deep Navy",  "role": "background" },
+      { "hex": "#161E2C", "name": "Slate",      "role": "support" },
+      { "hex": "#D6DEE8", "name": "Cold Light", "role": "text" },
+      { "hex": "#78C6E8", "name": "Ice Signal", "role": "primary" },
+      { "hex": "#6E9E7A", "name": "Moss",       "role": "accent" },
+      { "hex": "#B5705F", "name": "Clay",       "role": "accent" }
+    ],
+    "gradients": []
+  }
+}

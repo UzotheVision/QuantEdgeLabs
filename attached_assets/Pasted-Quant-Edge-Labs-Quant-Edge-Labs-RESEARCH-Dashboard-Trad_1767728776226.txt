@@ -1,0 +1,222 @@
+Quant Edge Labs
+Quant Edge
+Labs
+RESEARCH
+
+Dashboard
+
+Trade Desk
+
+My Watchlist
+
+Market Scanner
+500+
+
+Swing Scanner
+NEW
+AUTOMATIONS
+
+Automations Hub
+LIVE
+ANALYTICS
+
+Performance
+
+Chart Analysis
+LEARN
+
+Academy
+ACCOUNT
+
+My Account
+
+Settings
+ADMIN
+
+Admin
+MARKET OPEN
+abdulmalikajisegiri@gmail.com
+TRADING WEEK: JAN 5 - JAN 9
+
+Automations Hub
+Auto-Lotto
+Bot Picks
+Strategy
+Quant
+Flow
+Reports
+Bot running
+Checks every 5 min during market hours
+Options
+Futures
+Crypto
+11W / 13L
+45.8% Win
+Session Recommended Plays
+High-confidence ideas from the AI & Quant engines for the current session
+391 Ideas
+META
+CALL $682.5
+100% Conf.
+SPECULATIVE LOTTO
+Entry: $0.7
+Target: $10.5
+🤖 BOT DECISION: META CALL $682.5 | HIGH_VOL_2.5x | OPTIMAL_DELTA_0.11 | OPT_VOL_1129
+
+INTC
+CALL $39.5
+100% Conf.
+SPECULATIVE LOTTO
+Entry: $1.045
+Target: $15.675
+🤖 BOT DECISION: INTC CALL $39.5 | ALIGNED_1.3% | HIGH_VOL_2.0x | BULLISH_TREND
+
+INTC
+CALL $39.5
+100% Conf.
+SPECULATIVE LOTTO
+Entry: $1.59
+Target: $3.975
+🤖 BOT DECISION: INTC CALL $39.5 | ALIGNED_1.3% | HIGH_VOL_2.0x | BULLISH_TREND
+
+INTC
+CALL $40
+100% Conf.
+SPECULATIVE LOTTO
+Entry: $2.72
+Target: $4.08
+🤖 BOT DECISION: INTC CALL $40 | ALIGNED_1.3% | HIGH_VOL_2.0x | BULLISH_TREND
+
+UUUU
+CALL $16
+100% Conf.
+SPECULATIVE LOTTO
+Entry: $0.365
+Target: $0.9125
+🤖 BOT DECISION: UUUU PUT $16 | GOOD_MOMENTUM_2.5% | INTRADAY_WEAK | HIGH_DELTA_0.21
+
+UUUU
+CALL $16.5
+100% Conf.
+SPECULATIVE LOTTO
+Entry: $0.175
+Target: $2.625
+🤖 BOT DECISION: UUUU PUT $16.5 | GOOD_MOMENTUM_2.5% | INTRADAY_WEAK | OPTIMAL_DELTA_0.19
+
+COMBINED VALUE
+
+$242,930.03
+DAY'S P&L
+
++$48,498.62
+TOTAL TRADES
+
+30
+Portfolio Dashboard
+Options
+Futures
+Crypto
+Paper Trading
+ACCOUNT VALUE
+
+$68,523.18
+STARTING CAPITAL
+
+$20,000.00
+
+REALIZED P&L
+
++$48,925.00
+
+POSITIONS
+
+3 open / 30 closed
+
+TOTAL EQUITY
+
+$68,918.70
+
+CASH AVAILABLE
+
+$20,869.00
+
+OPEN P&L
+
+-$6.30
+
+CLOSED P&L
+
++$48,925.00
+
+Performance by Asset Type
+Separate win rates and metrics for each trading strategy
+Options Lotto
+Win Rate
+45.8%
+Record
+11W / 13L
+Total P&L
++$48,925.00
+Avg Trade
++$1,630.83
+Active 9:30 AM - 4:00 PM ET
+Futures Trading
+NQ / GC
+Win Rate
+0%
+Record
+0W / 0L
+Total P&L
++$175,030.00
+Avg Trade
+--
+Active 24/7 (CME hours)
+Crypto Trading
+24/7
+Status
+Active
+Positions
+4 / 3 max
+Total P&L
++$504.38
+Coins Tracked
+14
+Active 24/7 (CoinGecko)
+Options Open Positions
+3
+Active options trades currently held by the bot
+SYMBOL	TYPE	STRIKE	EXPIRY	ENTERED	QTY	AVG COST	CURRENT	P&L	RETURN %
+META
+CALL	$735	Jan 15	Jan 6 1:30 PM	5	$0.20	$0.19	
+-$5.00
+-5.0%
+INTC
+PUT	$36	Jan 15	Jan 6 10:41 AM	5	$0.24	$0.21	
+-$12.50
+-10.6%
+UUUU
+PUT	$16	Feb 5	Jan 6 8:45 AM	5	$0.91	$0.85	
+-$30.00
+-6.6%
+Options Trade History
+30
+Closed options trades with realized P&L
+SYMBOL	TYPE	ENTRY	EXIT	P&L	DATE CLOSED	RESULT
+SOFI	CALL	$0.15	$1.77	+$810.00	Jan 6, 01:40 PM	Won
+META	CALL	$0.21	$93.88	+$46,832.50	Jan 6, 01:15 PM	Won
+META	PUT	$0.26	$0.23	-$15.00	Jan 6, 11:05 AM	Lost
+META	CALL	$0.20	$0.15	-$25.00	Jan 6, 10:30 AM	Lost
+NVDA	PUT	$0.24	$0.21	-$15.00	Jan 6, 10:35 AM	Lost
+TSLA	PUT	$0.49	$0.63	+$70.00	Jan 6, 12:30 PM	Won
+INTC	PUT	$0.33	$0.27	-$30.00	Jan 6, 10:30 AM	Lost
+BIDU	CALL	$0.72	$0.45	-$135.00	Jan 6, 09:35 AM	Lost
+AMZN	CALL	$1.25	$4.18	+$1,462.50	Jan 6, 01:05 PM	Won
+UUUU	CALL	$0.20	$0.14	-$30.00	Jan 6, 08:45 AM	Lost
+Showing 10 of 49 closed trades
+Quant Edge Labs
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only

@@ -1,0 +1,40 @@
+Ultimate Guide On How To Market Your Vibe-Coded App: Real Tips from My Journey
+You've vibe-coded an app. Now how do you get users? I created this guide with tips from my own journey.
+
+Let's dive in- Feel free to add your own experiences below
+
+Don't Call It a 'Vibe-Coded App'- Focus on the Problem It Solves
+
+One of the top pieces of advice? The market's oversaturated with vibe-coded apps, and people can be skeptical. Instead, highlight the real-world problem your app tackles. "What is the problem your app is solving?" Once you answer that, find the communities around that and help people solve their problems.
+
+Build trust by engaging genuinely in forums like Reddit or Discord. Don't just drop links- solve issues first.
+
+Start Marketing Early: Go-To-Market (GTM) While Building
+
+Don't wait till launch day! Ideally you want to do the GTM as you are building it, talk to customers, show them prototypes and mock-up and then go back to them and get more feedback then repeat the cycle. This feedback loop is crucial for vibe-coded apps, which often skip deep validation.
+
+Validate demand through direct chats: The challenge with vibe-coded apps is that they're often built without proper customer validation... Before focusing on acquisition tactics, validate that people actually want what you've built through direct customer conversations.
+
+Tools like Product Hunt or niche communities (e.g., Reddit subs) work best when you've got that expertise edge.
+
+Organic Reach and Community Building
+
+For budget-friendly user acquisition, lean into organic vibes. Short video content user generated content and community building are key strategies.
+
+Create authentic content: Share the app that feels native to that space, and in a way, it does not feel like an ad. Then start creating authentic content, collabs, and word of mouth before spending money on paid ads.
+
+Content Marketing and Social Scaling
+
+Pour out the content! start with organic social and just pour out content at scale... short clips, carousels, little demos. That gives you free reach and quick feedback. Once you see what hits, turn those into ads.
+
+Mix it up: How-to guides, demos, and real use cases.
+
+Common Pitfalls and Starter Tips
+
+Avoid generic promotion: "Generic app promotion across multiple channels typically fails because you're competing with thousands of other launches." Instead, "Post everywhere on internet. Create more backlinks and better visibility"- but focus on quality.
+
+Distribution is just as important as the build. Start small, iterate based on feedback, and scale what works.
+
+What's your go-to strategy for vibe-coded app user acquisition? Drop it below- let's make this the ultimate resource!
+
+If youre into this type of conntent check out VibeCodersNest

@@ -1,0 +1,76 @@
+Fellow degen,
+
+Tired of randomly picking penny stocks and waiting months to watch them bleed out slowly? What if you could pinpoint the EXACT DATE your position will either moon or crater to zero?
+
+I built CatalystAlert.io - basically a calendar of binary events for biotech stocks. PDUFA dates, Phase 2/3 data readouts, FDA decisions. You know, the days where your $500 YOLO becomes either $5,000 or $50.
+
+Q1 2026 Penny Stock Gambling Menu
+I pulled the data for companies under $500M market cap with upcoming catalysts. Here's your menu for maximum portfolio destruction:
+
+🎰 PDUFA DATES (FDA Says Yes or No - Literally a Coin Flip)
+Date	Ticker	Market Cap	What's Happening
+Jan 31	AQST	$207M	Anaphylm - epinephrine film for anaphylaxis
+Feb 9	FBIOP	$49M	CUTX-101 for Wilson's disease
+Feb 17	ALDX	$192M	Reproxalap for dry eye
+Feb 26	PGEN	$240M	PRGN-3005 gene therapy (Priority Review)
+Mar 1	OTLK	$180M	LYTENAVA for wet AMD
+Mar 25	ATHA	$86M	ATH-1017 for Alzheimer's
+Mar 30	OMER	$225M	OMIDRIA for eye surgery
+FBIOP at $49M market cap getting a PDUFA decision in February. That's the kind of asymmetric risk we live for. Or die for. Probably die.
+
+🧪 PHASE 3 READOUTS (Positive = 100%+, Negative = -80%)
+Date	Ticker	Market Cap	Drug	Indication
+Jan 15	PVLA	$9M	QTORIN	Lymphatic Malformation
+Jan 31	KOD	$76M	Tarcocimab	Diabetic Retinopathy
+Feb 15	CMPS	$355M	Psilocybin	Treatment Resistant Depression
+Mar 10	SBFM	$23M	Clifutinib	Leukemia
+Mar 15	KPTI	$108M	Selinexor	Multiple Myeloma
+PVLA at $9M market cap with Phase 3 data Jan 15. That's not a stock, that's a lottery ticket with extra steps.
+
+💀 MICRO CAP DEGEN SPECIALS (< $100M)
+For those who find regular penny stocks too safe:
+
+Date	Ticker	Market Cap	Event	What Could Go Wrong
+Jan 15	ODYY	$2M	Phase 2	Ulcerative Colitis
+Jan 15	PVLA	$9M	Phase 3	Lymphatic Malformation
+Jan 15	TRAW	$10M	Phase 2	Endometrial Cancer
+Feb 1	CNSP	$9M	Phase 2	Glioblastoma
+Feb 9	FBIOP	$49M	PDUFA	Wilson's Disease
+Feb 15	GNPX	$5M	Phase 2	Lung Cancer
+Mar 10	SBFM	$23M	Phase 3	Leukemia
+ODYY at $2M market cap. That's not even a company, that's three guys in a garage with a dream and your money.
+
+The Numbers
+43 catalysts in Q1 2026
+
+12 PDUFA dates (FDA decisions)
+
+10 Phase 3 readouts
+
+21 Phase 2 readouts
+
+16 micro caps under $100M
+
+What the site does
+Calendar view of all upcoming biotech catalysts
+
+Filter by market cap, catalyst type, date
+
+Company pages with drug pipeline info
+
+Push notifications so you don't miss your scheduled financial destruction
+
+ML predictions that are probably wrong (we're in beta, still calibrating our "expected returns" which currently look way too optimistic)
+
+Why I built this
+Because I got tired of finding out about PDUFA dates the day AFTER my bags either mooned or imploded. Now I can plan my disappointment in advance.
+
+Link: catalystalert.io
+
+Still in beta. Premium is free right now. The predictions are optimistic and we're working on making them less wrong.
+
+If you spot bad data or missing catalysts, lmk - DM here, info@catalystalert.io, or @catalystalert on Twitter.
+
+This is not financial advice. This is a tool to help you make terrible decisions more efficiently. Do your own DD. Or don't. I'm not your dad.
+
+🚀 or 💀 no in between

@@ -1,0 +1,709 @@
+QuantEdge
+Research Platform
+Research
+Dashboard
+Trade Ideas
+Market
+Watchlist
+Tools
+Performance
+Signal Intelligence
+Risk Calculator
+System
+About
+Learn More
+Admin
+Toggle Sidebar
+QuantEdge
+Trade Ideas
+Saturday, October 18, 2025
+Research-grade opportunities across stocks, options, and crypto
+
+40 NEW
+Generate Quant
+Generate AI
+Search symbols or catalysts...
+
+
+Filters
+FRESH IDEAS (40)
+ALL ACTIVE (46)
+ARCHIVED (1)
+
+Stock Shares
+31 fresh
+
+PAAS
+SHORT
+·
+Stock
+·
+Oct 18
+·
+55m ago
+Grade
+A
+Entry
+$38.44
+Target
+$35.36
+Stop
+$39.98
+Enter by
+10:29 PM CDT
+Exit by
+Oct 19, 1:05 AM CDT
+80.0% probability in 276min window
+
+KVUE
+LONG
+·
+Stock
+·
+Oct 18
+·
+55m ago
+Grade
+C+
+Entry
+$15.29
+Target
+$16.51
+Stop
+$14.68
+Enter by
+12:29 AM CDT
+Exit by
+Oct 19, 4:29 AM CDT
+65.0% probability in 480min window
+
+AG
+SHORT
+·
+Stock
+·
+Oct 18
+·
+55m ago
+Grade
+B
+Entry
+$14.03
+Target
+$12.91
+Stop
+$14.59
+Enter by
+11:29 PM CDT
+Exit by
+Oct 19, 2:29 AM CDT
+75.0% probability in 360min window
+
+EGO
+SHORT
+·
+Stock
+·
+Oct 18
+·
+55m ago
+Grade
+B
+Entry
+$28.18
+Target
+$25.93
+Stop
+$29.31
+Enter by
+11:29 PM CDT
+Exit by
+Oct 19, 3:23 AM CDT
+70.0% probability in 414min window
+
+HMY
+SHORT
+·
+Stock
+·
+Oct 18
+·
+56m ago
+Grade
+A
+Entry
+$19.96
+Target
+$18.36
+Stop
+$20.76
+Enter by
+10:29 PM CDT
+Exit by
+Oct 19, 1:05 AM CDT
+80.0% probability in 276min window
+
+RVMD
+LONG
+·
+Stock
+·
+Oct 18
+·
+56m ago
+Grade
+C+
+Entry
+$54.10
+Target
+$58.43
+Stop
+$51.94
+Enter by
+12:29 AM CDT
+Exit by
+Oct 19, 4:29 AM CDT
+65.0% probability in 480min window
+
+KGC
+SHORT
+·
+Stock
+·
+Oct 18
+·
+56m ago
+Grade
+A
+Entry
+$25.10
+Target
+$23.09
+Stop
+$26.10
+Enter by
+10:29 PM CDT
+Exit by
+Oct 19, 1:05 AM CDT
+80.0% probability in 276min window
+
+SA
+SHORT
+·
+Stock
+·
+Oct 18
+·
+56m ago
+Grade
+B
+Entry
+$26.22
+Target
+$24.12
+Stop
+$27.27
+Enter by
+11:29 PM CDT
+Exit by
+Oct 19, 2:29 AM CDT
+75.0% probability in 360min window
+
+PPTA
+SHORT
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+A
+Entry
+$25.32
+Target
+$23.29
+Stop
+$26.33
+Enter by
+10:23 PM CDT
+Exit by
+Oct 19, 12:23 AM CDT
+85.0% probability in 240min window
+
+GRAL
+SHORT
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+B+
+Entry
+$78.00
+Target
+$71.76
+Stop
+$81.12
+Enter by
+11:23 PM CDT
+Exit by
+Oct 19, 2:23 AM CDT
+75.0% probability in 360min window
+
+ORLA
+SHORT
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+B
+Entry
+$12.15
+Target
+$11.18
+Stop
+$12.64
+Enter by
+11:23 PM CDT
+Exit by
+Oct 19, 2:23 AM CDT
+75.0% probability in 360min window
+
+DRD
+SHORT
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+A
+Entry
+$28.52
+Target
+$26.24
+Stop
+$29.66
+Enter by
+10:23 PM CDT
+Exit by
+Oct 19, 12:23 AM CDT
+85.0% probability in 240min window
+
+RSI
+SHORT
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+A
+Entry
+$17.30
+Target
+$15.92
+Stop
+$17.99
+Enter by
+9:40 PM CDT
+Exit by
+Oct 19 4:00 PM EST
+
+PRAX
+LONG
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+D
+Entry
+$189.99
+Target
+$205.19
+Stop
+$182.39
+Enter by
+9:40 PM CDT
+Exit by
+Oct 19 4:00 PM EST
+
+DGNX
+SHORT
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+A+
+Entry
+$14.80
+Target
+$13.62
+Stop
+$15.39
+Enter by
+9:40 PM CDT
+Exit by
+Oct 19 4:00 PM EST
+
+LBRT
+LONG
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+C+
+Entry
+$15.32
+Target
+$16.55
+Stop
+$14.71
+Enter by
+9:40 PM CDT
+Exit by
+Oct 19 4:00 PM EST
+
+HIMS
+SHORT
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+A+
+Entry
+$49.78
+Target
+$45.80
+Stop
+$51.77
+Enter by
+9:21 PM CDT
+Exit by
+Oct 19 4:00 PM EST
+
+IRON
+LONG
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+B+
+Entry
+$89.94
+Target
+$97.14
+Stop
+$86.34
+Enter by
+9:21 PM CDT
+Exit by
+Oct 19 4:00 PM EST
+
+SBSW
+SHORT
+·
+Stock
+·
+Oct 18
+·
+1h ago
+Grade
+B+
+Entry
+$11.38
+Target
+$10.47
+Stop
+$11.84
+Enter by
+9:21 PM CDT
+Exit by
+Oct 19 4:00 PM EST
+
+MSFT
+SHORT
+·
+Stock
+·
+Oct 18
+·
+18h ago
+Grade
+D
+$513.58
+++0.00%
+Entry
+$513.58
+Target
+$503.58
+Stop
+$518.58
+Near stop loss - High risk
+
+Current: $513.58 • Entry: $513.58 (+0.00%)
+
+WATCH CLOSELY
+
+AAPL
+LONG
+·
+Stock
+·
+Oct 18
+·
+18h ago
+Grade
+D
+$252.29
+++0.00%
+Entry
+$252.29
+Target
+$262.29
+Stop
+$247.29
+Near stop loss - High risk
+
+Current: $252.29 • Entry: $252.29 (+0.00%)
+
+WATCH CLOSELY
+
+AUGO
+SHORT
+·
+Stock
+·
+Oct 18
+·
+19h ago
+Grade
+B
+Entry
+$36.66
+Target
+$33.73
+Stop
+$38.13
+Enter by
+3:49 AM CDT
+Exit by
+Oct 18 4:00 PM EST
+
+NG
+SHORT
+·
+Stock
+·
+Oct 18
+·
+19h ago
+Grade
+B+
+Entry
+$9.55
+Target
+$8.79
+Stop
+$9.93
+Enter by
+3:49 AM CDT
+Exit by
+Oct 18 4:00 PM EST
+
+EXK
+SHORT
+·
+Stock
+·
+Oct 18
+·
+19h ago
+Grade
+B+
+Entry
+$9.06
+Target
+$8.34
+Stop
+$9.42
+Enter by
+3:49 AM CDT
+Exit by
+Oct 18 4:00 PM EST
+
+AAPL
+LONG
+·
+Stock
+·
+Oct 18
+·
+19h ago
+Grade
+D
+$252.29
+++0.00%
+Entry
+$252.29
+Target
+$260.00
+Stop
+$248.00
+Near stop loss - High risk
+
+Current: $252.29 • Entry: $252.29 (+0.00%)
+
+WATCH CLOSELY
+
+LEU
+SHORT
+·
+Stock
+·
+Oct 18
+·
+19h ago
+Grade
+B+
+Entry
+$380.18
+Target
+$349.77
+Stop
+$395.39
+Enter by
+3:43 AM CDT
+Exit by
+Oct 18 4:00 PM EST
+
+SOUN
+SHORT
+·
+Stock
+·
+Oct 18
+·
+19h ago
+Grade
+B+
+Entry
+$19.02
+Target
+$17.50
+Stop
+$19.78
+Enter by
+3:43 AM CDT
+Exit by
+Oct 18 4:00 PM EST
+
+HL
+SHORT
+·
+Stock
+·
+Oct 18
+·
+19h ago
+Grade
+B+
+Entry
+$13.93
+Target
+$12.82
+Stop
+$14.49
+Enter by
+3:43 AM CDT
+Exit by
+Oct 18 4:00 PM EST
+
+IAG
+SHORT
+·
+Stock
+·
+Oct 17
+·
+23h ago
+Grade
+A
+Entry
+$13.36
+Target
+$12.29
+Stop
+$13.89
+Enter by
+11:20 PM CDT
+Exit by
+Oct 18 4:00 PM EST
+
+FRMI
+SHORT
+·
+Stock
+·
+Oct 17
+·
+23h ago
+Grade
+A
+Entry
+$27.00
+Target
+$24.84
+Stop
+$28.08
+Enter by
+11:20 PM CDT
+Exit by
+Oct 18 4:00 PM EST
+
+CDE
+SHORT
+·
+Stock
+·
+Oct 17
+·
+23h ago
+Grade
+A
+Entry
+$21.05
+Target
+$19.37
+Stop
+$21.89
+Enter by
+11:20 PM CDT
+Exit by
+Oct 18 4:00 PM EST
+
+Crypto
+9 fresh

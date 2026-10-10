@@ -1,0 +1,64 @@
+{
+  "brandbookElements": [],
+  "essentialKitApproved": false,
+  "palette": {
+    "approvalSummary": "User selected the Cold Read palette — forensic navy-black base, cool light text, ice-blue signal, moss/clay for direction.",
+    "colors": [
+      {
+        "hex": "#0e1420",
+        "name": "Deep Navy",
+        "role": "background"
+      },
+      {
+        "hex": "#161e2c",
+        "name": "Slate",
+        "role": "support"
+      },
+      {
+        "hex": "#d6dee8",
+        "name": "Cold Light",
+        "role": "text"
+      },
+      {
+        "hex": "#78c6e8",
+        "name": "Ice Signal",
+        "role": "primary"
+      },
+      {
+        "hex": "#6e9e7a",
+        "name": "Moss",
+        "role": "accent"
+      },
+      {
+        "hex": "#b5705f",
+        "name": "Clay",
+        "role": "accent"
+      }
+    ],
+    "gradients": [],
+    "origin": "brandkit_generated",
+    "revision": 1
+  },
+  "typography": {
+    "approvalSummary": "User selected Technical Editorial — Space Grotesk display with Spline Sans Mono for data.",
+    "body": {
+      "family": "Spline Sans Mono",
+      "source": "google:Spline Sans Mono",
+      "style": "normal",
+      "weight": 400
+    },
+    "display": {
+      "family": "Space Grotesk",
+      "source": "google:Space Grotesk",
+      "style": "normal",
+      "weight": 700
+    },
+    "fontLinks": [
+      "https://fonts.google.com/specimen/Space+Grotesk",
+      "https://fonts.google.com/specimen/Spline+Sans+Mono"
+    ],
+    "origin": "brandkit_generated",
+    "revision": 1
+  },
+  "version": 2
+}

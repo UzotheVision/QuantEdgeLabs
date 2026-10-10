@@ -1,0 +1,986 @@
+QuantEdge
+BY
+UN
+/
+TITLD
+Research
+Dashboard
+Trade Ideas
+Market
+Watchlist
+Insights
+Tools
+Performance
+Signal Intelligence
+Quant Analytics
+Holographic View
+Risk Calculator
+Quant Learning
+System
+Settings
+About
+Learn More
+Admin
+
+Collapse
+Trade Ideas
+Thursday, Oct 23
+Stocks, options, crypto opportunities
+
+7 NEW
+Educational Research Only: This platform provides quantitative trade ideas for educational and research purposes. Not financial advice. Markets are risky. Always do your own research and consult a licensed advisor before trading.Engine: v2.2.0
+Posted:
+
+All Time
+158 trades
+Search symbols or catalysts...
+
+Quant
+
+AI
+
+
+Filters
+Top Picks Today
+5
+Best quality + R:R + probability
+
+1
+ITGR
+LONG
+POSITION
+Integer Holdings Corp Earnings Report
+
+A+
+R:R 4.0 • Score: 100
+
+2
+QBTS
+LONG
+WEEK-ENDING
+MACD bearish crossover - early trend signal
+
+A+
+R:R 4.0 • Score: 100
+
+3
+SMPL
+LONG
+SWING
+RSI oversold at 23 - reversal opportunity
+
+A+
+R:R 4.0 • Score: 100
+
+4
+GTX
+SHORT
+SWING
+Garrett Motion Inc - New Earnings Report
+
+A+
+R:R 4.0 • Score: 100
+
+5
+VLY
+LONG
+DAY
+Valley National Bancorp Earnings Report
+
+A
+R:R 4.8 • Score: 93
+
+
+FRESH
+7
+
+ACTIVE
+20
+
+WINNERS
+37
+
+LOSERS
+69
+
+EXPIRED
+32
+
+BTC
+AI ENGINE
+LONG
+POSITION
+CRYPTO
+Oct 23
+·
+Just now
+HIT TARGET
+D
+Fetching price...
+Entry: $67,000.00 • Target: $69,000.00
+Entry
+$67,000.00
+Target
+$69,000.00
+Stop
+$65,500.00
+Continued institutional inflows into spot Bitcoin ETFs, coupled with geopolitical uncertainties, reinforces Bitcoin's narrative as a digital safe haven asset.
+
+
+SPY
+AI ENGINE
+LONG
+DAY TRADE
+STOCK
+Oct 23
+·
+Just now
+HIT TARGET
+D
+Fetching price...
+Entry: $580.00 • Target: $585.00
+Entry
+$580.00
+Target
+$585.00
+Stop
+$577.50
+Stronger-than-expected manufacturing PMI data suggests robust economic activity, providing a positive outlook for corporate earnings and broad market sentiment.
+
+
+MSFT
+AI ENGINE
+LONG
+DAY TRADE
+STOCK
+Oct 23
+·
+7m ago
+HIT TARGET
+D
+CURRENT PRICE
+++18.85%
+$517.00
+ENTRY
+$435.00
+TARGET
+$460.00
+STOP
+$425.00
+Entry
+$435.00
+Target
+$460.00
+Stop
+$425.00
+Microsoft's continued strong performance in cloud services (Azure) and aggressive integration of AI across its product suite are expected to drive robust revenue growth. Anticipation of an upcoming earnings report exceeding analyst expectations provides a near-term boost.
+
+
+GOOGL
+AI ENGINE
+LONG
+DAY TRADE
+STOCK
+Oct 23
+·
+24m ago
+HIT TARGET
+D
+Fetching price...
+Entry: $156.00 • Target: $170.00
+Entry
+$156.00
+Target
+$170.00
+Stop
+$149.00
+Consistent growth in Google Cloud Platform (GCP), effective monetization of AI initiatives across its core products, and potential for continued share buybacks.
+
+
+PINS
+AI ENGINE
+SHORT
+DAY TRADE
+OPTION
+Oct 23
+·
+24m ago
+HIT TARGET
+D
+Fetching price...
+Entry: $0.75 • Target: $37.00
+Entry
+$0.75
+Target
+$37.00
+Stop
+$41.00
+Post-earnings drift or general market weakness, coupled with Pinterest's historical struggle to achieve consistent, high-growth user acquisition and monetization compared to peers.
+
+
+ETH
+AI ENGINE
+LONG
+POSITION
+CRYPTO
+Oct 23
+·
+24m ago
+HIT TARGET
+D
+CURRENT PRICE
+++18.80%
+$3,860.89
+ENTRY
+$3,250.00
+TARGET
+$3,800.00
+STOP
+$2,980.00
+Entry
+$3,250.00
+Target
+$3,800.00
+Stop
+$2,980.00
+Growing anticipation for a spot Ethereum ETF approval in the US, combined with the continued expansion and adoption of the Ethereum ecosystem (DeFi, NFTs, L2s).
+
+
+SPY
+AI ENGINE
+SHORT
+DAY TRADE
+OPTION
+Oct 23
+·
+29m ago
+HIT TARGET
+D
+Fetching price...
+Entry: $5.50 • Target: $0.50
+Entry
+$5.50
+Target
+$0.50
+Stop
+$8.00
+Concerns over persistent inflation, a potentially more hawkish Federal Reserve stance, and stretched market valuations could trigger a short-term market correction. Geopolitical tensions also add a layer of uncertainty.
+
+
+SMH
+AI ENGINE
+LONG
+DAY TRADE
+OPTION
+Oct 23
+·
+40m ago
+HIT TARGET
+D
+Fetching price...
+Entry: $220.00 • Target: $235.00
+Entry
+$220.00
+Target
+$235.00
+Stop
+$215.00
+Continued robust demand in the semiconductor industry, propelled by AI and enterprise spending, with upcoming earnings reports expected to be strong.
+
+
+BTC
+AI ENGINE
+LONG
+POSITION
+CRYPTO
+Oct 23
+·
+40m ago
+HIT TARGET
+D
+Fetching price...
+Entry: $66,000.00 • Target: $78,000.00
+Entry
+$66,000.00
+Target
+$78,000.00
+Stop
+$62,000.00
+The recent Bitcoin halving event, sustained institutional inflows into spot ETFs, and growing adoption are expected to support price appreciation.
+
+
+TSLY
+QUANT ENGINE
+LONG
+SWING
+OPTION
+Oct 22
+·
+23h ago
+HIT TARGET
+C+
+CURRENT PRICE
+++1580.00%
+$8.40
+ENTRY
+$0.50
+TARGET
+$1.50
+STOP
+$0.25
+TYPE
+CALL
+STRIKE
+$8.00
+EXPIRY
+Nov 20
+Entry
+$0.50
+Target
+$1.50
+Stop
+$0.25
+User manual entry - TSLY bullish position
+
+
+LEU
+QUANT ENGINE
+SHORT
+DAY TRADE
+STOCK
+Oct 22
+·
+1d ago
+HIT TARGET
+A
+Fetching price...
+Entry: $341.00 • Target: $313.72
+8/7
+Entry
+$341.00
+Target
+$313.72
+Stop
+$347.82
+Centrus Energy Corp - Class A Earnings Report
+
+
+TSLA
+QUANT ENGINE
+LONG
+DAY TRADE
+OPTION
+Oct 22
+·
+1d ago
+HIT TARGET
+D
+CURRENT PRICE
+-0.00%
+$440.78
+ENTRY
+$440.78
+TARGET
+$418.74
+STOP
+$449.59
+TYPE
+PUT
+STRIKE
+$431.96
+EXPIRY
+Nov 05
+Entry
+$440.78
+Target
+$418.74
+Stop
+$449.59
+User-initiated idea from symbol search - Low volatility and volume - stock shares provide better risk/reward in stable conditions.
+
+
+OKLO
+QUANT ENGINE
+SHORT
+DAY TRADE
+STOCK
+Oct 22
+·
+1d ago
+HIT TARGET
+A
+Fetching price...
+Entry: $124.35 • Target: $114.40
+8/7
+Entry
+$124.35
+Target
+$114.40
+Stop
+$126.84
+MACD bearish crossover - early trend signal
+
+
+GFI
+QUANT ENGINE
+SHORT
+SWING
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+A+
+Fetching price...
+Entry: $38.92 • Target: $37.36
+7/7
+Entry
+$38.92
+Target
+$37.36
+Stop
+$39.70
+MACD bearish crossover - early trend signal
+
+
+METC
+QUANT ENGINE
+LONG
+SWING
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+A+
+Fetching price...
+Entry: $40.49 • Target: $42.92
+6/7
+Entry
+$40.49
+Target
+$42.92
+Stop
+$39.28
+Extreme oversold condition - reversal setup forming
+
+
+BVN
+QUANT ENGINE
+LONG
+DAY TRADE
+OPTION
+Oct 21
+·
+2d ago
+HIT TARGET
+A+
+Fetching price...
+Entry: $22.69 • Target: $24.05
+6/7
+Entry
+$22.69
+Target
+$24.05
+Stop
+$22.01
+Extreme oversold condition - reversal setup forming
+
+
+PAAS
+QUANT ENGINE
+LONG
+SWING
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+B+
+Fetching price...
+Entry: $35.21 • Target: $37.32
+6/7
+Entry
+$35.21
+Target
+$37.32
+Stop
+$34.15
+Extreme oversold condition - reversal setup forming
+
+
+KGC
+QUANT ENGINE
+LONG
+SWING
+OPTION
+Oct 21
+·
+2d ago
+HIT TARGET
+A
+Fetching price...
+Entry: $22.93 • Target: $24.31
+5/7
+Entry
+$22.93
+Target
+$24.31
+Stop
+$22.25
+Extreme oversold condition - reversal setup forming
+
+
+HL
+QUANT ENGINE
+LONG
+DAY TRADE
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+A
+Fetching price...
+Entry: $12.80 • Target: $13.57
+5/7
+Entry
+$12.80
+Target
+$13.57
+Stop
+$12.42
+Extreme oversold condition - reversal setup forming
+
+
+IAG
+QUANT ENGINE
+LONG
+SWING
+OPTION
+Oct 21
+·
+2d ago
+HIT TARGET
+A
+Fetching price...
+Entry: $12.14 • Target: $12.87
+5/7
+Entry
+$12.14
+Target
+$12.87
+Stop
+$11.78
+Extreme oversold condition - reversal setup forming
+
+
+VICR
+QUANT ENGINE
+LONG
+SWING
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+A
+Fetching price...
+Entry: $63.50 • Target: $66.04
+7/7
+Entry
+$63.50
+Target
+$66.04
+Stop
+$62.23
+MACD bullish crossover - early trend signal
+
+
+SBSW
+QUANT ENGINE
+LONG
+SWING
+OPTION
+Oct 21
+·
+2d ago
+HIT TARGET
+C
+Fetching price...
+Entry: $10.15 • Target: $10.64
+5/7
+Entry
+$10.15
+Target
+$10.64
+Stop
+$9.80
+Extreme oversold condition - reversal setup forming
+
+
+NVTS
+QUANT ENGINE
+LONG
+POSITION
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+C+
+Fetching price...
+Entry: $14.94 • Target: $15.47
+6/7
+Entry
+$14.94
+Target
+$15.47
+Stop
+$14.61
+MACD bullish crossover - early trend signal
+
+
+SSRM
+QUANT ENGINE
+LONG
+SWING
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+C
+Fetching price...
+Entry: $21.47 • Target: $22.50
+5/7
+Entry
+$21.47
+Target
+$22.50
+Stop
+$20.73
+Extreme oversold condition - reversal setup forming
+
+
+SKE
+QUANT ENGINE
+LONG
+WEEK-ENDING
+OPTION
+Oct 21
+·
+2d ago
+HIT TARGET
+C+
+Fetching price...
+Entry: $16.74 • Target: $17.65
+6/7
+Entry
+$16.74
+Target
+$17.65
+Stop
+$16.19
+Extreme oversold condition - reversal setup forming
+
+
+SA
+QUANT ENGINE
+LONG
+SWING
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+D
+Fetching price...
+Entry: $23.34 • Target: $24.74
+5/7
+Entry
+$23.34
+Target
+$24.74
+Stop
+$22.63
+Extreme oversold condition - reversal setup forming
+
+
+BITF
+QUANT ENGINE
+LONG
+DAY TRADE
+PENNY STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+D
+Fetching price...
+Entry: $4.47 • Target: $4.74
+5/7
+Entry
+$4.47
+Target
+$4.74
+Stop
+$4.34
+Extreme oversold condition - reversal setup forming
+
+
+METC
+QUANT ENGINE
+LONG
+SWING
+OPTION
+Oct 21
+·
+2d ago
+HIT TARGET
+D
+Fetching price...
+Entry: $41.44 • Target: $43.92
+6/7
+Entry
+$41.44
+Target
+$43.92
+Stop
+$40.19
+Extreme oversold condition - reversal setup forming
+
+
+GLXY
+QUANT ENGINE
+SHORT
+DAY TRADE
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+D
+Fetching price...
+Entry: $44.43 • Target: $41.76
+5/7
+Entry
+$44.43
+Target
+$41.76
+Stop
+$45.76
+Extreme overbought condition - reversal setup forming
+
+
+VICR
+QUANT ENGINE
+LONG
+DAY TRADE
+STOCK
+Oct 21
+·
+2d ago
+HIT TARGET
+A
+Fetching price...
+Entry: $65.76 • Target: $68.39
+7/7
+Entry
+$65.76
+Target
+$68.39
+Stop
+$64.45
+MACD bullish crossover - early trend signal
+
+
+STUB
+QUANT ENGINE
+LONG
+DAY TRADE
+STOCK
+Oct 20
+·
+3d ago
+HIT TARGET
+C
+Fetching price...
+Entry: $18.68 • Target: $20.18
+5/7
+Entry
+$18.68
+Target
+$20.18
+Stop
+$17.94
+9.0% rally on 1.3x volume
+
+
+IMVT
+QUANT ENGINE
+LONG
+SWING
+OPTION
+Oct 20
+·
+3d ago
+HIT TARGET
+C+
+Fetching price...
+Entry: $19.08 • Target: $20.61
+6/7
+Entry
+$19.08
+Target
+$20.61
+Stop
+$18.32
+9.0% rally on 1.3x volume
+
+
+GKOS
+QUANT ENGINE
+SHORT
+POSITION
+STOCK
+Oct 20
+·
+3d ago
+HIT TARGET
+B+
+Fetching price...
+Entry: $79.91 • Target: $73.52
+7/7
+Entry
+$79.91
+Target
+$73.52
+Stop
+$83.11
+8.3% selloff on 1.3x volume
+
+
+QBTS
+QUANT ENGINE
+SHORT
+POSITION
+STOCK
+Oct 20
+·
+3d ago
+HIT TARGET
+B
+CURRENT PRICE
+++11.49%
+$30.80
+ENTRY
+$34.80
+TARGET
+$32.02
+STOP
+$36.20
+6/7
+Entry
+$34.80
+Target
+$32.02
+Stop
+$36.20
+9.2% selloff on 1.3x volume
+
+
+APLS
+QUANT ENGINE
+LONG
+SWING
+STOCK
+Oct 20
+·
+3d ago
+HIT TARGET
+C
+Fetching price...
+Entry: $27.23 • Target: $29.41
+5/7
+Entry
+$27.23
+Target
+$29.41
+Stop
+$26.14
+11.1% rally on 1.3x volume
+
+
+AXL
+QUANT ENGINE
+LONG
+SWING
+PENNY STOCK
+Oct 20
+·
+3d ago
+HIT TARGET
+C+
+Fetching price...
+Entry: $5.68 • Target: $6.14
+6/7
+Entry
+$5.68
+Target
+$6.14
+Stop
+$5.46
+4.7% rally on 1.3x volume
+
+
+DASH
+QUANT ENGINE
+LONG
+DAY TRADE
+CRYPTO
+Oct 20
+·
+3d ago
+HIT TARGET
+B
+CURRENT PRICE
+-9.45%
+$41.70
+ENTRY
+$46.05
+TARGET
+$49.73
+STOP
+$44.21
+6/7
+Entry
+$46.05
+Target
+$49.73
+Stop
+$44.21
+3.7% rally on 1.5x volume
+
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CDT
+© 2025 QuantEdge Research. All rights reserved.
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past performance does not guarantee future results.

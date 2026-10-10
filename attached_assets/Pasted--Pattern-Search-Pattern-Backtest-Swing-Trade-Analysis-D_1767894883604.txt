@@ -1,0 +1,92 @@
+
+Pattern Search
+
+Pattern Backtest
+Swing Trade Analysis
+Drop your swing chart for AI analysis
+
+Chart preview
+Click to change
+
+Symbol
+EOSE
+Chart Timeframe
+Weekly
+4 Hour
+Daily
+Weekly
+CALL Option
+Based on the undefined% bullish signal and detected patterns, a call option could amplify gains with defined risk.
+
+Strike Price
+e.g. 150
+Expiry Date
+mm/dd/yyyy
+Context (Optional)
+Market conditions, patterns to look for...
+SWING TRADING TIP
+
+Daily charts work best for swing trades. Look for setups near key support/resistance levels with increasing volume.
+
+EOSE
+1W
+BULLISH
+1 Patterns Detected • Analysis Complete
+
+Entry
+
+$14.70
+
+Target
+
+$17.20
+
++17.0%
+
+Stop
+
+$13.10
+
+-10.9%
+
+R:R
+
+1.6:1
+
+Validation Alerts
+
+• Risk of 10.9% exceeds recommended 5% max per trade
+AI Analysis
+Quant Signals
+Levels
+Predicted Trend
++17.0%
+Expected
+
+Patterns Found
+1
+Detected in chart
+
+Valid For
+2-4 weeks
+Longer-term outlook
+
+Predicted Price Path
+Stop
+Entry
+Target
+Now
+2-4 weeks
+Bears
+Signal Balance
+Bulls
+NaN%
+NaN%
+Price Target Range
+Stop $13.10
+Entry $14.70
+Target $17.20
+Detected Patterns
+Descending Channel
+Technical Analysis
+The chart provided for EOSE is a Daily (1D) timeframe, as indicated by '1D' in the chart's title, despite the request for a Weekly (1W) analysis. This analysis will proceed based on the visible 1D timeframe data. The visible price range on the Y-axis is from approximately $10.00 to $24.00. The current price (EOSE) is indicated as $14.44 on the chart, which closely aligns with the provided live market price of $14.38. **Primary Pattern:** The primary pattern identified is a **Descending Channel** which has been in play since early November. The price action has been contained between two downward-sloping trendlines. The **upper trendline** serves as resistance and has been validated by three distinct touch points: around $19.00 (early November), $16.50 (early December), and currently being tested around $14.50 - $14.70 (late January). The **lower trendline** acts as support, validated by touch points around $14.00 (mid-November) and $11.00 (late December). The current price is at the upper boundary of this channel, suggesting a potential breakout attempt. **Volume Analysis:** Volume data is visible at the bottom of the chart. The recent upward movement, specifically the last few bullish candles pushing towards the channel's upper resistance, has been accompanied by an increase in buying volume. While the volume is above the average seen during the prior decline, it is not yet significantly high enough to definitively confirm a strong, sustained breakout. A clear breakout with volume spikes notably above average would provide stronger confirmation. **Key Levels:** * **Resistance Levels:** The immediate resistance is the upper trendline of the descending channel, currently around **$14.70**. Should price break above this, the next significant resistance is around **$15.50**, which marks a previous swing high from mid-December. A more extended target is the resistance zone around **$17.20**, corresponding to earlier December highs. * **Support Levels:** Immediate dynamic support is provided by the moving averages, with the light blue EMA at **$13.39** and the pink EMA at **$13.27**. A key horizontal support level is around **$11.50**, established by the late December low and the lower boundary of the descending channel. **Candlestick Patterns:** The most recent price action shows a series of bullish green candles, indicating buying pressure as the price approaches the upper trendline resistance. Notably, a bullish hammer-like candle formed in late December near the $11.50-$12.00 support level, signaling a potential reversal and preceding the current upward momentum. **Trade Setup & Sentiment:** Given the current price action challenging the upper boundary of the descending channel, the sentiment is **neutral** with a lean towards bullish anticipation for a breakout. A long trade setup is proposed upon a confirmed breakout. * **Entry Point:** An entry at **$14.70** is set above the current upper trendline resistance, confirming a breakout from the descending channel. * **Target Price:** The target is set at **$17.20**, aligning with a previous resistance level from early December. This target is within a reasonable range (approximately 19.6% from the current market price of $14.38 and 17.0% from the entry point), respecting the typical 20% guidance for overall trade range on a daily chart swing setup, while allowing for a reasonable reward. * **Stop Loss:** A stop loss is placed at **$13.10**, below both the moving averages ($13.39, $13.27) and a recent minor support level, providing a buffer against false breakouts. This stop loss is approximately 1.5 ATR (Average True Range, assuming a daily ATR of around $1.00-$1.10), providing adequate distance from the entry to avoid being stopped out by normal market noise. **Risk Assessment:** * **Risk:** $14.70 (Entry) - $13.10 (Stop Loss) = **$1.60** * **Reward:** $17.20 (Target) - $14.70 (Entry) = **$2.50** * **Risk/Reward Ratio:** $2.50 / $1.60 = **1.56:1**. While this is below the preferred 2:1 ratio, it is acceptable for a higher conviction setup, especially considering the constraints of the 20% price range and targeting visible resistance levels. The primary risk is a failed breakout, where price is rejected at the $14.70 resistance and falls back into the descending channel, potentially towards the EMAs or lower channel boundary. Volume confirmation on the breakout will be crucial. If the price does not break above $14.70 with strong volume, this setup would be invalidated. --- **VALIDATION ALERTS:** 📊 SENTIMENT CORRECTED: AI reported "neutral" but trade structure shows BULLISH setup (target above entry by 17.0%). Using BULLISH for consistency.

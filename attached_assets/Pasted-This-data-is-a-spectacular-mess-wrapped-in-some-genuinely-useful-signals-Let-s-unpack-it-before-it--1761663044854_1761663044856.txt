@@ -1,0 +1,118 @@
+This data is a spectacular mess wrapped in some genuinely useful signals. Let’s unpack it before it collapses under the weight of its own contradictions.
+
+⸻
+
+High-Level Summary
+	•	Total trades: 181
+	•	Closed: 164
+	•	Open: 17
+	•	Win rate: 31% (rough)
+	•	Profit factor: 19.3 (mathematically suspicious, given negative average returns)
+	•	Max drawdown: 4.8K
+	•	Average holding time: 18 hours
+
+You’ve got a system that technically survives but doesn’t understand its own confidence or direction. The engine is bragging about high profit factor while racking up high-confidence losses.
+
+⸻
+
+Core Problems
+
+1. Confidence System is Delusional
+	•	Trades with 90–100 confidence have a win rate of 15.6%, which is catastrophic.
+	•	Expected win rate vs. actual: off by −74% on top-tier scores.
+	•	Meanwhile, <60 confidence trades have the highest win rate (63%).
+Translation: your model’s confidence function is inverted. It’s overfitting to noise or post-optimization bias.
+
+Fix:
+You need to retrain or recalibrate confidence scoring using reliability diagrams or isotonic regression. It’s screaming for recalibration.
+
+⸻
+
+2. Signal Type Inefficiency
+
+Signal Type	Total Trades	Win Rate	Avg Return	Confidence
+Excellent R:R (3:1+)	41	5.1%	-0.54	95
+Strong R:R (2:1+)	56	32.7%	0.47	81
+Moderate R:R	27	22.2%	-0.69	75
+Volume Spike Early Entry	7	0%	0	93
+Unknown	50	58.1%	-104.7	12.9
+
+The “Excellent R:R” category is the most embarrassing: 95 confidence, 5% success. It’s labeling suicide missions as golden setups.
+
+Fix:
+	•	Re-evaluate the filters generating “Excellent R:R.”
+	•	Reduce confidence weighting until you fix calibration.
+	•	Possibly merge “Excellent” and “Strong” signals and retrain with contextual filters (ATR, volatility zones, etc.).
+
+⸻
+
+3. Asset-Type Breakdown
+
+Asset	Win Rate	Avg Return	Risk:Reward
+Stocks	35%	-0.19	2.8
+Crypto	28%	+1.86	2.5
+Options	26%	-99.3	2.6
+
+Options are tanking the entire portfolio. The average return being negative ninety-nine basically means catastrophic mispricing, bad expiration timing, or overleverage.
+
+Fix:
+Quarantine options trades from the dataset until their R:R and strike-delta logic are verified. They’re poisoning the metrics.
+
+⸻
+
+4. Time-of-Day Sweet Spots
+	•	3 AM ET: 80% win rate
+	•	10 AM ET: 75%
+	•	2 PM ET: 46%
+	•	12 PM ET: utter failure (16%)
+
+Morning performance is strong, afternoon collapses. Either your model misreads volume decay or it ignores market structure shifts after open.
+
+Fix:
+Split strategy execution by session. Treat 9:30–11 AM ET as prime time and restrict auto-triggers later unless validated by volume-weighted metrics.
+
+⸻
+
+5. Engine Version Decay
+	•	v3.2.0: 0% win rate (just released, possibly uncalibrated).
+	•	v2.3.0: 9.5% win rate, better but still weak.
+	•	“unknown” builds: doing 38%.
+
+The latest version clearly broke scoring consistency. The “unknown” engine (likely a dev branch) performs best.
+
+Fix:
+Audit your scoring pipeline between 2.3.0 and 3.2.0. Something’s off in how probabilities or signal weights are serialized.
+
+⸻
+
+6. Data Integrity Crimes
+	•	Trades like “PINS SHORT, target above entry” and “IWM LONG, target below entry” are outright logic failures.
+	•	Stop-loss equals entry: fatal oversight (YYAI trade).
+
+Fix:
+Add a pre-execution validation layer that checks:
+
+if (is_long and target <= entry) or (is_short and target >= entry) or stop == entry:
+    raise TradeValidationError()
+
+
+⸻
+
+Most Damning Metric
+
+You’ve got 29 trades with 90–100% confidence that lost. That’s statistically impossible unless:
+	•	You’re inflating confidence post-signal,
+	•	Or the direction labeling flipped somewhere in preprocessing.
+
+It’s the machine equivalent of saying “I’m 100% sure” while walking into a wall.
+
+⸻
+
+Bottom Line
+	•	Winning zones: morning hours, stock trades, low-confidence signals
+	•	Losing zones: options, “excellent R:R,” and high-confidence signals
+	•	Top priority: retrain confidence calibration, patch trade validation logic, isolate options dataset
+
+Once you fix those, I’d rerun a smaller backtest (n=50) to confirm that your expected vs. actual win rates realign.
+
+Would you like me to format this into a JSON-style structured audit summary (for upload into RiskBench or internal dashboards)? It’ll make comparing future runs cleaner.

@@ -1,0 +1,394 @@
+{
+  "files": 220,
+  "cssFiles": 2,
+  "cssTokensDefined": 412,
+  "hardcodedHexInTsx": 299,
+  "distinctHexInTsx": 72,
+  "topHex": [
+    [
+      "#22d3ee",
+      38
+    ],
+    [
+      "#3ddc97",
+      18
+    ],
+    [
+      "#ff5470",
+      14
+    ],
+    [
+      "#4fd1c5",
+      13
+    ],
+    [
+      "#fff",
+      13
+    ],
+    [
+      "#ef4444",
+      12
+    ],
+    [
+      "#22c55e",
+      10
+    ],
+    [
+      "#e0a458",
+      8
+    ],
+    [
+      "#f5b642",
+      8
+    ],
+    [
+      "#1a1a2e",
+      8
+    ]
+  ],
+  "distinctHexInCss": 94,
+  "tailwindPaletteUses": 2187,
+  "paletteHues": [
+    [
+      "cyan",
+      529
+    ],
+    [
+      "red",
+      298
+    ],
+    [
+      "amber",
+      259
+    ],
+    [
+      "emerald",
+      255
+    ],
+    [
+      "purple",
+      217
+    ],
+    [
+      "green",
+      100
+    ],
+    [
+      "zinc",
+      95
+    ],
+    [
+      "blue",
+      92
+    ],
+    [
+      "orange",
+      60
+    ],
+    [
+      "slate",
+      56
+    ],
+    [
+      "neutral",
+      48
+    ],
+    [
+      "violet",
+      42
+    ],
+    [
+      "rose",
+      27
+    ],
+    [
+      "gray",
+      26
+    ],
+    [
+      "teal",
+      20
+    ],
+    [
+      "yellow",
+      20
+    ],
+    [
+      "pink",
+      20
+    ],
+    [
+      "sky",
+      8
+    ],
+    [
+      "indigo",
+      7
+    ],
+    [
+      "fuchsia",
+      6
+    ],
+    [
+      "lime",
+      2
+    ]
+  ],
+  "arbitraryPxSizes": {
+    "7.0": 3,
+    "7.5": 1,
+    "8.0": 67,
+    "9.0": 223,
+    "10.0": 437,
+    "10.5": 1,
+    "11.0": 125,
+    "12.0": 19,
+    "13.0": 13,
+    "14.0": 5,
+    "15.0": 1,
+    "16.0": 1,
+    "17.0": 1,
+    "18.0": 2,
+    "22.0": 3,
+    "34.0": 1,
+    "96.0": 1
+  },
+  "sub11pxUses": 732,
+  "fadedTextUses": 594,
+  "fadedByOpacity": {
+    "20": 4,
+    "25": 1,
+    "30": 4,
+    "35": 1,
+    "40": 8,
+    "45": 4,
+    "50": 13,
+    "55": 13,
+    "60": 197,
+    "65": 20,
+    "70": 197,
+    "75": 24,
+    "80": 91,
+    "85": 17
+  },
+  "iconButtonsWithoutName": 31,
+  "iconButtonFiles": [
+    [
+      "client/src/pages/admin/invites.tsx",
+      5
+    ],
+    [
+      "client/src/pages/admin/beta-invites.tsx",
+      4
+    ],
+    [
+      "client/src/components/ai-chatbot-popup.tsx",
+      3
+    ],
+    [
+      "client/src/components/navigation-customizer.tsx",
+      3
+    ],
+    [
+      "client/src/pages/signup.tsx",
+      3
+    ],
+    [
+      "client/src/pages/history.tsx",
+      2
+    ],
+    [
+      "client/src/pages/performance.tsx",
+      2
+    ],
+    [
+      "client/src/pages/admin/trade-ideas.tsx",
+      2
+    ]
+  ],
+  "clickableNonSemantic": 74,
+  "clickableNonSemanticFiles": [
+    [
+      "client/src/pages/nexus.tsx",
+      15
+    ],
+    [
+      "client/src/components/bot/bot-nexus.tsx",
+      9
+    ],
+    [
+      "client/src/components/gex/gex-hub-nexus.tsx",
+      9
+    ],
+    [
+      "client/src/components/catalyst/catalyst-nexus.tsx",
+      4
+    ],
+    [
+      "client/src/components/terminal/system-pulse.tsx",
+      3
+    ],
+    [
+      "client/src/components/workup/ticker-workup.tsx",
+      3
+    ],
+    [
+      "client/src/components/charting/chart-lab-nexus.tsx",
+      3
+    ],
+    [
+      "client/src/components/trade-desk/trade-idea-card.tsx",
+      3
+    ]
+  ],
+  "imgWithoutAlt": 0,
+  "inlineStyleObjects": 913,
+  "worstFiles": [
+    {
+      "file": "client/src/pages/trade-journal.tsx",
+      "hex": 4,
+      "px": 74,
+      "sub11": 65,
+      "faded": 15,
+      "palette": 225
+    },
+    {
+      "file": "client/src/pages/shells/hunt-cockpit.tsx",
+      "hex": 13,
+      "px": 87,
+      "sub11": 62,
+      "faded": 49
+    },
+    {
+      "file": "client/src/components/trade-desk/trade-idea-card.tsx",
+      "px": 40,
+      "sub11": 36,
+      "faded": 10,
+      "palette": 111
+    },
+    {
+      "file": "client/src/pages/automations.tsx",
+      "px": 35,
+      "sub11": 32,
+      "palette": 73
+    },
+    {
+      "file": "client/src/components/contract-analyzer.tsx",
+      "px": 36,
+      "sub11": 27,
+      "faded": 24,
+      "palette": 32
+    },
+    {
+      "file": "client/src/components/trade-idea-detail-v2.tsx",
+      "px": 27,
+      "sub11": 27,
+      "faded": 15,
+      "palette": 49
+    },
+    {
+      "file": "client/src/pages/radar.tsx",
+      "px": 23,
+      "sub11": 15,
+      "faded": 37,
+      "palette": 20
+    },
+    {
+      "file": "client/src/pages/blog-post.tsx",
+      "palette": 108
+    },
+    {
+      "file": "client/src/pages/terminal-chart.tsx",
+      "px": 30,
+      "sub11": 29,
+      "faded": 7,
+      "palette": 29
+    },
+    {
+      "file": "client/src/components/gex/gex-expiry-matrix.tsx",
+      "px": 18,
+      "sub11": 18,
+      "faded": 12,
+      "palette": 29
+    },
+    {
+      "file": "client/src/components/trade-desk/idea-detail-drawer.tsx",
+      "px": 40,
+      "sub11": 24,
+      "palette": 40
+    },
+    {
+      "file": "client/src/components/position-pnl-simulator.tsx",
+      "hex": 12,
+      "px": 5,
+      "sub11": 5,
+      "faded": 6,
+      "palette": 50
+    }
+  ],
+  "bundle": {
+    "jsTotalKB": 4867,
+    "jsChunks": 186,
+    "largestJs": [
+      [
+        "gex-hub-nexus-VUnlU_3l.js",
+        840
+      ],
+      [
+        "index-bbDJdyl4.js",
+        551
+      ],
+      [
+        "reports-C7fBQP4R.js",
+        465
+      ],
+      [
+        "analytics-chart-j7C3_sc1.js",
+        309
+      ],
+      [
+        "html2canvas.esm-BfxBtG_O.js",
+        198
+      ],
+      [
+        "settings-BdFYIJ2J.js",
+        188
+      ],
+      [
+        "backtest-CD8nvJMq.js",
+        173
+      ],
+      [
+        "index.es-BvU9XKsq.js",
+        148
+      ]
+    ],
+    "cssTotalKB": 402,
+    "largestImages": [
+      [
+        "malikpic_1760579415191-jBQNnBh7.jpg",
+        2875
+      ],
+      [
+        "stock_trading_risk_m_32dd27bb-CPrWLdH6.jpg",
+        351
+      ],
+      [
+        "cryptocurrency_bitco_69b7fa93-CEOUy3hJ.jpg",
+        290
+      ],
+      [
+        "stock_market_trading_86b3df18-CJm-BE09.jpg",
+        263
+      ],
+      [
+        "stock_market_trading_8de20e16-7Mlvx7r1.jpg",
+        191
+      ],
+      [
+        "cryptocurrency_bitco_a0a19b3e-B0qvotQZ.jpg",
+        177
+      ]
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+🔴 QUANT BEARISH PUT
+[A] 55% Conviction
+
+TRADE: TWO PUT $12 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 7 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$0.30
+🎯 Target
+$0.38 (1.3x)
+🛡️ Stop
+$0.28 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-16
+Quant Edge Labs • A 55% • SWING TRADE•Today at 11:50 AM
+🎯 A OPTIONS ALERT: OKLO PUT $100
+🔴 QUANT BEARISH PUT
+[A] 70% Conviction
+
+TRADE: OKLO PUT $100 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 14 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$5.05
+🎯 Target
+$6.31 (1.3x)
+🛡️ Stop
+$4.73 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-23
+Quant Edge Labs • A 70% • SWING TRADE•Today at 11:51 AM
+🎯 A OPTIONS ALERT: GOOGL PUT $320
+🔴 QUANT BEARISH PUT
+[A] 55% Conviction
+
+TRADE: GOOGL PUT $320 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 14 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$2.92
+🎯 Target
+$3.64 (1.3x)
+🛡️ Stop
+$2.73 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-23
+Quant Edge Labs • A 55% • SWING TRADE•Today at 11:53 AM
+🎯 A OPTIONS ALERT: OKLO PUT $100
+🔴 QUANT BEARISH PUT
+[A] 70% Conviction
+
+TRADE: OKLO PUT $100 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 14 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$5.00
+🎯 Target
+$6.25 (1.3x)
+🛡️ Stop
+$4.69 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-23
+Quant Edge Labs • A 70% • SWING TRADE•Today at 11:53 AM
+🎯 A OPTIONS ALERT: GOOG PUT $327.5
+🔴 QUANT BEARISH PUT
+[A] 55% Conviction
+
+TRADE: GOOG PUT $327.5 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 14 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$5.15
+🎯 Target
+$6.44 (1.3x)
+🛡️ Stop
+$4.83 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-23
+Quant Edge Labs • A 55% • SWING TRADE•Today at 11:54 AM
+🎯 A OPTIONS ALERT: TWO PUT $12
+🔴 QUANT BEARISH PUT
+[A] 55% Conviction
+
+TRADE: TWO PUT $12 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 7 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$0.28
+🎯 Target
+$0.34 (1.3x)
+🛡️ Stop
+$0.26 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-16
+Quant Edge Labs • A 55% • SWING TRADE•Today at 11:54 AM
+🎯 A OPTIONS ALERT: OKLO PUT $100
+🔴 QUANT BEARISH PUT
+[A] 70% Conviction
+
+TRADE: OKLO PUT $100 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 14 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$5.22
+🎯 Target
+$6.53 (1.3x)
+🛡️ Stop
+$4.90 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-23
+Quant Edge Labs • A 70% • SWING TRADE•Today at 11:56 AM
+Quant Bot Options Ideas
+APP
+ — 11:58 AM
+🎯 A OPTIONS ALERT: OKLO PUT $100
+🔴 QUANT BEARISH PUT
+[A] 70% Conviction
+
+TRADE: OKLO PUT $100 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 14 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$5.25
+🎯 Target
+$6.56 (1.3x)
+🛡️ Stop
+$4.92 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-23
+Quant Edge Labs • A 70% • SWING TRADE•Today at 11:58 AM
+🎯 A OPTIONS ALERT: GOOG PUT $327.5
+🔴 QUANT BEARISH PUT
+[A] 55% Conviction
+
+TRADE: GOOG PUT $327.5 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 14 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$5.10
+🎯 Target
+$6.38 (1.3x)
+🛡️ Stop
+$4.78 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-23
+Quant Edge Labs • A 55% • SWING TRADE•Today at 11:58 AM
+🎯 A OPTIONS ALERT: GOOGL PUT $320
+🔴 QUANT BEARISH PUT
+[A] 55% Conviction
+
+TRADE: GOOGL PUT $320 (swing trade)
+
+WHY PUT: Multi-day bearish setup with technical + fundamental confluence
+📊 GREEKS
+Delta: N/A
+DTE: 14 days
+📈 TECHNICALS
+Technical confluence
+​
+​
+💰 Entry
+$2.96
+🎯 Target
+$3.71 (1.3x)
+🛡️ Stop
+$2.78 (-6% max loss)
+⚖️ R:R
+4.0:1
+📅 Expiry
+2026-01-23
+Quant Edge Labs • A 55% • SWING TRADE•Today at 12:00 PM
+﻿
+uzo🃏 — Yesterday at 3:00 PM
+$FCX 550 1/16 @everyone
+Quant Bot Options Ideas
+APP
+ — 1/6/26, 9:15 AM
+📊 FLOW ALERT → FCX CALL $45 | ⭐ B+
+🟢 FCX CALL $45 01/16
+⭐ Grade B+ | R:R 1.1:1
+💰 Entry
+$11.43
+🎯 Target
+$13.14 (+15%)
+📊 Grade
+B+
+Flow Scanner • Real-time options alert • Not financial advice•1/6/26, 9:15 AM

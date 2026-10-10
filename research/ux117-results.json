@@ -1,0 +1,15 @@
+{
+ "measuredAt": "2026-09-24 06:00-06:15 ET, signed-in operator session, market closed",
+ "preFixPhone": {
+  "note": "iPhone 15 Pro 393x852 sweep before this cycle's fixes",
+  "layoutInflation": {"/slate": 656, "/trade-desk": 638, "/r/META": 1572},
+  "dockMissing": ["/r/META", "/slate", "/trade-desk"],
+  "boardTextUnder11": [778, 987],
+  "workupRailsHidden": true,
+  "firstScorecard": {"/t": "8/11", "/t?tab=chart": "7/11", "/t?tab=flow": "8/11", "/t?tab=gex": "8/11", "/r/META": "8/11", "/slate": "9/11 (CLS 0.29)", "/performance": "7/11 (CLS 0.54)", "/settings": "8/11"}
+ },
+ "phone": {"393 /t":{"pass":9,"total":11,"fail":["U8 LCP 6.2s","U9 4 font families"]},"393 /t?tab=chart":{"pass":10,"total":11,"fail":["U7 CLS 0.107"]},"393 /t?tab=flow":{"pass":10,"total":11,"fail":["U8 LCP 7.0s"]},"393 /t?tab=gex":{"pass":10,"total":11,"fail":["U8 LCP 4.0s"]},"393 /r/META":{"pass":11,"total":11,"fail":[]},"393 /slate":{"pass":10,"total":11,"fail":["U8 LCP 2.8s"]},"393 /radar":{"pass":10,"total":11,"fail":["U8 LCP 14.8s"]},"393 /trade-desk":{"pass":9,"total":11,"fail":["U4 43/44 AA","U8 LCP 5.7s"]},"393 /performance":{"pass":10,"total":11,"fail":["U8 LCP 2.9s"]},"393 /alerts":{"pass":9,"total":11,"fail":["U4 dock labels behind overlay","U8 LCP 6.8s"]},"393 /settings":{"pass":9,"total":11,"fail":["U4 disabled button (WCAG-exempt)","U8 LCP 2.9s"]}},
+ "tablet": {"768 /t":{"pass":9,"total":11,"fail":["U8 board still loading at 9s","U9 4 font families"]},"768 /r/META":{"pass":10,"total":11,"fail":["U8 LCP 4.8s"]},"768 /slate":{"pass":10,"total":11,"fail":["U8 LCP 2.7s"]},"768 /trade-desk":{"pass":7,"total":11,"fail":["U3 83% >= 11px","U4 44/45","U7 CLS 0.119","U8 LCP 7.8s"]},"768 /performance":{"pass":10,"total":11,"fail":["U8 LCP 2.8s"]}},
+ "infra": {"before": {"ramMB": 458, "freeMB": 8, "swapMB": 508, "healthColdS": 6.43}, "after": {"ramMB": 1967, "freeMB": 1024, "swapMB": 0, "healthMs": 12, "vcpu": 1, "load1m": 2.28, "scannerCpuPct": 64},
+   "endpoints": {"/api/market-pulse": {"coldS": 21.07, "warmMs": 7}, "/api/extended-hours": {"coldS": 8.07, "warmMs": 6}, "/api/quotes/batch (3 syms)": {"underLoadS": 5.45}}}
+}

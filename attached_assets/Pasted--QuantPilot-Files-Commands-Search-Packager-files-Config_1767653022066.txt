@@ -1,0 +1,501 @@
+
+
+
+QuantPilot
+Files
+Commands
+Search
+Packager files
+Config files
+/trade-desk
+
+Quant Edge Labs - Trading Platform
+Overview
+Quant Edge Labs is a dual-engine quantitative trading research platform (AI Analysis + Quantitative Signals) for US equities, options, crypto, and futures markets. Its core purpose is to provide educational, research-grade market analysis with robust risk parameters and real-time data, emphasizing strong risk controls. The platform is designed for research and educational purposes only, not financial advice, and features a dark-themed UI for rapid data scanning.
+
+User Preferences
+All timestamps displayed in America/Chicago (CT) timezone with market session context
+Dark/light theme toggle (dark mode is primary)
+Educational disclaimers must be emphasized on every screen
+Clear risk/reward calculations and position sizing tools
+Fresh research briefs highlighted immediately upon opening
+Platform functions fully without external AI dependencies (quantitative fallback)
+Helpful error messages for API billing, rate limits, and authentication issues
+Liquidity warnings for penny stocks and low-float securities
+System Architecture
+The platform utilizes a modern web stack: React 18, TypeScript, and Tailwind CSS (Shadcn UI, TanStack Query, Wouter) for the frontend, and an Express.js, TypeScript backend with PostgreSQL (Neon serverless) and Drizzle ORM. Authentication is handled via session-based methods, supporting bcrypt, Replit Auth, and Google OAuth.
+
+The system integrates two core analytical engines:
+
+AI Engine: Leverages Anthropic Claude, OpenAI GPT, and Google Gemini for advanced analysis.
+Quantitative Engine: Implements strategies such as RSI(2) Mean Reversion, VWAP Institutional Flow, Volume Spike Early Entry, and ADX Regime Filtering.
+The UI/UX adheres to a "Tech-Minimalist" design philosophy inspired by institutional trading interfaces, featuring a dark-mode-first approach, a specific color palette (slate, cyan, green, red, amber, purple, blue), glassmorphism-inspired components, and a clear typography hierarchy using Inter and JetBrains Mono.
+
+Key features include:
+
+Core Application: Public informational pages, user authentication, main dashboard, trade desk with research briefs, live trading journal, market overview, and performance analytics.
+Research Tools: Chart analysis, historical trade pattern library, Data Intelligence System, Loss Analysis System for trade post-mortem, and a Data Integrity System for consistent statistics.
+Automated Systems: Auto-Lotto Bot for automated paper trading with sample size gating, and a Real-time Pricing Service consolidating market data.
+Specialized Intelligence: Timing Intelligence System for optimal entry/exit, "Prop Firm Mode" for conservative futures trading, Market Scanner, Multi-Factor Analysis Engine, CT Tracker for crypto sentiment, Universal Idea Generator, and Platform Reports System.
+Catalyst Intelligence System: Tracks SEC filings and government contracts, performing sentiment analysis and generating catalyst scores.
+Polymarket Prediction Market Module: Integrates with prediction markets to detect arbitrage opportunities based on news sentiment.
+Unified Win Rate System: Provides consistent win rate metrics (Equities, Options, Overall) across the platform, calculated based on defined trade outcomes.
+Watchlist Grading System: Evaluates watchlist assets using quantitative technical analysis (RSI, momentum, ADX, volume, moving averages) to assign a tier-based score (S-F).
+Adaptive Loss Intelligence System: Learns from trading mistakes by diagnosing loss categories and adaptively adjusting bot parameters (confidence, stop loss, position size) and implementing symbol cooldowns.
+External Dependencies
+Market Data
+Coinbase WebSocket: Real-time crypto prices.
+Yahoo Finance: Real-time quotes, discovery, historical stock/futures data.
+CoinGecko: Cryptocurrency metadata.
+Tradier: Options chains, delta targeting, live options pricing.
+Alpha Vantage: Financial news feeds, earnings calendar.
+AI Providers
+Anthropic (Claude Sonnet 4): Primary AI engine.
+OpenAI (GPT-4): Backup for fundamental analysis.
+Google (Gemini): Alternative AI analysis.
+Catalyst Intelligence
+SEC EDGAR: SEC filing ingestion (10-K, 10-Q, 8-K, S-1, 4 insider trades).
+USASpending.gov: Government contract tracking.
+Other Integrations
+Discord: Webhook notifications.
+npm run dev
+1m
+ • 
+2 minutes ago
+Remote Updates
+origin/main•upstream
+last fetched 3 hours ago
+Commit
+There are no changes to commit.
+Secrets
+Secrets are accessible to anyone who has access to this App. To restrict secret access, you must update App invite permissions. For more information, visit our documentation.
+SESSION_SECRET
+••••••••
+ALPHA_VANTAGE_API_KEY
+••••••••
+ANTHROPIC_API_KEY
+••••••••
+GEMINI_API_KEY
+••••••••
+OPENAI_API_KEY
+••••••••
+TRADIER_ACCOUNT_ID
+••••••••
+DATABASE_URL
+••••••••
+PGDATABASE
+••••••••
+PGHOST
+••••••••
+PGPORT
+••••••••
+PGUSER
+••••••••
+PGPASSWORD
+••••••••
+ADMIN_PASSWORD
+••••••••
+ADMIN_ACCESS_CODE
+••••••••
+TRADIER_API_KEY
+••••••••
+GOOGLE_CLIENT_ID
+••••••••
+GOOGLE_CLIENT_SECRET
+••••••••
+DISCORD_WEBHOOK_LOTTO
+••••••••
+DISCORD_WEBHOOK_WEEKLYWATCHLISTS
+••••••••
+DISCORD_WEBHOOK_CHARTANALYSIS
+••••••••
+DISCORD_WEBHOOK_GAINS
+••••••••
+GROK_API_KEY
+••••••••
+DISCORD_WEBHOOK_FUTURE_TRADES
+••••••••
+DISCORD_WEBHOOK_QUANTBOT
+••••••••
+DATABENTO_API_KEY
+••••••••
+RESEND_API_KEY
+••••••••
+APPROVED_EMAILS
+••••••••
+DISCORD_WEBHOOK_OPTIONSTRADES
+••••••••
+DISCORD_WEBHOOK_QUANTFLOOR
+••••••••
+NOTION_API_KEY
+••••••••
+NOTION_DATABASE_ID
+••••••••
+Configurations
+Configurations are similar to secrets, but should only be used for non-sensitive information. They're useful for having a variable that's different between your published app and when testing on Replit.
+ADMIN_EMAIL
+abdulmalikajisegiri@gmail.com
+DISCORD_WEBHOOK_FUTURE_TRADES
+13 results in 2 files
+121
+* #futures            │ DISCORD_WEBHOOK_FUTURE_TRADES│ NQ/GC futures trades only
+378
+   webhookUrl = process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_URL;
+830
+ const webhookUrl = process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_URL;
+833
+   logger.warn('⚠️ No DISCORD_WEBHOOK_FUTURE_TRADES configured - skipping futures notification');
+1150
+   ? (process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_QUANTBOT || proces
+1247
+   ? (process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_QUANTBOT || proces
+210
+DISCORD_WEBHOOK_FUTURE_TRADES
+224
+DISCORD_WEBHOOK_FUTURE_TRADES
+227
+* #futures            │ DISCORD_WEBHOOK_FUTURE_TRADES│ NQ/GC futures trades only
+229
+ const webhookUrl = process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_URL;
+231
+   logger.warn('⚠️ No DISCORD_WEBHOOK_FUTURE_TRADES configured - skipping futures notification');
+233
+   ? (process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_QUANTBOT || proces
+235
+   ? (process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_QUANTBOT || proces
+Publish your app
+Primary URL
+You can add your own custom domain after publishing your app.
+quant-pilot--AbdulmalikAjise
+.replit.app
+Available
+Published App access
+Limit published app access to team members who have viewer access. Learn more
+
+Advanced settings
+Manually configure machine settings, secrets, build commands, ports, and more.
+What does publishing do?
+Update daily trading previews to a compact format and later time
+
+4 messages & 39 actions
+Still many duplicates. Let me clean up all of them at once:
+Improve duplicate trade idea prevention by checking all past ideas
+Worked for 7 minutes
+you just spammed enrty to bidu calls to quant bot dickrd now sighs
+
+
+5 messages & 12 actions
+I see the issue persists. Let me analyze the entire Discord notification flow to find where duplicates are slipping through.
+Remove duplicate trade notifications sent to Discord
+Worked for 1 minute
+FOR GOODNESSS AAKE STOP SENDING THE SAME TRADE IDEA OVER AND OVER pls delete ALLLLLL thats duplicated multiple times
+
+
+3 messages & 7 actions
+I see the massive duplication issue. Let me delete ALL duplicates immediately:
+Remove duplicate trade ideas and prevent future duplication
+Worked for 44 seconds
+why didnt the bot enter SOfi plays, HOOD, these
+
+
+Show less
+Let me check the logs to see why the bot didn't execute trades on those opportunities:
+
+Found the issue! The bot is scanning 624 tickers sequentially (~1-2 seconds each = 10-20 minutes per full scan). Discord alerts go out immediately when opportunities are found, but trades only execute AFTER the entire scan completes.
+
+The scan is currently at ticker 7/624 and hasn't reached HOOD, META, TSLA etc. yet. Or the scan takes so long it hasn't completed.
+
+Let me check where the Discord alerts are being sent:
+
+I found the issue! There are TWO separate systems:
+
+lotto-scanner.ts - Sends Discord alerts immediately but does NOT execute trades
+auto-lotto-trader.ts - Actually executes trades but only AFTER completing a full 624-ticker scan (10-20 minutes)
+The HOOD, META, TSLA alerts you saw came from the lotto-scanner (alert-only, no trades). The auto-lotto-trader scans tickers sequentially and only executes trades after the ENTIRE scan completes.
+
+Let me fix this so the bot executes trades immediately as it finds opportunities instead of waiting:
+
+Let me modify the bot to execute trades immediately when finding high-quality opportunities instead of waiting for the full 624-ticker scan:
+
+I'll modify the bot to execute trades immediately when finding high-quality A+ opportunities (instead of waiting for the 20-minute scan to complete):
+
+Now I need to add the tradesThisCycle counter and the executeImmediateTrade helper function:
+
+Now let me add the executeImmediateTrade helper function:
+
+Now let me check for LSP errors and fix the rest of the function:
+
+Fixed! Here's what I changed:
+
+Immediate Trade Execution - Bot now executes trades immediately when finding A+ opportunities (confidence ≥85%) instead of waiting for the full 20-minute scan to complete
+
+Removed Double-Sending - Only ONE Discord notification per trade now (was sending two before)
+
+Better Dedup - Checks ALL past trade ideas regardless of status (was only checking "open" ones, letting duplicates slip through when marked expired)
+
+Database Cleanup - Deleted 322 duplicate trade ideas
+
+The bot should now enter trades for HOOD, SOFI, META, TSLA etc. as soon as it scans them, not 20 minutes later.
+
+Execute trades immediately for high-confidence opportunities
+Worked for 3 minutes
+Options Open Positions
+16
+Active options trades currently held by the bot
+SYMBOL TYPE QTY AVG COST CURRENT MARKET VALUE P&L RETURN %
+BIDU
+CALL 1 $3.53 $3.53 $352.50
++$0.00
++0.0%
+BIDU
+CALL 2 $1.78 $1.78 $356.00
++$0.00
++0.0%
+BIDU
+CALL 1 $3.53 $3.53 $352.50
++$0.00
++0.0%
+BIDU
+CALL 2 $1.78 $1.78 $356.00
++$0.00
++0.0%
+BIDU
+CALL 1 $3.53 $3.53 $352.50
++$0.00
++0.0%
+BIDU
+CALL 2 $1.78 $1.78 $356.00
++$0.00
++0.0%
+NNE
+CALL 8 $0.60 $0.60 $480.00
++$0.00
++0.0%
+NNE
+CALL 8 $0.60 $0.60 $480.00
++$0.00
++0.0%
+NNE
+CALL 8 $0.60 $0.60 $480.00
++$0.00
++0.0%
+NNE
+CALL 8 $0.60 $0.60 $480.00
++$0.00
++0.0%
+NNE
+CALL 8 $0.60 $0.60 $480.00
++$0.00
++0.0%
+GOOGL
+CALL 5 $0.20 $0.25 $122.50
++$22.50
++22.5%
+HOOD
+CALL 5 $0.20 $0.22 $107.50
++$7.50
++7.5%
+NVDA
+PUT 3 $0.28 $0.39 $115.50
++$33.00
++40.0%
+HOOD
+CALL 5 $0.20 $0.29 $145.00
++$45.00
++45.0%
+NNE
+CALL 2 $0.20 $0.60 $120.00
++$80.00
++200.0%
+pls no dupliacteds ur messing shit up
+
+
+4 messages & 13 actions
+I see the issue persists - there are duplicate positions in the database. Let me get the architect to help devise a bulletproof deduplication strategy:
+Add specific checks to prevent duplicate option positions
+Worked for 2 minutes
+lets merge prop firm into futurres since theyre essentially the same thing....no?
+
+
+Show less
+Yes, that makes sense! Prop Firm mode is essentially a conservative trading style for futures, so merging them would simplify the UI.
+
+A few quick questions to make sure I implement this correctly:
+
+How would you like to handle the merge?
+
+Add a "Prop Firm Mode" toggle inside the Futures page (conservative settings when enabled)
+Worked for 14 seconds
+quant floors should be sending daily summary, and ofc 8:30 trading plans like how u called these 📈 Daily Trading Preview - Friday, Jan 2
+Top 5 Trade Ideas Today
+
+🟢 AAPL CALL $280 01/16 | $1.19→$1.49 (+25.0%) | A (4/5) 🧠
+🟢 NVDA CALL $195 01/16 | $2.14→$2.67 (+25.0%) | A (4/5) 🧠
+🟢 TSLA SHARES | $449.72→$467.71 (+4.0%) | B (3/5) 🧠
+🟢 SOL CRYPTO | $127.61→$135.26 (+6.0%) | C (2/5) 🧠
+🟢 BTC CRYPTO | $88881.00→$93325.05 (+5.0%) | C (2/5) 🧠
+📊 Total Open
+5 ideas
+📈 Direction
+5 Long • 0 Short
+⭐ Avg Signals
+3/5 | R:R 2.7:1
+QuantEdge Research • View full details at y and they were so good
+
+Got it! You want to restore the daily trading preview notifications - the 8:30 AM trading plans and daily summaries. Let me check what's already in place and set this up:
+
+Good news - the daily summary system already exists! Let me check if it's working correctly:
+
+The daily summary system already exists and runs at 8:00 AM CT. Let me update it to:
+
+Run at 8:30 AM CT (your preferred time)
+Use the compact format you showed (one-liner style)
+Now let me update the format to match your preferred compact one-liner style:
+
+Done! Updated the daily trading preview:
+
+Changes:
+
+⏰ Time: Now sends at 8:30 AM CT (was 8:00 AM)
+📝 Format: Compact one-liner style matching your example:
+📈 Daily Trading Preview - Monday, Jan 5
+Top 5 Trade Ideas Today
+🟢 AAPL CALL $280 01/16 | $1.19→$1.49 (+25.0%) | A (4/5) 🧠
+🟢 NVDA CALL $195 01/16 | $2.14→$2.67 (+25.0%) | A (4/5) 🧠
+...
+📊 Total Open: 5 ideas | 📈 Direction: 5 Long • 0 Short | ⭐ Avg Signals: 4/5 | R:R 2.7:1
+The daily preview will be sent automatically at 8:30 AM CT on weekdays.
+
+Regarding the Prop Firm / Futures merge - how would you like to handle it? Should I add a "Prop Firm Mode" toggle inside the Futures page that enables conservative settings when turned on?
+
+Update daily trading previews to a compact format and later time
+Worked for 2 minutes
+I'll add a "Prop Firm Mode" toggle to the Futures page. Let me find the existing pages and merge them:
+
+Working..
+
+Scroll to latest
+Queue
+🤖 BOT ENTRY → NNE CALL $32 x6 @ $0.75 │ 🎰 #LOTTO
+🤖 BOT ENTRY: NNE CALL $32
+Auto-Lotto Bot opened a new position
+💰 Entry Price
+$0.75
+📦 Contracts
+6
+💵 Position Cost
+$450.00
+🎯 Target
+$11.25
+🛡️ Stop
+$0.38
+📅 Expiry
+2026-01-09
+🤖 Auto-Lotto Bot | Paper Trading•Today at 4:40 PM
+🤖 BOT ENTRY → NNE CALL $35 x3 @ $1.65 │ 🎰 #LOTTO
+🤖 BOT ENTRY: NNE CALL $35
+Auto-Lotto Bot opened a new position
+💰 Entry Price
+$1.65
+📦 Contracts
+3
+💵 Position Cost
+$495.00
+🎯 Target
+$2.47
+🛡️ Stop
+$0.82
+📅 Expiry
+2026-02-06
+🤖 Auto-Lotto Bot | Paper Trading•Today at 4:40 PM market is close?
+Next
+
+Make, test, iterate…
+Attached file
+Pasted--LOTTO-ALERT-META-CALL-695-exp-2026-01-09-LOTTO-LOTTO-M_1767652428315.txt
+🎰 LOTTO ALERT → META CALL $695 exp 2026-01-09 │ 🎰 #LOTTO
+🎰 LOTTO: META CALL $695
+2026-01-09 Expiry (4d DTE)
+
+OTHER sector | Swing Trade - weekly lotto targeting 1400% return
+💰 Entry
+$0.20
+🎯 Target (15x)
+$3.00
+🛡️ Stop (-50%)
+$0.10
+📅 DTE
+4d
+⏱️ Hold
+Swing Trade
+🏷️ Sector
+OTHER
+📝 Analysis
+🎰 LOTTO PLAY: META CALL $695 expiring Jan 08, 2026 - Far OTM play (Δ 0.03) targeting 15x return (15x weekly). Entry: $0.20, Target: $3.00. Quality: [A+] momentum_aligned_1.4%, high_volume_2.8x, bullish_range_position. HIGH RISK: weekly option with 4...
+⚠️ HIGH RISK - Small position size only | Quant Edge Labs•Today at 1:45 PM
+LOTTO
+APP
+ — 2:45 PM
+🎰 LOTTO ALERT → HOOD CALL $136 exp 2026-01-09 │ 🎰 #LOTTO
+🎰 LOTTO: HOOD CALL $136
+2026-01-09 Expiry (4d DTE)
+
+FINTECH sector | Swing Trade - weekly lotto targeting 1400% return
+💰 Entry
+$0.20
+🎯 Target (15x)
+$3.08
+🛡️ Stop (-50%)
+$0.10
+📅 DTE
+4d
+⏱️ Hold
+Swing Trade
+🏷️ Sector
+FINTECH
+📝 Analysis
+🎰 LOTTO PLAY: HOOD CALL $136 expiring Jan 08, 2026 - Far OTM play (Δ 0.06) targeting 15x return (15x weekly). Entry: $0.21, Target: $3.08. Quality: [A+] strong_momentum_6.7%, bullish_range_position, intraday_strength. HIGH RISK: weekly option with 4...
+⚠️ HIGH RISK - Small position size only | Quant Edge Labs•Today at 2:45 PM
+LOTTO
+APP
+ — 3:00 PM
+🎰 LOTTO ALERT → QQQ CALL $639 exp 2026-01-13 │ 🎰 #LOTTO
+🎰 LOTTO: QQQ CALL $639
+2026-01-13 Expiry (8d DTE)
+
+OTHER sector | Swing Trade - weekly lotto targeting 150% return
+💰 Entry
+$0.20
+🎯 Target (15x)
+$0.50
+🛡️ Stop (-50%)
+$0.10
+📅 DTE
+8d
+⏱️ Hold
+Swing Trade
+🏷️ Sector
+OTHER
+📝 Analysis
+🎰 LOTTO PLAY: QQQ CALL $639 expiring Jan 12, 2026 - Far OTM play (Δ 0.05) targeting 2.5x return (15x weekly). Entry: $0.20, Target: $0.50. Quality: [C] weak_momentum_0.8%, bullish_range_position, optimal_delta_0.05. HIGH RISK: monthly option with 8d...
+⚠️ HIGH RISK - Small position size only | Quant Edge Labs•Today at 3:00 PM
+🎰 LOTTO ALERT → TSLA CALL $495 exp 2026-01-09 │ 🎰 #LOTTO
+🎰 LOTTO: TSLA CALL $495
+2026-01-09 Expiry (4d DTE)
+
+OTHER sector | Swing Trade - weekly lotto targeting 1400% return
+💰 Entry
+$0.20
+🎯 Target (15x)
+$3.08
+🛡️ Stop (-50%)
+$0.10
+📅 DTE
+4d
+⏱️ Hold
+Swing Trade
+🏷️ Sector
+OTHER
+📝 Analysis
+🎰 LOTTO PLAY: TSLA CALL $495 expiring Jan 08, 2026 - Far OTM play (Δ 0.03) targeting 15x return (15x weekly). Entry: $0.21, Target: $3.08. Quality: [A+] strong_momentum_3.1%, high_volume_3.8x, bullish_range_position. HIGH RISK: weekly option with 4d...
+⚠️ HIGH RISK - Small position size only | Quant Edge Labs•Today at 3:00 PM

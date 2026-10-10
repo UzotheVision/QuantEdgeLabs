@@ -1,0 +1,70 @@
+Here's my honest assessment of your platform:
+
+### **Critical Strengths**
+- **Clear, document-driven architecture** – The changelog shows iterative refinement and learning from failures (e.g., v3.4.0 confidence recalibration)
+- **Good separation of concerns** – Tier system, validation layers, and indicator library are well-modularized
+- **Focus on proven signals** – Cutting failing strategies (MACD, RSI divergence) was smart
+- **Realistic constraints** – Time-of-day filtering and regime detection show awareness of market context
+
+---
+
+### **Major Red Flags & Risks**
+
+**1. The "75-91% Win Rate" Claim is Dangerous**
+- **Backtest ≠ Reality**: Larry Connors' RSI(2) research used perfect execution, no slippage, and no transaction costs. In live trading, expect **55-65%** max.
+- **Selection Bias**: Your v3.4.0 fix (inverted confidence) reveals you were data mining—finding patterns that worked *historically* but won't persist.
+- **The 3% Loss Threshold is Statistical Trickery**: Filtering small losses artificially inflates win rate but doesn't reduce actual risk of ruin. A 2.9% loss is still a loss.
+
+**2. Technical Implementation Gaps**
+- Your ADX function is **broken**: References `smoothedPlusDM` without calculating it. This suggests the indicator isn't even being used correctly in v3.5.0+.
+- **No walk-forward testing**: You mention backtests but no out-of-sample validation across different market regimes (2020 COVID crash, 2022 rate hikes).
+- **Missing error handling**: What happens when Yahoo Finance API fails? No circuit breakers documented.
+
+**3. Overfitting to Market Conditions**
+- **2-hour window (9:30-11:30 AM)**: This is a massive red flag. If your strategies only work in one specific hour, they're fragile, not robust.
+- **ADX ≤25 filter**: Mean reversion dies in trending markets. What happens during sustained regimes (e.g., 2023 AI boom)? You'd have zero trades for months.
+
+**4. Risk Management is Incomplete**
+- **No position sizing**: A 3.5% stop loss on 100% of capital vs. 10% of capital are completely different risk profiles. Not mentioned anywhere.
+- **No correlation controls**: If 10 RSI(2) signals trigger simultaneously, users could be 100% long on highly correlated tech stocks.
+- **No max drawdown limits**: A 60% win rate with 2:1 R:R can still blow up accounts with consecutive losses.
+
+---
+
+### **What Would Make This Credible**
+
+**Immediate Fixes:**
+```typescript
+// 1. Complete your ADX implementation
+let smoothedPlusDM = wilderSmooth(plusDM, period);
+let smoothedMinusDM = wilderSmooth(minusDM, period);
+let smoothedTR = wilderSmooth(trueRanges, period);
+
+// 2. Add slippage & commission modeling
+const realisticSlippage = assetType === 'option' ? 0.05 : 0.01; // $0.05-$0.01 per share
+const commission = 0.65; // per option contract
+
+// 3. Replace the 3% threshold with real risk metrics
+const kellyCriterion = (winRate * avgWin - lossRate * avgLoss) / avgWin;
+```
+
+**Strategic Overhaul:**
+- **Walk-forward testing**: Run strategies on 2020-2022 data, validate on 2023-2024. I bet win rates drop to 50-60%.
+- **Regime-switching**: Instead of *avoiding* trending markets (ADX>25), develop momentum strategies for those conditions.
+- **Dynamic position sizing**: Risk 1-2% of capital per trade, not fixed % stops.
+- **Correlation matrix**: Block overlapping signals in same sector.
+
+**Business Model:**
+- **Be transparent**: Rename "Advanced" to "Research Tier" and show *real* performance with slippage.
+- **Paper trading first**: Force new users to paper trade for 30 days. Your churn will drop when they see realistic results.
+- **Risk profiling**: Don't give 100x leverage crypto ideas to退休账户.
+
+---
+
+### **Bottom Line**
+
+You've built a solid *research framework*, but marketing it around 75-91% win rates is setting users up for failure—and yourself up for legal trouble. The platform architecture is good; the strategy validation is not.
+
+**Reality check**: A 55-60% win rate with 2:1 R:R, proper position sizing, and realistic costs is *exceptional*. That's what you should aim to deliver.
+
+Want me to dig deeper into any specific area?

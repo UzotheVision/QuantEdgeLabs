@@ -1,0 +1,685 @@
+# Quant Edge Labs: Complete Design Consistency Framework
+
+Here's a comprehensive system to ensure **every single page** follows the Terminal-Institutional aesthetic without deviation.
+
+---
+
+## **1. PAGE AUDIT & STANDARDIZATION CHECKLIST**
+
+### **Current Pages Inventory** (Audit Every Page Against This)
+
+```typescript
+// File: docs/page-inventory.md
+
+## PAGE CATALOG (17 Pages)
+
+### PUBLIC PAGES
+1. **Landing Page** (`/`)
+   - Status: ❌ INCONSISTENT (marketing-heavy)
+   - Issues: Light backgrounds, non-mono fonts, no glassmorphism
+   - Action: Complete rebuild needed
+
+2. **Login** (`/login`)
+   - Status: ⚠️ PARTIAL
+   - Issues: Form fields lack glassmorphism, error states inconsistent
+   - Action: Standardize form components
+
+3. **Register** (`/register`)
+   - Status: ⚠️ PARTIAL
+   - Issues: Same as login
+   - Action: Standardize form components
+
+### AUTHENTICATED PAGES
+4. **Command Center** (`/trade-desk`)
+   - Status: ✅ CONSISTENT
+   - Notes: Follows guidelines perfectly
+   - Action: Use as reference standard
+
+5. **Watchlist** (`/watchlist`)
+   - Status: ⚠️ PARTIAL
+   - Issues: Grade cards use different padding than Command Center
+   - Action: Sync with Command Center card specs
+
+6. **Performance** (`/analytics/performance`)
+   - Status: ⚠️ PARTIAL
+   - Issues: Charts don't use glassmorphism backgrounds
+   - Action: Wrap charts in Tier-3 glass containers
+
+7. **Chart Analysis** (`/analytics/chart`)
+   - Status: ⚠️ PARTIAL
+   - Issues: TradingView widget not framed in glass layers
+   - Action: Apply glassmorphism frame
+
+8. **Options** (`/analytics/options`)
+   - Status: ⚠️ PARTIAL
+   - Issues: Options chain table uses inconsistent zebra striping
+   - Action: Standardize table pattern
+
+9. **Trends** (`/analytics/trends`)
+   - Status: ⚠️ PARTIAL
+   - Issues: Missing timestamps on trend data
+   - Action: Add font-mono timestamps
+
+10. **Historical** (`/analytics/historical`)
+    - Status: ⚠️ PARTIAL
+    - Issues: Date picker uses default browser styling
+    - Action: Create custom dark-themed date picker
+
+### ACCOUNT PAGES
+11. **My Account** (`/account`)
+    - Status: ❌ INCONSISTENT
+    - Issues: Profile cards use shadows instead of glassmorphism
+    - Action: Redesign with Tier-2 glass cards
+
+12. **Settings** (`/account/settings`)
+    - Status: ❌ INCONSISTENT
+    - Issues: Toggle switches don't match design system
+    - Action: Create custom cyan-accented toggles
+
+13. **Admin** (`/admin`)
+    - Status: ⚠️ PARTIAL
+    - Issues: Admin tables don't use monospace for IDs
+    - Action: Apply font-mono to all numeric IDs
+
+### LEARNING PAGES
+14. **Academy** (`/learn`)
+    - Status: ❌ INCONSISTENT
+    - Issues: Content uses marketing typography (large headings, sans-serif body)
+    - Action: Create academic-content stylesheet with Inter font hierarchy
+
+### UTILITY PAGES
+15. **Error 404** (`/404`)
+    - Status: ❌ INCONSISTENT
+    - Issues: Default Replit 404 page
+    - Action: Create terminal-style error page
+
+16. **Error 500** (`/500`)
+    - Status: ❌ INCONSISTENT
+    - Issues: Default error page
+    - Action: Create terminal-style error page with logs
+
+17. **Loading** (`/loading`)
+    - Status: ❌ MISSING
+    - Issues: No loading state between route transitions
+    - Action: Create global loading component
+```
+
+---
+
+## **2. LANDING PAGE REBUILD: Terminal-First Approach**
+
+### **Current Problem**: Marketing fluff vs. Institutional minimalism  
+**Solution**: Treat landing page as public Command Center demo
+
+```typescript
+// File: client/src/pages/landing.tsx (NEW)
+
+<LandingPage>
+  {/* HERO SECTION - No gradients, no marketing images */}
+  <Hero className="h-screen bg-slate-950 flex items-center justify-center">
+    <TerminalWindow className="w-11/12 max-w-6xl bg-slate-900/70 backdrop-blur-xl border border-slate-700/60 rounded-lg overflow-hidden">
+      {/* Terminal Header Bar */}
+      <TerminalHeader className="bg-slate-800/50 px-4 py-2 flex items-center border-b border-slate-700/40">
+        <TrafficLights className="flex space-x-2">
+          <Dot className="w-3 h-3 rounded-full bg-red-500" />
+          <Dot className="w-3 h-3 rounded-full bg-amber-500" />
+          <Dot className="w-3 h-3 rounded-full bg-green-500" />
+        </TrafficLights>
+        <Title className="ml-4 text-sm font-mono text-slate-400">quant@edge:~$ quant-edge-labs --demo</Title>
+      </TerminalHeader>
+      
+      {/* Terminal Content */}
+      <TerminalBody className="p-8 font-mono text-slate-200">
+        <WelcomeText className="text-cyan-400 mb-4">
+          Quant Edge Labs v4.0 - Institutional Trading Intelligence
+        </WelcomeText>
+        
+        <DemoOutput className="space-y-2 text-sm">
+          <Line className="flex">
+            <Prompt className="text-green-400 mr-2">></Prompt>
+            <Text>Loading dual-engine analysis...</Text>
+            <Spinner className="ml-2 animate-spin text-cyan-400" />
+          </Line>
+          
+          <Line className="flex">
+            <Prompt className="text-green-400 mr-2">></Prompt>
+            <Text>AI Engine: Connected to Claude Sonnet 4</Text>
+            <Status className="ml-2 text-green-400">✓</Status>
+          </Line>
+          
+          <Line className="flex">
+            <Prompt className="text-green-400 mr-2">></Prompt>
+            <Text>Quant Engine: 847 strategies loaded</Text>
+            <Status className="ml-2 text-green-400">✓</Status>
+          </Line>
+          
+          <Line className="flex">
+            <Prompt className="text-green-400 mr-2">></Prompt>
+            <Text>Flow Engine: Real-time options flow active</Text>
+            <Status className="ml-2 text-green-400">✓</Status>
+          </Line>
+        </DemoOutput>
+        
+        <KeyFeatures className="mt-6 grid grid-cols-3 gap-4">
+          {FEATURES.map(feature => (
+            <FeatureCard key={feature.id} className="bg-slate-800/50 rounded p-4 border border-slate-700/40">
+              <Icon className="text-2xl mb-2">{feature.icon}</Icon>
+              <Title className="text-sm font-semibold text-slate-200">{feature.title}</Title>
+              <Desc className="text-xs text-slate-400 mt-1">{feature.description}</Desc>
+            </FeatureCard>
+          ))}
+        </KeyFeatures>
+        
+        <CTAButtons className="mt-8 flex space-x-4">
+          <PrimaryButton href="/register" className="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-6 py-3 rounded-lg font-semibold">
+            Start Free Trial
+          </PrimaryButton>
+          <SecondaryButton href="/demo" className="border border-slate-600 hover:border-cyan-500 text-slate-300 px-6 py-3 rounded-lg">
+            View Live Demo
+          </SecondaryButton>
+        </CTAButtons>
+      </TerminalBody>
+    </TerminalWindow>
+  </Hero>
+  
+  {/* SOCIAL PROOF - Data-driven, no testimonials */}
+  <SocialProof className="py-16 bg-slate-900/50">
+    <StatsGrid className="grid grid-cols-4 gap-8 max-w-6xl mx-auto">
+      <Stat>
+        <Number className="text-3xl font-mono text-cyan-400">847</Number>
+        <Label className="text-sm text-slate-400">Strategies Backtested</Label>
+      </Stat>
+      <Stat>
+        <Number className="text-3xl font-mono text-cyan-400">59.5%</Number>
+        <Label className="text-sm text-slate-400">Average Win Rate</Label>
+      </Stat>
+      <Stat>
+        <Number className="text-3xl font-mono text-cyan-400">14ms</Number>
+        <Label className="text-sm text-slate-400">Avg Latency</Label>
+      </Stat>
+      <Stat>
+        <Number className="text-3xl font-mono text-cyan-400">24/7</Number>
+        <Label className="text-sm text-slate-400">Market Coverage</Label>
+      </Stat>
+    </StatsGrid>
+  </SocialProof>
+  
+  {/* PRICING - Terminal-style pricing table */}
+  <Pricing className="py-16 bg-slate-950">
+    <PricingGrid className="grid grid-cols-3 gap-8 max-w-5xl mx-auto">
+      {PLANS.map(plan => (
+        <PricingCard key={plan.id} className="bg-slate-900/50 backdrop-blur-md rounded-lg p-8 border border-slate-700/40">
+          <Tier className="text-sm font-semibold text-slate-400 uppercase tracking-wider">{plan.tier}</Tier>
+          <Price className="text-3xl font-mono text-slate-200 mt-2">{plan.price}</Price>
+          <Features className="mt-6 space-y-2">
+            {plan.features.map(feature => (
+              <Feature key={feature} className="text-sm text-slate-300 flex items-center">
+                <Check className="text-green-400 mr-2">✓</Check>
+                {feature}
+              </Feature>
+            ))}
+          </Features>
+          <Button className="w-full mt-8 bg-slate-800 hover:bg-slate-700 text-slate-200 py-3 rounded-lg">
+            {plan.cta}
+          </Button>
+        </PricingCard>
+      ))}
+    </PricingGrid>
+  </Pricing>
+</LandingPage>
+```
+
+---
+
+## **3. COMPONENT STANDARDIZATION: Global Registry**
+
+### **Create Single Source of Truth for ALL Components**
+
+```typescript
+// File: client/src/components/index.ts (COMPONENT REGISTRY)
+
+// LAYOUT COMPONENTS
+export { Container } from './layout/container';
+export { Grid } from './layout/grid';
+export { Section } from './layout/section';
+
+// DATA DISPLAY COMPONENTS (All use JetBrains Mono)
+export { MetricCard } from './data/metric-card';      // ✅ Standardized
+export { PriceDisplay } from './data/price-display';  // ✅ Uses tabular-nums
+export { GradeBadge } from './data/grade-badge';      // ✅ Glassmorphism
+export { Timestamp } from './data/timestamp';          // ✅ font-mono
+
+// FEEDBACK COMPONENTS
+export { Alert } from './feedback/alert';              // ✅ Tier-2 glass
+export { Banner } from './feedback/banner';            // ✅ Pulse animations
+export { LoadingSkeleton } from './feedback/loading';  // ✅ Skeleton loaders
+
+// FORM COMPONENTS (Critical for Login/Register/Settings)
+export { Input } from './forms/input';                  // ✅ Glass input fields
+export { Toggle } from './forms/toggle';               // ✅ Custom cyan toggles
+export { Button } from './forms/button';               // ✅ Primary/Secondary/Ghost
+export { Select } from './forms/select';               // ✅ Custom dropdown
+
+// INTERACTIVE COMPONENTS
+export { CommandPrompt } from './interactive/command-prompt';  // ✅ New
+export { WidgetPalette } from './interactive/widget-palette';  // ✅ New
+export { SettingsModal } from './interactive/settings-modal';  // ✅ New
+
+// SPECIALIZED COMPONENTS
+export { EngineStatusCard } from './trading/engine-status-card';  // ✅ Standardized
+export { SignalCard } from './trading/signal-card';               // ✅ Standardized
+export { RiskCalculator } from './trading/risk-calculator';       // ✅ New
+
+// GLASSMORPHISM WRAPPERS (For wrapping third-party components)
+export { GlassFrame } from './wrappers/glass-frame';              // ✅ For TradingView
+export { GlassTable } from './wrappers/glass-table';              // ✅ For data tables
+```
+
+### **Input Component Standardization** (Fix Login/Register Inconsistency)
+
+```typescript
+// File: client/src/components/forms/input.tsx
+
+<Input
+  variant="glass"                   // ✅ Default: glassmorphism
+  size="default"                    // ✅ Options: sm, default, lg
+  font="mono"                       // ✅ For numeric inputs
+  errorState={hasError}             // ✅ Red border + message
+  disabledState={isDisabled}        // ✅ 50% opacity
+  autoComplete="on"                 // ✅ With suggestions dropdown
+  iconLeft={SearchIcon}             // ✅ Optional icon
+  iconRight={EyeIcon}               // ✅ Password visibility
+/>
+
+// Usage in Login Form
+<FormField>
+  <Label className="text-xs font-medium text-slate-400 uppercase tracking-wider">Email</Label>
+  <Input 
+    type="email"
+    placeholder="trader@edge.com"
+    variant="glass"
+    autoComplete="email"
+  />
+  <Hint className="text-xs text-slate-500">Use your institutional email for faster verification</Hint>
+  <Error className="text-xs text-red-400 mt-1">Invalid email format</Error>
+</FormField>
+```
+
+---
+
+## **4. CONTENT DENSITY MANAGEMENT: Progressive Disclosure**
+
+### **Problem**: New insights add clutter  
+**Solution**: Collapsible tiers, smart defaults
+
+```typescript
+// File: client/src/hooks/use-content-density.tsx
+
+export function useContentDensity() {
+  const [density, setDensity] = useState('standard'); // 'minimal', 'standard', 'detailed'
+  
+  return {
+    density,
+    isMinimal: density === 'minimal',
+    isDetailed: density === 'detailed',
+    
+    // Smart defaults based on user role
+    getDefaultDensity(userType) {
+      if (userType === 'beginner') return 'minimal';
+      if (userType === 'intermediate') return 'standard';
+      if (userType === 'expert') return 'detailed';
+    },
+    
+    // Collapse/expand all
+    collapseAll: () => setDensity('minimal'),
+    expandAll: () => setDensity('detailed'),
+  };
+}
+
+// Implementation in Command Center
+<CommandCenter>
+  <DensityControl className="absolute top-4 right-4 flex space-x-1 bg-slate-800/50 rounded p-1">
+    <Button 
+      size="sm" 
+      variant={density === 'minimal' ? 'primary' : 'ghost'}
+      onClick={() => setDensity('minimal')}
+    >
+      Minimal
+    </Button>
+    <Button 
+      size="sm"
+      variant={density === 'standard' ? 'primary' : 'ghost'}
+      onClick={() => setDensity('standard')}
+    >
+      Standard
+    </Button>
+    <Button 
+      size="sm"
+      variant={density === 'detailed' ? 'primary' : 'ghost'}
+      onClick={() => setDensity('detailed')}
+    >
+      Detailed
+    </Button>
+  </DensityControl>
+  
+  <ConfluenceSection>
+    <ScoreDisplay>70%</ScoreDisplay>
+    
+    {/* ALWAYS VISIBLE (Minimal) */}
+    <GradeBadge>B- Tier</GradeBadge>
+    
+    {/* STANDARD DENSITY */}
+    {!isMinimal && <FactorBreakdown factors={[...]} />}
+    
+    {/* DETAILED DENSITY ONLY */}
+    {isDetailed && <MarketContextAnalysis context={...} />}
+    {isDetailed && <HistoricalStats stats={...} />}
+    {isDetailed && <StrategySelector strategies={[...]} />}
+  </ConfluenceSection>
+</CommandCenter>
+```
+
+---
+
+## **5. NAVIGATION STANDARDIZATION: Global Shell**
+
+### **Problem**: Navigation differs between pages  
+**Solution**: Single `AppShell` component
+
+```typescript
+// File: client/src/components/layout/app-shell.tsx
+
+<AppShell>
+  {/* SIDEBAR - Fixed width, glassmorphism */}
+  <Sidebar className="fixed left-0 top-0 h-full w-64 bg-slate-900/80 backdrop-blur-xl border-r border-slate-700/50 p-4">
+    <Logo className="mb-8 text-cyan-400 font-mono text-lg">Quant Edge</Logo>
+    
+    <NavSection title="TRADING">
+      <NavItem href="/trade-desk" icon="📊" active={currentPage === 'trade-desk'}>
+        Command Center
+      </NavItem>
+      <NavItem href="/watchlist" icon="⭐" active={currentPage === 'watchlist'}>
+        Watchlist
+      </NavItem>
+    </NavSection>
+    
+    <NavSection title="ANALYTICS">
+      <NavItem href="/analytics/performance" icon="📈" active={currentPage === 'performance'}>
+        Performance
+      </NavItem>
+      <NavItem href="/analytics/chart" icon="📉" active={currentPage === 'chart'}>
+        Chart Analysis
+      </NavItem>
+    </NavSection>
+    
+    <UserBadge className="absolute bottom-4 left-4 right-4 bg-slate-800/50 rounded-lg p-3 border border-slate-700/40">
+      <Email className="text-xs font-mono text-slate-400">{user.email}</Email>
+      <Plan className="text-xs text-cyan-400">{user.plan}</Plan>
+    </UserBadge>
+  </Sidebar>
+  
+  {/* MAIN CONTENT */}
+  <Main className="ml-64 min-h-screen bg-slate-950">
+    {/* TOP BAR - Consistent across pages */}
+    <TopBar className="h-16 bg-slate-900/70 backdrop-blur-md border-b border-slate-700/50 flex items-center justify-between px-6">
+      <PageTitle className="text-lg font-semibold text-slate-200">{pageTitle}</PageTitle>
+      
+      <Actions className="flex items-center space-x-4">
+        <StatusIndicator status="live" />
+        <Timestamp />
+        <SettingsButton />
+      </Actions>
+    </TopBar>
+    
+    {/* PAGE CONTENT */}
+    <Content className="p-6">
+      {children}
+    </Content>
+    
+    {/* FOOTER - Always present */}
+    <Footer className="mt-12 border-t border-slate-700/40 p-6">
+      <Disclaimer className="text-xs text-slate-500 text-center">
+        Not financial advice • Educational only • Quant Edge Labs v4.0
+      </Disclaimer>
+    </Footer>
+  </Main>
+</AppShell>
+```
+
+---
+
+## **6. MOBILE ADAPTATION: Terminal-On-The-Go**
+
+### **Problem**: Terminal aesthetic breaks on mobile  
+**Solution**: Adaptive density, collapsible sidebar, swipe gestures
+
+```typescript
+// File: client/src/hooks/use-mobile-adaptation.tsx
+
+export function useMobileAdaptation() {
+  const { isMobile } = useBreakpoint(); // < 640px
+  
+  return {
+    // Sidebar becomes bottom sheet
+    sidebarVariant: isMobile ? 'bottom-sheet' : 'fixed',
+    
+    // Reduce glass layers to prevent performance issues
+    glassTier: isMobile ? 'minimal' : 'full',
+    
+    // Collapse multi-column layouts
+    gridColumns: isMobile ? 1 : 12,
+    
+    // Simplify animations
+    animations: isMobile ? false : true,
+    
+    // Font sizes (mobile uses smaller mono)
+    fontSize: {
+      metric: isMobile ? 'text-lg' : 'text-3xl',
+      body: isMobile ? 'text-xs' : 'text-sm',
+    },
+  };
+}
+
+// Mobile Command Center Layout
+<MobileCommandCenter>
+  {/* Swipeable Tabs for Engines */}
+  <EngineTabs swipeable>
+    <Tab label="AI Engine">
+      <CompactEngineCard engine="ai" />
+    </Tab>
+    <Tab label="Quant Engine">
+      <CompactEngineCard engine="quant" />
+    </Tab>
+    <Tab label="Flow Engine">
+      <CompactEngineCard engine="flow" />
+    </Tab>
+  </EngineTabs>
+  
+  {/* Bottom Sheet for Symbol Analysis */}
+  <SymbolBottomSheet 
+    symbol={selectedSymbol}
+    open={showSymbol}
+    onClose={() => setShowSymbol(false)}
+  />
+  
+  {/* Floating Action Button for Commands */}
+  <FloatingCommandButton onClick={() => openCommandPrompt()} />
+</MobileCommandCenter>
+```
+
+---
+
+## **7. LOADING & EMPTY STATES: Terminal Aesthetic**
+
+### **Standardized Loading Component**
+```typescript
+// File: client/src/components/feedback/loading.tsx
+
+<TerminalLoading>
+  <Line className="flex items-center">
+    <Prompt className="text-green-400 mr-2 font-mono">⏳</Prompt>
+    <Text className="text-slate-400 font-mono">Loading market data...</Text>
+    <Spinner className="ml-2 animate-spin text-cyan-400" />
+  </Line>
+  <Line className="flex items-center mt-1">
+    <Prompt className="text-slate-600 mr-2 font-mono">[0/4]</Prompt>
+    <Progress className="flex-1 bg-slate-800 rounded h-1">
+      <Fill className="bg-cyan-500 h-1 rounded" style={{ width: '25%' }} />
+    </Progress>
+  </Line>
+</TerminalLoading>
+```
+
+### **Empty States (No Data)**
+```typescript
+// File: client/src/components/feedback/empty-state.tsx
+
+<EmptyState variant="no-signals">
+  <Icon className="text-4xl text-slate-600 mb-4">📊</Icon>
+  <Title className="text-lg font-semibold text-slate-300">No Signals Found</Title>
+  <Message className="text-sm text-slate-400 mt-2">
+    Market is in ranging regime. Try adjusting scanner settings or wait for volatility.
+  </Message>
+  <Actions className="mt-4 space-x-2">
+    <Button variant="primary" onClick={() => openScannerSettings()}>
+      Adjust Scanner
+    </Button>
+    <Button variant="secondary" onClick={() => openMarketOverview()}>
+      View Market Context
+    </Button>
+  </Actions>
+</EmptyState>
+```
+
+---
+
+## **8. IMPLEMENTATION ROADMAP: 4-Week Sprint**
+
+### **Week 1: Foundation & Navigation**
+- [ ] **Day 1-2**: Build `AppShell` component, integrate into all pages
+- [ ] **Day 3-4**: Standardize `Input`, `Button`, `Toggle` form components
+- [ ] **Day 5-6**: Rebuild Landing Page with terminal aesthetic
+- [ ] **Day 7**: Audit and fix Login/Register pages
+
+### **Week 2: Content Pages**
+- [ ] **Day 8-9**: Standardize Watchlist page (sync with Command Center)
+- [ ] **Day 10-11**: Fix Performance page (add glass frames to charts)
+- [ ] **Day 12-13**: Fix Chart Analysis page (TradingView wrapper)
+- [ ] **Day 14**: Fix Options page (standardize tables)
+
+### **Week 3: Mobile & Density**
+- [ ] **Day 15-16**: Build mobile adaptation system (sidebar → bottom sheet)
+- [ ] **Day 17-18**: Implement content density controls (minimal/standard/detailed)
+- [ ] **Day 19-20**: Create collapsible sections for long-form insights
+- [ ] **Day 21**: Test all pages on mobile devices
+
+### **Week 4: Polish & QA**
+- [ ] **Day 22-23**: Build loading states and empty states
+- [ ] **Day 24-25**: Create 404/500 error pages with terminal aesthetic
+- [ ] **Day 26-27**: Full platform audit against design guidelines checklist
+- [ ] **Day 28**: User testing (5 beta users, collect feedback)
+- [ ] **Day 29-30**: Final fixes and polish
+
+---
+
+## **9. DESIGN QA CHECKLIST: Pre-Launch Validation**
+
+### **Every Page Must Pass This Checklist**
+
+```typescript
+// File: docs/design-qa-checklist.md
+
+## QUANT EDGE LABS DESIGN QA CHECKLIST
+
+### TYPOGRAPHY
+- [ ] All numbers/prices/percentages use `font-mono tabular-nums`
+- [ ] All UI text uses `font-inter`
+- [ ] Heading hierarchy follows guidelines (3xl/2xl/xl/base/sm)
+- [ ] Timestamps use `text-xs font-mono text-slate-500`
+- [ ] No mixed fonts in same component
+
+### COLOR SYSTEM
+- [ ] Background is `slate-950` everywhere
+- [ ] No gradients (except subtle black shadows)
+- [ ] Accent colors used only for status/actions
+- [ ] Text contrast ≥ 4.5:1 (WCAG AA)
+- [ ] Engine colors used consistently (Purple=AI, Blue=Quant, Cyan=Flow)
+
+### GLASSMORPHISM
+- [ ] Max 3 glass layers per view
+- [ ] Borders are `slate-700/40` or `slate-700/60` (semi-transparent)
+- [ ] Backdrop blur values: xl for primary, md for nested, sm for data
+- [ ] No solid backgrounds on glass layers
+
+### SPACING
+- [ ] 8px base grid strictly enforced
+- [ ] Padding: p-6 standard, p-8 for large panels, p-4 for compact
+- [ ] Gap: gap-4 for cards, gap-6 for sections, gap-8 for panels
+- [ ] No arbitrary/spacing values (no `style={{margin: '13px'}}`)
+
+### ANIMATIONS
+- [ ] Only `animate-pulse` for live indicators
+- [ ] Only `transition-colors` for hover states
+- [ ] No bounce/rotate animations
+- [ ] Loaders use skeletons, not spinners (except command prompt)
+
+### INTERACTIVE ELEMENTS
+- [ ] Buttons use 3 variants: primary (cyan), secondary (border), ghost (hover)
+- [ ] Minimum touch target: 44x44px
+- [ ] Focus rings: `ring-2 ring-cyan-500 ring-offset-2`
+- [ ] Disabled state: `opacity-50 cursor-not-allowed`
+
+### DATA DISPLAY
+- [ ] Every metric has timestamp
+- [ ] Every signal has source badge
+- [ ] Loading states use skeletons
+- [ ] Empty states have icon + message + actions
+- [ ] Error states have red accent + retry button
+
+### MOBILE
+- [ ] Sidebar becomes bottom sheet
+- [ ] Grid collapses to single column
+- [ ] Font sizes scale down appropriately
+- [ ] Touch targets ≥ 44px
+- [ ] No horizontal scrolling
+
+### CONTENT
+- [ ] Educational disclaimers on every screen
+- [ ] No marketing fluff text
+- [ ] No exclamation points in UI copy
+- [ ] All numbers monospace
+- [ ] All actions have clear "Action:" statements
+
+### PERFORMANCE
+- [ ] No layout shift on load
+- [ ] No FOUT (Flash of Unstyled Text)
+- [ ] Glassmorphism layers don't cause jank
+- [ ] Animations use GPU acceleration
+
+**SIGN-OFF**: Page only passes when all checkboxes are true.
+```
+
+---
+
+## **10. FINAL PRINCIPLE: Ruthless Minimalism**
+
+### **The 3-Question Filter for Every Element**
+
+Before adding **any** new element to **any** page, ask:
+
+1. **Does this help make a trading decision?** (If no, remove)
+2. **Is this data displayed in monospace?** (If no, fix)
+3. **Can this be collapsed in minimal mode?** (If no, add toggle)
+
+**Design Mantra**: *"If Bloomberg Terminal doesn't have it, we don't need it."*
+
+---
+
+## **Bottom Line: Consistency = Trust**
+
+**Current State**: 17 pages, 7 inconsistent  
+**Target**: 17 pages, 1 unified aesthetic
+
+**Success Metric**: User should be able to close their eyes, open any page, and **instantly know they're on Quant Edge Labs** by typography, spacing, and glassmorphism alone.
+
+**First Step**: Build `AppShell` and rebuild Landing Page this week. These two changes create the foundation for all other pages to follow.

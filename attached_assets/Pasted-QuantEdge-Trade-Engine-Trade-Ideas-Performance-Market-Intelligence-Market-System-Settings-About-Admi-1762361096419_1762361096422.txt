@@ -1,0 +1,601 @@
+QuantEdge
+Trade Engine
+Trade Ideas
+Performance
+Market Intelligence
+Market
+System
+Settings
+About
+Admin
+
+Collapse
+Trade Ideas
+Wednesday, Nov 5
+Stocks, options, crypto opportunities
+
+21 NEW
+Educational Research Only: This platform provides quantitative trade ideas for educational and research purposes. Not financial advice. Markets are risky. Always do your own research and consult a licensed advisor before trading.Engine: v2.2.0
+Posted:
+
+All Time
+356 trades
+Search symbols or catalysts...
+
+Quant
+
+AI
+
+Hybrid
+
+News
+
+Flow
+
+
+Filters
+Top Picks Today
+5
+Best quality + R:R + probability
+
+1
+BTC
+LONG
+POSITION
+Anticipation of continued institutional adoption and ETF inflows, coupled with potential for a bullish breakout from recent consolidation.
+
+B+
+R:R 2.7 • Score: 85
+
+2
+AAVE
+LONG
+POSITION
+Growth in DeFi Total Value Locked (TVL) and upcoming protocol upgrades or partnerships for Aave could attract renewed interest. The broader crypto market also appears poised for an upswing.
+
+B
+R:R 2.1 • Score: 80
+
+3
+NVDA
+LONG
+DAY
+Unusual CALL Flow: 62 contracts, $100.41M premium
+
+B+
+R:R 1.5 • Score: 100
+
+4
+QQQ
+LONG
+DAY
+Unusual CALL Flow: 68 contracts, $157.34M premium
+
+B+
+R:R 1.5 • Score: 100
+
+5
+SPY
+LONG
+DAY
+Unusual CALL Flow: 86 contracts, $223.44M premium
+
+B+
+R:R 1.5 • Score: 100
+
+
+FRESH
+21
+
+ACTIVE
+21
+
+WINNERS
+113
+
+LOSERS
+95
+
+EXPIRED
+127
+
+Stock Shares
+1 fresh
+
+Stock Options
+17 fresh
+
+NVDA
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+LIVE PRICE
+Updates every 30s
+++4829.51%
+$202.11
+ENTRY
+$4.10
+TARGET
+$4.31
+STOP
+$3.96
+TYPE
+CALL
+STRIKE
+$200.00
+EXPIRY
+Nov 06
+3/3
+Unusual CALL Flow: 62 contracts, $100.41M premium
+
+
+QQQ
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $4.08 • Target: $4.28
+3/3
+Unusual CALL Flow: 68 contracts, $157.34M premium
+
+
+SPY
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $2.43 • Target: $2.55
+3/3
+Unusual CALL Flow: 86 contracts, $223.44M premium
+
+
+PLTR
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $4.45 • Target: $4.67
+3/3
+Unusual CALL Flow: 79 contracts, $39.63M premium
+
+
+TSLA
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+LIVE PRICE
+Updates every 30s
+++3825.21%
+$459.25
+ENTRY
+$11.70
+TARGET
+$12.29
+STOP
+$11.31
+TYPE
+CALL
+STRIKE
+$450.00
+EXPIRY
+Nov 06
+3/3
+Unusual CALL Flow: 129 contracts, $299.51M premium
+
+
+AMD
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+A
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $7.60 • Target: $7.98
+3/3
+Unusual CALL Flow: 94 contracts, $87.42M premium
+
+
+AAPL
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+B+
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+LIVE PRICE
+Updates every 30s
+++11626.74%
+$269.72
+ENTRY
+$2.30
+TARGET
+$2.42
+STOP
+$2.22
+TYPE
+CALL
+STRIKE
+$270.00
+EXPIRY
+Nov 06
+3/3
+Unusual CALL Flow: 39 contracts, $13.66M premium
+
+
+AMZN
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+B+
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $2.19 • Target: $2.30
+3/3
+Unusual CALL Flow: 45 contracts, $12.77M premium
+
+
+SOFI
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+B+
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $0.59 • Target: $0.62
+3/3
+Unusual CALL Flow: 42 contracts, $2.93M premium
+
+
+MSTR
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+B
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $0.34 • Target: $0.36
+3/3
+Unusual CALL Flow: 72 contracts, $6.31M premium
+
+
+META
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+B
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $6.89 • Target: $7.23
+3/3
+Unusual CALL Flow: 111 contracts, $57.54M premium
+
+
+MARA
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+EARNINGS Nov 5
+Nov 5
+·
+Just now
+C+
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $0.79 • Target: $0.83
+3/3
+Unusual CALL Flow: 35 contracts, $0.83M premium
+
+
+HOOD
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+C+
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $5.83 • Target: $6.13
+3/3
+Unusual CALL Flow: 80 contracts, $13.94M premium
+
+
+RIOT
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+C
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $0.41 • Target: $0.43
+3/3
+Unusual CALL Flow: 33 contracts, $0.42M premium
+
+
+COIN
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+EARNINGS Nov 5
+Nov 5
+·
+Just now
+C
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $7.00 • Target: $7.35
+3/3
+Unusual CALL Flow: 76 contracts, $6.94M premium
+
+
+NFLX
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+C
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $14.50 • Target: $15.23
+3/3
+Unusual CALL Flow: 83 contracts, $12.11M premium
+
+
+DIS
+FLOW SCANNER
+LONG
+DAY TRADE
+OPTION
+Nov 5
+·
+Just now
+C
+ENTRY/EXIT WINDOWS
+ENTRY TIME
+Nov 5, 10:44 AM
+CST
+VALID UNTIL
+Nov 5, 11:44 AM
+CST
+EXIT BY
+Nov 5, 4:44 PM
+CST
+Fetching price...
+Entry: $0.66 • Target: $0.69
+3/3
+Unusual CALL Flow: 11 contracts, $0.06M premium
+
+
+Crypto
+3 fresh
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CST
+© 2025 QuantEdge Research. All rights reserved.•by UN/TITLD
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past performance does not guarantee future results.
+Notification Hybrid Ideas GeneratedGenerated 0 new hybrid (AI+Quant) trade ideas

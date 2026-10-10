@@ -1,0 +1,180 @@
+Below is a clean, no-nonsense framework for Fundamental + Technical analysis that actually works across stocks, options, futures, and crypto. This is how professionals structure it — not how it’s taught retail-side.
+
+⸻
+
+FUNDAMENTAL + TECHNICAL
+
+One System. Two Speeds.
+
+Fundamental answers WHAT & WHY
+Technical answers WHEN, WHERE & HOW
+
+Neither works alone. Together, they create edge.
+
+⸻
+
+1️⃣ FUNDAMENTAL ANALYSIS (DIRECTIONAL TRUTH)
+
+Purpose:
+Define long-term bias, conviction, and risk justification.
+
+What Fundamentals Do WELL
+	•	Identify mispricing
+	•	Explain why price should move
+	•	Filter low-quality trades
+	•	Anchor conviction during volatility
+
+What Fundamentals Do POORLY
+	•	Timing
+	•	Entries
+	•	Risk management
+
+⸻
+
+2️⃣ FUNDAMENTAL INPUTS (BY ASSET)
+
+📈 Stocks
+	•	Revenue & earnings trend
+	•	Margins & cash flow
+	•	Balance sheet strength
+	•	Guidance & revisions
+	•	Sector & factor exposure
+
+🧠 Options
+	•	Upcoming catalysts (earnings, CPI)
+	•	Historical vs implied moves
+	•	Volatility regime
+
+📊 Futures
+	•	Supply / demand imbalance
+	•	Macro policy (rates, central banks)
+	•	Inventory reports
+	•	Seasonality
+
+🔗 Crypto
+	•	Liquidity cycles
+	•	Network activity
+	•	Narrative momentum
+	•	Token emissions / unlocks
+
+📌 Output:
+➡️ Bullish / Bearish / Neutral bias
+
+⸻
+
+3️⃣ TECHNICAL ANALYSIS (EXECUTION TRUTH)
+
+Purpose:
+Turn bias into precise trades.
+
+What Technicals Do WELL
+	•	Entries & exits
+	•	Risk definition
+	•	Trade structuring
+	•	Timing
+
+What Technicals Do POORLY
+	•	Explain why price should move
+	•	Predict catalysts
+
+⸻
+
+4️⃣ CORE TECHNICAL COMPONENTS (UNIVERSAL)
+
+Trend
+	•	Moving averages
+	•	Higher highs / higher lows
+	•	Market structure
+
+Momentum
+	•	RSI / rate of change
+	•	Acceleration vs exhaustion
+
+Volatility
+	•	Compression → expansion
+	•	ATR, ranges, IV (for options)
+
+Levels
+	•	VWAP
+	•	Prior highs/lows
+	•	Value areas
+
+📌 Output:
+➡️ Entry, stop, target, trade structure
+
+⸻
+
+5️⃣ HOW THEY WORK TOGETHER (THE ONLY MODEL THAT MATTERS)
+
+Step-by-Step Logic
+	1.	Fundamental Bias
+	•	“This asset should go up/down over time”
+	2.	Technical Confirmation
+	•	Trend aligns with bias
+	•	Momentum supports move
+	•	Volatility allows favorable R:R
+	3.	Execution
+	•	Enter at defined level
+	•	Stop where thesis breaks
+	•	Size based on volatility
+
+⸻
+
+6️⃣ FAILURE MODES (WHY TRADERS LOSE)
+
+Fundamental-Only Traders
+	•	Enter too early
+	•	Sit through drawdowns
+	•	No exits
+
+Technical-Only Traders
+	•	Trade noise
+	•	Overtrade
+	•	No conviction
+
+⸻
+
+7️⃣ PROFESSIONAL RULES (NON-NEGOTIABLE)
+	•	Never trade against fundamentals in long timeframes
+	•	Never enter without technical invalidation
+	•	If fundamentals change → exit
+	•	If technicals fail → exit (even if fundamentals stay)
+
+⸻
+
+8️⃣ SIMPLE EXAMPLE
+
+Stock Trade
+	•	Fundamentals: earnings revisions ↑
+	•	Technical: pullback to VWAP in uptrend
+	•	Entry: VWAP
+	•	Stop: trend break
+	•	Target: prior high
+
+Options Trade
+	•	Fundamentals: earnings catalyst
+	•	Technical: volatility compression
+	•	Structure: defined-risk spread
+	•	Exit: post-event volatility collapse
+
+⸻
+
+9️⃣ TL;DR
+
+Layer	Purpose
+Fundamental	Direction & conviction
+Technical	Timing & execution
+Risk	Survival
+
+Fundamentals decide IF.
+Technicals decide HOW.
+
+⸻
+
+If you want next, I can:
+	•	Turn this into a trading engine logic
+	•	Map it into Quant Edge Labs widgets
+	•	Create a Replit build prompt
+	•	Show options-specific implementations
+
+Just say which.

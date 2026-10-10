@@ -1,0 +1,663 @@
+QuantEdge
+QuantEdge
+Research Platform
+Research
+
+Dashboard
+
+Research Desk
+
+Futures
+
+Auto-Lotto Bot
+Analysis
+
+Chart Analysis
+
+Performance
+
+Market Data
+
+Chart Database
+Learn
+
+Trading Rules
+
+Academy
+
+Blog
+Account
+
+Settings
+Admin
+
+Admin
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+Research Analytics
+
+Platform Performance
+342 total briefs • 328 closed
+
+73.9%
+Win Rate
+Calibrated
+243W / 86L
++1.68%
+Expectancy
+Per Trade
+2.04
+Profit Factor
+Gains / Losses
+14
+Open Positions
+Active
+Quick View
+
+Engine Pulse (7d)
+Flow Scanner
+82%
++3.1%
+Lotto Detector
+88%
+—
+Quant Engine
+34%
+-0.0%
+AI Engine
+56%
++1.5%
+Data-Driven Insights
+411 Resolved Trades
+Engine Performance
+flow
+81.1%
+(163W/38L)
+ai
+75.0%
+(45W/15L)
+quant
+52.8%
+(19W/17L)
+hybrid
+58.3%
+(14W/10L)
+Based on 329 resolved trades
+Top Symbols
+1
+SPY
+100% (21)
+2
+AAPL
+100% (11)
+3
+SOFI
+100% (10)
+4
+AMD
+100% (10)
+5
+NFLX
+100% (9)
+Avoid: SOL, AAVE, MARA
+Signal Strength
+A
+5+ signals
+93%
+(40)
+B+
+4 signals
+50%
+(8)
+B
+3 signals
+64%
+(14)
+C+
+2 signals
+71%
+(31)
+C
+1 signals
+64%
+(44)
+D
+0 signals
+75%
+(192)
+B band (3 signals) = Flow engine's 81.9% win rate
+Data Quality
+
+Data Pipeline Transparency
+From 2564 raw trades → 342 filtered → 126 decided (80W/46L)
+
+1.
+Raw Database Total
+2564
+2.
+After Buggy/Test Filter
+-3
+2561
+3.
+After Options Filter
+-2113
+448
+4.
+After Flow/Lotto Filter
+-80
+368
+5.
+After Legacy Engine Filter
+-26
+342
+14
+Open
+162
+Expired
+126
+Decided
+Confidence Analysis
+
+Signal Strength Comparison
+Compare win rates: High signal strength vs All bands (based on indicator consensus count)
+
+HIGH
+A + B+ (4+ signals)
+44.2%
+23W / 29L from 52 trades
+ALL
+All Bands (A-D)
+73.9%
+243W / 86L from 329 trades
+Lower signal bands outperform because B band (3 signals) captures Flow engine's 81.9% win rate.
+
+Signal Bands
+
+Signal Strength Performance (Honest Data)
+B Band (3 signals) = Best
+Actual win rates by signal count. Higher signal count does NOT mean better performance - B band (3 signals) dominates due to Flow engine.
+
+A (5+ signals)
+48%
+20W/22L
+(42 trades)
+B+ (4 signals)
+30%
+3W/7L
+(10 trades)
+B (3 signals)
+81%
+165W/38L
+(203 trades)
+C+ (2 signals)
+33%
+1W/2L
+(3 trades)
+C (1 signal)
+0%
+0W/0L
+(0 trades)
+D (0 signals)
+76%
+54W/17L
+(71 trades)
+Why B Band DominatesThe Flow engine (81.9% win rate) generates trades with exactly 3 quality signals (B band). A band (5+ signals) has only 48.8% win rate - more signals does NOT equal better performance.
+Correlation Matrix
+
+Engine × Signal Strength
+Win rate by engine and signal count. Based on actual qualitySignals array length.
+
+Flow
+201 decided trades
+81.1%
+Limited Data
+High (3+ signals)
+81%
+163W / 38L
+Medium (1-2 signals)
+—
+Low (0 signals)
+—
+AI
+60 decided trades
+75.0%
+Inverted
+High (3+ signals)
+42%
+5W / 7L
+Medium (1-2 signals)
+—
+Low (0 signals)
+83%
+40W / 8L
+Quant
+36 decided trades
+52.8%
+Inverted
+High (3+ signals)
+52%
+17W / 16L
+Medium (1-2 signals)
+50%
+1W / 1L
+Low (0 signals)
+100%
+1W / 0L
+Hybrid
+24 decided trades
+58.3%
+Inverted
+High (3+ signals)
+33%
+3W / 6L
+Medium (1-2 signals)
+0%
+0W / 1L
+Low (0 signals)
+79%
+11W / 3L
+Chart Analysis
+5 decided trades
+40.0%
+High (3+ signals)
+—
+Medium (1-2 signals)
+—
+Low (0 signals)
+40%
+2W / 3L
+Lotto
+2 decided trades
+0.0%
+High (3+ signals)
+—
+Medium (1-2 signals)
+—
+Low (0 signals)
+0%
+0W / 2L
+Expected: High signals > Low signals
+Inverted: Low signals beats High signals
+Limited Data: Not enough trades
+Detailed Engine Metrics
+(click to expand)
+Filters
+
+Time Range:
+
+All Time
+Filter by Engine:
+
+All Engines
+Performance Summary
+
+All Time Performance
+Complete platform history • 342 total ideas (328 closed, 14 open)
+
+Historical Trends
+
+Engine Performance Trends (Last 8 Weeks)
+Weekly win rate comparison across all trading engines
+Nov 3
+Nov 10
+Dec 22
+Dec 29
+undefined NaN
+0
+25
+50
+75
+100
+Win Rate %
+AIQUANTHYBRIDFLOWNEWS
+Wins
+
+80
+Losses
+
+43
+Expired
+
+162
+Total Briefs
+
+342
+Engine Verification
+
+Actual Engine Performance
+Verified win rates from resolved trades - this is the PROOF
+
+Actual Engine Performance
+Verified from 438 resolved trades
+Updated: 1/2/2026
+Best Performer: LOTTO
+
+Win rate: 88.2%
+
+LOTTO
+
+17 trades (15W / 2L)
+
+88.2%
+
+Avg: -50%
+
+Flow Scanner
+
+199 trades (163W / 36L)
+
+81.9%
+
+Avg: +3.11%
+
+AI Engine
+
+82 trades (48W / 34L)
+
+58.5%
+
+Avg: +1.75%
+
+Hybrid
+
+34 trades (14W / 20L)
+
+41.2%
+
+Avg: +0%
+
+Chart Analysis
+
+11 trades (4W / 7L)
+
+36.4%
+
+Avg: +0.08%
+
+Quant Engine
+
+94 trades (32W / 62L)
+
+34%
+
+Avg: -0.05%
+
+Manual
+
+1 trades (0W / 1L)
+
+0%
+
+Avg: -3.58%
+
+Low Performers Identified
+
+Engines with <40% win rate have been adjusted with confidence penalties.
+
+Data source: All resolved trades with hit_target or hit_stop outcomes. Confidence scores are now adjusted based on these actual performance metrics.
+
+Momentum
+
+Current Performance Streak
+Streak Tracker
+Current and historical winning/losing streaks
+Current Streak
+
+16 Win Streak
+Keep the momentum going!
+
+Longest Win Streak
+31
+Longest Loss Streak
+15
+Symbol Rankings
+
+Symbol Performance Leaderboard
+All engines - Top/worst performing symbols
+
+Symbol Leaderboard
+Best and worst performing symbols by win rate (min 20 trades required)
+Top Performers
+3 symbols
+Symbol	Trades	Wins	Losses	Win Rate	Avg Gain	Avg Loss
+SPY	
+20
+20	0	100.0%	+7.50%	0.00%
+NVDA	
+33
+29	4	87.9%	+5.70%	-6.30%
+BTC	
+20
+16	4	80.0%	+4.70%	-3.70%
+Underperformers
+3 symbols
+Symbol	Trades	Wins	Losses	Win Rate	Avg Gain	Avg Loss
+BTC	
+20
+16	4	80.0%	+4.70%	-3.70%
+NVDA	
+33
+29	4	87.9%	+5.70%	-6.30%
+SPY	
+20
+20	0	100.0%	+7.50%	0.00%
+Time-of-Day Performance
+Win rate by hour (9 AM - 4 PM ET)
+
+Time of Day Performance
+Win rate by hour during market hours
+9 AM
+10 AM
+11 AM
+12 PM
+1 PM
+2 PM
+3 PM
+4 PM
+0
+25
+50
+75
+100
+Win Rate %
+Market opens at 9:30 AM ET, closes at 4:00 PM ET. Performance measured during regular trading hours only.
+
+Strong (70%+)
+Moderate (40-70%)
+Weak (<40%)
+Signal Analysis
+
+Signal Strength Calibration
+Actual win rates by signal count band
+
+Signal Performance Analysis
+Historical win rate by signal count
+Signal Strength = How many indicators agree (not probability)
+
+A (5+ signals)
+B+ (4 signals)
+B (3 signals)
+C+ (2 signals)
+C (1 signal)
+D (0 signals)
+Signal Band
+0
+25
+50
+75
+100
+Actual Win Rate %
+A (5+ signals)
+
+9 trades
+
+B+ (4 signals)
+
+9 trades
+
+B (3 signals)
+
+201 trades
+
+C+ (2 signals)
+
+2 trades
+
+C (1 signal)
+
+0 trades
+
+D (0 signals)
+
+57 trades
+
+Calibration
+
+Accuracy Curve
+Signal count vs actual win rate - how does indicator consensus correlate with outcomes?
+
+Calibration Curve
+Predicted confidence vs actual win rate (411 resolved trades)
+NEEDS ADJUSTMENT
+29% Calibrated
+Why This Matters
+
+A well-calibrated system means confidence scores match actual outcomes. If we say 80% confidence, trades should win ~80% of the time. Current avg error: 21.5%
+
+Calibrated Buckets
+
+4/14
+
+Avg Error
+
+21.5%
+
+Total Trades
+
+329
+
+22.5%
+42.5%
+47.5%
+52.5%
+57.5%
+62.5%
+67.5%
+72.5%
+77.5%
+82.5%
+87.5%
+92.5%
+97.5%
+102.5%
+Predicted Confidence
+0%
+30%
+60%
+102.5%
+Win Rate
+Perfect CalibrationActual Win Rate
+Best Performing Buckets
+
+100-104%: 100% win (29 trades)
+20-24%: 84% win (57 trades)
+55-59%: 83% win (30 trades)
+Overconfident Buckets (Predicted > Actual)
+
+Post-Mortem Analysis
+
+Loss Patterns Dashboard
+Understanding why trades fail - automatic post-mortem analysis of all losing trades
+
+Loss Patterns Dashboard
+Post-mortem analysis of 5 failed trades
+5
+
+Total Losses
+
+-22.16%
+
+Avg Loss
+
+-110.8%
+
+Total Lost
+
+Top Loss Reasons
+Bad Timing
+4 trades
+-15.20% avg
+Low Volume Trap
+1 trades
+-50.00% avg
+Losses by Engine
+lotto
+QuantEngine
+AIEngine
+HybridEngine
+lotto
+2(-50.0%)
+Quant Engine
+1(-4.8%)
+AI Engine
+1(-3.0%)
+Hybrid Engine
+1(-3.0%)
+Worst Performing Symbols
+HOOD
+-50.0%
+(1x)
+META
+-50.0%
+(1x)
+SOL
+-6.0%
+(2x)
+APT
+-4.8%
+(1x)
+📚 Educational Note: Understanding why trades fail is as important as knowing why they succeed. This analysis helps identify patterns in losses to improve future trade selection and risk management.
+Engine Comparison
+
+Performance by Source
+AI vs. Quant vs. Hybrid vs. News vs. Flow
+
+QUANT
+141 ideas
+19W/17L
+52.8%
+Avg Gain
++0.05%
+AI
+116 ideas
+45W/14L
+76.3%
+Avg Gain
++1.59%
+HYBRID
+63 ideas
+14W/9L
+60.9%
+Avg Gain
++2.45%
+CHART_ANALYSIS
+21 ideas
+2W/2L
+50.0%
+Avg Gain
++0.08%
+MANUAL
+1 ideas
+0W/1L
+0.0%
+Avg Gain
+-3.58%
+Educational Research Only: Pattern analysis and market research for educational purposes. NOT financial advice. YOU decide your own entries, exits, and risk. Past patterns do not guarantee future results.Engine: v3.x
+QuantEdge Research
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only
+9 AM

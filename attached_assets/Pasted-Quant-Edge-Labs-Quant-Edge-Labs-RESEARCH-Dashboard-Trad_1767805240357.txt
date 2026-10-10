@@ -1,0 +1,214 @@
+Quant Edge Labs
+Quant Edge
+Labs
+RESEARCH
+
+Dashboard
+
+Trade Desk
+
+My Watchlist
+
+Market Scanner
+500+
+
+Swing Scanner
+NEW
+AUTOMATIONS
+
+Automations Hub
+LIVE
+ANALYTICS
+
+Performance
+
+Chart Analysis
+LEARN
+
+Academy
+ACCOUNT
+
+My Account
+
+Settings
+ADMIN
+
+Admin
+MARKET OPEN
+abdulmalikajisegiri@gmail.com
+TRADING WEEK: JAN 5 - JAN 9
+
+Automations Hub
+Auto-Lotto
+Bot Picks
+Strategy
+Quant
+Flow
+Reports
+Bot running
+Checks every 5 min during market hours
+Options
+Futures
+Crypto
+14W / 17L
+45.2% Win
+Session Recommended Plays
+High-confidence ideas from the AI & Quant engines for the current session
+265 Ideas
+AMZN
+CALL $245
+94% Conf.
+Entry: $1.89
+Target: $2.3625
+Unusual CALL Flow: 121 contracts, $101.89M premium
+
+GOOGL
+CALL $300
+89% Conf.
+Entry: $59.1
+Target: $69.453415
+Unusual CALL Flow: 105 contracts, $46.23M premium
+
+GOOGL
+CALL $320
+89% Conf.
+Entry: $3.45
+Target: $3.9675
+Unusual CALL Flow: 102 contracts, $45.39M premium
+
+WULF
+CALL $7
+89% Conf.
+Entry: $6.1
+Target: $7.2716413
+Unusual CALL Flow: 36 contracts, $7.03M premium
+
+MSTR
+CALL $165
+88% Conf.
+Entry: $7.3
+Target: $8.395
+Unusual CALL Flow: 203 contracts, $67.98M premium
+
+GOOGL
+CALL $332.5
+88% Conf.
+SPECULATIVE LOTTO
+Entry: $0.2
+Target: $1.4
+🎰 GOOGL CALL $332.5 | B+ | Δ0.08 | 2d DTE | swing trade
+
+COMBINED VALUE
+
+$245,335.00
+DAY'S P&L
+
++$1,080.00
+TOTAL TRADES
+
+37
+Portfolio Dashboard
+Options
+Futures
+Crypto
+Paper Trading
+ACCOUNT VALUE
+
+$70,005.00
+STARTING CAPITAL
+
+$20,000.00
+
+REALIZED P&L
+
++$50,005.00
+
+POSITIONS
+
+2 open / 37 closed
+
+TOTAL EQUITY
+
+$70,166.76
+
+CASH AVAILABLE
+
+$19,304.00
+
+OPEN P&L
+
++$161.76
+
+CLOSED P&L
+
++$50,005.00
+
+Performance by Asset Type
+Separate win rates and metrics for each trading strategy
+Options Lotto
+Win Rate
+45.2%
+Record
+14W / 17L
+Total P&L
++$50,005.00
+Avg Trade
++$1,351.49
+Active 9:30 AM - 4:00 PM ET
+Futures Trading
+NQ / GC
+Win Rate
+0%
+Record
+0W / 0L
+Total P&L
++$175,030.00
+Avg Trade
+--
+Active 24/7 (CME hours)
+Crypto Trading
+24/7
+Status
+Active
+Positions
+4 / 3 max
+Total P&L
++$479.93
+Coins Tracked
+14
+Active 24/7 (CoinGecko)
+Options Open Positions
+2
+Active options trades currently held by the bot
+SYMBOL	TYPE	STRIKE	EXPIRY	ENTERED	QTY	AVG COST	CURRENT	P&L	RETURN %
+RDW
+CALL	$10	Jan 15	Jan 7 10:14 AM	5	$0.65	$0.75	
++$50.00
++15.4%
+LUNR
+CALL	$19	Jan 15	Jan 7 10:11 AM	5	$1.53	$1.72	
++$95.00
++12.4%
+Options Trade History
+37
+Closed options trades with realized P&L
+SYMBOL	TYPE	ENTRY	EXIT	P&L	DATE CLOSED	RESULT
+MSFT	CALL	$0.20	$0.18	-$12.50	Jan 7, 10:35 AM	Lost
+QUBT	CALL	$0.33	$1.33	+$500.00	Jan 7, 10:20 AM	Won
+AI	CALL	$0.21	$0.93	+$360.00	Jan 7, 10:20 AM	Won
+AI	CALL	$0.21	$0.95	+$367.50	Jan 7, 10:15 AM	Won
+SOFI	CALL	$0.15	$1.77	+$810.00	Jan 6, 01:40 PM	Won
+META	CALL	$0.20	$0.15	-$27.50	Jan 7, 08:45 AM	Lost
+META	CALL	$0.21	$93.88	+$46,832.50	Jan 6, 01:15 PM	Won
+INTC	PUT	$0.24	$0.16	-$40.00	Jan 7, 08:35 AM	Lost
+META	PUT	$0.26	$0.23	-$15.00	Jan 6, 11:05 AM	Lost
+META	CALL	$0.20	$0.15	-$25.00	Jan 6, 10:30 AM	Lost
+Showing 10 of 56 closed trades
+Quant Edge Labs
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only
+Bot Connected

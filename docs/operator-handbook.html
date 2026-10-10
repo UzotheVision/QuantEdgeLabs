@@ -1,0 +1,179 @@
+<title>QuantEdge Operator Handbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    color-scheme: dark;
+    --ground: #0a0c10; --panel: #10141b; --rule: #1b2028;
+    --text: #e6e8ec; --soft: #aab2bf; --dim: #6b7482;
+    --cyan: #4fd1c5; --green: #2ee6a8; --red: #ff5d73; --amber: #e8b34b;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  html { background: var(--ground); }
+  body { background: var(--ground); color: var(--text); font: 16px/1.65 var(--sans); padding-inline: 20px; padding-block: 48px 72px; }
+  .wrap { max-width: 800px; margin: 0 auto; display: grid; gap: 52px; }
+  h1, h2 { font-family: var(--mono); text-wrap: balance; margin: 0; }
+  h1 { font-size: clamp(28px, 5vw, 40px); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  h1 .slash { color: var(--amber); }
+  h2 { font-size: 19px; font-weight: 800; }
+  p { margin: 0; max-width: 66ch; color: var(--soft); }
+  strong { color: var(--text); font-weight: 600; }
+  section { display: grid; gap: 14px; }
+  .eyebrow { font: 600 11px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase; color: var(--amber); }
+  code { font: 600 13px var(--mono); color: var(--cyan); }
+  pre { margin: 0; overflow-x: auto; background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; font: 13px/1.6 var(--mono); color: var(--text); }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 540px; }
+  th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  th { font: 600 10.5px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--dim); background: var(--panel); }
+  td { color: var(--soft); }
+  td:first-child { font-family: var(--mono); font-weight: 600; color: var(--text); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .num { font-variant-numeric: tabular-nums; }
+  .checklist { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .checklist li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 8px; }
+  .checklist input { width: 16px; height: 16px; margin-top: 4px; accent-color: var(--green); }
+  .checklist label { color: var(--soft); cursor: pointer; }
+  .checklist label b { color: var(--text); font-weight: 600; display: block; }
+  .sev { font: 700 10px var(--mono); letter-spacing: .08em; padding: 2px 7px; border-radius: 3px; white-space: nowrap; }
+  .sev.fixed { color: var(--green); background: rgba(46,230,168,.08); }
+  .sev.open { color: var(--amber); background: rgba(232,179,75,.08); }
+  .doctrine { display: grid; gap: 10px; }
+  .doctrine p { padding-left: 14px; border-left: 2px solid var(--amber); }
+  footer { font: 12px/1.6 var(--mono); color: var(--dim); border-top: 1px solid var(--rule); padding-top: 20px; }
+  input:focus-visible, a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+</style>
+
+<div class="wrap">
+  <header style="display:grid;gap:14px">
+    <span class="eyebrow">Owner only · do not share</span>
+    <h1>QUANTEDGE <span class="slash">//</span> operator handbook</h1>
+    <p>How the platform is hosted, what it costs, how to ship changes, how to give people access, and what is still open. Kept current as of September 24, 2026.</p>
+  </header>
+
+  <section aria-labelledby="todo">
+    <h2 id="todo">Your open actions</h2>
+    <p>These need you — everything else is handled in code. Ticks are remembered in this browser.</p>
+    <ul class="checklist" id="checklist">
+      <li><input type="checkbox" id="c-resize"><label for="c-resize"><b>Resize the droplet to 2GB ($12/mo)</b>DigitalOcean → Droplets → Resize. Fixes slowness and lets the server run every scanner with your laptop closed.</label></li>
+      <li><input type="checkbox" id="c-tradier"><label for="c-tradier"><b>Renew the Tradier API key</b>Dead since Aug 26. Brings back 0DTE/weekly ideas, live option quotes, and contracts on every card.</label></li>
+      <li><input type="checkbox" id="c-supabase" checked><label for="c-supabase"><b>Supabase backup — imported Sep 24</b>940 ideas (Aug 24 – Sep 10), the bot's 33-position book, flow history and catalysts merged into your own database.</label></li>
+      <li><input type="checkbox" id="c-google"><label for="c-google"><b>Add the Google sign-in redirect</b>Google Cloud Console → OAuth client → redirect URI <code>https://quantedgelabs.net/api/auth/google/callback</code>.</label></li>
+      <li><input type="checkbox" id="c-apple"><label for="c-apple"><b>Enroll in the Apple Developer Program + install Xcode</b>$99/yr. Needed for the App Store build; Xcode is ~15GB from the Mac App Store.</label></li>
+      <li><input type="checkbox" id="c-share"><label for="c-share"><b>Share the member Field Guide</b>It's private until you use its Share menu.</label></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="map">
+    <h2 id="map">Where everything runs</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Piece</th><th>Where</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>Website</td><td>https://quantedgelabs.net</td><td>DNS at Squarespace (A records → 104.248.127.195). HTTPS auto-renews via Caddy.</td></tr>
+        <tr><td>Server</td><td>DigitalOcean droplet 104.248.127.195</td><td>512MB today. App runs under PM2 as <code>quantedge-web</code>.</td></tr>
+        <tr><td>Database</td><td>Postgres on the same droplet</td><td>Yours — no provider quota can pause it. Laptop and Render point here too.</td></tr>
+        <tr><td>Laptop</td><td>localhost:3000</td><td>Runs every scanner until the droplet is resized. Keep it awake through 8:40 PM CT for the evening slate.</td></tr>
+        <tr><td>Backup copy</td><td>quantedge-terminal-0eec.onrender.com</td><td>Free tier — sleeps; its scanners don't run.</td></tr>
+        <tr><td>Old data</td><td>Supabase (paused)</td><td>Already imported into your database on Sep 24 — nothing needed from it now.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section aria-labelledby="cost">
+    <h2 id="cost">What it costs</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Stage</th><th>Monthly</th><th>What changes</th></tr></thead>
+      <tbody>
+        <tr><td>Today</td><td class="num">~$5</td><td>512MB droplet $4 + domain ~$1/mo.</td></tr>
+        <tr><td>You + ~10 people</td><td class="num">~$13</td><td>2GB droplet. Scanners move off the laptop.</td></tr>
+        <tr><td>Up to 100 users</td><td class="num">~$30</td><td>4GB droplet $24 + nightly database backups ~$5.</td></tr>
+        <tr><td>App Store</td><td class="num">+$8</td><td>Apple Developer $99/yr.</td></tr>
+        <tr><td>Data (optional)</td><td class="num">varies</td><td>Tradier live chains: free dev tier or ~$10/mo. Bullflow already on your paid plan.</td></tr>
+      </tbody>
+    </table></div>
+    <p>Data costs don't grow with users: every scanner runs once and all users read the same results.</p>
+  </section>
+
+  <section aria-labelledby="access">
+    <h2 id="access">Giving people access</h2>
+    <p>Signup is invite-only. Each person gets a one-time code; they sign up at quantedgelabs.net with their email and that code. Create more codes at <strong>/admin → Beta Invites</strong>, or ask Claude to mint a batch.</p>
+    <p><strong>Never share the admin access code.</strong> It logs straight into your own account. Friends with their own accounts keep separate books, journals and settings.</p>
+  </section>
+
+  <section aria-labelledby="ship">
+    <h2 id="ship">Shipping a change</h2>
+    <p>The 512MB droplet can't build the app, so changes are built on the laptop and copied up. Skipping the copy is exactly how the site once showed 4 ideas while the engine had 12.</p>
+<pre>npm run build
+scp -i ~/.ssh/quantedge_deploy -r dist root@104.248.127.195:/opt/quantedge/
+ssh -i ~/.ssh/quantedge_deploy root@104.248.127.195 'cd /opt/quantedge && git pull && pm2 restart quantedge-web'</pre>
+    <p>After the 2GB resize the droplet can build for itself, and this becomes one command.</p>
+  </section>
+
+  <section aria-labelledby="doctrine">
+    <h2 id="doctrine">The rules the engine is built on</h2>
+    <div class="doctrine">
+      <p><strong>Measured, not inferred.</strong> Every idea comes from a scanner that measured something — flow at the ask, a dated bottom, a real pullback. No invented levels.</p>
+      <p><strong>Coherent with itself.</strong> A card may not contradict its own theory or its own tape. Opposing flow subtracts points.</p>
+      <p><strong>Live, not carried forward.</strong> Anything shown as current is recomputed now or labelled with its age. Publish-time numbers are history, not the present.</p>
+      <p><strong>Long and short on equal footing.</strong> Shorts clear the same measured-evidence bar as longs; opposing tape subtracts in both directions; a tape flip retires the stale opposite-side card.</p>
+      <p><strong>Judged by the record.</strong> Every card's outcome is tracked; scanners that don't pay get demoted by their own numbers.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="stale">
+    <h2 id="stale">Stale-value audit (Sep 24)</h2>
+    <p>A code audit found 15 places where an old number could be shown as current. The ones that could cause a bad entry or wrong size are fixed; the rest are queued.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Status</th><th>Issue</th></tr></thead>
+      <tbody>
+        <tr><td><span class="sev fixed">FIXED</span></td><td>Published contract's delta / IV / ROI shown as current → live “Your contract, repriced now” panel.</td></tr>
+        <tr><td><span class="sev fixed">FIXED</span></td><td>Position size used the publish-time premium and a frozen DTE → sizes off the live premium.</td></tr>
+        <tr><td><span class="sev fixed">FIXED</span></td><td>Card P&amp;L and progress used a price up to 15+ min old → live quotes every 60s.</td></tr>
+        <tr><td><span class="sev fixed">FIXED</span></td><td>Stored R:R shown after the move → “R:R now” for an entry at the live price.</td></tr>
+        <tr><td><span class="sev fixed">FIXED</span></td><td>DTE never counted down → computed from the expiry date.</td></tr>
+        <tr><td><span class="sev fixed">FIXED</span></td><td>Options chain served stale forever on provider failure, stamped “now” → capped at 5 min, real fetch time shown.</td></tr>
+        <tr><td><span class="sev fixed">FIXED</span></td><td>Contract Engine fetched once → refreshes every 3 min, shows its age.</td></tr>
+        <tr><td><span class="sev open">OPEN</span></td><td>Some score layers re-pay generation-time technicals (RSI, MACD, signals) on every rebuild — should decay by age or recompute live.</td></tr>
+        <tr><td><span class="sev open">OPEN</span></td><td>Bullflow/GEX caches can serve old data on provider errors and GEX fallback relabels it as fresh.</td></tr>
+        <tr><td><span class="sev open">OPEN</span></td><td>Workup headline shows the publish-time grade instead of the live score.</td></tr>
+        <tr><td><span class="sev open">OPEN</span></td><td>Option-premium levels compared to share prices during revalidation.</td></tr>
+        <tr><td><span class="sev open">OPEN</span></td><td>“Tomorrow / this week” wording keeps its event penalty after the event passes.</td></tr>
+        <tr><td><span class="sev open">OPEN</span></td><td>Intraday candles can be served up to 30 min stale on upstream failure.</td></tr>
+        <tr><td><span class="sev open">OPEN</span></td><td>Trade Desk and signal table still render stored greeks/premium without an “at signal” label.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section aria-labelledby="recover">
+    <h2 id="recover">When something breaks</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Symptom</th><th>Likely cause → fix</th></tr></thead>
+      <tbody>
+        <tr><td>Site slow / timing out</td><td>512MB droplet swapping. Resize to 2GB.</td></tr>
+        <tr><td>Board missing ideas</td><td>Droplet running old code — ship the latest build (above).</td></tr>
+        <tr><td>Login fails for everyone</td><td>Database unreachable. Check Postgres on the droplet is running.</td></tr>
+        <tr><td>“No contract” on cards</td><td>Tradier key expired — renew it.</td></tr>
+        <tr><td>No evening slate</td><td>Laptop was asleep at 8:40 PM CT — resize the droplet so it runs there.</td></tr>
+        <tr><td>Domain won't load on one device</td><td>Stale DNS cache on that device — flush it or wait an hour.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <footer>Kept in the repo at docs/operator-handbook.html. Member guide: docs/field-guide.html.</footer>
+</div>
+
+<script>
+  (function () {
+    var boxes = document.querySelectorAll('#checklist input[type=checkbox]');
+    var saved = {};
+    try { saved = JSON.parse(localStorage.getItem('qe-operator-checklist') || '{}'); } catch (e) {}
+    boxes.forEach(function (b) {
+      if (saved[b.id]) b.checked = true;
+      b.addEventListener('change', function () {
+        saved[b.id] = b.checked;
+        try { localStorage.setItem('qe-operator-checklist', JSON.stringify(saved)); } catch (e) {}
+      });
+    });
+  })();
+</script>

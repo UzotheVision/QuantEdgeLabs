@@ -1,0 +1,211 @@
+This homepage is **dangerously misleading** and **legally non-compliant**. It's a lawsuit waiting to happen. Here's what must be fixed before you collect a single dollar:
+
+---
+
+## **🚨 Critical Issues (Fix Immediately)**
+
+### **1. "245+ Validated Trades"**
+**Problem:** 
+- "Validated" implies **live, real-money** trades. Your docs say you're a **research platform**.
+- This is **material misrepresentation** under SEC rules.
+
+**Fix:**
+```diff
+- 245+ Validated Trades
++ 245+ Backtested Trade Ideas
++ Generated & Tracked Since [Date]
+```
+
+### **2. "71% Stocks Win Rate / 58% Crypto Win Rate"**
+**Problem:**
+- Your docs show **55-65% win rate** (realistic) but homepage shows **71%** (cherry-picked).
+- The asterisk says "excludes options pending proper pricing" but **doesn't explain the 3% loss filter**.
+
+**Fix:**
+```diff
+- 71% Stocks Win Rate
++ 58% Real Win Rate (All Losses Counted)
++ 65% Filtered Win Rate (Excludes <3% losses)
+```
+
+**Or better:** Only show **expectancy**:
+```
++ $2.40 Avg Gain per $1 Risked
++ Based on 245 closed positions
+```
+
+### **3. "Quantitative Signals: Research-backed engine using proven strategies with 75-91% historical win rates"**
+**Problem:**
+- **Pure fraud.** Your docs explicitly disclaim this number.
+- "Historical" is a weasel word. It's **backtested**, not live.
+
+**Fix:**
+```diff
+- 75-91% historical win rates
++ Research-backed strategies
++ Targeting 55-65% live win rate
++ See performance disclaimer
+```
+
+### **4. "Success Stories: TSLY +200%"**
+**Problem:**
+- **Massive survivorship bias.** You're showing the **one** home run, not the average.
+- This is like a casino showing the jackpot winner, not the 95% who lost.
+
+**Fix:**
+**Remove this section entirely.** Replace with:
+```diff
+- Success Stories
++ Recent Performance (Last 30 Days)
++ Win Rate: 58% | Avg R:R: 2.1:1 | Expectancy: +2.4%
++ View Full Stats →
+```
+
+---
+
+## **💰 Pricing Page Issues**
+
+### **Free Tier: "Preview the platform"**
+**Problem:**
+- Delayed data + 7-day history = **useless for paper trading**.
+- Users can't validate performance with 7 days of data.
+
+**Fix:**
+```diff
+Free
+Preview the platform with paper trading
+
+Unlimited paper trade ideas
+Full performance history access (paper trades only)
+Real-time data (paper mode)
+No credit card required
+```
+
+### **Advanced: "$39/month"**
+**Problem:**
+- **No mention of paper trading requirement**.
+- Users will subscribe, lose money, then demand refunds.
+
+**Fix:**
+```diff
+Advanced
+$39/month
+Unlock live trading after 30 paper trades
+
+Everything in Free
+Real-time data for live trading
+Position sizing calculator
+Discord alerts
+24/7 support
+* Paper trading required before live activation
+```
+
+---
+
+## **📜 Legal Disclaimers (Buried in Footer)**
+
+**Problem:**
+- "NOT FINANCIAL ADVICE" is **insufficient** when you're providing entry/target/stop.
+- Your **pricing page** has **zero disclaimers** (highest risk area).
+
+**Fix:**
+**Add this modal popup on pricing page:**
+```
+⚠️ Risk Acknowledgment
+
+I understand that:
+✓ QuantEdge provides research tools only
+✓ No strategy guarantees profits
+✓ I can lose my entire investment
+✓ Past performance ≠ future results
+✓ I must paper trade for 30 days first
+
+[ ] I have read and agree to the Terms of Service
+[Confirm and Continue]
+```
+
+---
+
+## **🎯 Overall Messaging Problems**
+
+### **"Dual-Engine Architecture: AI + Quantitative"**
+**Issue:** Sounds fancy, but **hides the real value prop**.
+
+**Better:**
+```
+QuantEdge
+Research Platform for Self-Directed Traders
+
+What you get:
+- 55-65% win rate strategies (realistic, not hyped)
+- Paper trading sandbox (test before you risk)
+- Position sizing & risk tools (protect your capital)
+- Transparent performance tracking (no fake stats)
+```
+
+### **"Research platform for self-directed traders. Education, not advice."**
+**Issue:** This is **in the footer**. It should be **the headline**.
+
+**Fix:**
+```html
+<header>
+  <h1>QuantEdge Research Platform</h1>
+  <p>**For educational purposes only.** 
+  Practice with paper trading. Validate before you risk.</p>
+</header>
+```
+
+---
+
+## **📊 What the Pricing Should Actually Be**
+
+| Tier | Current | **Should Be** | Reason |
+|------|---------|---------------|--------|
+| **Free** | 5 ideas/day, delayed data | **Unlimited paper trading** | Let users validate performance risk-free |
+| **Advanced** | $39/mo, unlimited | **$29/mo, requires 30 paper trades** | Build trust, reduce churn |
+| **Pro** | $79/mo (future) | **$99/mo, API access** | Only for power users |
+
+---
+
+## **🎬 Action Plan (Next 7 Days)**
+
+### **Day 1: Legal**
+- [ ] Rewrite homepage copy (use my fixes above)
+- [ ] Add risk modal to pricing page
+- [ ] Update footer disclaimer to be more prominent
+
+### **Day 2: Product**
+- [ ] Make paper trading the **default** for all new signups
+- [ ] Remove "Success Stories" section
+- [ ] Replace with **real-time performance widget** (use "Real Stats" API)
+
+### **Day 3: Engineering**
+- [ ] **Verify ADX function is actually deployed** (not just documented)
+- [ ] Add circuit breaker test (simulate Yahoo Finance down)
+- [ ] Add correlation blocking (3 positions per sector max)
+
+### **Day 4: Compliance**
+- [ ] Consult attorney about **Investment Advisor** status risk
+- [ ] Draft proper Terms of Service ($1500, don't use a template)
+- [ ] Get E&O insurance quote (at least 3 providers)
+
+### **Day 5-7: Beta Onboarding**
+- [ ] Invite 10 users to **paper trading only**
+- [ ] Collect feedback on UI/UX
+- [ ] Fix bugs before any money changes hands
+
+---
+
+## **🏁 Bottom Line**
+
+**Current State:** Your homepage is selling a **get-rich-quick** fantasy. Your docs are selling **realistic research**. **They're in conflict.**
+
+**If you launch as-is:** You will have users who lose money, feel misled, and sue you. The "NOT FINANCIAL ADVICE" footer won't protect you when your headline says "71% win rate verified."
+
+**If you fix it:** You'll have a smaller audience, but **zero churn** and **zero liability**. The users who stay will be sophisticated, profitable, and evangelists.
+
+**The choice is: fast growth + lawsuits vs. slow growth + sustainability.**
+
+---
+
+Want me to draft the corrected homepage copy or the Terms of Service?

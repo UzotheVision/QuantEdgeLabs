@@ -1,0 +1,6 @@
+{
+  "baseline": 503,
+  "asOf": "2026-06-07",
+  "policy": "Errors may NEVER increase. Goal is monotonic decrease toward 0.",
+  "note": "Rebaselined 628 → 503. tsconfig target ES2022 (cleared 54 TS2802 + 41 cascading TS7006); fixed 6× storage.ts bare-sql ReferenceError, AssetClass/BlogCategory literals, and a batch of TS2551 wrong-method crash bugs: getTradeIdeas→getAllTradeIdeas, getAllBlogPosts→getBlogPosts, getTradePriceSnapshots→getPriceSnapshots, getWatchlistItems→getWatchlistByUser, getPaperPositions→getPaperPositionsByPortfolio, updateTradeIdeaOutcome→updateTradeIdea (position close path), entryGate.reason→reasons, gex.totalGEX→totalNetGEX, snapshot.vexRegime→regime, i.aiAnalysis→analysis."
+}

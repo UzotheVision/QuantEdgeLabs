@@ -1,0 +1,47 @@
+Short answer: Yes — in various forms. But nothing I found that exactly mirrors your full dual-engine, multi-signal + AI + trading-grade signal / grading / allocation architecture. Below is what I found, plus gaps and lessons you can learn from them.
+
+⸻
+
+🔍 Examples / Precedents
+
+Here are platforms, products, and research projects that have overlap with parts of what you propose:
+
+Name / Project	What They Do / How It Overlaps	Key Differences / Gaps vs Your Vision
+QuantConnect	Open-source cloud quant engine and infrastructure (backtesting, deployment, live trading).  ￼	It doesn’t inherently bundle AI-based interpretative analysis or composite grading + fixed asset‐quota allocation for signals in the way you describe. It’s more of an infrastructure layer.
+Trade Ideas (HOLLY AI, etc.)	Provides AI-powered scanning, signal generation, trading ideas for equities.  ￼	They mostly focus on stock scanning and AI heuristics. They don’t fully integrate your strict quant metrics + options + crypto multi-asset allocation + dual-engine fusion.
+Composer	Build AI/backtest/trade algorithms in one platform, no-code oriented.  ￼	More oriented toward auto-strategy generation / execution; may not provide finely tuned quant grading + multi-timeframe alignment logic as a core.
+Sygnal	Aggregates trading signals from professional quant managers, across many instruments.  ￼	They are signal aggregators; they don’t necessarily provide the internal dual-engine logic or composite scoring that you do.
+Numerai	A hedge fund driven by AI models crowdsourced from data scientists.  ￼	Numerai is more about machine learning on anonymized features, not necessarily your blend of classical quant + AI commentary, and it’s not exposed to retail in the same premium-signal way.
+Algorithmic / AI Trading Bots / Platforms	Many exist (EquBot, Tickeron, etc.) offering various AI strategies and automation.  ￼	Most are generalized bots or trading automation. Very few focus on a multi-signal, graded, cross-asset research engine with structured allocation logic.
+Quant 4.0 / Research-level frameworks	There’s academic work on combining explainable AI, rule-based + ML hybrid models. E.g. “Quant 4.0: Engineering Quantitative Investment with Automated, Explainable and Knowledge-driven AI.”  ￼	These are more theoretical or experimental; they don’t always translate into polished, monetizable SaaS signal products.
+QuantAgent (recent paper)	A system leveraging multi-agent LLMs plus structured quant agents for high-frequency trading.  ￼	This is cutting-edge research. It’s closest in spirit to your dual-agent idea, but in academic form, not as a polished commercial product yet.
+
+
+⸻
+
+📊 How “Unique” / Feasible Your Idea Remains
+
+Based on those precedents, here’s where your idea is well-positioned, and where challenges lie:
+
+✔ Differentiators / Strengths You Have
+	•	Hybrid architecture (rules + AI) that is explainable and interpretable.
+	•	Multi-asset support (equities + options + crypto) with integrated allocation logic.
+	•	Composite scoring / grading system (A+/A/B/C) combined with quant filters (R:R, volume thresholds, etc).
+	•	Strict quota / allocation constraints, not just “signal generation.”
+	•	Emphasis on quality filtering, not just endless signal output.
+
+⚠ Challenges / Risks Others Show
+	•	Many platforms are infrastructure providers, not “signal publishers” — converting from engine to product is nontrivial.
+	•	Scalability, latency, data costs — real-time multi-source ingestion (equities, options, crypto) is expensive and operationally tricky.
+	•	Signal reliability / overfitting — signal systems often underperform in new regimes.
+	•	Regulatory / compliance — offering signals for pay can engage securities / investment advisory regulations.
+	•	Competition & differentiation — big players with capital (QuantConnect, Trade Ideas, AI trading bots) already exist; you’ll need a defensible moat (explainability, signal credibility, performance track records).
+
+⸻
+
+✅ Bottom Line
+	•	Has it been done? Parts of it, yes — there are systems that do quant + AI, or generate signals, or automate trading. But nobody has, to my knowledge, packaged exactly your architecture (7 quant signals + AI engine + graded probabilities + allocation logic + multi-asset support) as a polished product.
+	•	Yes, it’s a smart idea — you can compete by focusing on explainability, consistency, and signal quality over hype.
+	•	You may even be able to claim niche leadership, because you’re combining features in a unique stack.
+
+If you like, I can dig deeper and try to find any direct competing products that almost fully overlap yours, especially in retail / subscription space. Do you want me to do that?

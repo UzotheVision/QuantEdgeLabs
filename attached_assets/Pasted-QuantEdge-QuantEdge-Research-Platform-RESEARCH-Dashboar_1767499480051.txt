@@ -1,0 +1,12969 @@
+QuantEdge
+QuantEdge
+Research Platform
+RESEARCH
+
+Dashboard
+
+Trade Desk
+
+Futures
+
+Market
+500+
+AUTOMATIONS
+
+Automations Hub
+NEW
+
+Auto-Lotto Bot
+LIVE
+ANALYTICS
+
+Performance
+
+Chart Analysis
+LEARN
+
+Academy
+ACCOUNT
+
+My Account
+
+Settings
+ADMIN
+
+Admin
+
+Reports
+NEW
+
+Security
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+ANALYTICS
+
+Performance
+Track trading performance metrics
+
+IDEAS
+
+407
+
+WIN RATES
+
+72%EQ
+|
+80%OPT
+|
+77%ALL
+BOT P&L
+
++$220
+
+OPEN
+
+26
+
+W / L
+
+108/43
+
+BEST ENGINE
+
+MANUAL
+96%
+Analytics
+Data Audit
+
+Flow Scanner
+82%
+163W/36L
+380 ideas
+
+AI Engine
+56%
+52W/41L
+45 ideas
+
+Quant Engine
+59%
+101W/69L
+300 ideas
+
+Lotto Detector
+90%
+18W/2L
+92 ideas
+Auto-Lotto Bot
+Opts: 7
+Futs: 0
+Trades
+
+7
+
+Wins
+
+6
+
+Losses
+
+1
+
+Win Rate
+
+85.7%
+
+Total P&L
+
++$219.50
+
+Open
+
+10
+
+Best/Worst Trades & Exit Analysis
+Signal Strength by Band
+A
+48%
+
+42t
+
+B
+78%
+
+32t
+
+C
+71%
+
+7t
+
+D
+80%
+
+73t
+
+Weekly Trends
+Engine Performance Trends (Last 8 Weeks)
+Weekly win rate comparison across all trading engines
+Nov 10
+Dec 22
+Dec 29
+undefined NaN
+0
+25
+50
+75
+100
+Win Rate %
+AIQUANTHYBRIDFLOWNEWS
+
+Advanced Analytics
+Actual Engine Performance
+Actual Engine Performance
+Verified from 541 resolved trades
+Updated: 1/3/2026
+Best Performer: BOT
+
+Win rate: 100%
+
+BOT
+
+8 trades (8W / 0L)
+
+100%
+
+Avg: +15%
+
+PENNY-SCANNER
+
+16 trades (16W / 0L)
+
+100%
+
+Avg: -45%
+
+LOTTO
+
+20 trades (18W / 2L)
+
+90%
+
+Avg: -35%
+
+Flow Scanner
+
+199 trades (163W / 36L)
+
+81.9%
+
+Avg: +3.11%
+
+Quant Engine
+
+170 trades (101W / 69L)
+
+59.4%
+
+Avg: -13.82%
+
+AI Engine
+
+82 trades (48W / 34L)
+
+58.5%
+
+Avg: +1.75%
+
+Hybrid
+
+34 trades (14W / 20L)
+
+41.2%
+
+Avg: +0%
+
+Chart Analysis
+
+11 trades (4W / 7L)
+
+36.4%
+
+Avg: +0.08%
+
+Manual
+
+1 trades (0W / 1L)
+
+0%
+
+Avg: -3.58%
+
+Low Performers Identified
+
+Engines with <40% win rate have been adjusted with confidence penalties.
+
+Data source: All resolved trades with hit_target or hit_stop outcomes. Confidence scores are now adjusted based on these actual performance metrics.
+
+Performance Streak
+Streak Tracker
+Current and historical winning/losing streaks
+Current Streak
+
+13 Win Streak
+Keep the momentum going!
+
+Longest Win Streak
+47
+Longest Loss Streak
+14
+Symbol Leaderboard
+Symbol Leaderboard
+Best and worst performing symbols by win rate (min 20 trades required)
+Top Performers
+5 symbols
+Symbol	Trades	Wins	Losses	Win Rate	Avg Gain	Avg Loss
+BIDU	
+22
+22	0	100.0%	+-104.50%	0.00%
+AMD	
+22
+22	0	100.0%	+-62.50%	0.00%
+SPY	
+20
+20	0	100.0%	+7.50%	0.00%
+NVDA	
+33
+29	4	87.9%	+5.70%	-6.30%
+BTC	
+20
+16	4	80.0%	+4.70%	-3.70%
+Underperformers
+5 symbols
+Symbol	Trades	Wins	Losses	Win Rate	Avg Gain	Avg Loss
+BTC	
+20
+16	4	80.0%	+4.70%	-3.70%
+NVDA	
+33
+29	4	87.9%	+5.70%	-6.30%
+SPY	
+20
+20	0	100.0%	+7.50%	0.00%
+AMD	
+22
+22	0	100.0%	+-62.50%	0.00%
+BIDU	
+22
+22	0	100.0%	+-104.50%	0.00%
+Time-of-Day Performance
+Time of Day Performance
+Win rate by hour during market hours
+9 AM
+10 AM
+11 AM
+12 PM
+1 PM
+2 PM
+3 PM
+4 PM
+0
+25
+50
+75
+100
+Win Rate %
+Market opens at 9:30 AM ET, closes at 4:00 PM ET. Performance measured during regular trading hours only.
+
+Strong (70%+)
+Moderate (40-70%)
+Weak (<40%)
+Signal Calibration
+Signal Performance Analysis
+Historical win rate by signal count
+Signal Strength = How many indicators agree (not probability)
+
+A (5+ signals)
+B+ (4 signals)
+B (3 signals)
+C+ (2 signals)
+C (1 signal)
+D (0 signals)
+Signal Band
+0
+25
+50
+75
+100
+Actual Win Rate %
+A (5+ signals)
+
+9 trades
+
+B+ (4 signals)
+
+9 trades
+
+B (3 signals)
+
+221 trades
+
+C+ (2 signals)
+
+6 trades
+
+C (1 signal)
+
+0 trades
+
+D (0 signals)
+
+61 trades
+
+Calibration Curve
+Calibration Curve
+Predicted confidence vs actual win rate (411 resolved trades)
+NEEDS ADJUSTMENT
+36% Calibrated
+Why This Matters
+
+A well-calibrated system means confidence scores match actual outcomes. If we say 80% confidence, trades should win ~80% of the time. Current avg error: 19%
+
+Calibrated Buckets
+
+5/14
+
+Avg Error
+
+19%
+
+Total Trades
+
+357
+
+22.5%
+42.5%
+47.5%
+52.5%
+57.5%
+62.5%
+67.5%
+72.5%
+77.5%
+82.5%
+87.5%
+92.5%
+97.5%
+102.5%
+Predicted Confidence
+0%
+30%
+60%
+102.5%
+Win Rate
+Perfect CalibrationActual Win Rate
+Best Performing Buckets
+
+100-104%: 100% win (29 trades)
+20-24%: 85% win (61 trades)
+55-59%: 83% win (30 trades)
+Overconfident Buckets (Predicted > Actual)
+
+Loss Patterns
+Loss Patterns Dashboard
+Post-mortem analysis of 12 failed trades
+12
+
+Total Losses
+
+-12.88%
+
+Avg Loss
+
+-154.6%
+
+Total Lost
+
+Top Loss Reasons
+Bad Timing
+10 trades
+-9.83% avg
+Technical Breakdown
+1 trades
+-6.25% avg
+Low Volume Trap
+1 trades
+-50.00% avg
+Losses by Engine
+QuantEngine
+lotto
+AI Engine
+HybridEngine
+Quant Engine
+8(-6.1%)
+lotto
+2(-50.0%)
+AI Engine
+1(-3.0%)
+Hybrid Engine
+1(-3.0%)
+Worst Performing Symbols
+HOOD
+-56.3%
+(2x)
+META
+-50.0%
+(1x)
+AAPL
+-18.8%
+(3x)
+MSFT
+-6.3%
+(1x)
+TSLA
+-6.3%
+(1x)
+AMZN
+-6.3%
+(1x)
+SOL
+-6.0%
+(2x)
+APT
+-4.8%
+(1x)
+📚 Educational Note: Understanding why trades fail is as important as knowing why they succeed. This analysis helps identify patterns in losses to improve future trade selection and risk management.
+Signal Attribution
+Signal Attribution Analytics
+Track which indicators drive winning trades
+
+Top Performing Signals
+60%+ Win Rate
+D
+OPT VOL 2943
+12 trades
+|
+stable
+
+100.0%
+12W / 0L
+Reliability
+74
+D
+ALIGNED 0.9%
+14 trades
+|
+stable
+
+100.0%
+14W / 0L
+Reliability
+74
+D
+HIGH VOL 2.6x
+13 trades
+|
+stable
+
+100.0%
+13W / 0L
+Reliability
+74
+D
+OPTIMAL DELTA 0.12
+15 trades
+|
+improving
+
+86.7%
+13W / 2L
+Reliability
+69
+C
+INTRADAY WEAK
+22 trades
+|
+improving
+
+68.2%
+15W / 7L
+Reliability
+64
+Underperforming Signals
+<50% Win Rate
+D
+VWAP Institutional Flow
+10 trades
+|
+stable
+
+0.0%
+0W / 9L
+Reliability
+3
+D
+premium $0.02M
+11 trades
+|
+stable
+
+0.0%
+0W / 11L
+Reliability
+3
+D
+volume 10 contracts
+12 trades
+|
+stable
+
+0.0%
+0W / 12L
+Reliability
+4
+D
+premium $0.09M
+12 trades
+|
+stable
+
+0.0%
+0W / 12L
+Reliability
+4
+C
+premium $0.03M
+21 trades
+|
+stable
+
+0.0%
+0W / 21L
+Reliability
+6
+All Signals
+1232 tracked
+D
+OPT VOL 2943
+12 trades
+|
+stable
+
+100.0%
+12W / 0L
+Reliability
+74
+D
+ALIGNED 0.9%
+14 trades
+|
+stable
+
+100.0%
+14W / 0L
+Reliability
+74
+D
+HIGH VOL 2.6x
+13 trades
+|
+stable
+
+100.0%
+13W / 0L
+Reliability
+74
+F
+🔥 111132501.0x vol
+2 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+71
+F
+🎯 700%+ potential
+2 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+71
+F
+🔥 210854240.0x vol
+2 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+71
+F
+💎 Sub-penny: $0.000650
+2 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+71
+F
+🔥 58498850.0x vol
+2 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+71
+F
+💎 Sub-penny: $0.000400
+2 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+71
+F
+🎯 9900%+ potential
+4 trades
+|
+stable
+
+100.0%
+2W / 0L
+Reliability
+71
+F
+🔥 73099928.0x vol
+2 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+71
+F
+💎 Sub-penny: $1.00e-6
+4 trades
+|
+stable
+
+100.0%
+2W / 0L
+Reliability
+71
+F
+SWING 8-14DTE
+2 trades
+|
+stable
+
+100.0%
+2W / 0L
+Reliability
+71
+F
+HAS OPT VOLUME
+2 trades
+|
+stable
+
+100.0%
+2W / 0L
+Reliability
+71
+F
+ALIGNED 1.4%
+2 trades
+|
+stable
+
+100.0%
+2W / 0L
+Reliability
+71
+F
+premium $12.11M
+2 trades
+|
+stable
+
+100.0%
+2W / 0L
+Reliability
+71
+F
+HIGH VOL+8
+2 trades
+|
+stable
+
+100.0%
+2W / 0L
+Reliability
+71
+F
+OPTIMAL DELTA 0.09
+3 trades
+|
+stable
+
+100.0%
+3W / 0L
+Reliability
+71
+F
+premium $23.91M
+2 trades
+|
+stable
+
+100.0%
+2W / 0L
+Reliability
+71
+F
+premium $4.18M
+2 trades
+|
+stable
+
+100.0%
+2W / 0L
+Reliability
+71
+F
+premium $22.85M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1327 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $18.29M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 9189 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $63.03M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 19874 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $9.09M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 6243 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $349.41M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 48229 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $14.18M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 23607 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $320.05M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 268187 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $7.56M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1990 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $78.11M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 33450 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $8.90M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 5637 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $13.15M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 22805 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $266.23M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 265692 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 14444 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $40.57M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 22234 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $9.68M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2828 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $22.69M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $18.49M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 9176 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $67.70M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 19444 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $13.42M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 17148 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $332.90M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 46806 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $97.28M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 91683 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $171.48M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 63889 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $15.53M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 4940 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 754 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $13.97M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 16473 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $7.77M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1943 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 13816 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $9.86M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2498 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $177.45M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 105136 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $13.67M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1148 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $76.75M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 33190 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $18.14M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 9134 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $65.01M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 18089 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $304.90M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 44362 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $102.51M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 90628 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $13.33M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 21918 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $262.87M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 183618 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $7.00M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 4241 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+rr 3.3
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $2.93M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 11708 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $87.42M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 32267 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $100.41M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 89360 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $223.44M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 180235 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $6.31M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 33585 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2600 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1845 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $13.94M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 4437 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $39.63M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 20479 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $6.94M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1605 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 653 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1122 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $57.54M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 17652 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $12.77M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $2.47M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 34668 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $166.99M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 235082 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $15.80M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 4186 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 19105 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $79.47M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 26038 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 926 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $89.24M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 24582 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $12.55M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 9508 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $321.89M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 144137 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $27.51M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 3479 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $156.13M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 37118 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $18.22M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 23590 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $780.01M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 60308 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $111.42M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 105632 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 31234 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $344.36M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 293783 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $4.01M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 18316 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $15.23M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 4132 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $80.43M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 24192 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 29853 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $343.70M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 292976 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $29.96M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 6534 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $74.34M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 25833 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 925 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $28.12M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 3413 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $152.47M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 37026 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $18.40M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 22452 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $12.51M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 9387 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $723.71M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 59482 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 3059 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $19.46M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 19304 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $17.00M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 25617 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $347.65M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 271368 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $8.01M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2335 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $4.06M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 16080 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $54.68M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 23707 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 852 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $21.51M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1340 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $127.53M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 35196 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $10.24M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 7115 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $389.55M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 50621 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $95.65M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 94298 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $237.74M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 108739 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 15608 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $10.60M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2957 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $7.87M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2179 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $47.11M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 23238 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $18.34M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 18640 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $100.84M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 93777 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $396.24M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 270779 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $20.36M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 9341 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $76.96M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 20752 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $378.28M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 49249 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 25030 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $254.18M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 108583 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $24.26M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1332 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $113.03M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 34653 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $7.67M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2151 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $3.57M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 14976 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $10.43M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2922 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $108.11M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 34394 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $93.33M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 92655 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 808 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $524.62M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 39962 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+OPTIMAL DELTA 0.11
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $11.39M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 4956 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 15791 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $30.31M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 14779 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $25.55M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 8545 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $4.66M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $18.59M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2418 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $68.79M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 41522 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $43.02M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 30149 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $20.47M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 9386 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 850 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 15158 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $299.51M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 42754 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $13.66M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 21193 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $157.34M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 62799 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $13.36M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 4304 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $46.42M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 19787 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $56.13M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 17473 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $142.63M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 62078 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $178.52M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 176544 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1822 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $2.50M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 11319 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $6.51M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1513 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 647 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $65.63M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 31572 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 4545 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $268.14M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 39594 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $103.71M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 88399 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 20481 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $2.12M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 9614 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $59.76M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 30805 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $91.89M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 85903 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $110.81M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 160419 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $9.71M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 12935 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $4.46M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 33416 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1806 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $34.63M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 19258 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 2044 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 624 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 1112 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $11.73M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 8010 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $50.39M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 16984 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $205.73M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 35330 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $9.58M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 19262 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+premium $90.26M
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+volume 59762 contracts
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+OPTIMAL DELTA+5
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+MONTHLY 31-45DTE
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+HIGH VOL 12.3x
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+R:R 2.5:1
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+TOO FAR OTM
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+HIGH VOL 2.8x
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+OPT VOL 2843
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+OPT VOL 2708
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+ALIGNED 0.8%
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+F
+OPT VOL 2741
+1 trades
+|
+stable
+
+100.0%
+1W / 0L
+Reliability
+70
+D
+OPTIMAL DELTA 0.12
+15 trades
+|
+improving
+
+86.7%
+13W / 2L
+Reliability
+69
+A
+unusual call flow
+1392 trades
+|
+stable
+
+11.7%
+163W / 1229L
+Reliability
+65
+C
+INTRADAY WEAK
+22 trades
+|
+improving
+
+68.2%
+15W / 7L
+Reliability
+64
+C
+PREFERRED SYMBOL
+23 trades
+|
+improving
+
+65.2%
+15W / 8L
+Reliability
+63
+C
+0-2 DTE
+24 trades
+|
+improving
+
+62.5%
+15W / 9L
+Reliability
+62
+F
+premium $0.36M
+3 trades
+|
+stable
+
+66.7%
+2W / 1L
+Reliability
+58
+F
+ABOVE AVG VOL
+6 trades
+|
+stable
+
+50.0%
+3W / 3L
+Reliability
+52
+F
+premium $0.16M
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+volume 1878 contracts
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+volume 3905 contracts
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+premium $11.08M
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+premium $38.36M
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+premium $5.74M
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+volume 3835 contracts
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+PUTS AT HIGHS RISKY
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+volume 1311 contracts
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+premium $6.93M
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+premium $17.09M
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+rr 2.6
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+F
+premium $122.42M
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+51
+D
+Evening Watchlist
+14 trades
+|
+improving
+
+40.0%
+4W / 6L
+Reliability
+50
+B
+Confirmed Volume
+98 trades
+|
+declining
+
+28.6%
+28W / 70L
+Reliability
+49
+B
+High Liquidity
+99 trades
+|
+declining
+
+27.3%
+27W / 72L
+Reliability
+49
+A
+RSI(2) SHORT Mean Reversion
+146 trades
+|
+improving
+
+44.5%
+65W / 81L
+Reliability
+49
+D
+AI Analysis
+15 trades
+|
+improving
+
+36.4%
+4W / 7L
+Reliability
+49
+F
+Option Enriched
+6 trades
+|
+stable
+
+33.3%
+2W / 4L
+Reliability
+45
+F
+R:R 4.0:1
+6 trades
+|
+stable
+
+33.3%
+2W / 4L
+Reliability
+45
+C
+Reversal Setup
+29 trades
+|
+stable
+
+44.8%
+13W / 16L
+Reliability
+45
+B
+Strong Signal
+78 trades
+|
+declining
+
+26.9%
+21W / 57L
+Reliability
+44
+F
+volume 95986 contracts
+3 trades
+|
+stable
+
+33.3%
+1W / 2L
+Reliability
+44
+F
+premium $0.42M
+7 trades
+|
+stable
+
+28.6%
+2W / 5L
+Reliability
+44
+F
+rr 1.6
+3 trades
+|
+stable
+
+33.3%
+1W / 2L
+Reliability
+44
+F
+volume 134 contracts
+3 trades
+|
+stable
+
+33.3%
+1W / 2L
+Reliability
+44
+F
+premium $0.83M
+3 trades
+|
+stable
+
+33.3%
+1W / 2L
+Reliability
+44
+F
+premium $0.96M
+3 trades
+|
+stable
+
+33.3%
+1W / 2L
+Reliability
+44
+F
+premium $13.39M
+3 trades
+|
+stable
+
+33.3%
+1W / 2L
+Reliability
+44
+F
+premium $0.14M
+9 trades
+|
+stable
+
+22.2%
+2W / 7L
+Reliability
+42
+B
+Strong R:R (2:1+)
+56 trades
+|
+improving
+
+32.1%
+18W / 38L
+Reliability
+41
+D
+Price Confirmation
+10 trades
+|
+stable
+
+20.0%
+2W / 8L
+Reliability
+41
+F
+premium $0.44M
+4 trades
+|
+stable
+
+25.0%
+1W / 3L
+Reliability
+41
+F
+premium $0.12M
+4 trades
+|
+stable
+
+25.0%
+1W / 3L
+Reliability
+41
+D
+Strong MACD Signal
+10 trades
+|
+improving
+
+40.0%
+4W / 6L
+Reliability
+41
+D
+premium $0.06M
+13 trades
+|
+improving
+
+15.4%
+2W / 11L
+Reliability
+40
+F
+rr 2.3
+5 trades
+|
+stable
+
+20.0%
+1W / 4L
+Reliability
+40
+F
+premium $3.84M
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+39
+F
+premium $0.15M
+7 trades
+|
+stable
+
+14.3%
+1W / 6L
+Reliability
+38
+D
+premium $0.05M
+16 trades
+|
+improving
+
+6.3%
+1W / 15L
+Reliability
+37
+F
+premium $3.70M
+2 trades
+|
+stable
+
+50.0%
+1W / 1L
+Reliability
+37
+B
+Partial Timeframe Support
+73 trades
+|
+declining
+
+19.2%
+14W / 59L
+Reliability
+35
+D
+Strong Bearish Momentum
+19 trades
+|
+declining
+
+15.8%
+3W / 16L
+Reliability
+32
+B
+price strong
+89 trades
+|
+declining
+
+6.7%
+6W / 83L
+Reliability
+30
+A
+RSI(2) Mean Reversion
+133 trades
+|
+stable
+
+0.0%
+0W / 133L
+Reliability
+30
+A
+unusual put flow
+270 trades
+|
+stable
+
+0.0%
+0W / 270L
+Reliability
+30
+B
+catalyst standard
+81 trades
+|
+stable
+
+7.4%
+6W / 75L
+Reliability
+29
+C
+Moderate Signal
+46 trades
+|
+stable
+
+17.4%
+8W / 38L
+Reliability
+26
+C
+Technical Indicator Confirmed
+36 trades
+|
+improving
+
+22.2%
+8W / 28L
+Reliability
+26
+F
+rr 1.7
+4 trades
+|
+stable
+
+25.0%
+1W / 3L
+Reliability
+25
+D
+⚠️ Move Already Extended
+13 trades
+|
+declining
+
+30.8%
+4W / 9L
+Reliability
+25
+C
+Moderate R:R
+27 trades
+|
+declining
+
+22.2%
+6W / 21L
+Reliability
+24
+C
+Excellent R:R (3:1+)
+49 trades
+|
+stable
+
+12.2%
+6W / 43L
+Reliability
+24
+D
+Late MACD
+15 trades
+|
+declining
+
+26.7%
+4W / 11L
+Reliability
+23
+C
+Strong Trend
+35 trades
+|
+declining
+
+14.3%
+5W / 30L
+Reliability
+21
+B
+asset crypto
+54 trades
+|
+stable
+
+5.6%
+3W / 51L
+Reliability
+20
+F
+R:R 2.0:1
+6 trades
+|
+stable
+
+25.0%
+1W / 3L
+Reliability
+19
+C
+hybrid quant ai
+39 trades
+|
+stable
+
+7.7%
+3W / 36L
+Reliability
+16
+C
+asset stock
+35 trades
+|
+stable
+
+8.6%
+3W / 32L
+Reliability
+15
+C
+rr 2.0
+43 trades
+|
+stable
+
+2.3%
+1W / 42L
+Reliability
+14
+F
+Timeframes Aligned (Strong)
+8 trades
+|
+stable
+
+12.5%
+1W / 7L
+Reliability
+14
+F
+Adequate Liquidity
+6 trades
+|
+stable
+
+16.7%
+1W / 5L
+Reliability
+14
+C
+Above Avg Volume
+28 trades
+|
+stable
+
+3.6%
+1W / 27L
+Reliability
+13
+F
+Volume Spike Early Entry
+8 trades
+|
+stable
+
+12.5%
+1W / 7L
+Reliability
+13
+D
+Low Liquidity Risk
+19 trades
+|
+declining
+
+5.3%
+1W / 18L
+Reliability
+12
+C
+Penny Stock (<$5)
+38 trades
+|
+stable
+
+0.0%
+0W / 38L
+Reliability
+11
+D
+premium $0.08M
+14 trades
+|
+improving
+
+7.1%
+1W / 13L
+Reliability
+9
+D
+🧠 ML-Boosted
+17 trades
+|
+stable
+
+5.9%
+1W / 16L
+Reliability
+9
+C
+premium $0.01M
+26 trades
+|
+stable
+
+0.0%
+0W / 26L
+Reliability
+8
+C
+premium $0.03M
+21 trades
+|
+stable
+
+0.0%
+0W / 21L
+Reliability
+6
+D
+volume 10 contracts
+12 trades
+|
+stable
+
+0.0%
+0W / 12L
+Reliability
+4
+D
+premium $0.09M
+12 trades
+|
+stable
+
+0.0%
+0W / 12L
+Reliability
+4
+D
+VWAP Institutional Flow
+10 trades
+|
+stable
+
+0.0%
+0W / 9L
+Reliability
+3
+F
+intraday strength
+9 trades
+|
+stable
+
+0.0%
+0W / 9L
+Reliability
+3
+D
+premium $0.02M
+11 trades
+|
+stable
+
+0.0%
+0W / 11L
+Reliability
+3
+F
+premium $0.07M
+9 trades
+|
+stable
+
+0.0%
+0W / 9L
+Reliability
+3
+F
+rr 2.5
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+volume 30 contracts
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+volume 600 contracts
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+volume 500 contracts
+7 trades
+|
+stable
+
+0.0%
+0W / 7L
+Reliability
+2
+F
+premium $0.30M
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+volume 233 contracts
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+premium $0.17M
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+volume 5 contracts
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+option has volume
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+premium $1.01M
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+volume 348 contracts
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+volume 276 contracts
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+RSI Divergence Setup
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+premium $0.04M
+7 trades
+|
+stable
+
+0.0%
+0W / 7L
+Reliability
+2
+F
+volume 43 contracts
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+rr 2.7
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+rr 1.9
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+catalyst news
+8 trades
+|
+stable
+
+0.0%
+0W / 8L
+Reliability
+2
+F
+rr 1.8
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+premium $0.00M
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+volume 2 contracts
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+premium $0.56M
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+near 52w low call risky
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+premium $181.06M
+7 trades
+|
+stable
+
+0.0%
+0W / 7L
+Reliability
+2
+F
+volume 579255 contracts
+7 trades
+|
+stable
+
+0.0%
+0W / 7L
+Reliability
+2
+F
+premium $82.70M
+7 trades
+|
+stable
+
+0.0%
+0W / 7L
+Reliability
+2
+F
+volume 151846 contracts
+7 trades
+|
+stable
+
+0.0%
+0W / 7L
+Reliability
+2
+F
+bullish range position
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+weekly dte
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+very far otm
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+premium $0.24M
+5 trades
+|
+stable
+
+0.0%
+0W / 5L
+Reliability
+2
+F
+premium $0.20M
+7 trades
+|
+stable
+
+0.0%
+0W / 7L
+Reliability
+2
+F
+premium $0.18M
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+volume 100 contracts
+6 trades
+|
+stable
+
+0.0%
+0W / 6L
+Reliability
+2
+F
+premium $1.63M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.26M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 76300 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 1453 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 8933 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $50.93M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 6249 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 491 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 709 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $17.23M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+🧠 ML-Adjusted
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 11992 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $28.38M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $3.96M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 1037 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+premium $9.06M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $20.66M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+🎯 Extreme RSI Divergence
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 2247 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 132 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 400 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 1 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 176 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 1300 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 205 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 52 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+Hybrid (AI+Quant)
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+BEARISH TREND
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 510 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+premium $15.10M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.81M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.24M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 3485 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.33M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $1.88M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+close to money
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+day trade dte
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 122 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $5.91M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 68 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+GOOD MOMENTUM 2.0%
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+OPTIMAL DELTA 0.15
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.37M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 217 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.47M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 5257 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 393 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.60M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $3.29M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $15.46M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.62M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+premium $3.90M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.41M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $14.94M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 608 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $3.92M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 779 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $4.75M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $2.08M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $16.80M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 198 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $5.90M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 399 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 781 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.10M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $6.59M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.38M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.95M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 266 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 120 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.94M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 562 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.20M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 1335 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.49M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $1.19M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $10.25M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $6.49M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 356 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.16M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $2.26M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 174 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 298 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.35M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 300 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.11M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 71 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 3010 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 8 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.73M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.53M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.68M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 104 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.22M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 310 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+premium $1.45M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 75 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.29M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 1079 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 959 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 1088 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.66M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+premium $1.08M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 108 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.40M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.28M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 40 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 112 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 650 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+premium $0.39M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 362 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.66M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 450 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 170 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.13M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 101 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.84M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+premium $0.72M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 110 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 179 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.31M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.67M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 14 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 66 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.59M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+BULLISH TREND
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 20 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 203 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $3.16M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 305 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 997 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 421 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.75M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 244 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 4461 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.26M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 91 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.21M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+premium $0.78M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 56 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.09M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 127 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $7.64M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $33.58M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.81M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 318 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 3024 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 130 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.81M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 41 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $0.27M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 350 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.52M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 9 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 312 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 451 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.97M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 21 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 128 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 282 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 250 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $2.82M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.38M
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 1208 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.19M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 4187 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 61 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.45M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+premium $7.99M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 212 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 7691 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $4.89M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 70 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 159 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 150 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 1021 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 3825 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.74M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 303 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 16 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.02M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $43.25M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 313 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 316 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.78M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 87 contracts
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 156 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 81 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 472 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.52M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 200 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 190 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 5904 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 3255 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $5.43M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $3.11M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 376 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 1033 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.24M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.11M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 473 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.10M
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+neutral momentum
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+high volume 2.3x
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+momentum aligned 2.2%
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $238.76M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+rr 2.1
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+Timeframes Aligned
+3 trades
+|
+stable
+
+0.0%
+0W / 3L
+Reliability
+1
+F
+volume 15531 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 745 contracts
+4 trades
+|
+stable
+
+0.0%
+0W / 4L
+Reliability
+1
+F
+volume 4829 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $9.36M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 1396 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 917 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $2.75M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 13515 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 210 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.54M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 2645 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $76.41M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 407 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.82M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+rr 3.0
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $4.04M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $112.21M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 4032 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $53.60M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 1409 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $3.75M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 1751 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $7.17M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $3.06M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 1697 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $10.63M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 539 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 3193 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 972 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 2524 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 589 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $19.16M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $25.34M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $4.15M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 1418 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.64M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $139.23M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $8.34M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $32.14M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 2679 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $42.20M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 6805 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $1.58M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 644 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 12211 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 424 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+volume 17236 contracts
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $39.89M
+2 trades
+|
+stable
+
+0.0%
+0W / 2L
+Reliability
+1
+F
+premium $0.34M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 230 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 148 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 228 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 180 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.37M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 329 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.80M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1155 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 880 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $23.45M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 13981 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3885 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $205.48M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 238211 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $8.50M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1307 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 659 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 344 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.89M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2162 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.52M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $53.18M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1150 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.21M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 340 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+option volume 6903
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+high volume 13.2x
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+strong momentum 5.1%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 51 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $160.02M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 218799 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $24.65M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2449 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 317 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $5.02M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3020 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.43M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 403 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2161 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 482 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $154.71M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 347831 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.55M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $21.68M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7409 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $2.21M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $155.73M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 79313 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPT VOL 5924
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+INTRADAY STRONG
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+ALIGNED 1.1%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 440 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $90.79M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 53646 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 160 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $68.82M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 191921 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 985 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.37M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 337 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 229 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.06M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 138 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $248.78M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 128732 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.70M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 327 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1050 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.77M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4111 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.99M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 99 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $15.75M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1094 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $2.07M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.73M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.44M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 334 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.23M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 698 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2061 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 22 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 42 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 320 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2895 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1835 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 12 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $2.09M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1904 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $3.30M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.98M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3099 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $11.20M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 11737 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $371.71M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 26827 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2040 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 193 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 69 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $15.17M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 635 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.88M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2413 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $3.74M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3593 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPT VOL 21596
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPTIMAL DELTA 0.13
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+HIGH VOL 2.5x
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+GOOD MOMENTUM 1.6%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $18.45M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 5897 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 86 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2737 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 840 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.48M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3307 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7119 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 94 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3063 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 189 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $216.39M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 150522 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 80 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.50M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 13139 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.91M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1902 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.62M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1009 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $36.60M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 5185 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $18.95M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 11533 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1034 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1714 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $5.51M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 12975 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $14.92M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6618 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $12.16M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 13919 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $8.67M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2401 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $239.23M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 15831 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $106.81M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 84442 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $10.98M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 33050 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $3.56M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2375 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $2.61M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1607 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $540.00M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $25.74M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $23.78M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $82.56M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2622 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $101.98M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 757 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $184.19M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 734 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $292.30M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $50.77M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $46.01M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 99328 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $129.61M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.39M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $64.56M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 355 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $8.31M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 357 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $10.91M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 575 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $92.04M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1200 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $195.07M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1630 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $452.71M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $17.71M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2173 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1258.65M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $31.60M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 495 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $59.64M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $40.14M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $30.68M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $49.97M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 171 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $36.73M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $79.92M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $43.17M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+rr 2.9
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+ALIGNED 1.5%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPT VOL 1753
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+ALIGNED 0.6%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPTIMAL DELTA 0.08
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPT VOL 2510
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+R:R 2.1:1
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2182 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $190.59M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+GOOD MOMENTUM 1.9%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPT VOL 1964
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.41M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 44780 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 14419 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3260 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1779 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $2.13M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4215 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $36.98M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 63 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2110 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 508 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+strong momentum 10.5%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+high volume 2.9x
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+option volume 2576
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.32M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 20486 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4054 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2948 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $3.33M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2260 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 107 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 80323 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3415 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.94M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPT VOL 1178
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+strong momentum 6.0%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+optimal delta 0.14
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 56356 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $34.35M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 34811 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $5.39M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 117445 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $54.96M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 201 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4647 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $3.78M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1885 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.32M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2273 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.22M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 223 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.93M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2379 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.18M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 41300 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.31M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.77M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2294 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.66M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.46M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $8.36M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 5856 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4340 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $10.59M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6761 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $14.85M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 38506 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+optimal delta 0.09
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+strong momentum 14.0%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $15.15M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 202 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10034 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.46M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 188 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $42.18M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 52907 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1522 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $82.48M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6991 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.56M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.89M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.83M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 957 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $8.76M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2710 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $2.76M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2003 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $9.19M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2276 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.79M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.34M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 184 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7758 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $23.69M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 513 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $14.79M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1482 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $16.95M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10558 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $20.42M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 800 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $13.29M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7035 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $21.29M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.34M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3511 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.97M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7791 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $13.10M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 8814 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $12.63M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 8660 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $16.11M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1472 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $13.51M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7017 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3477 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $2.33M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.76M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7719 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $16.45M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10540 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $15.95M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2346 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.38M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3427 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $15.05M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2334 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $43.20M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 181353 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 58 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $14.97M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 215 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $12.17M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6896 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $18.92M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $2.17M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.31M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7598 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $17.11M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10524 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $285.67M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10380 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $12.22M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 8380 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $13.99M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 85465 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3299 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.60M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7525 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $9.84M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7328 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $17.60M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $5.33M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3199 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10448 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $13.52M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2327 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $9.49M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6941 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $12.68M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 78943 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3487 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 165 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 397 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $16.21M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10508 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $14.32M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2333 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $12.79M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 83285 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $13.22M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2325 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $11.70M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 74098 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $42.87M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 136524 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $5.36M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 627 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $5.17M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 98459 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3115 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7254 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $8.93M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6700 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $16.31M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7029 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $40.20M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 130039 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.71M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2978 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $15.64M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10306 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $12.14M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2316 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.95M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6479 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $12.06M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 72595 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPT VOL 1606
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+GOOD MOMENTUM 2.1%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.12M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6916 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $9.96M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 66558 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $10.89M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 209 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 549 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $14.81M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 719 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.41M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2875 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10196 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $10.04M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2311 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6209 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.63M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 5836 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $43.70M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 104171 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2598 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 395 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $189.99M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10241 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.39M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 12754 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10157 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $10.03M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2310 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $9.04M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 55147 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 6550 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $34.48M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 93543 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $10.15M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 269 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $5.38M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 5363 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.72M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 49976 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $32.23M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 79566 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.60M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 373 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 707 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 241 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.76M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4769 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $0.32M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $47.81M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 5302 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $69.14M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 41963 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 342 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 181 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $13.93M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2241 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.52M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 10049 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $58.05M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 16539 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $307.44M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 97978 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1160 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $23.65M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.47M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1518 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 323 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $23.20M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $249.12M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 88800 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $424.98M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 60069 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $3.02M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4025 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $36.96M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 38157 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+strong momentum 4.4%
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 106 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $20.62M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 605 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.61M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1245 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 375 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $42.27M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 5211 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $18.54M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2626 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $432.81M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 154518 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $55.21M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 7284 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+rr 2.2
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 328 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $3.13M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 456 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $179.17M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 82589 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $6.83M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1076 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPT VOL 18132
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+OPTIMAL DELTA 0.10
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+HIGH VOL 11.2x
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $39.64M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1090 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $493.68M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 122736 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1145 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $323.31M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 84867 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4368 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $24.58M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1203 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 408 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2473 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 79 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $1.50M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $3.76M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $7.61M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $116.55M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 21114 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $11.19M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 3109 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $4.19M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $5.13M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 1161 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $3.20M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2196 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $16.58M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 14072 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $21.52M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 11125 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 16287 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $58.09M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 2113 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 4986 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 366 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 207 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+premium $32.20M
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 9257 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+F
+volume 697 contracts
+1 trades
+|
+stable
+
+0.0%
+0W / 1L
+Reliability
+0
+Last updated: 1/3/2026, 10:04:32 PM
+
+Dynamic Signal Weights
+Dynamic Signal Weights
+Active
+1232
+Total
+326
+Boosted
+79
+Reduced
+827
+Neutral
+Signal Distribution
+26% boosted
+Boosted
+Reduced
+?
+🎯 9900%+ potential
+100% / 4
+2.00x
+?
+💎 Sub-penny: $1.00e-6
+100% / 4
+2.00x
+?
+OPTIMAL_DELTA_0.09
+100% / 3
+2.00x
+?
+premium_$12.11M
+100% / 2
+2.00x
+?
+premium_$4.18M
+100% / 2
+2.00x
+?
+premium_$23.91M
+100% / 2
+2.00x
+?
+ALIGNED_1.4%
+100% / 2
+2.00x
+?
+HAS_OPT_VOLUME
+100% / 2
+2.00x
+Freedom + Optimization: Weights adjust influence, never reject signals. Override any signal manually to catch new patterns.
+
+All Time
+
+All Engines
+Educational Research Only: Pattern analysis and market research for educational purposes. NOT financial advice. YOU decide your own entries, exits, and risk. Past patterns do not guarantee future results.
+QuantEdge Research
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only
+0%

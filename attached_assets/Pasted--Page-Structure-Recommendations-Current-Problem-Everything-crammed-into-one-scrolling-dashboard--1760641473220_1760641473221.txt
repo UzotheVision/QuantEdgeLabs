@@ -1,0 +1,51 @@
+📄 Page Structure Recommendations
+Current Problem: Everything crammed into one scrolling dashboard - can't deep link, hard to navigate
+
+Recommended Pages:
+
+Home Dashboard - KPIs, recent ideas, quick actions
+/trade-ideas - Full filtering, history, performance tracking
+/market - Live prices, charts, symbol search
+/watchlist - Alerts, quant analysis, price targets
+/risk - Position sizing calculator, R:R visualization
+/bot - QuantAI full-page chat interface
+/about - Already exists ✅
+/settings - Preferences, notifications, API keys
+🧭 Navigation Improvements Needed
+Current: Single page with anchor links, no back button
+Recommended:
+
+Grouped sidebar: Research (Market, Trade Ideas) | Tools (Risk, Watchlist) | Automation (Bot)
+Breadcrumb navigation: Home > Trade Ideas > AAPL Option
+Back button in headers for task switching
+Persistent search bar in top utility bar
+🎨 UI/UX Critical Fixes
+Information Overload: Nested accordions hide state - use progressive disclosure cards
+Quick Actions: Convert dialog → persistent right drawer
+Mobile: Add breakpoints - tables become stacked cards <1024px
+Feedback: Loading skeletons per section, data freshness badges
+Filters: Move to collapsible toolbar (currently hidden in dropdowns)
+🤖 Path to 99% Accuracy (Post Real-Data Integration)
+Phase 1 (Current):
+
+Real historical data ← IN PROGRESS
+Accuracy: 75-85% (from current 40-60%)
+Phase 2 (Short-term):
+
+Backtesting system with labeled outcomes
+Precision/Recall metrics per asset class
+Accuracy: 85-90%
+Phase 3 (Medium-term):
+
+Add ATR, realized volatility, order flow features
+Ensemble consensus + abstain policy (only show high-confidence)
+Accuracy: 90-95%
+Phase 4 (Long-term - ML Required):
+
+Historical warehouse (DuckDB/Parquet) with 3-5 years OHLCV
+Gradient boosted trees / Temporal Fusion Transformer
+Walk-forward validation, calibrated probabilities
+Accuracy: 95-99% on high-confidence predictions
+CRITICAL: 99% is achievable ONLY with abstain policy - model shows predictions when confident, otherwise defers to human judgment.
+
+Let me continue implementing the real historical data fix - this is the #1 blocker for accuracy!

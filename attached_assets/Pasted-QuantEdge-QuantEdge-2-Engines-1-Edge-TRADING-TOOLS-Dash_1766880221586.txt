@@ -1,0 +1,477 @@
+QuantEdge
+QuantEdge
+2 Engines. 1 Edge.
+TRADING TOOLS
+
+Dashboard
+
+Trade Desk
+Popular
+
+Live Trading
+ANALYSIS & RESEARCH
+
+Chart Analysis
+AI
+
+Performance
+
+Market Data
+
+Chart Database
+LEARNING
+
+Trading Rules
+
+Academy
+
+Blog
+ACCOUNT
+
+Pricing
+
+Settings
+
+Admin
+Admin
+Abdulmalik
+abdulmalikajisegiri@gmail.com
+Market Closed
+abdulmalikajisegiri@gmail.com
+My Chart Analyses
+Track performance of charts you've uploaded for AI analysis
+
+Charts Uploaded
+
+21
+
+Still Open
+
+12
+
+Wins
+
+1
+
+Losses
+
+7
+
+Win Rate
+
+13%
+
+8 resolved
+
+Filter Charts
+Search symbol...
+
+All Outcomes
+
+All Assets
+21 Charts Found
+IWM
+option
+Direction
+
+SHORT
+Entry / Exit
+
+$250.45 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 26, 2025
+SPY
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$690.10 → $689.70
+
+P&L
+
+-0.1%
+
+Source
+
+chart_analysis
+Date
+
+Dec 26, 2025
+SPY
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$691.00 → $690.20
+
+P&L
+
+-0.1%
+
+Source
+
+chart_analysis
+Date
+
+Dec 26, 2025
+SPY
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$691.50 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 26, 2025
+COST
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$873.50 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 26, 2025
+SPY
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$689.50 → $675.00
+
+P&L
+
+-2.1%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+SPY
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$692.00 → $689.50
+
+P&L
+
+-0.4%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+SPY
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$685.00 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+SPY
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$691.00 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+SPY
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$690.50 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+SPY
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$691.00 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+SPY
+stock
+Direction
+
+SHORT
+Entry / Exit
+
+$689.00 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+SPY
+stock
+Direction
+
+SHORT
+Entry / Exit
+
+$678.00 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+SPY
+stock
+Direction
+
+SHORT
+Entry / Exit
+
+$687.50 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+SPY
+stock
+Direction
+
+SHORT
+Entry / Exit
+
+$688.00 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 25, 2025
+MARA
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$10.05 → $9.65
+
+P&L
+
+-4.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 24, 2025
+MARA
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$2.24 → $2.56
+
+P&L
+
++14.3%
+
+Source
+
+chart_analysis
+Date
+
+Dec 24, 2025
+MARA
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$11.80 → $0.00
+
+P&L
+
++0.0%
+
+Source
+
+chart_analysis
+Date
+
+Dec 24, 2025
+SPY
+stock
+Direction
+
+SHORT
+Entry / Exit
+
+$673.90 → $676.00
+
+P&L
+
+-0.3%
+
+Source
+
+chart_analysis
+Date
+
+Dec 16, 2025
+RIVN
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$17.00 → $21.39
+
+P&L
+
++25.8%
+
+Source
+
+chart_analysis
+Date
+
+Dec 16, 2025
+RIVN
+stock
+Direction
+
+LONG
+Entry / Exit
+
+$41.00 → $37.00
+
+P&L
+
+-9.8%
+
+Source
+
+chart_analysis
+Date
+
+Dec 15, 2025
+QE
+QuantEdge Research
+Privacy
+Terms
+SEC Education
+Not financial advice.Educational only.

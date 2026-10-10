@@ -1,0 +1,323 @@
+<title>QuantEdge Field Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    color-scheme: dark;
+    --ground: #0a0c10;
+    --panel: #10141b;
+    --rule: #1b2028;
+    --text: #e6e8ec;
+    --soft: #aab2bf;
+    --dim: #6b7482;
+    --cyan: #4fd1c5;
+    --green: #2ee6a8;
+    --red: #ff5d73;
+    --amber: #e8b34b;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  html { background: var(--ground); }
+  body {
+    background: var(--ground); color: var(--text);
+    font: 16px/1.65 var(--sans);
+    padding-inline: 20px; padding-block: 48px 72px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; display: grid; gap: 56px; }
+  h1, h2, h3 { font-family: var(--mono); text-wrap: balance; margin: 0; }
+  h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  h1 .slash { color: var(--cyan); }
+  h2 { font-size: 20px; font-weight: 800; letter-spacing: -0.01em; }
+  h3 { font-size: 14px; font-weight: 600; color: var(--cyan); letter-spacing: 0.02em; }
+  p { margin: 0; max-width: 64ch; color: var(--soft); }
+  p strong, li strong { color: var(--text); font-weight: 600; }
+  .eyebrow { font: 600 11px/1 var(--mono); letter-spacing: 0.16em; text-transform: uppercase; color: var(--dim); }
+  section { display: grid; gap: 16px; }
+  a { color: var(--cyan); text-underline-offset: 3px; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-radius: 3px; }
+  code, .mono { font-family: var(--mono); font-size: 0.9em; }
+  ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; color: var(--soft); max-width: 64ch; }
+
+  header.top { display: grid; gap: 16px; }
+  .access { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .url {
+    font: 600 15px var(--mono); color: var(--green);
+    padding: 8px 12px; border: 1px solid var(--rule); border-radius: 6px; background: var(--panel);
+    user-select: all;
+  }
+  .copy {
+    font: 600 11px var(--mono); letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ground); background: var(--cyan); border: 0; border-radius: 6px;
+    padding: 10px 14px; cursor: pointer; min-height: 38px;
+  }
+
+  /* ── the specimen card ── */
+  .specimen { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  @media (min-width: 720px) { .specimen { grid-template-columns: minmax(0, 360px) minmax(0, 1fr); align-items: start; } }
+  .card {
+    background: var(--panel); border: 1px solid var(--rule); border-left: 3px solid var(--green);
+    border-radius: 8px; padding: 18px 16px; font-family: var(--mono); display: grid; gap: 12px;
+  }
+  .card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .sym { font-size: 22px; font-weight: 800; }
+  .band { font-size: 12px; font-weight: 800; color: var(--green); }
+  .row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 11px; }
+  .pill { padding: 2px 8px; border-radius: 4px; border: 1px solid var(--rule); color: var(--soft); font-size: 10.5px; }
+  .pill.pending { color: var(--amber); border-color: rgba(232,179,75,.35); background: rgba(232,179,75,.07); }
+  .pill.bull { color: var(--green); border-color: rgba(46,230,168,.3); }
+  .chip { padding: 2px 6px; border-radius: 3px; font-size: 10px; background: rgba(79,209,197,.08); color: var(--cyan); }
+  .chip.neg { background: rgba(255,93,115,.08); color: var(--red); }
+  .levels { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; font-variant-numeric: tabular-nums; }
+  .levels div { display: grid; gap: 2px; }
+  .levels .k { font-size: 9.5px; color: var(--dim); letter-spacing: .08em; }
+  .levels .v { font-size: 12.5px; font-weight: 600; }
+  .v.stop { color: var(--red); }
+  .tape { font-size: 11px; color: var(--green); }
+  .mark { color: var(--ground); background: var(--cyan); font: 800 10px var(--mono); border-radius: 50%; width: 17px; height: 17px; display: inline-grid; place-items: center; flex: none; }
+  .legend { list-style: none; padding: 0; display: grid; gap: 14px; }
+  .legend li { display: grid; grid-template-columns: 17px 1fr; gap: 12px; align-items: start; }
+  .legend .mark { margin-top: 4px; }
+
+  /* tables */
+  .table-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 520px; }
+  th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  th { font: 600 10.5px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--dim); background: var(--panel); }
+  td:first-child { font-family: var(--mono); font-weight: 600; color: var(--text); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  td { color: var(--soft); }
+
+  .bands { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+  .bands div { padding: 12px 14px; border: 1px solid var(--rule); border-radius: 6px; display: grid; gap: 4px; }
+  .bands b { font: 800 18px var(--mono); }
+  .bands span { font-size: 13px; color: var(--soft); }
+  .S b { color: var(--green); } .A b { color: var(--cyan); } .B b { color: var(--amber); } .C b { color: var(--dim); }
+
+  .rules { display: grid; gap: 10px; }
+  .rules p { padding-left: 14px; border-left: 2px solid var(--rule); }
+
+  footer { font: 12px/1.6 var(--mono); color: var(--dim); border-top: 1px solid var(--rule); padding-top: 20px; }
+  @media (prefers-reduced-motion: no-preference) { .copy { transition: filter .15s; } .copy:hover { filter: brightness(1.1); } }
+
+  .toc { display: flex; flex-wrap: wrap; gap: 6px 14px; font: 600 12px var(--mono); padding-block: 12px; border-block: 1px solid var(--rule); }
+  .toc a { text-decoration: none; color: var(--soft); }
+  .toc a:hover { color: var(--cyan); }
+  .gloss { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px 20px; }
+  @media (min-width: 640px) { .gloss { grid-template-columns: 200px minmax(0, 1fr); } }
+  .gloss dt { font: 600 13px var(--mono); color: var(--text); padding-top: 10px; }
+  .gloss dd { margin: 0; color: var(--soft); padding-block: 10px; border-bottom: 1px solid var(--rule); }
+  section[aria-labelledby] { scroll-margin-top: 16px; }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <span class="eyebrow">Field guide · for invited members</span>
+    <h1>QUANTEDGE <span class="slash">//</span> how to read the terminal</h1>
+    <p>QuantEdge is a trading research terminal that only shows you what it measured. Every idea on the board comes from a scanner that found something real — options flow bought at the ask, a dated bottom, a pullback inside an uptrend — and every card says exactly what it found, what would prove it wrong, and what argues against it.</p>
+    <div class="access">
+      <span class="url" id="site-url">https://quantedgelabs.net</span>
+      <button class="copy" id="copy-url" type="button">Copy link</button>
+    </div>
+    <p>Sign up with your email and the invite code you were sent. On iPhone, open it in Safari → Share → <strong>Add to Home Screen</strong> and it runs full-screen like an app.</p>
+  </header>
+
+  <nav class="toc" aria-label="Sections">
+    <a href="#routine">Your day</a><a href="#card-h">Read a card</a><a href="#scanners">Scanners</a><a href="#repriced">Your contract, now</a><a href="#budget-h">Fit my budget</a><a href="#glossary">Glossary</a><a href="#limits">Limits</a>
+  </nav>
+
+
+  <section aria-labelledby="routine">
+    <span class="eyebrow">A routine that uses it well</span>
+    <h2 id="routine">Your trading day with QuantEdge</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>When (CT)</th><th>Do this</th></tr></thead>
+        <tbody>
+          <tr><td>Night before</td><td>Open <span class="mono">/slate</span>. Tonight's cards are <strong>pending triggers</strong> — write down the entry and stop for the one or two you like. Nothing is a trade yet.</td></tr>
+          <tr><td>7:45 AM</td><td>Check the ORACLE feed for pre-market movers on the favorites. A gap through your stop overnight cancels the idea before the open.</td></tr>
+          <tr><td>8:30 – 8:45</td><td>Let the open settle. The first flow sweep lands at 8:40 — cards gain or lose their TAPE chip.</td></tr>
+          <tr><td>When a trigger prints</td><td>Open the idea. Read <strong>Your contract, repriced now</strong> — odds, theta, expected move. Then <strong>Fit my budget</strong> for the contract you can size.</td></tr>
+          <tr><td>In the trade</td><td>The stop is the thesis. If price closes through it, the idea is wrong — the card will say <em>invalidated</em>.</td></tr>
+          <tr><td>At T1</td><td>Take something. T1 is the first real level, not the ceiling — the card's profit plan says what's next.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="card-h">
+    <span class="eyebrow">The one thing to learn</span>
+    <h2 id="card-h">Anatomy of a card</h2>
+    <p>Everything on the board is a card like this one. In the terminal, tap <strong>explain cards</strong> above the board to see these same numbers on every live card.</p>
+    <div class="specimen">
+      <div class="card" aria-label="Example card: MSFT">
+        <div class="card-head"><span class="sym">MSFT</span><span class="band">A · 24 <span class="mark" aria-hidden="true">1</span></span></div>
+        <div class="row"><span class="pill bull">▲ BULL · swing</span><span class="pill pending">PENDING TRIGGER <span class="mark" aria-hidden="true">2</span></span></div>
+        <div class="row"><span class="chip">TEC +6</span><span class="chip">REG +5</span><span class="chip">STR +4</span><span class="chip neg">TAPE −7</span> <span class="mark" aria-hidden="true">3</span></div>
+        <div class="levels">
+          <div><span class="k">ENTRY</span><span class="v">502.09</span></div>
+          <div><span class="k">STOP</span><span class="v stop">491.33</span></div>
+          <div><span class="k">T1</span><span class="v">517.78</span></div>
+          <div><span class="k">R:R</span><span class="v">1.5</span></div>
+        </div>
+        <div class="row"><span class="mark" aria-hidden="true">4</span></div>
+        <div class="tape">TAPE ✓ +$5.2M net bought today <span class="mark" aria-hidden="true">5</span></div>
+      </div>
+      <ol class="legend">
+        <li><span class="mark">1</span><p><strong>Band and score.</strong> S is the strongest, then A, B, C. The number is the total of every evidence layer — higher means more independent reasons agree.</p></li>
+        <li><span class="mark">2</span><p><strong>Status.</strong> <em>Pending trigger</em> means it is not a trade yet — it only becomes one if price takes out the entry during market hours. <em>In play</em> means the trigger printed.</p></li>
+        <li><span class="mark">3</span><p><strong>Evidence layers.</strong> Each chip is one measured reason: technicals, market regime, structure, gamma, sector. Red chips argue <em>against</em> the idea and subtract points — the card shows you both sides.</p></li>
+        <li><span class="mark">4</span><p><strong>Levels.</strong> The stop is always a price that actually printed on the chart. T1 is a real level or a plainly stated 2R — never an invented number.</p></li>
+        <li><span class="mark">5</span><p><strong>The tape.</strong> Options flow measured from real fills. ✓ means big money is buying with the idea; ✗ means it is selling against it.</p></li>
+      </ol>
+    </div>
+  </section>
+
+
+  <section aria-labelledby="scanners">
+    <span class="eyebrow">Where ideas come from</span>
+    <h2 id="scanners">The scanners, and what can stop them</h2>
+    <p>Every card is published by one of these. Each has an evidence bar it must clear — and a veto that can block it even when the pattern looks perfect.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Scanner</th><th>It publishes when…</th><th>It is blocked when…</th></tr></thead>
+        <tbody>
+          <tr><td>Aggressor tape</td><td>$8M+ of options premium is <em>bought</em> (long) or <em>sold</em> (short) in one name today — or $5M+ with the chart independently confirming.</td><td>The flow is two-sided, or the name was already carded today.</td></tr>
+          <tr><td>Bottom reversal</td><td>A stock that fell 10%+ prints a dated bottom and then a higher-lows base or a sharp V-recovery. Liquid names only.</td><td>The options tape leans short against it.</td></tr>
+          <tr><td>Leader swing</td><td>A benchmark name (mega caps, semis, software, optics…) pulls back 2–9% while above a rising 50-day average.</td><td>Big money is selling the dip.</td></tr>
+          <tr><td>Index swing</td><td>SPY, QQQ, IWM, SMH, IGV… pull back 1.2–6% inside an uptrend.</td><td>The index is in a downtrend or selling hard for days.</td></tr>
+          <tr><td>Premium discount</td><td>SPY/QQQ weekly options are priced below what the index has actually been moving (implied vol under realized).</td><td>The index is below its trend.</td></tr>
+          <tr><td>Crypto transmission</td><td>BTC or ETH moves 6%+ in a week <em>and</em> a proxy (COIN, MSTR, IBIT…) shows its own buying.</td><td>The proxy's own tape doesn't confirm — the coin moving is never enough.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="bands-h">
+    <h2 id="bands-h">What the bands mean</h2>
+    <div class="bands">
+      <div class="S"><b>S</b><span>Many layers agree, nothing strong argues against. The best the board has.</span></div>
+      <div class="A"><b>A</b><span>Solid evidence, a minor objection or two. Tradeable.</span></div>
+      <div class="B"><b>B</b><span>Worth watching. Wait for the trigger and the tape.</span></div>
+      <div class="C"><b>C</b><span>The engine is saying “meh.” Usually a skip.</span></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="where-h">
+    <h2 id="where-h">Where things live</h2>
+    <p>On a phone, the bar at the bottom is your navigation. <strong>More</strong> holds the rest.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Tab</th><th>What it's for</th></tr></thead>
+        <tbody>
+          <tr><td>NEXUS</td><td>The home board: ranked ideas, market pulse, sector rotation, what's setting up next.</td></tr>
+          <tr><td>CHART</td><td>Charts with levels, fib zones and structure drawn on.</td></tr>
+          <tr><td>FLOW</td><td>Live options prints and the day's biggest buyers and sellers.</td></tr>
+          <tr><td>GEX</td><td>Dealer positioning — call walls, put walls, where price tends to get pinned.</td></tr>
+          <tr><td>LEAPS · CRYPTO · CATALYST</td><td>Long-dated setups, crypto and its stock proxies, earnings and events.</td></tr>
+          <tr><td>/slate</td><td>Tonight's five best setups as clean cards — the easiest place to start.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+  <section aria-labelledby="repriced">
+    <span class="eyebrow">New</span>
+    <h2 id="repriced">“Your contract, repriced now”</h2>
+    <p>When an idea is published it picks a contract. Markets move after that — so the idea screen re-reads <strong>that exact contract</strong> from the options chain every two minutes and recalculates everything that drifts. Numbers from the moment of publishing are never shown as if they were current.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Field</th><th>How to read it</th></tr></thead>
+        <tbody>
+          <tr><td>Since publish</td><td>How much the premium has moved. +30% or more gets a “late entry” warning — much of the move is already paid for.</td></tr>
+          <tr><td>Expected move</td><td>How far the options market expects the stock could move (one standard deviation) by expiry.</td></tr>
+          <tr><td>T1 distance</td><td>The target measured in those units. Under 1σ is a normal ask; over 1σ means the target is beyond what the market is pricing.</td></tr>
+          <tr><td>Odds touch T1</td><td>The market-implied chance price trades at T1 before expiry. It's what options are pricing, not a forecast.</td></tr>
+          <tr><td>If T1 today</td><td>What the contract would be worth if the target hit right now. Every day of waiting costs theta.</td></tr>
+          <tr><td>At stop today</td><td>What you'd likely get back if the stop hits now — your real risk on the contract.</td></tr>
+          <tr><td>Breakeven @exp</td><td>Where the stock must finish for the contract to break even at expiry. If T1 doesn't clear it, the trade needs T1 early.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="budget-h">
+    <h2 id="budget-h">Picking a contract you can afford</h2>
+    <p>Open any idea and scroll to <strong>Fit my budget</strong>. Choose how much you can spend per contract (≤$100 up to any) and how many days to expiry. It lists contracts that can realistically reach the target, with the estimated return if the stock gets there — and warns you plainly when time decay, a wide spread or thin volume will work against you.</p>
+    <p>Cheap and short pays the most but needs the move fast. More days costs more but survives a choppy week. The panel shows the trade-off instead of hiding it.</p>
+  </section>
+
+  <section aria-labelledby="day-h">
+    <h2 id="day-h">What runs on its own each day</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Central time</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td>7:45 AM</td><td>Pre-market check on the favorites list — gaps and overnight moves.</td></tr>
+          <tr><td>8:40 AM → 3:00 PM</td><td>Options-flow sweep every 10 minutes. Heavy buying with a confirming chart becomes a card.</td></tr>
+          <tr><td>8:55 – 9:05 AM</td><td>Index pullbacks, cheap index premium, and leader-stock swings.</td></tr>
+          <tr><td>12:45 – 1:05 PM</td><td>Midday repeat of the swing and premium scans.</td></tr>
+          <tr><td>5:15 PM</td><td>After-hours check on the favorites.</td></tr>
+          <tr><td>8:40 PM</td><td>Bottom-reversal sweep — tomorrow's setups, published as pending triggers.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="rules-h">
+    <h2 id="rules-h">House rules the engine enforces</h2>
+    <div class="rules">
+      <p><strong>Long and short, same standard.</strong> Shorts need the same measured evidence as longs — heavy selling on the tape, a real breakdown. A card that fights the tape in either direction loses points.</p>
+      <p><strong>Flow can veto — and flip.</strong> A pattern that looks great while big money trades against it gets blocked. When the tape flips on a name, the old opposite-side card is retired so you never see a long and a short side by side.</p>
+      <p><strong>Nothing enters overnight.</strong> Ideas found after the close publish as triggers above the last price, never as trades already taken.</p>
+      <p><strong>Delayed data is labelled.</strong> If a number isn't live, the screen says so.</p>
+    </div>
+  </section>
+
+
+  <section aria-labelledby="glossary">
+    <h2 id="glossary">Glossary</h2>
+    <dl class="gloss">
+      <dt>Aggressor tape</dt><dd>Options trades classified by whether the buyer paid the ask (bullish intent) or the seller hit the bid. Measured from real fills.</dd>
+      <dt>Pending trigger</dt><dd>An idea waiting for price to reach its entry during market hours. Not a trade until then.</dd>
+      <dt>R:R and 2R</dt><dd>Reward divided by risk. 2R means the target is twice as far from entry as the stop.</dd>
+      <dt>Delta</dt><dd>How much the contract moves per $1 in the stock. 0.40 ≈ 40¢ per dollar.</dd>
+      <dt>Theta</dt><dd>What the contract loses per day just from time passing. Shown as % of its price.</dd>
+      <dt>IV (implied volatility)</dt><dd>How much movement the option price assumes. High IV = expensive premium.</dd>
+      <dt>IV vs realized</dt><dd>Implied vol compared with how much the stock actually moved lately. Under 1.0 = premium is cheap for the movement you're getting.</dd>
+      <dt>σ (sigma)</dt><dd>One expected move. A target 0.5σ away is well inside normal range; 1.5σ is a stretch.</dd>
+      <dt>Gamma pin / call wall / put wall</dt><dd>Strikes where dealer hedging tends to pull or cap price. The GEX tab maps them.</dd>
+      <dt>Band (S/A/B/C)</dt><dd>The idea's evidence grade. Red chips on a card subtract from it.</dd>
+    </dl>
+  </section>
+
+  <section aria-labelledby="limits">
+    <h2 id="limits">Honest limits</h2>
+    <div class="rules">
+      <p><strong>Options prices are delayed about 15 minutes</strong> until the live data feed is reconnected. Every panel that uses them says so. Don't use it to time a 0DTE entry to the second.</p>
+      <p><strong>Odds are market-implied, not predictions.</strong> They assume no drift and come from the option prices themselves.</p>
+      <p><strong>Patterns are scored by their record.</strong> Every card's outcome is tracked. Scanners that don't pay over time get demoted by their own numbers.</p>
+      <p><strong>Scanners run on a schedule.</strong> A stock that rips between sweeps shows up at the next one, not instantly.</p>
+    </div>
+  </section>
+
+  <footer>
+    Educational research only — not investment advice. Past setups do not guarantee future results. You decide every trade.
+  </footer>
+</div>
+
+<script>
+  document.getElementById('copy-url').addEventListener('click', function () {
+    var btn = this, text = document.getElementById('site-url').textContent;
+    var done = function () { btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = 'Copy link'; }, 1600); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function () { selectUrl(); });
+    } else { selectUrl(); }
+    function selectUrl() {
+      var r = document.createRange(); r.selectNodeContents(document.getElementById('site-url'));
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      btn.textContent = 'Press ⌘C';
+    }
+  });
+</script>

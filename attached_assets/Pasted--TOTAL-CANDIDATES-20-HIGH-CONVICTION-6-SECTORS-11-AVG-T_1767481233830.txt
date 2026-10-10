@@ -1,0 +1,38 @@
+
+TOTAL CANDIDATES
+
+20
+
+HIGH CONVICTION
+
+6
+
+SECTORS
+
+11
+
+AVG TARGET
+
+$85
+
+Symbol	Sector	Entry	Target	Upside	Conviction	Thesis
+IONQ	Quantum Computing	$35.00	$80	+129%	high	Leader in trapped-ion quantum computing. Revenue growth accelerating with enterprise deals. NASA, Goldman partnerships.
+RGTI	Quantum Computing	$12.00	$40	+233%	speculative	Superconducting quantum chips. Strong IP portfolio. Potential acquisition target.
+QBTS	Quantum Computing	$8.00	$25	+213%	medium	D-Wave quantum annealing systems. Enterprise customers ramping. First to commercialize.
+RKLB	Space	$28.00	$75	+168%	high	Rocket Lab - second most active orbital launch company. Electron + Neutron rockets. Space systems revenue growing.
+LUNR	Space	$18.00	$50	+178%	medium	Intuitive Machines - NASA lunar lander contracts. First commercial lunar landing. Pipeline of missions.
+NNE	Nuclear/Clean Energy	$35.00	$100	+186%	speculative	Nano Nuclear Energy - portable nuclear microreactors. Military/remote site applications. Early stage but massive TAM.
+SMR	Nuclear/Clean Energy	$28.00	$70	+150%	high	NuScale Power - small modular reactors. First SMR to get NRC approval. Utility contracts building.
+OKLO	Nuclear/Clean Energy	$32.00	$80	+150%	high	Advanced fission reactors. Sam Altman backed. Data center power demand tailwind.
+AI	AI/ML	$35.00	$85	+143%	medium	C3.ai - Enterprise AI platform. Federal contracts strong. Turning profitable.
+SOUN	AI/ML	$18.00	$50	+178%	medium	SoundHound AI - voice AI platform. Restaurant/auto integration. Revenue accelerating.
+BBAI	AI/ML	$5.00	$20	+300%	speculative	BigBear.ai - Defense/intel AI. Government contracts. Undervalued vs peers.
+ACHR	eVTOL/Flying Cars	$8.00	$35	+338%	speculative	Archer Aviation - Electric air taxi. United Airlines partnership. FAA certification path.
+JOBY	eVTOL/Flying Cars	$7.00	$30	+329%	speculative	Joby Aviation - Electric VTOL. Toyota backed. Military contracts. Commercial 2025.
+MARA	Crypto/Mining	$22.00	$70	+218%	medium	Marathon Digital - Bitcoin miner. BTC halving cycle. Largest hash rate in US.
+RIOT	Crypto/Mining	$12.00	$45	+275%	medium	Riot Platforms - Bitcoin mining. Low cost producer. BTC accumulation strategy.
+HIMS	Healthcare/Telehealth	$28.00	$70	+150%	high	Hims & Hers - Telehealth leader. GLP-1 weight loss opportunity. Profitable and growing 50%+.
+DNA	Biotech/Synbio	$3.00	$15	+400%	speculative	Ginkgo Bioworks - Synthetic biology platform. Cell programming. Long-term AI of biology play.
+PATH	AI/Automation	$15.00	$40	+167%	medium	UiPath - RPA/automation leader. AI integration. Enterprise stickiness. Profitable.
+APP	AdTech/Gaming	$380.00	$600	+58%	high	AppLovin - Mobile gaming ads. AI-powered ad engine. Massive margin expansion.
+AFRM	Fintech	$65.00	$120	+85%	medium	Affirm - BNPL leader. Apple Pay integration. Path to profitability clear.

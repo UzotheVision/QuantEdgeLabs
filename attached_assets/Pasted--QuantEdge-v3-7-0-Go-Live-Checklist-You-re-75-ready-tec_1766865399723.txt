@@ -1,0 +1,250 @@
+# QuantEdge v3.7.0 Go-Live Checklist
+
+You're **75% ready technically**, but **40% ready commercially**. Here's a phased launch plan that gets you to market safely in **60-90 days**.
+
+---
+
+## **Phase 1: Beta Testing (30 days) - *START HERE***
+
+### **Must-Have (Non-Negotiable)**
+
+1. **Paper Trading Module** (Build this first)
+```typescript
+// server/paper-trading.ts
+export function simulateFill(
+  idea: TradeIdea,
+  assetType: string
+): SimulatedFill {
+  const slippage = TRADING_COSTS[assetType].slippage;
+  const fillPrice = idea.direction === 'long'
+    ? idea.entryPrice * (1 + slippage) // Worse fill on entry
+    : idea.entryPrice * (1 - slippage);
+  
+  return {
+    ...idea,
+    simulatedFillPrice: fillPrice,
+    status: 'paper',
+    simulatedPnL: calculatePnLWithCosts(fillPrice, idea.exitPrice || 0, assetType)
+  };
+}
+```
+- **Why**: Legal shield. Forces users to prove profitability before risking real money.
+- **Requirement**: 20 paper trades with ≥55% win rate unlocks live mode.
+
+2. **Correlation Blocking** (Critical risk control)
+```typescript
+// server/risk-manager.ts
+export async function checkSectorExposure(userId: string, newSymbol: string) {
+  const positions = await getOpenPositions(userId);
+  const newSector = await getSector(newSymbol);
+  
+  const sectorCount = positions.filter(p => p.sector === newSector).length;
+  return sectorCount >= 3; // Max 3 positions per sector
+}
+```
+- **Why**: Prevents "diversified" bets on 5 tech stocks that all move together.
+
+3. **Legal Disclaimers** (Copy-paste this everywhere)
+```
+"QuantEdge provides research and education only. Trade ideas are 
+hypothetical and do not constitute financial advice. Past performance 
+does not guarantee future results. You may lose your entire investment. 
+Commissions, fees, and slippage are not included in backtested results. 
+Consult a registered investment advisor before trading."
+```
+- **Where**: Footer of every email, top of every dashboard, modal on signup.
+
+### **Should-Have (Beta v1.1)**
+
+4. **Performance Monitoring Dashboard**
+- Track **expectancy** and **profit factor** in real-time (not just win rate)
+- Alert if live expectancy drops below 0.5% for 7 days
+- Show users: "Your paper trading expectancy: +2.3%" vs "Platform average: +1.8%"
+
+5. **Options Strategy Fix** (Day trading options is unprofitable with your costs)
+```typescript
+// Change options targets to 3x risk minimum
+const optionsMinTarget = entryPrice * (1 + (stopLossPercent * 3));
+// Or restrict options to swing trades (>24h hold)
+```
+- **Why**: Your own cost model shows 4% RT costs vs 7% target = unprofitable
+- **Better**: Only offer **credit spreads** or **cash-secured puts** (theta positive)
+
+---
+
+## **Phase 2: Soft Launch (30 days)**
+
+### **Commercial Readiness**
+
+6. **Pricing Strategy**
+```
+Free: 5 ideas/day, 15min delayed data, paper trading only
+Advanced: $39/mo → $29/mo for first 100 beta users
+  - Real-time data
+  - Unlimited ideas
+  - Position sizing calculator
+  - MUST show both "Filtered" AND "Real" performance stats
+Pro: $79/mo (wait 90 days)
+  - Futures integration
+  - API access
+  - White-label reports
+```
+- **Why**: Lower price for beta = goodwill + testimonials. Don't sell Pro until you have live track record.
+
+7. **Marketing Message (DO's and DON'Ts)**
+```diff
+❌ DON'T SAY:
+- "75-91% win rate strategies"
+- "Professional quantitative trading platform"
+- "AI-powered profits"
+
+✅ DO SAY:
+- "Research platform for self-directed traders"
+- "Backtest-educated ideas, not guarantees"
+- "Paper trade first, risk second"
+```
+
+8. **Risk Limits per User**
+```typescript
+// server/user-limits.ts
+const USER_RISK_LIMITS = {
+  maxDailyLoss: 0.05,      // 5% of account per day
+  maxPositionSize: 0.20,   // 20% of account per trade
+  maxSectorExposure: 0.40, // 40% in one sector
+};
+```
+- **Why**: Platform-level circuit breakers prevent catastrophic user losses.
+
+### **Technical Readiness**
+
+9. **Database Indexing** (Performance will tank with 100+ users)
+```sql
+CREATE INDEX idx_trade_ideas_user_status ON trade_ideas(userId, outcomeStatus);
+CREATE INDEX idx_trade_ideas_timestamp ON trade_ideas(timestamp DESC);
+CREATE INDEX idx_performance_user_date ON performance(userId, date);
+```
+
+10. **Error Monitoring**
+```typescript
+// sentry.config.ts
+Sentry.init({
+  dsn: process.env.SENTRY_DSN,
+  tracesSampleRate: 0.1, // 10% sampling
+  beforeSend(event) {
+    if (event.level === 'fatal') {
+      // Auto-pause idea generation
+      await pauseEngine('error_threshold');
+    }
+  }
+});
+```
+
+---
+
+## **Phase 3: Full Launch (Day 60+)**
+
+### **Regulatory & Legal**
+
+11. **Business Structure**
+- **Form an LLC** (not sole proprietorship) = personal liability shield
+- **Get E&O Insurance** (Errors & Omissions) - $2-5k/year, but protects against lawsuits
+- **Terms of Service**: Must include arbitration clause, class-action waiver
+
+12. **FINRA/SEC Compliance (US-based?)**
+```typescript
+// If you charge for trade ideas, you might be an "investment advisor"
+// File Form ADV with SEC or register with state regulator
+// Cost: $500-2000
+// Timeline: 30-60 days
+```
+- **Alternative**: Partner with a registered RIA and be their "technology provider"
+- **Better**: Don't give advice. Be a "research tool" only. Never say "buy" or "sell".
+
+13. **Data Privacy**
+- **SOC 2 Type I** audit (for enterprise clients) - $15-25k
+- **GDPR/CCPA** compliance if you have EU/CA users
+
+### **Growth & Scale**
+
+14. **Affiliate Program**
+```typescript
+// server/affiliate.ts
+const AFFILIATE_TERMS = {
+  commission: 0.30, // 30% recurring
+  cookieDuration: 90, // days
+  payoutThreshold: 100, // USD
+};
+```
+- **Why**: Trading Twitter will sell for you if the tool works.
+
+15. **Discord/Telegram Alerts**
+- Use webhooks to send ideas to #alerts channel
+- Include **disclaimer** in every message
+- Track click-through rate to platform
+
+---
+
+## **Pre-Launch Checklist (Day 0)**
+
+### **Code Review**
+- [ ] **ADX function verified** in production (not just docs)
+- [ ] **Error handling** on all API calls (no silent failures)
+- [ ] **Position sizing** enforced on all live trades
+- [ ] **Paper trading** is DEFAULT for new users
+- [ ] **Circuit breakers** tested (simulate API failure)
+
+### **Legal & Compliance**
+- [ ] **LLC formed** (LegalZoom, $500)
+- [ ] **E&O insurance** quoted and purchased
+- [ ] **Terms of Service** drafted by attorney ($1500)
+- [ ] **Privacy policy** GDPR/CCPA compliant
+- [ ] **Disclaimers** on every user-facing page
+
+### **Marketing**
+- [ ] **Landing page** with honest performance metrics (Use "Real Stats", not "Filtered")
+- [ ] **Demo video** showing paper trading workflow
+- [ ] **Beta user testimonials** (get 10 people to trade for 30 days)
+- [ ] **Affiliate program** page created
+
+### **Operations**
+- [ ] **Stripe** account for payments
+- [ ] **Customer support** email (G Suite, $6/mo)
+- [ ] **Status page** (Better Uptime, free tier)
+- [ ] **Onboarding flow** (mandatory paper trading tutorial)
+
+---
+
+## **What to SKIP (For Now)**
+
+❌ **Advanced Analytics Dashboard** - Overkill until you have 100+ paying users  
+❌ **Futures Integration** - Wait until stocks/options are stable  
+❌ **White-label Reports** - Pro feature, build later  
+❌ **AI Chat (25 messages/day)** - Too expensive for $39/mo, limit to 10 or remove  
+
+---
+
+## **Launch Timeline**
+
+| Week | Focus | Milestone |
+|------|-------|-----------|
+| **0-4** | Build paper trading + correlation blocking | Beta v0.9 ready |
+| **5-8** | Onboard 20 beta users, collect feedback | 1000+ paper trades |
+| **9-10** | Legal, insurance, ToS | Compliance ready |
+| **11-12** | Soft launch to 100 users @ $29/mo | $3k MRR |
+| **13+** | Full launch, affiliate program, scale | $10k MRR |
+
+---
+
+## **Final Risk Warnings**
+
+1. **If you skip paper trading**: You will have a user blow up their account in Week 1. They will blame you. You will be liable.
+
+2. **If you keep the 9:30-11:30 AM filter**: Your platform will be useless during trending markets. Users will churn.
+
+3. **If you don't get insurance**: One lawsuit from a disgruntled user will bankrupt you personally.
+
+4. **If you market "AI profits"**: The SEC will notice. Don't.
+
+**The platform is 80% technically sound. The business is 40% ready. Focus on risk management and honesty, not features, and you'll have a sustainable product.**
+
+Want me to draft the Terms of Service or create the paper trading module?

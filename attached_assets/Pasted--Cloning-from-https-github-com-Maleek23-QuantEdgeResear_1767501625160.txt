@@ -1,0 +1,52 @@
+==> Cloning from https://github.com/Maleek23/QuantEdgeResearch
+==> Checking out commit 8f9c90a9d6788097260bb425a3535314b128e759 in branch main
+==> Checking out commit 8f9c90a9d6788097260bb425a3535314b128e759 in branch main
+==> Uploaded in 8.9s. Compression took 4.8s
+==> Build successful 🎉
+==> Uploaded in 8.9s. Compression took 4.8s
+==> Build successful 🎉
+==> Uploaded in 8.9s. Compression took 4.8s
+==> Build successful 🎉
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.js
+2026-01-04 04:38:21 [warn]: STRIPE_SECRET_KEY not configured - billing features disabled {"service":"quantedge-api"}
+2026-01-04 04:38:21 [info]: 📊 [CALIBRATION] Refreshing calibration cache from historical data... {"service":"quantedge-api"}
+file:///opt/render/project/src/node_modules/openid-client/build/index.js:89
+    const err = new TypeError(message, { cause });
+                ^
+TypeError: "clientId" must be a non-empty string
+    at CodedTypeError (file:///opt/render/project/src/node_modules/openid-client/build/index.js:89:17)
+    at new Configuration (file:///opt/render/project/src/node_modules/openid-client/build/index.js:463:19)
+    at Module.discovery (file:///opt/render/project/src/node_modules/openid-client/build/index.js:244:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async memoize.maxAge (file:///opt/render/project/src/dist/index.js:25328:12)
+    at async setupAuth (file:///opt/render/project/src/dist/index.js:25383:18)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:27826:3)
+    at async file:///opt/render/project/src/dist/index.js:38549:18 {
+  code: 'ERR_INVALID_ARG_TYPE',
+  [cause]: undefined
+}
+Node.js v20.19.6
+==> Exited with status 1
+==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+==> Running 'npm run start'
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.js
+2026-01-04 04:38:42 [warn]: STRIPE_SECRET_KEY not configured - billing features disabled {"service":"quantedge-api"}
+2026-01-04 04:38:42 [info]: 📊 [CALIBRATION] Refreshing calibration cache from historical data... {"service":"quantedge-api"}
+file:///opt/render/project/src/node_modules/openid-client/build/index.js:89
+    const err = new TypeError(message, { cause });
+                ^
+TypeError: "clientId" must be a non-empty string
+    at CodedTypeError (file:///opt/render/project/src/node_modules/openid-client/build/index.js:89:17)
+    at new Configuration (file:///opt/render/project/src/node_modules/openid-client/build/index.js:463:19)
+    at Module.discovery (file:///opt/render/project/src/node_modules/openid-client/build/index.js:244:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async memoize.maxAge (file:///opt/render/project/src/dist/index.js:25328:12)
+    at async setupAuth (file:///opt/render/project/src/dist/index.js:25383:18)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:27826:3)
+    at async file:///opt/render/project/src/dist/index.js:38549:18 {
+  code: 'ERR_INVALID_ARG_TYPE',
+  [cause]: undefined
+}
+Node.js v20.19.6

@@ -1,0 +1,478 @@
+Quant Edge Labs
+Quant Edge
+Labs
+RESEARCH
+
+Dashboard
+
+Trade Desk
+
+Futures
+
+My Watchlist
+
+Market Scanner
+500+
+AUTOMATIONS
+
+Automations Hub
+NEW
+
+Auto-Lotto Bot
+LIVE
+ANALYTICS
+
+Performance
+
+Chart Analysis
+LEARN
+
+Academy
+ACCOUNT
+
+My Account
+
+Settings
+ADMIN
+
+Admin
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+Watchlist Intelligence
+49 symbols analyzed with quantitative grading
+
+By Conviction
+All Symbols
+ELITE SETUPS
+13
+
+S + A tier symbols
+
+AVERAGE SCORE
+61/100
+
+DISTRIBUTION
+13
+/
+21
+/
+15
+Strong / Neutral / Weak
+
+LAST UPDATE
+04, 2026 1:55 PM CT
+
+Auto-refresh: 15m
+
+How Grading Works
+Each symbol is scored 0-100 using quantitative factors: RSI momentum, trend strength (ADX), volume activity, and moving average signals. Grades auto-refresh every 15 minutes during market hours. Click any symbol to see the full breakdown and understand why it received its grade.
+
+Elite Setups (S & A Tier)
+High-conviction opportunities with multiple bullish factors aligned
+
+13
+
+S
+RKLB
+STOCK
+88/100
+2026 Breakout Candidate - Space
+
+Elite
+
+S
+RKLB
+STOCK
+88/100
+User watchlist - momentum tracking
+
+Elite
+
+S
+RKLB
+STOCK
+88/100
+User watchlist - momentum tracking
+
+Elite
+
+S
+ASTS
+STOCK
+85/100
+User watchlist - momentum tracking
+
+Elite
+
+S
+ASTS
+STOCK
+85/100
+User watchlist - momentum tracking
+
+Elite
+
+A
+ZETA
+STOCK
+83/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+ZETA
+STOCK
+83/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+AFRM
+STOCK
+82/100
+2026 Breakout Candidate - Fintech
+
+Strong
+
+A
+AMZN
+STOCK
+82/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+AMZN
+STOCK
+82/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+ONDS
+STOCK
+79/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+ONDS
+STOCK
+79/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+LUNR
+STOCK
+77/100
+2026 Breakout Candidate - Space
+
+Strong
+Developing Setups (B & C Tier)
+Neutral to positive conditions - monitor for improvement
+
+21
+
+B
+XRP
+CRYPTO
+71/100
+Added from symbol search - Current: $2.36
+
+Solid
+
+B
+RIOT
+STOCK
+70/100
+2026 Breakout Candidate - Crypto/Mining
+
+Solid
+
+B
+AAPL
+STOCK
+67/100
+Added from symbol search - Current: $252.29
+
+Solid
+
+B
+AAPL
+STOCK
+67/100
+Added from symbol search - Current: $252.29
+
+Solid
+
+C
+QBTS
+STOCK
+64/100
+2026 Breakout Candidate - Quantum Computing
+
+Neutral
+
+C
+SMR
+STOCK
+64/100
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Neutral
+
+C
+NVDA
+STOCK
+62/100
+Added from symbol search
+
+Neutral
+
+C
+NVDA
+STOCK
+62/100
+Added from symbol search
+
+Neutral
+
+C
+IREN
+STOCK
+61/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+IREN
+STOCK
+61/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+ACHR
+STOCK
+59/100
+2026 Breakout Candidate - eVTOL/Flying Cars
+
+Neutral
+
+C
+DNA
+STOCK
+59/100
+2026 Breakout Candidate - Biotech/Synbio
+
+Neutral
+
+C
+YYAI
+STOCK
+59/100
+Tracking for insights and opportunities
+
+Neutral
+
+C
+APP
+STOCK
+57/100
+2026 Breakout Candidate - AdTech/Gaming
+
+Neutral
+
+C
+NVO
+STOCK
+57/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+NBIS
+STOCK
+57/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+NVO
+STOCK
+57/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+NBIS
+STOCK
+57/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+TSLA
+STOCK
+56/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+TSLA
+STOCK
+56/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+TSLA
+STOCK
+56/100
+Added from symbol search - Current: $440.78
+
+Neutral
+Weak Setups (D & F Tier)
+Poor conditions - avoid or consider as contrarian plays only
+
+15
+
+D
+MARA
+STOCK
+54/100
+2026 Breakout Candidate - Crypto/Mining
+
+Weak
+
+D
+RGTI
+STOCK
+53/100
+2026 Breakout Candidate - Quantum Computing
+
+Weak
+
+D
+PATH
+STOCK
+51/100
+2026 Breakout Candidate - AI/Automation
+
+Weak
+
+D
+PATH
+STOCK
+51/100
+User watchlist - momentum tracking
+
+Weak
+
+D
+PATH
+STOCK
+51/100
+User watchlist - momentum tracking
+
+Weak
+
+D
+TSLY
+STOCK
+51/100
+Weak
+
+D
+OKLO
+STOCK
+46/100
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Weak
+
+F
+JOBY
+STOCK
+41/100
+2026 Breakout Candidate - eVTOL/Flying Cars
+
+Avoid
+
+F
+SOUN
+STOCK
+41/100
+2026 Breakout Candidate - AI/ML
+
+Avoid
+
+F
+AI
+STOCK
+39/100
+2026 Breakout Candidate - AI/ML
+
+Avoid
+
+F
+EOSE
+STOCK
+34/100
+Tracking for insights and opportunities
+
+Avoid
+
+F
+NNE
+STOCK
+33/100
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Avoid
+
+F
+BBAI
+STOCK
+31/100
+2026 Breakout Candidate - AI/ML
+
+Avoid
+
+F
+IONQ
+STOCK
+31/100
+2026 Breakout Candidate - Quantum Computing
+
+Avoid
+
+F
+HIMS
+STOCK
+31/100
+2026 Breakout Candidate - Healthcare/Telehealth
+
+Avoid
+Quant Edge Labs
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only

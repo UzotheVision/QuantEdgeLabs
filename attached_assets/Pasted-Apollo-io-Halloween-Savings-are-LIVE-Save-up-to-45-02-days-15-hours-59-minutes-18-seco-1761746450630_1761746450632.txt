@@ -1,0 +1,112 @@
+Apollo.io
+🎃 Halloween Savings are LIVE — Save up to 45%!
+
+02
+days
+:
+15
+hours
+:
+59
+minutes
+:
+18
+seconds
+Features
+
+Resources
+Library
+Pricing
+Log In
+Sign Up
+
+FEATURES
+The new standard for
+premium technical analysis
+Designed to support all styles of trading with highly adaptable workflows, powerful screening capabilities, and next-generation backtesting, LuxAlgo unlocks your full potential as a trader or investor directly on your TradingView charts.
+
+Algos to power your charts
+LuxAlgo helps you simplify your analysis. With our algorithmic trading toolkits, you’ll have full workflows for price action trading, trend following, and reversal trading all in one place. Say goodbye to manually drawing trading concepts.
+
+Explore Algos
+algos
+
+Infinite strategies with AI Backtesting
+LuxAlgo’s AI backtesting engine explores millions of strategy combinations to surface alpha. Skip the grind, chat your criteria, review winners, and deploy live in seconds.
+
+See AI Backtesting
+
+Backtesters to refine your strategies
+Bring AI-generated strategies into TradingView for further tuning with our Backtesters. Measure performance, auto optimize signal settings with our deep learning dashboard, and update in real time as markets shift.
+
+Discover Backtesters
+algos
+
+Ready to level up your charts?
+Get access to the best tools from the world's largest provider of trading indicators.
+Get 30 Days Risk Free
+product
+Pricing
+Library
+Features
+Algos
+Screeners
+Backtesters
+AI Backtesting
+resources
+Docs
+Blog
+About
+Community
+Affiliates
+Brand
+company
+Terms of Service
+Disclaimer
+Privacy Policy
+Cookies
+Do Not Sell or Share My Personal Information
+Privacy Rights Request Form
+calculators
+Risk to Reward Ratio Calculator
+Position Size Calculator
+Pip Value Calculator
+Lot Size Calculator
+Margin & Leverage Calculator
+CAGR & Compounding Calculator
+Bitcoin Retirement Calculator
+learn about trading
+Technical indicators
+Chart patterns
+Candlestick analysis
+Liquidity analysis
+Divergences trading
+Backtesting strategies
+Options trading strategies
+my account
+Account Settings
+Support
+prop firms & offers
+CFDs Firms
+Futures Firms
+CFDs Challenges
+Futures Challenges
+CFDs Offers
+Futures Offers
+Trading & investing are risky and many will lose money in connection with trading and investing activities. All content on this site is not intended to, and should not be, construed as financial advice. Decisions to buy, sell, hold or trade in securities, commodities and other investments involve risk and are best made based on the advice of qualified financial professionals. Past performance does not guarantee future results.
+
+Hypothetical or Simulated performance results have certain limitations. Unlike an actual performance record, simulated results do not represent actual trading. Also, since the trades have not been executed, the results may have under-or-over compensated for the impact, if any, of certain market factors, including, but not limited to, lack of liquidity. Simulated trading programs in general are designed with the benefit of hindsight, and are based on historical information. No representation is being made that any account will or is likely to achieve profit or losses similar to those shown.
+
+Testimonials appearing on this website may not be representative of other clients or customers and is not a guarantee of future performance or success.
+
+As a provider of technical analysis tools and strategies, we do not have access to the personal trading accounts or brokerage statements of our customers. As a result, we have no reason to believe our customers perform better or worse than traders as a whole based on any content, tool, or platform feature we provide.
+
+Charts used on this site are by TradingView in which the majority of our technical indicators are built on. TradingView® is a registered trademark of TradingView, Inc. www.TradingView.comTradingView® has no affiliation with the owner, developer, or provider of the Services described herein.
+
+Market data is provided by CBOE, CME Group, BarChart, CoinAPI. CBOE BZX real-time US equities data is licensed from CBOE and provided through BarChart. Real-time futures data is licensed from CME Group and provided through BarChart. Select cryptocurrency data, including major coins, is provided through CoinAPI. All data is provided “as is” and should be verified independently for trading purposes.
+
+This does not represent our full Disclaimer. Please read our full disclaimer.
+
+© 2025 LuxAlgo Global, LLC.
+
+LuxAlgo | Discover Features

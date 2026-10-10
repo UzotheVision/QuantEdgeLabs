@@ -1,0 +1,174 @@
+Trade Setup Recommendations
+Predictive
+Actionable entry, target, and stop-loss levels for day and swing trades
+Day Trade
+Wait
+Entry
+
+$660.62
+
+Target
+
+$668.68
+
+Stop
+
+$656.59
+
+Risk/Reward
+1:2.0
+Confidence
+63%
+Reasoning:
+
+Neutral - range-bound scalp
+Swing Trade
+Wait
+Entry
+
+$660.62
+
+Target
+
+$674.06
+
+Stop
+
+$655.24
+
+Risk/Reward
+1:2.5
+Confidence
+48%
+Reasoning:
+
+Wait for clearer direction
+Educational purposes only. These are algorithmic suggestions based on technical indicators, not financial advice. Always do your own research and manage risk appropriately.
+
+Price Chart with Bollinger Bands
+RSI (14)
+54.3
+Detected Patterns
+No patterns detected in recent candles
+
+Signal Breakdown
+RSI14 Bullish Zone (54)
+BB Squeeze (4.1% width)
+Strong Trend (ADX 42)
+Technical Indicators
+Indicator	Value	Status
+RSI (14)	54.34	Neutral
+RSI (2)	65.93	Normal
+MACD	8.6125 / 11.3204	Bearish
+Bollinger Bands	U: $671.39 | M: $658.00 | L: $644.62	Within Bands
+ADX	42.42	Trending (Momentum)
+Stochastic RSI	K: 29.06 / D: 29.06	Neutral
+Williams %R (14)	-42.66	neutral
+CCI (20)	2.41	neutral
+VWAP	$636.78	Price above VWAP
+Multi-Layer Confluence Analysis
+NEUTRAL
+Aggregated signals from 6 analysis layers for enhanced prediction accuracy
+Confluence Score
+55%
+Bearish
+Neutral
+Bullish
+Momentum
+46
+Neutral
+
+Trend (EMA)
+75%
+Bullish
+
+Structure
+Downtrend
+Strength: 90%
+
+Volume Flow
+Neutral
+0.7x avg | MF: -15
+
+Key Levels
+near support
+S: $654.39 | R: $674.17
+
+Active Signals
+EMA Bullish (2/4 EMAs, 75% aligned)
+Downtrend (2 LL)
+Near Support ($654.39)
+Above VWAP
+Moving Average Confluence
+75% Aligned
+EMA 9
+
+$659.21
+
+EMA 21
+
+$653.45
+
+EMA 50
+
+N/A
+
+EMA 200
+
+N/A
+
+Note: Only 2/4 EMAs available due to limited historical data
+
+Market Structure
+DOWNTREND
+Higher Highs
+
+2
+
+Higher Lows
+
+1
+
+Lower Highs
+
+2
+
+Lower Lows
+
+2
+
+Trend Strength
+90%
+Downtrend: 2 LH, 2 LL
+Support & Resistance Levels
+Support Levels
+S1
+$581.25
+S2
+$639.89
+S3
+$654.39
+Resistance Levels
+R1
+$674.17
+R2
+$711.00
+Volume Flow Analysis
+NEUTRAL
+Relative Volume
+
+0.73x
+
+Volume Profile
+
+Decreasing
+
+Money Flow
+
+-15
+
+Avg Volume
+
+14.24M
+
+Declining Volume

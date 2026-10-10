@@ -1,0 +1,202 @@
+
+Dual-Engine Architecture: AI + Quantitative
+QuantEdge
+Discover day-trading opportunities across US equities, options, and crypto markets. Real market data, transparent explainability, professional-grade risk management.
+
+Enter Platform
+Learn More
+Join Discord
+3
+Proven Signals
+3
+AI Providers
+Live
+Market Data
+Platform Track Record
+Trusted by Traders
+Real performance metrics from our dual-engine trading platform. Transparent, verifiable, and continuously validated.
+
+283
+Total Trades Analyzed
+Comprehensive analysis across stocks, options, crypto, and futures markets
+
+46.6%
+Overall Win Rate
+Target-hit rate validated against real market outcomes
+
+0
+Active Signals
+Live trade opportunities actively monitored for performance
+
+Dual-Engine Architecture
+Two Engines, One Purpose
+AI-powered insights meet quantitative precision. Both engines analyze markets independently, then converge for high-conviction signals.
+
+AI Engine
+Multi-Provider Fallback
+
+Contextual Analysis
+
+Processes market news, earnings, sentiment, and macro trends
+
+Provider Chain
+
+Claude Sonnet 4 → GPT-5 → Gemini 2.5 Pro fallback
+
+Strengths
+
+Pattern Recognition
+Market Context
+Adaptive Learning
+Quantitative Engine
+v3.0 Research-Backed Signals
+
+3 Proven Strategies Only
+
+RSI(2)+200MA filter (75-91%), VWAP institutional flow (80%+), Volume spike early entry
+
+Academic Research Foundation
+
+Based on QuantifiedStrategies, Larry Connors, and FINVIZ multi-year studies
+
+Strengths
+
+Proven Win Rates
+Simple Rules
+Research-Backed
+When Both Engines Agree
+High-conviction signals occur when AI context aligns with quantitative technicals. These convergent opportunities historically show +18% higher win rates.
+
+Platform Features
+Professional-grade tools for discovering and analyzing trading opportunities with complete transparency
+
+AI-Powered Analysis
+Multi-provider AI (Claude, GPT, Gemini) generates trade ideas with comprehensive market analysis and risk assessment.
+
+Quantitative Signals
+v3.0 research-backed engine using 3 proven strategies: RSI(2)+200MA filter (75-91% win rate), VWAP institutional flow (80%+), and volume spike early entry.
+
+Discord Alerts
+Instant notifications for new trade ideas with complete details, grades, and entry/exit levels delivered to your Discord.
+
+Real-Time Market Data
+Live pricing from Yahoo Finance, Alpha Vantage, and CoinGecko across stocks, options, and crypto markets.
+
+Risk Management
+Built-in position sizing calculator with educational disclaimers. Every idea includes entry, target, stop-loss, and R:R ratio.
+
+Performance Tracking
+Monitor trade outcomes, track win rates, and analyze which signal types perform best for your strategy.
+
+How It Works
+From market data to trade execution in four simple steps
+
+1
+Connect Market Data
+Live prices stream from stocks, options, and crypto markets with 30-second refresh intervals.
+
+2
+Generate Ideas
+Choose AI-powered analysis or quantitative signals. Platform creates opportunities with complete risk parameters.
+
+3
+Analyze Trades
+Review entry/target/stop levels, confidence scores, quality signals, and explainability features for each idea.
+
+4
+Track Performance
+Record outcomes, monitor active positions, and refine your strategy based on historical performance data.
+
+Verified Results
+Success Stories
+Real results from our platform. Every trade is tracked, validated, and verified for transparency.
+
+
+TSLY
+LONG
+Verified
+Entry Price
+
+$0.50
+
+Exit Price
+
+$1.50
+
+Realized Gain
+
++200.0%
+
+"Made +200.0% on TSLY following quant analysis"
+
+
+
+Pricing
+Choose the plan that fits your trading needs
+
+Free
+$0
+/month
+Access to public performance ledger and basic features
+
+View public performance track record
+Historical trade ideas archive
+Basic market data
+Sign Up Free
+Most Popular
+Premium
+$39.99
+/month
+Full access to live signals, analytics, and Discord community
+
+Everything in Free
+Real-time trade signals
+AI + Quantitative dual-engine
+Discord community access
+Instant Discord notifications
+Advanced analytics & ML insights
+Start Premium
+Frequently Asked Questions
+Everything you need to know about QuantEdge and our dual-engine trading platform
+
+How accurate are the trade signals?
+Can I use QuantEdge for different trading styles?
+What markets does QuantEdge cover?
+How does the dual-engine system work?
+Is QuantEdge suitable for beginners?
+What's included in the Premium plan?
+Get In Touch
+Questions about pricing, features, or partnership opportunities? We're here to help.
+
+Email Support
+support@quantedge.io
+Join Our Discord
+discord.gg/quantedge
+Ready to Start Trading Smarter?
+Access dual-engine trade idea generation, real-time market analysis, and professional risk management tools. Educational research platform for active traders.
+
+Launch Dashboard
+⚠️ For educational and research purposes only. Not financial advice.
+
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CST
+© 2025 QuantEdge Research. All rights reserved.•by UN/TITLD
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past performance does not guarantee future results.

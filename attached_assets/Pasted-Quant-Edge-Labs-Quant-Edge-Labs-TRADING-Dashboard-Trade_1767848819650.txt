@@ -1,0 +1,399 @@
+Quant Edge Labs
+Quant Edge
+Labs
+TRADING
+
+Dashboard
+
+Trade Desk
+
+My Watchlist
+AUTOMATIONS
+
+Trading Bots
+LIVE
+ANALYTICS
+
+Performance
+
+Chart Analysis
+LEARN
+
+Academy
+ACCOUNT
+
+My Account
+
+Settings
+ADMIN
+
+Admin
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+Watchlist Intelligence
+40 symbols analyzed with quantitative grading
+
+By Conviction
+All Symbols
+ELITE SETUPS
+14
+
+S + A tier symbols
+
+AVERAGE SCORE
+71/100
+
+DISTRIBUTION
+14
+/
+22
+/
+4
+Strong / Neutral / Weak
+
+LAST UPDATE
+07, 2026 11:06 PM CT
+
+Auto-refresh: 15m
+
+How Grading Works
+Each symbol is scored 0-100 using quantitative factors: RSI momentum, trend strength (ADX), volume activity, and moving average signals. Grades auto-refresh every 15 minutes during market hours. Click any symbol to see the full breakdown and understand why it received its grade.
+
+Elite Setups (S & A Tier)
+High-conviction opportunities with multiple bullish factors aligned
+
+14
+
+S
+ASTS
+STOCK
+100/100
+User watchlist - momentum tracking
+
+Elite
+
+S
+XRP
+CRYPTO
+99/100
+Added from symbol search - Current: $2.36
+
+Elite
+
+S
+AAPL
+STOCK
+97/100
+Added from symbol search - Current: $252.29
+
+Elite
+
+S
+LUNR
+STOCK
+86/100
+2026 Breakout Candidate - Space
+
+Elite
+
+S
+RKLB
+STOCK
+86/100
+User watchlist - momentum tracking
+
+Elite
+
+S
+QBTS
+STOCK
+85/100
+2026 Breakout Candidate - Quantum Computing
+
+Elite
+
+S
+ONDS
+STOCK
+85/100
+User watchlist - momentum tracking
+
+Elite
+
+A
+JOBY
+STOCK
+80/100
+2026 Breakout Candidate - eVTOL/Flying Cars
+
+Strong
+
+A
+MARA
+STOCK
+80/100
+2026 Breakout Candidate - Crypto/Mining
+
+Strong
+
+A
+NBIS
+STOCK
+80/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+ZETA
+STOCK
+80/100
+User watchlist - momentum tracking
+
+Strong
+
+A
+TSLY
+STOCK
+78/100
+Strong
+
+A
+IONQ
+STOCK
+75/100
+2026 Breakout Candidate - Quantum Computing
+
+Strong
+
+A
+TSLA
+STOCK
+75/100
+Added from symbol search - Current: $440.78
+
+Strong
+Developing Setups (B & C Tier)
+Neutral to positive conditions - monitor for improvement
+
+22
+
+B
+IREN
+STOCK
+74/100
+User watchlist - momentum tracking
+
+Solid
+
+B
+ACHR
+STOCK
+72/100
+2026 Breakout Candidate - eVTOL/Flying Cars
+
+Solid
+
+B
+PATH
+STOCK
+72/100
+User watchlist - momentum tracking
+
+Solid
+
+B
+EOSE
+STOCK
+72/100
+Tracking for insights and opportunities
+
+Solid
+
+B
+YYAI
+STOCK
+72/100
+Tracking for insights and opportunities
+
+Solid
+
+B
+SMR
+STOCK
+69/100
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Solid
+
+B
+DNA
+STOCK
+68/100
+2026 Breakout Candidate - Biotech/Synbio
+
+Solid
+
+B
+AFRM
+STOCK
+68/100
+2026 Breakout Candidate - Fintech
+
+Solid
+
+B
+SOFI
+STOCK
+67/100
+Added from symbol search
+
+Solid
+
+B
+SOFI
+STOCK
+67/100
+Added from symbol search
+
+Solid
+
+B
+NNE
+STOCK
+67/100
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Solid
+
+B
+SOUN
+STOCK
+67/100
+2026 Breakout Candidate - AI/ML
+
+Solid
+
+B
+BBAI
+STOCK
+67/100
+2026 Breakout Candidate - AI/ML
+
+Solid
+
+B
+NVO
+STOCK
+66/100
+User watchlist - momentum tracking
+
+Solid
+
+C
+IWM
+STOCK
+62/100
+Added from symbol search
+
+Neutral
+
+C
+IWM
+STOCK
+62/100
+Added from symbol search
+
+Neutral
+
+C
+NVDA
+STOCK
+62/100
+Added from symbol search
+
+Neutral
+
+C
+AI
+STOCK
+62/100
+2026 Breakout Candidate - AI/ML
+
+Neutral
+
+C
+RGTI
+STOCK
+62/100
+2026 Breakout Candidate - Quantum Computing
+
+Neutral
+
+C
+HIMS
+STOCK
+62/100
+2026 Breakout Candidate - Healthcare/Telehealth
+
+Neutral
+
+C
+RIOT
+STOCK
+60/100
+2026 Breakout Candidate - Crypto/Mining
+
+Neutral
+
+C
+OKLO
+STOCK
+60/100
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Neutral
+Weak Setups (D & F Tier)
+Poor conditions - avoid or consider as contrarian plays only
+
+4
+
+D
+GEV
+STOCK
+54/100
+Added from symbol search
+
+Weak
+
+D
+AMZN
+STOCK
+46/100
+Added from symbol search
+
+Weak
+
+D
+AMZN
+STOCK
+46/100
+User watchlist - momentum tracking
+
+Weak
+
+F
+APP
+STOCK
+36/100
+2026 Breakout Candidate - AdTech/Gaming
+
+Avoid
+Quant Edge Labs
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only
+Bot Connected

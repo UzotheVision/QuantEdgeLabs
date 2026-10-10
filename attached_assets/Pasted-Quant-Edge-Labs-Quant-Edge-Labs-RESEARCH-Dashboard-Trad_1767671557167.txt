@@ -1,0 +1,226 @@
+Quant Edge Labs
+Quant Edge
+Labs
+RESEARCH
+
+Dashboard
+
+Trade Desk
+
+My Watchlist
+
+Market Scanner
+500+
+
+Swing Scanner
+NEW
+AUTOMATIONS
+
+Automations Hub
+LIVE
+ANALYTICS
+
+Performance
+
+Chart Analysis
+LEARN
+
+Academy
+ACCOUNT
+
+My Account
+
+Settings
+ADMIN
+
+Admin
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+TRADING WEEK: JAN 5 - JAN 9
+
+Automations Hub
+Auto-Lotto
+Bot Picks
+Strategy
+Quant
+Flow
+Reports
+Bot running
+Checks every 5 min during market hours
+Options
+Futures
+Crypto
+7W / 3L
+70.0% Win
+Session Recommended Plays
+High-confidence ideas from the AI & Quant engines for the current session
+7 Ideas
+RENDER
+85% Conf.
+Entry: $2.24
+Target: $2.576
+Render momentum: +13.2% 24h
+
+SUI
+85% Conf.
+Entry: $1.96
+Target: $2.254
+Sui momentum: +13.3% 24h
+
+DNN
+55% Conf.
+Entry: $1.7
+Target: $1.82
+Growing global emphasis on nuclear energy as a clean and reliable power source, which could drive increased uranium demand and higher spot prices. Sector-specific policy tailwinds are strong.
+
+BBAI
+55% Conf.
+Entry: $3.5
+Target: $3.75
+Renewed speculative interest in AI penny stocks and potential for new contract announcements, particularly in defense or government AI applications. General AI sector momentum could spill over into smaller caps.
+
+MARA
+55% Conf.
+Entry: $19
+Target: $20.4
+Strong positive correlation with Bitcoin price action; sustained BTC rally above $95,000 could lead to an amplified move in MARA. Potential for a short squeeze given high short interest.
+
+SOL
+50% Conf.
+Entry: $137.1
+Target: $143.95
+Solana's ecosystem continues to expand with strong developer activity and DeFi/NFT growth. A stable Bitcoin price could trigger a rotation into high-growth L1 altcoins like SOL.
+
+COMBINED VALUE
+
+$195,483.00
+DAY'S P&L
+
+$66.50
+TOTAL TRADES
+
+13
+Portfolio Dashboard
+Options
+Futures
+Crypto
+Paper Trading
+ACCOUNT VALUE
+
+$20,153.00
+STARTING CAPITAL
+
+$20,000.00
+
+REALIZED P&L
+
++$153.00
+
+POSITIONS
+
+7 open / 13 closed
+
+TOTAL EQUITY
+
+$20,437.39
+
+CASH AVAILABLE
+
+$14,107.00
+
+OPEN P&L
+
++$284.39
+
+CLOSED P&L
+
++$153.00
+
+Performance by Asset Type
+Separate win rates and metrics for each trading strategy
+Options Lotto
+Win Rate
+70.0%
+Record
+7W / 3L
+Total P&L
++$153.00
+Avg Trade
++$11.77
+Active 9:30 AM - 4:00 PM ET
+Futures Trading
+NQ / GC
+Win Rate
+0%
+Record
+0W / 0L
+Total P&L
++$175,030.00
+Avg Trade
+--
+Active 24/7 (CME hours)
+Crypto Trading
+24/7
+Status
+Active
+Positions
+24 / 3 max
+Total P&L
++$5,360.36
+Coins Tracked
+13
+Active 24/7 (CoinGecko)
+Options Open Positions
+7
+Active options trades currently held by the bot
+SYMBOL	TYPE	QTY	AVG COST	CURRENT	MARKET VALUE	P&L	RETURN %
+NNE
+CALL	3	$1.65	$1.65	$495.00	
++$0.00
++0.0%
+NNE
+CALL	6	$0.75	$0.75	$450.00	
++$0.00
++0.0%
+NNE
+CALL	8	$0.60	$0.60	$480.00	
++$0.00
++0.0%
+GOOGL
+CALL	5	$0.20	$0.25	$122.50	
++$22.50
++22.5%
+HOOD
+CALL	5	$0.20	$0.22	$107.50	
++$7.50
++7.5%
+NVDA
+PUT	3	$0.28	$0.39	$115.50	
++$33.00
++40.0%
+HOOD
+CALL	5	$0.20	$0.29	$145.00	
++$45.00
++45.0%
+Options Trade History
+13
+Closed options trades with realized P&L
+SYMBOL	TYPE	ENTRY	EXIT	P&L	DATE CLOSED	RESULT
+BIDU	CALL	$3.53	$3.53	+$0.00	N/A	Won
+BIDU	CALL	$1.78	$1.78	+$0.00	N/A	Won
+TSLA	CALL	$0.20	$0.20	+$0.00	Jan 5, 10:54 AM	Won
+GOOGL	PUT	$2.38	$1.92	-$45.50	Jan 5, 10:25 AM	Lost
+META	PUT	$0.49	$0.26	-$23.00	Jan 5, 10:15 AM	Lost
+COIN	CALL	$0.20	$0.21	+$2.00	Jan 5, 08:35 AM	Won
+META	PUT	$0.93	$1.97	+$104.50	Jan 2, 10:20 AM	Won
+CLSK	CALL	$0.28	$0.26	-$2.50	Jan 2, 10:05 AM	Lost
+NFLX	PUT	$0.38	$0.57	+$19.50	Jan 2, 10:05 AM	Won
+META	PUT	$0.71	$1.26	+$55.50	Jan 2, 09:50 AM	Won
+Showing 10 of 13 closed trades
+Quant Edge Labs
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only

@@ -1,0 +1,450 @@
+Quant Edge Labs
+Quant Edge
+Labs
+RESEARCH
+
+Dashboard
+
+Trade Desk
+
+Futures
+
+My Watchlist
+
+Market Scanner
+500+
+AUTOMATIONS
+
+Automations Hub
+NEW
+
+Auto-Lotto Bot
+LIVE
+ANALYTICS
+
+Performance
+
+Chart Analysis
+LEARN
+
+Academy
+ACCOUNT
+
+My Account
+
+Settings
+ADMIN
+
+Admin
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+Watchlist Intelligence
+47 symbols analyzed with quantitative grading
+
+By Conviction
+All Symbols
+ELITE SETUPS
+0
+
+S + A tier symbols
+
+AVERAGE SCORE
+50/100
+
+DISTRIBUTION
+0
+/
+47
+/
+0
+Strong / Neutral / Weak
+
+LAST UPDATE
+Not graded
+
+Auto-refresh: 15m
+
+How Grading Works
+Each symbol is scored 0-100 using quantitative factors: RSI momentum, trend strength (ADX), volume activity, and moving average signals. Grades auto-refresh every 15 minutes during market hours. Click any symbol to see the full breakdown and understand why it received its grade.
+
+
+C
+RGTI
+STOCK
+50/100
+2026 Breakout Candidate - Quantum Computing
+
+Neutral
+
+C
+AFRM
+STOCK
+50/100
+2026 Breakout Candidate - Fintech
+
+Neutral
+
+C
+APP
+STOCK
+50/100
+2026 Breakout Candidate - AdTech/Gaming
+
+Neutral
+
+C
+PATH
+STOCK
+50/100
+2026 Breakout Candidate - AI/Automation
+
+Neutral
+
+C
+DNA
+STOCK
+50/100
+2026 Breakout Candidate - Biotech/Synbio
+
+Neutral
+
+C
+HIMS
+STOCK
+50/100
+2026 Breakout Candidate - Healthcare/Telehealth
+
+Neutral
+
+C
+RIOT
+STOCK
+50/100
+2026 Breakout Candidate - Crypto/Mining
+
+Neutral
+
+C
+MARA
+STOCK
+50/100
+2026 Breakout Candidate - Crypto/Mining
+
+Neutral
+
+C
+JOBY
+STOCK
+50/100
+2026 Breakout Candidate - eVTOL/Flying Cars
+
+Neutral
+
+C
+ACHR
+STOCK
+50/100
+2026 Breakout Candidate - eVTOL/Flying Cars
+
+Neutral
+
+C
+AI
+STOCK
+50/100
+2026 Breakout Candidate - AI/ML
+
+Neutral
+
+C
+OKLO
+STOCK
+50/100
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Neutral
+
+C
+SMR
+STOCK
+50/100
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Neutral
+
+C
+NNE
+STOCK
+50/100
+2026 Breakout Candidate - Nuclear/Clean Energy
+
+Neutral
+
+C
+LUNR
+STOCK
+50/100
+2026 Breakout Candidate - Space
+
+Neutral
+
+C
+RKLB
+STOCK
+50/100
+2026 Breakout Candidate - Space
+
+Neutral
+
+C
+QBTS
+STOCK
+50/100
+2026 Breakout Candidate - Quantum Computing
+
+Neutral
+
+C
+IONQ
+STOCK
+50/100
+2026 Breakout Candidate - Quantum Computing
+
+Neutral
+
+C
+BBAI
+STOCK
+50/100
+2026 Breakout Candidate - AI/ML
+
+Neutral
+
+C
+SOUN
+STOCK
+50/100
+2026 Breakout Candidate - AI/ML
+
+Neutral
+
+C
+PATH
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+AMZN
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+TSLA
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+NVO
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+RKLB
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+ASTS
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+IREN
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+NBIS
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+ZETA
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+ONDS
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+PATH
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+AMZN
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+TSLA
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+NVO
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+RKLB
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+ASTS
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+IREN
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+NBIS
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+ZETA
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+ONDS
+STOCK
+50/100
+User watchlist - momentum tracking
+
+Neutral
+
+C
+TSLY
+STOCK
+50/100
+Neutral
+
+C
+EOSE
+STOCK
+50/100
+Tracking for insights and opportunities
+
+Neutral
+
+C
+YYAI
+STOCK
+50/100
+Tracking for insights and opportunities
+
+Neutral
+
+C
+TSLA
+STOCK
+50/100
+Added from symbol search - Current: $440.78
+
+Neutral
+
+C
+XRP
+CRYPTO
+50/100
+Added from symbol search - Current: $2.36
+
+Neutral
+
+C
+AAPL
+STOCK
+50/100
+Added from symbol search - Current: $252.29
+
+Neutral
+
+C
+AAPL
+STOCK
+50/100
+Added from symbol search - Current: $252.29
+
+Neutral
+Quant Edge Labs
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only

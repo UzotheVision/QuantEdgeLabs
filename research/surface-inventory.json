@@ -1,0 +1,740 @@
+{
+  "surfaces": {
+    "NEXUS board": {
+      "files": 41,
+      "lines": 11352,
+      "apis": [
+        "/api/bullflow/net-premium-batch",
+        "/api/contract-live/:p",
+        "/api/contract-picker/:p",
+        "/api/convictions",
+        "/api/convictions/${encodeURIComponent",
+        "/api/extended-hours",
+        "/api/gaps",
+        "/api/gaps/:p",
+        "/api/health",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/historical-prices/SPY",
+        "/api/ideas/ledger",
+        "/api/market-pulse",
+        "/api/options-flow",
+        "/api/options/select",
+        "/api/patterns/scan",
+        "/api/preferences",
+        "/api/quant-bot/status",
+        "/api/quotes/batch",
+        "/api/quotes/batch/${selected",
+        "/api/quotes/batch/${signalSymbols.join",
+        "/api/quotes/batch/:p",
+        "/api/realtime-status",
+        "/api/sector-rotation",
+        "/api/ta",
+        "/api/ta/:p",
+        "/api/target-ladder/:p",
+        "/api/ticker/${encodeURIComponent",
+        "/api/trade-ideas/:p/share-discord-card",
+        "/api/watchlist"
+      ],
+      "sections": [
+        "01 \u00b7 MARKET INTELLIGENCE",
+        "02 \u00b7 ACTIVE BOOK",
+        "03 \u00b7 DEVELOPING",
+        "Ranked opportunities.",
+        "Setups before the trigger."
+      ],
+      "unique": [
+        "/api/bullflow/net-premium-batch",
+        "/api/contract-live/:p",
+        "/api/convictions/${encodeURIComponent",
+        "/api/gaps",
+        "/api/gaps/:p",
+        "/api/health",
+        "/api/historical-prices/SPY",
+        "/api/ideas/ledger",
+        "/api/options/select",
+        "/api/patterns/scan",
+        "/api/quotes/batch/${selected",
+        "/api/quotes/batch/${signalSymbols.join",
+        "/api/ta",
+        "/api/ta/:p",
+        "/api/target-ladder/:p",
+        "/api/ticker/${encodeURIComponent",
+        "/api/trade-ideas/:p/share-discord-card"
+      ]
+    },
+    "CHART": {
+      "files": 4,
+      "lines": 1151,
+      "apis": [
+        "/api/automations/status",
+        "/api/convictions",
+        "/api/extended-hours",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/market-pulse",
+        "/api/realtime-status",
+        "/api/watchlist"
+      ],
+      "sections": [
+        "Chart Lab",
+        "Price intelligence."
+      ],
+      "unique": [
+        "/api/automations/status"
+      ]
+    },
+    "FLOW": {
+      "files": 12,
+      "lines": 2351,
+      "apis": [
+        "/api/bullflow/leaders",
+        "/api/flow",
+        "/api/flow-gex-convergence/top",
+        "/api/flow/exits",
+        "/api/flow/repeats",
+        "/api/options-flow"
+      ],
+      "sections": [
+        "After the print.",
+        "Follow-through"
+      ],
+      "unique": [
+        "/api/bullflow/leaders",
+        "/api/flow",
+        "/api/flow-gex-convergence/top",
+        "/api/flow/exits",
+        "/api/flow/repeats"
+      ]
+    },
+    "GEX": {
+      "files": 10,
+      "lines": 2601,
+      "apis": [
+        "/api/extended-hours",
+        "/api/gex-vex/hub",
+        "/api/gex-vex/terminal",
+        "/api/gex-vex/terminal/:p",
+        "/api/gex-vex/terminal/:symbol",
+        "/api/search/symbols",
+        "/api/sector-rotation"
+      ],
+      "sections": [
+        "Context",
+        "Dealer positioning",
+        "GEX Hub",
+        "What it means."
+      ],
+      "unique": [
+        "/api/gex-vex/hub",
+        "/api/gex-vex/terminal/:symbol",
+        "/api/search/symbols"
+      ]
+    },
+    "LEAPS": {
+      "files": 2,
+      "lines": 974,
+      "apis": [
+        "/api/leap-tracker"
+      ],
+      "sections": [
+        "LEAPS Lab.",
+        "Long-horizon"
+      ],
+      "unique": []
+    },
+    "CRYPTO": {
+      "files": 3,
+      "lines": 1136,
+      "apis": [
+        "/api/crypto/pulse",
+        "/api/crypto/sentiment",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/realtime-status"
+      ],
+      "sections": [
+        "Crypto intelligence",
+        "Underlying first."
+      ],
+      "unique": [
+        "/api/crypto/sentiment"
+      ]
+    },
+    "CATALYST": {
+      "files": 1,
+      "lines": 377,
+      "apis": [
+        "/api/catalysts/board",
+        "/api/earnings/calendar",
+        "/api/economic-calendar"
+      ],
+      "sections": [
+        "Catalyst Lab.",
+        "Event intelligence"
+      ],
+      "unique": [
+        "/api/catalysts/board",
+        "/api/earnings/calendar"
+      ]
+    },
+    "BOT": {
+      "files": 4,
+      "lines": 2053,
+      "apis": [
+        "/api/catalysts/recent",
+        "/api/convictions",
+        "/api/crypto/pulse",
+        "/api/discipline/ledger",
+        "/api/economic-calendar",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/leap-tracker",
+        "/api/options-flow",
+        "/api/performance/stats",
+        "/api/quant-bot/status",
+        "/api/realtime-status"
+      ],
+      "sections": [
+        "Automation",
+        "Discipline, running."
+      ],
+      "unique": [
+        "/api/catalysts/recent",
+        "/api/discipline/ledger"
+      ]
+    },
+    "POSITIONS": {
+      "files": 4,
+      "lines": 672,
+      "apis": [
+        "/api/positions/live"
+      ],
+      "sections": [],
+      "unique": [
+        "/api/positions/live"
+      ]
+    },
+    "JOURNAL": {
+      "files": 38,
+      "lines": 12018,
+      "apis": [
+        "/api/ai/chat/history",
+        "/api/audit/data-integrity",
+        "/api/auth/logout",
+        "/api/auth/me",
+        "/api/broker/analyze",
+        "/api/broker/import",
+        "/api/broker/import-screenshot",
+        "/api/broker/portfolio",
+        "/api/broker/portfolio/:p",
+        "/api/broker/supported",
+        "/api/convictions/backtest",
+        "/api/csrf-token",
+        "/api/engine-health",
+        "/api/historical-intelligence",
+        "/api/historical-intelligence/refresh",
+        "/api/historical-intelligence/stats",
+        "/api/journal/analytics",
+        "/api/journal/import-csv",
+        "/api/journal/trade",
+        "/api/journal/trade/:p",
+        "/api/journal/trades",
+        "/api/journal/trades/all",
+        "/api/loss-analysis/summary",
+        "/api/patterns",
+        "/api/performance/auto-lotto-bot",
+        "/api/performance/calibration-curve",
+        "/api/performance/confidence-calibration",
+        "/api/performance/confidence-calibration:p",
+        "/api/performance/drawdown-analysis",
+        "/api/performance/engine-actual-stats",
+        "/api/performance/engine-trends",
+        "/api/performance/export",
+        "/api/performance/rolling-win-rate",
+        "/api/performance/stats",
+        "/api/performance/streaks",
+        "/api/performance/symbol-leaderboard",
+        "/api/performance/time-of-day-heatmap",
+        "/api/performance/validate",
+        "/api/research-history",
+        "/api/signal-attribution",
+        "/api/signal-attribution/recalculate",
+        "/api/strategy-simulator/run",
+        "/api/user/tier"
+      ],
+      "sections": [],
+      "unique": [
+        "/api/ai/chat/history",
+        "/api/csrf-token",
+        "/api/journal/analytics",
+        "/api/journal/import-csv",
+        "/api/journal/trade",
+        "/api/journal/trade/:p",
+        "/api/journal/trades",
+        "/api/journal/trades/all",
+        "/api/research-history",
+        "/api/strategy-simulator/run"
+      ]
+    },
+    "Slate": {
+      "files": 2,
+      "lines": 346,
+      "apis": [
+        "/api/premarket/gappers",
+        "/api/quotes/batch/SPY",
+        "/api/slate"
+      ],
+      "sections": [],
+      "unique": [
+        "/api/premarket/gappers",
+        "/api/quotes/batch/SPY",
+        "/api/slate"
+      ]
+    },
+    "Radar": {
+      "files": 3,
+      "lines": 707,
+      "apis": [
+        "/api/radar/patterns",
+        "/api/radar/picks",
+        "/api/radar/scan",
+        "/api/radar/stats"
+      ],
+      "sections": [],
+      "unique": [
+        "/api/radar/patterns",
+        "/api/radar/picks",
+        "/api/radar/scan",
+        "/api/radar/stats"
+      ]
+    },
+    "Performance": {
+      "files": 31,
+      "lines": 8371,
+      "apis": [
+        "/api/audit/data-integrity",
+        "/api/auth/logout",
+        "/api/auth/me",
+        "/api/broker/analyze",
+        "/api/broker/import",
+        "/api/broker/import-screenshot",
+        "/api/broker/portfolio",
+        "/api/broker/portfolio/:p",
+        "/api/broker/supported",
+        "/api/convictions/backtest",
+        "/api/engine-health",
+        "/api/historical-intelligence",
+        "/api/historical-intelligence/refresh",
+        "/api/historical-intelligence/stats",
+        "/api/loss-analysis/summary",
+        "/api/patterns",
+        "/api/performance/auto-lotto-bot",
+        "/api/performance/calibration-curve",
+        "/api/performance/confidence-calibration",
+        "/api/performance/confidence-calibration:p",
+        "/api/performance/drawdown-analysis",
+        "/api/performance/engine-actual-stats",
+        "/api/performance/engine-trends",
+        "/api/performance/export",
+        "/api/performance/rolling-win-rate",
+        "/api/performance/stats",
+        "/api/performance/streaks",
+        "/api/performance/symbol-leaderboard",
+        "/api/performance/time-of-day-heatmap",
+        "/api/performance/validate",
+        "/api/signal-attribution",
+        "/api/signal-attribution/recalculate",
+        "/api/user/tier"
+      ],
+      "sections": [],
+      "unique": []
+    },
+    "Alerts": {
+      "files": 3,
+      "lines": 740,
+      "apis": [
+        "/api/alerts/relay",
+        "/api/convictions"
+      ],
+      "sections": [],
+      "unique": [
+        "/api/alerts/relay"
+      ]
+    },
+    "How-to": {
+      "files": 1,
+      "lines": 189,
+      "apis": [],
+      "sections": [],
+      "unique": []
+    },
+    "Settings": {
+      "files": 3,
+      "lines": 1411,
+      "apis": [
+        "/api/auth/logout",
+        "/api/auth/me",
+        "/api/bot-trades",
+        "/api/navigation-layout",
+        "/api/preferences"
+      ],
+      "sections": [],
+      "unique": [
+        "/api/bot-trades",
+        "/api/navigation-layout"
+      ]
+    },
+    "Research": {
+      "files": 15,
+      "lines": 5368,
+      "apis": [
+        "/api/contract/analyze",
+        "/api/gex-vex/terminal",
+        "/api/gex-vex/terminal/:p",
+        "/api/options-analyzer/chain",
+        "/api/options-analyzer/chain/:p",
+        "/api/options-analyzer/deep-analysis",
+        "/api/options-analyzer/expirations",
+        "/api/options-flow",
+        "/api/options-quant/monte-carlo",
+        "/api/options-quant/price",
+        "/api/options-quant/strategy",
+        "/api/options-quant/surface",
+        "/api/quotes/batch",
+        "/api/quotes/batch/:p",
+        "/api/trade-desk/ideas/from-contract-analysis",
+        "/api/watchlist"
+      ],
+      "sections": [],
+      "unique": [
+        "/api/contract/analyze",
+        "/api/options-analyzer/chain",
+        "/api/options-analyzer/chain/:p",
+        "/api/options-analyzer/deep-analysis",
+        "/api/options-analyzer/expirations",
+        "/api/options-quant/monte-carlo",
+        "/api/options-quant/price",
+        "/api/options-quant/strategy",
+        "/api/options-quant/surface",
+        "/api/trade-desk/ideas/from-contract-analysis"
+      ]
+    },
+    "Ticker workup": {
+      "files": 4,
+      "lines": 1775,
+      "apis": [
+        "/api/alerts/level",
+        "/api/bullflow/net-premium",
+        "/api/bullflow/net-premium/:p",
+        "/api/catalysts/symbol",
+        "/api/catalysts/symbol/:p",
+        "/api/contract-picker/:p",
+        "/api/convictions",
+        "/api/crypto/pulse",
+        "/api/economic-calendar",
+        "/api/engine/analyze/:p",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/options-flow",
+        "/api/peers",
+        "/api/peers/:p",
+        "/api/quantinum/:p",
+        "/api/short-interest",
+        "/api/short-interest/:p",
+        "/api/watchlist"
+      ],
+      "sections": [],
+      "unique": [
+        "/api/alerts/level",
+        "/api/bullflow/net-premium",
+        "/api/bullflow/net-premium/:p",
+        "/api/catalysts/symbol",
+        "/api/catalysts/symbol/:p",
+        "/api/engine/analyze/:p",
+        "/api/peers",
+        "/api/peers/:p",
+        "/api/quantinum/:p",
+        "/api/short-interest",
+        "/api/short-interest/:p"
+      ]
+    }
+  },
+  "overlap": [
+    {
+      "a": "JOURNAL",
+      "b": "Performance",
+      "jaccard": 0.77,
+      "shared": [
+        "/api/audit/data-integrity",
+        "/api/auth/logout",
+        "/api/auth/me",
+        "/api/broker/analyze",
+        "/api/broker/import",
+        "/api/broker/import-screenshot",
+        "/api/broker/portfolio",
+        "/api/broker/portfolio/:p",
+        "/api/broker/supported",
+        "/api/convictions/backtest",
+        "/api/engine-health",
+        "/api/historical-intelligence",
+        "/api/historical-intelligence/refresh",
+        "/api/historical-intelligence/stats",
+        "/api/loss-analysis/summary",
+        "/api/patterns",
+        "/api/performance/auto-lotto-bot",
+        "/api/performance/calibration-curve",
+        "/api/performance/confidence-calibration",
+        "/api/performance/confidence-calibration:p",
+        "/api/performance/drawdown-analysis",
+        "/api/performance/engine-actual-stats",
+        "/api/performance/engine-trends",
+        "/api/performance/export",
+        "/api/performance/rolling-win-rate",
+        "/api/performance/stats",
+        "/api/performance/streaks",
+        "/api/performance/symbol-leaderboard",
+        "/api/performance/time-of-day-heatmap",
+        "/api/performance/validate",
+        "/api/signal-attribution",
+        "/api/signal-attribution/recalculate",
+        "/api/user/tier"
+      ]
+    },
+    {
+      "a": "CRYPTO",
+      "b": "BOT",
+      "jaccard": 0.31,
+      "shared": [
+        "/api/crypto/pulse",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/realtime-status"
+      ]
+    },
+    {
+      "a": "CHART",
+      "b": "CRYPTO",
+      "jaccard": 0.3,
+      "shared": [
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/realtime-status"
+      ]
+    },
+    {
+      "a": "CHART",
+      "b": "BOT",
+      "jaccard": 0.25,
+      "shared": [
+        "/api/convictions",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/realtime-status"
+      ]
+    },
+    {
+      "a": "BOT",
+      "b": "Ticker workup",
+      "jaccard": 0.24,
+      "shared": [
+        "/api/convictions",
+        "/api/crypto/pulse",
+        "/api/economic-calendar",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/options-flow"
+      ]
+    },
+    {
+      "a": "NEXUS board",
+      "b": "CHART",
+      "jaccard": 0.22,
+      "shared": [
+        "/api/convictions",
+        "/api/extended-hours",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/market-pulse",
+        "/api/realtime-status",
+        "/api/watchlist"
+      ]
+    },
+    {
+      "a": "CHART",
+      "b": "Ticker workup",
+      "jaccard": 0.17,
+      "shared": [
+        "/api/convictions",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/watchlist"
+      ]
+    },
+    {
+      "a": "NEXUS board",
+      "b": "BOT",
+      "jaccard": 0.16,
+      "shared": [
+        "/api/convictions",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/options-flow",
+        "/api/quant-bot/status",
+        "/api/realtime-status"
+      ]
+    },
+    {
+      "a": "NEXUS board",
+      "b": "Ticker workup",
+      "jaccard": 0.14,
+      "shared": [
+        "/api/contract-picker/:p",
+        "/api/convictions",
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/options-flow",
+        "/api/watchlist"
+      ]
+    },
+    {
+      "a": "CRYPTO",
+      "b": "Ticker workup",
+      "jaccard": 0.14,
+      "shared": [
+        "/api/crypto/pulse",
+        "/api/historical-prices",
+        "/api/historical-prices/:p"
+      ]
+    },
+    {
+      "a": "CHART",
+      "b": "Alerts",
+      "jaccard": 0.11,
+      "shared": [
+        "/api/convictions"
+      ]
+    },
+    {
+      "a": "GEX",
+      "b": "Research",
+      "jaccard": 0.1,
+      "shared": [
+        "/api/gex-vex/terminal",
+        "/api/gex-vex/terminal/:p"
+      ]
+    },
+    {
+      "a": "NEXUS board",
+      "b": "CRYPTO",
+      "jaccard": 0.09,
+      "shared": [
+        "/api/historical-prices",
+        "/api/historical-prices/:p",
+        "/api/realtime-status"
+      ]
+    },
+    {
+      "a": "NEXUS board",
+      "b": "Research",
+      "jaccard": 0.09,
+      "shared": [
+        "/api/options-flow",
+        "/api/quotes/batch",
+        "/api/quotes/batch/:p",
+        "/api/watchlist"
+      ]
+    },
+    {
+      "a": "LEAPS",
+      "b": "BOT",
+      "jaccard": 0.08,
+      "shared": [
+        "/api/leap-tracker"
+      ]
+    },
+    {
+      "a": "BOT",
+      "b": "Alerts",
+      "jaccard": 0.08,
+      "shared": [
+        "/api/convictions"
+      ]
+    },
+    {
+      "a": "CHART",
+      "b": "GEX",
+      "jaccard": 0.07,
+      "shared": [
+        "/api/extended-hours"
+      ]
+    },
+    {
+      "a": "CATALYST",
+      "b": "BOT",
+      "jaccard": 0.07,
+      "shared": [
+        "/api/economic-calendar"
+      ]
+    },
+    {
+      "a": "NEXUS board",
+      "b": "GEX",
+      "jaccard": 0.06,
+      "shared": [
+        "/api/extended-hours",
+        "/api/sector-rotation"
+      ]
+    },
+    {
+      "a": "FLOW",
+      "b": "BOT",
+      "jaccard": 0.06,
+      "shared": [
+        "/api/options-flow"
+      ]
+    },
+    {
+      "a": "Performance",
+      "b": "Settings",
+      "jaccard": 0.06,
+      "shared": [
+        "/api/auth/logout",
+        "/api/auth/me"
+      ]
+    },
+    {
+      "a": "Research",
+      "b": "Ticker workup",
+      "jaccard": 0.06,
+      "shared": [
+        "/api/options-flow",
+        "/api/watchlist"
+      ]
+    },
+    {
+      "a": "FLOW",
+      "b": "Research",
+      "jaccard": 0.05,
+      "shared": [
+        "/api/options-flow"
+      ]
+    },
+    {
+      "a": "CATALYST",
+      "b": "Ticker workup",
+      "jaccard": 0.05,
+      "shared": [
+        "/api/economic-calendar"
+      ]
+    },
+    {
+      "a": "Alerts",
+      "b": "Ticker workup",
+      "jaccard": 0.05,
+      "shared": [
+        "/api/convictions"
+      ]
+    }
+  ]
+}

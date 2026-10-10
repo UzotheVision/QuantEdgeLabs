@@ -1,0 +1,177 @@
+Here’s a **copy-paste prompt** to fix your design inconsistencies in one pass, plus the **exact code** to standardize your colors.
+
+---
+
+## **Prompt for AI Design Tool (Midjourney/Figma)**
+
+```
+Professional fintech trading platform UI design system adjustment. 
+
+Current issues: color inconsistencies between glassmorphism components, incorrect hex codes, and missing state variations.
+
+Fixes needed:
+
+1. Standardize primary accent color to cyan #00D4FF across all interactive elements (buttons, borders, highlights)
+2. Ensure glassmorphism backgrounds use rgba(30, 30, 32, 0.4) with consistent 20px blur
+3. Update all border colors to rgba(255, 255, 255, 0.08) for subtlety
+4. Create proper state variations:
+   - Hover: +10% opacity, +2px glow
+   - Active: inset shadow, -5% opacity
+   - Disabled: 10% opacity, grayscale
+5. Fix semantic colors:
+   - Success: #30D158 (green)
+   - Danger: #FF453A (red)
+   - Warning: #FF9F0A (amber)
+6. Ensure text hierarchy uses correct opacity levels:
+   - Primary: #FFFFFF (100%)
+   - Secondary: rgba(255, 255, 255, 0.6)
+   - Muted: rgba(255, 255, 255, 0.4)
+
+Output: CSS variable declarations, button component specs, and a visual reference showing correct vs incorrect implementations. Dark theme only.
+```
+
+---
+
+## **Immediate Code Fix: Standardize Colors**
+
+Add this **reset** to the top of your global CSS to override all inconsistencies:
+
+```css
+/* ============================================================================
+   QUANTEDGE COLOR RESET - Paste at top of global.css
+   =========================================================================== */
+
+:root {
+  /* Core Palette */
+  --bg-primary: #0a0a0a;
+  --bg-glass: rgba(30, 30, 32, 0.4);
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --accent-cyan: #00d4ff;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-muted: rgba(255, 255, 255, 0.4);
+  --danger-red: #ff453a;
+  --success-green: #30d158;
+  --warning-orange: #ff9f0a;
+
+  /* Glassmorphism System */
+  --glass-blur: 20px;
+  --glass-border-width: 1px;
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  
+  /* State Variations */
+  --glass-hover-opacity: 0.1;
+  --glass-active-opacity: -0.05;
+  --glass-disabled-opacity: 0.1;
+}
+
+/* Force override all previous color declarations */
+* {
+  --tw-text-opacity: 1 !important;
+  --tw-bg-opacity: 1 !important;
+  --tw-border-opacity: 1 !important;
+}
+
+/* ============================================================================
+   END COLOR RESET
+   =========================================================================== */
+```
+
+---
+
+## **Fix the Most Common Inconsistencies**
+
+### **Problem 1: Some buttons use `bg-blue-500` instead of glass**
+
+**Find:** `bg-blue-500`, `bg-blue-600`, `bg-cyan-500`  
+**Replace with:** `glass` or `glass-card`
+
+```diff
+- <button className="bg-blue-500 hover:bg-blue-600">
++ <button className="glass hover:bg-[rgba(0,212,255,0.35)]">
+```
+
+### **Problem 2: Text colors are all over the place**
+
+**Find:** `text-gray-400`, `text-gray-500`, `text-slate-400`  
+**Replace with:** `text-secondary` or `text-muted`
+
+```diff
+- <span className="text-gray-400">
++ <span className="text-secondary">
+```
+
+### **Problem 3: Border colors inconsistent**
+
+**Find:** `border-gray-700`, `border-slate-600`  
+**Replace with:** `border-glass`
+
+```diff
+- <div className="border border-gray-700">
++ <div className="border border-glass">
+```
+
+---
+
+## **Automated Fix Script**
+
+Run this in your terminal to find and flag inconsistencies:
+
+```bash
+# Find all color classes that aren't in the design system
+grep -r "bg-blue-\|bg-gray-\|text-gray-\|border-gray-" src/ --include="*.tsx" --include="*.ts"
+
+# Expected output: List of files to manually fix
+```
+
+---
+
+## **Quick Component Fixes**
+
+### **Button Component (Standardized)**
+
+```tsx
+// components/Button.tsx
+export const Button = ({ variant = "glass", children, ...props }) => {
+  const variants = {
+    glass: "bg-[rgba(0,212,255,0.25)] border border-glass hover:bg-[rgba(0,212,255,0.35)]",
+    glassSecondary: "bg-[rgba(42,42,43,0.4)] border border-glass hover:bg-[rgba(42,42,43,0.5)]",
+    glassSuccess: "bg-[rgba(48,209,88,0.2)] border border-[rgba(48,209,88,0.3)] hover:bg-[rgba(48,209,88,0.3)]",
+    glassDanger: "bg-[rgba(255,69,58,0.2)] border border-[rgba(255,69,58,0.3)] hover:bg-[rgba(255,69,58,0.3)]",
+  };
+
+  return (
+    <button 
+      className={`${variants[variant]} rounded-lg px-4 py-2 font-medium transition-all hover:translate-y-[-1px] active:translate-y-[0] active:opacity-90`}
+      {...props}
+    >
+      {children}
+    </button>
+  );
+};
+```
+
+### **Card Component (Standardized)**
+
+```tsx
+// components/Card.tsx
+export const Card = ({ children, accent = false, className = "" }) => (
+  <div className={`glass-card rounded-xl p-5 ${accent ? "border-l-2 border-l-cyan-500" : ""} ${className}`}>
+    {children}
+  </div>
+);
+```
+
+---
+
+## **Final Checklist**
+
+- [ ] All `bg-blue-*` replaced with `glass` or `glass-card`  
+- [ ] All `text-gray-*` replaced with `text-secondary` or `text-muted`  
+- [ ] All `border-gray-*` replaced with `border-glass`  
+- [ ] Header uses `glass-header`  
+- [ ] Buttons use the standardized `Button` component  
+- [ ] Cards use the standardized `Card` component  
+- [ ] Mobile responsive styles added
+
+**Time to complete: 2-3 hours.** Your UI will be consistent and professional.

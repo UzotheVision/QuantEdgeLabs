@@ -1,0 +1,176 @@
+QE
+QuantEdge
+MULTIPLE ENGINES • ONE EDGE
+TRADING TOOLS
+
+Dashboard
+
+Research Desk
+Popular
+
+Research Desk (Futures)
+24h
+
+Auto-Lotto Bot
+New
+ANALYSIS & RESEARCH
+
+Chart Analysis
+AI
+
+Performance
+
+Market Data
+
+Chart Database
+LEARNING
+
+Trading Rules
+
+Academy
+
+Blog
+ACCOUNT
+
+Pricing
+
+Settings
+
+Admin
+Admin
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+WEDNESDAY, DEC 31
+
+Research Desk
+1 Active Briefs
+Admin
+AI Research Assistant
+Search symbols...
+
+All
+Watch Out For These
+TSLY
+STOCK
+$38.45
++0.44%
+EOSE
+STOCK
+Tracking for insights and opportunities
+$11.49
++1.24%
+YYAI
+STOCK
+Tracking for insights and opportunities
+$0.90
+-2.92%
+TSLA
+STOCK
+Near Target
+Added from symbol search - Current: $440.78
+$461.53
++0.42%
+XRP
+CRYPTO
+Near Stop
+Added from symbol search - Current: $2.36
+$1.88
++1.23%
+Active Research
+1 open patterns
+
+Priority
+
+Stock Shares
+1 idea
+4.0x R:R
+
+NVDA
+AI
+LONG
+85%
+R:R
+4.0
+B+
+Active
+4 signals
+4/3
+TIMING
+Posted
+9:31 AM
+$188.76
+-0.12%
+ENTRY
+$188.99
+TARGET
+$196.55
+STOP
+$187.09
+Price chart unavailable
+CATALYST
+Continued robust demand in the AI sector, strong long-term growth prospects, and potential for new product announcements maintaining market leadership.
+
+Signal Confidence:
+65%
+Recent Performance:
+253 wins
+100 losses
+(353 decided)
+QuantEdge Research
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only
+NVDA
+LONG
+Stock
+•
+Grade: D
+•
+-0.12%
+
+Overview
+Analysis
+Sentiment
+Grade Explanation
+D
+(65/100)
+This trade received a D grade based on our quantitative scoring system. Only B+ and higher grades (85+) pass our quality filter.
+
+A+ / A
+90-100
+B+ / B
+80-89
+C+ / C
+70-79
+Detailed Analysis
+NVIDIA stock has pulled back to a key technical support area near its 50-day moving average, presenting an attractive entry point. Volume analysis suggests accumulation during this consolidation phase, indicating underlying strength for a move higher. Chart: Stop adjusted to below support: $187.09; Warning: Resistance at $190.00 before target.
+
+Quality Signals Detected
+AI Analysis
++5 pts
+Quality signal detected by our quantitative system.
+
+R:R 4.0:1
++5 pts
+Quality signal detected by our quantitative system.
+
+Chart Confirmed
++5 pts
+Quality signal detected by our quantitative system.
+
+Technical Pattern
++5 pts
+Quality signal detected by our quantitative system.
+
+How scoring works: Each quality signal adds points to the confidence score. Strong R:R ratios, confirmed volume, and early predictive setups contribute the most points. The final score determines the letter grade.
+Key Metrics
+Risk/Reward
+4.0:1
+Excellent setup
+Confidence Score
+65
+Moderate confidence
+Close

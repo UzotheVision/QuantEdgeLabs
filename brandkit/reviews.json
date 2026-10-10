@@ -1,0 +1,64 @@
+{
+  "reviews": [
+    {
+      "stage": "palette",
+      "name": "Instrument",
+      "premise": "A precision measuring device, not a trading floor. Graphite body, warm paper readout, one calibrated amber for the value that matters.",
+      "keywords": ["calibrated", "precise", "unhurried"],
+      "palette": [
+        { "hex": "#12151A", "name": "Graphite" },
+        { "hex": "#1A1F26", "name": "Housing" },
+        { "hex": "#E8E6E1", "name": "Readout" },
+        { "hex": "#E8A33D", "name": "Dial Amber" },
+        { "hex": "#4FA88B", "name": "Verified" },
+        { "hex": "#C4614F", "name": "Fault" }
+      ],
+      "logo_ideas": [
+        "A vernier caliper jaw closing on a gap — measurement, and the gap the platform actually reads",
+        "A single needle at rest off-centre, refusing to point at zero"
+      ],
+      "background_color": "#12151A",
+      "text_color": "#E8E6E1"
+    },
+    {
+      "stage": "palette",
+      "name": "Cold Read",
+      "premise": "Forensic and dispassionate. A navy-black base rather than neutral black, cool light text, and an ice signal that never sells you anything.",
+      "keywords": ["forensic", "evidential", "cool"],
+      "palette": [
+        { "hex": "#0E1420", "name": "Deep Navy" },
+        { "hex": "#161E2C", "name": "Slate" },
+        { "hex": "#D6DEE8", "name": "Cold Light" },
+        { "hex": "#78C6E8", "name": "Ice Signal" },
+        { "hex": "#6E9E7A", "name": "Moss" },
+        { "hex": "#B5705F", "name": "Clay" }
+      ],
+      "logo_ideas": [
+        "A confidence interval drawn as two brackets around an absent point estimate",
+        "An offset crosshair that deliberately misses centre"
+      ],
+      "background_color": "#0E1420",
+      "text_color": "#D6DEE8"
+    },
+    {
+      "stage": "palette",
+      "name": "Nocturne",
+      "premise": "Built for 6am in a dark room. An aubergine ink that is warmer on the eye than black, parchment text, sodium-lamp amber. Human hours, not server hours.",
+      "keywords": ["low-light", "warm", "quiet"],
+      "palette": [
+        { "hex": "#16121A", "name": "Aubergine Ink" },
+        { "hex": "#1F1A24", "name": "Shadow" },
+        { "hex": "#EDE4D8", "name": "Parchment" },
+        { "hex": "#D99A5B", "name": "Sodium" },
+        { "hex": "#8AA37B", "name": "Sage" },
+        { "hex": "#A85F5A", "name": "Brick" }
+      ],
+      "logo_ideas": [
+        "A waning crescent formed by the negative space between two candle bodies",
+        "A horizon line with one mark below it, held rather than hidden"
+      ],
+      "background_color": "#16121A",
+      "text_color": "#EDE4D8"
+    }
+  ]
+}

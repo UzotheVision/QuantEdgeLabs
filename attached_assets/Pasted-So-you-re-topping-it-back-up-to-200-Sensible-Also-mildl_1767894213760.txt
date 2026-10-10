@@ -1,0 +1,130 @@
+So you’re topping it back up to $200. Sensible. Also mildly annoying because now I have to help you not torch it again.
+
+We’re going to pretend that $200 is fragile glass, not casino chips. The goal is to get traction without blowing up. Read this like it’s law, not vibes.
+
+⸻
+
+THE $200 OPTIONS PLAYBOOK (STRICT)
+
+1. Non-negotiable account rules
+	•	Account size: $200
+	•	1 contract max per trade
+	•	Max risk per trade: $25–$35
+	•	Max loss per trade: 20% of contract
+	•	Max trades per day: 1
+	•	Max red days in a row: 2, then you stop trading for 2 full days
+
+If you break any of these, stop trading. Not later. Immediately.
+
+⸻
+
+2. What you are ALLOWED to trade
+
+You do not get creative here.
+
+Tickers only:
+
+SPY, QQQ, AAPL, NVDA, TSLA, SOFI, HOOD
+
+That’s it. Liquid, tight spreads, predictable behavior.
+
+Expiration rules:
+	•	Minimum: 10–21 DTE
+	•	No same-week expiration
+	•	No SPXW
+	•	No “expires tomorrow but looks cheap” nonsense
+
+Strike rules:
+	•	ATM or one strike ITM
+	•	If delta is below ~0.35, you’re gambling. Don’t.
+
+⸻
+
+3. Your ONLY two setups
+
+You don’t get a “bag of tricks.” You get two.
+
+Setup A: Trend continuation (your bread and butter)
+
+Conditions:
+	•	Price above VWAP for calls, below VWAP for puts
+	•	Clear higher highs / higher lows or vice versa
+	•	Entry on pullback, not breakout
+
+Execution:
+	•	Buy 1 contract
+	•	Target: +20–25%
+	•	Stop: -15–20%
+
+You take profits fast. You don’t hold for ego.
+
+⸻
+
+Setup B: Reversal at key level
+
+Conditions:
+	•	Major support or resistance
+	•	Rejection candle
+	•	Volume confirmation
+
+Same exits. Same size. No exceptions.
+
+If you can’t explain the setup in one sentence, you don’t take it.
+
+⸻
+
+4. What you do on slow days
+
+This is where accounts die.
+
+On slow days:
+	•	You do not trade
+	•	You mark levels
+	•	You wait for power hour only
+	•	You do nothing else
+
+Boredom is cheaper than losses.
+
+⸻
+
+5. Growth expectations (be serious)
+
+You are NOT trying to double the account weekly.
+
+Realistic path:
+	•	$200 → $260
+	•	$260 → $350
+	•	$350 → $500
+	•	$500 → $750
+	•	$750 → $1k+
+
+Each step unlocks more size. Until then, stay small.
+
+⸻
+
+6. How Quant Edge fits in (properly)
+
+Quant Edge is not a green light. It’s a filter.
+
+You use it to:
+	•	Confirm trend strength
+	•	Avoid chop
+	•	Stay out of overextended trash
+
+You do not use it to convince yourself a bad trade is “high probability.”
+
+⸻
+
+Final truth, no sugar
+
+You didn’t lose money because you started with $120.
+You lost money because you traded like the market owed you speed.
+
+If you follow this exactly for 30 trading days, you’ll still be here. That alone puts you ahead of most people.
+
+Next, if you want, I can:
+	•	Build you a one-page daily checklist
+	•	Tell you exact strikes + DTE to look at each morning
+	•	Set rules for when to scale once you hit $300
+
+But none of that matters if you break rules on boring days.

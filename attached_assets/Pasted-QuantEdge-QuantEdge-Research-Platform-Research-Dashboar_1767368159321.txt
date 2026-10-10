@@ -1,0 +1,217 @@
+QuantEdge
+QuantEdge
+Research Platform
+Research
+
+Dashboard
+
+Research Desk
+
+Futures
+
+Auto-Lotto Bot
+Analysis
+
+Chart Analysis
+
+Performance
+
+Market Data
+
+Chart Database
+Learn
+
+Trading Rules
+
+Academy
+
+Blog
+Account
+
+Settings
+Admin
+
+Admin
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+Trading Week: Dec 29 - Jan 2
+
+Weekly Watchlist
+My Watchlist
+Auto-Lotto Bot
+Activity & Coverage
+Recent Wins
+Last 7 Days
+From Trade Ideas
+These are the winning research ideas that triggered Discord alerts
+AAPL
+CALL $280
+🧠 AI • LONG
+
++25.0%
+1/2/2026
+
+NVDA
+CALL $195
+🧠 AI • LONG
+
++25.0%
+1/2/2026
+
+DNN
+🧠 AI • LONG
+
++5.7%
+1/1/2026
+
+BBAI
+🧠 AI • LONG
+
++7.9%
+1/1/2026
+
+SPY
+PUT $690
+📈 Chart • SHORT
+
++0.1%
+12/30/2025
+
+SPY
+PUT $690
+📈 Chart • SHORT
+
++1.7%
+12/30/2025
+
+AAVE
+📊 Quant • LONG
+
++8.0%
+12/30/2025
+
+TSLA
+CALL $450
+📊 Quant • LONG
+
++15.0%
+12/29/2025
+
+MSFT
+CALL $485
+📊 Quant • LONG
+
++15.0%
+12/29/2025
+
+META
+CALL $660
+📊 Quant • LONG
+
++15.0%
+12/29/2025
+
+Options Lotto
+
+Paper
+Account Value
+
+$343.00
+Starting
+$300.00
+Realized P&L
++$43.00
+Positions
+0 open / 15 closed
+Futures Trading
+
+Paper
+Account Value
+
+$300.00
+Starting
+$300.00
+Realized P&L
++$0
+Positions
+1 open / 0 closed
+Combined Value
+
+$643.00
+Day's P&L
+
++$43.00
+Total Trades
+
+15
+Total Equity
+
+$343.00
+
+Cash Available
+
+$343.00
+
+Open P&L
+
++$0.00
+
+Closed P&L
+
++$43.00
+
+Performance by Asset Type
+Separate win rates and metrics for each trading strategy
+Options Lotto
+Win Rate
+100.0%
+Record
+4W / 0L
+Total P&L
++$43.00
+Avg Trade
++$2.87
+Active 9:30 AM - 4:00 PM ET
+Futures Trading
+NQ / GC
+Win Rate
+0%
+Record
+0W / 0L
+Total P&L
++$0.00
+Avg Trade
+--
+Active 24/7 (CME hours)
+Bot running
+Checks every 5 min during market hours
+Options
+Futures
+4W / 0L
+100.0% Win
+Open Positions
+Active lotto trades currently held by the bot
+No open positions. Bot will enter trades when lotto opportunities arise.
+
+Trading History
+15
+Closed trades with realized P&L
+Symbol	Type	Entry	Exit	P&L	Date Closed	Result
+HOOD	PUT	$0.33	$0.13	+$19.50	Jan 2, 09:35 AM	Won
+NFLX	PUT	$0.26	$0.22	+$4.00	Jan 2, 09:20 AM	Won
+GOOGL	CALL	$0.21	$0.30	+$19.00	Jan 2, 08:50 AM	Won
+META	PUT	$0.62	$0.63	+$0.50	Jan 2, 08:35 AM	Won
+META	PUT	$0.62	$0.62	+$0.00	Jan 1, 01:50 PM	Won
+META	PUT	$0.62	$0.62	+$0.00	Jan 1, 01:35 PM	Won
+META	PUT	$0.62	$0.62	+$0.00	Jan 1, 01:05 PM	Won
+META	PUT	$0.62	$0.62	+$0.00	Jan 1, 12:50 PM	Won
+META	PUT	$0.62	$0.62	+$0.00	Jan 1, 12:35 PM	Won
+META	PUT	$0.62	$0.62	+$0.00	Jan 1, 10:35 AM	Won
+Showing 10 of 15 closed trades
+QuantEdge Research
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only

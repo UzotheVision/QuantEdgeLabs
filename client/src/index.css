@@ -1,0 +1,2817 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Film grain texture for light mode */
+@keyframes grain {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-5%, -10%); }
+  20% { transform: translate(-15%, 5%); }
+  30% { transform: translate(7%, -25%); }
+  40% { transform: translate(-5%, 25%); }
+  50% { transform: translate(-15%, 10%); }
+  60% { transform: translate(15%, 0%); }
+  70% { transform: translate(0%, 15%); }
+  80% { transform: translate(3%, 35%); }
+  90% { transform: translate(-10%, 10%); }
+}
+
+.film-grain::before {
+  content: '';
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200%;
+  background: transparent url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E") repeat;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.015;
+  animation: grain 8s steps(10) infinite;
+}
+
+.dark .film-grain::before {
+  opacity: 0;
+}
+
+/* ============================================================
+   GLOBAL POLISH LAYER — Consistency enforcer
+   One easing. One hover pattern. One shadow depth.
+   Applied GLOBALLY so every component inherits premium feel.
+   ============================================================ */
+
+/* Top viewport stripe — 3px brand gradient */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 9998;
+  background: linear-gradient(90deg, var(--brand-teal), var(--brand-cyan), var(--brand-teal));
+  pointer-events: none;
+}
+
+/* Global transition easing — one curve for everything */
+:root {
+  --ease-out-smooth: cubic-bezier(.4, 0, .2, 1);
+  --transition-fast: 0.15s var(--ease-out-smooth);
+  --transition-base: 0.2s var(--ease-out-smooth);
+  --transition-slow: 0.3s var(--ease-out-smooth);
+}
+
+/* Force consistent transitions on all interactive elements */
+a, button, [role="button"],
+input, textarea, select,
+.shadcn-card, [class*="rounded"] {
+  transition-timing-function: var(--ease-out-smooth);
+}
+
+/* Cards — consistent hover lift + glow */
+.shadcn-card {
+  transition: transform var(--transition-base),
+              box-shadow var(--transition-base),
+              border-color var(--transition-base);
+}
+
+.shadcn-card:hover {
+  transform: translateY(-1px);
+}
+
+.dark .shadcn-card:hover {
+  box-shadow: 0 4px 20px rgba(20, 184, 166, 0.06);
+}
+
+/* Atmospheric page background — logo-inspired cyan-blue glow
+   Apply to any page: className="page-atmosphere" */
+.page-atmosphere {
+  position: relative;
+}
+
+.page-atmosphere::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 15% 10%, rgba(34, 211, 238, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 90%, rgba(59, 130, 246, 0.03) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.page-atmosphere::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(34, 211, 238, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 211, 238, 0.025) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Buttons — consistent press feedback */
+button:not([disabled]):active,
+[role="button"]:not([disabled]):active {
+  transform: scale(0.98);
+  transition-duration: 0.05s;
+}
+
+/* ============================================================
+   QUANT EDGE LABS — UNIFIED DESIGN TOKENS
+   Single source of truth for both light and dark modes.
+
+   Architecture:
+   - index.css (this file) = CSS variables (THE source of truth)
+   - tailwind.config.ts    = references these variables
+   - design-tokens.ts      = Tailwind class-string API for components
+   ============================================================ */
+
+/* LIGHT MODE */
+:root {
+  /* --- Interaction overlays --- */
+  --button-outline: rgba(0,0,0, .08);
+  --badge-outline: rgba(0,0,0, .06);
+  --opaque-button-border-intensity: -8;
+  --elevate-1: rgba(0,0,0, .04);
+  --elevate-2: rgba(0,0,0, .08);
+
+  /* --- Core palette --- */
+  --background: 0 0% 100%;
+  --foreground: 0 0% 9%;
+  --border: 0 0% 90%;
+
+  /* --- Cards --- */
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 9%;
+  --card-border: 0 0% 92%;
+
+  /* --- Sidebar --- */
+  --sidebar: 0 0% 98%;
+  --sidebar-foreground: 0 0% 15%;
+  --sidebar-border: 0 0% 92%;
+  --sidebar-primary: 0 0% 9%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 0 0% 96%;
+  --sidebar-accent-foreground: 0 0% 20%;
+  --sidebar-ring: 0 0% 50%;
+
+  /* --- Popover --- */
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 9%;
+  --popover-border: 0 0% 92%;
+
+  /* --- Actions --- */
+  --primary: 0 0% 9%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 96%;
+  --secondary-foreground: 0 0% 20%;
+  --muted: 0 0% 96%;
+  /* 45% → 36%. Light mode cannot be fixed by this token alone: alpha composites
+     toward WHITE here, so every suffix loses contrast fast (at 36%, /70 reaches
+     only 3.33:1). Darkening helps the full-opacity case (4.76 → 6.71:1); the
+     real remedy is dropping alpha suffixes in favour of discrete tiers, which
+     is a wider sweep than this change. */
+  --muted-foreground: 0 0% 36%;
+  --accent: 160 84% 95%;
+  --accent-foreground: 160 84% 30%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  /* --- Inputs --- */
+  --input: 0 0% 92%;
+  --ring: 0 0% 50%;
+
+  /* --- Chart palette --- */
+  --chart-1: 160 84% 39%;
+  --chart-2: 217 91% 60%;
+  --chart-3: 45 93% 50%;
+  --chart-4: 262 83% 58%;
+  --chart-5: 0 84% 60%;
+
+  /* --- Surface layers (panels, shells) --- */
+  --surface-base: #ffffff;
+  --surface-raised: #f8fafc;
+  --surface-overlay: rgba(255, 255, 255, 0.9);
+  --surface-glass: rgba(255, 255, 255, 0.8);
+  --surface-glass-border: rgba(0, 0, 0, 0.08);
+
+  /* --- Terminal / code blocks --- */
+  --terminal-bg: #ffffff;
+  --terminal-bg-secondary: #f8f8f8;
+  --terminal-bg-tertiary: #f5f5f5;
+  --terminal-border: #e5e5e5;
+  --terminal-border-hover: #d4d4d4;
+  --terminal-text: #171717;
+  --terminal-text-secondary: #525252;
+  --terminal-text-muted: #a3a3a3;
+
+  /* --- Trading semantic colors (same both modes) --- */
+  --trade-bullish: #6E9E7A;  /* Moss — direction without the casino */
+  --trade-bullish-bg: rgba(110, 158, 122, 0.06);
+  --trade-bullish-bg-subtle: rgba(110, 158, 122, 0.03);
+  --trade-bearish: #B5705F;  /* Clay — a fault light, not a catastrophe */
+  --trade-bearish-bg: rgba(181, 112, 95, 0.06);
+  --trade-bearish-bg-subtle: rgba(181, 112, 95, 0.03);
+  --trade-neutral: #f59e0b;
+  --trade-neutral-bg: rgba(245, 158, 11, 0.06);
+  --trade-neutral-bg-subtle: rgba(245, 158, 11, 0.03);
+
+  /* --- AI / Confidence --- */
+  --ai-primary: #6E9E7A;
+  --ai-secondary: #3b82f6;
+  --confidence-high: #6E9E7A;
+  --confidence-medium: #3b82f6;
+  --confidence-low: #f59e0b;
+
+  /* --- Brand accents --- */
+  --brand-cyan: #3b8cff;  /* canonical brand cyan — what the default nexus theme renders */
+  --brand-teal: #3b8cff;  /* same ramp as --brand-cyan — one accent, not two */
+  --brand-blue: #3b82f6;
+  --brand-gold: #f59e0b;
+
+  /* --- Grade system --- */
+  --grade-s: #22d3ee;
+  --grade-a: #6E9E7A;
+  --grade-b: #60a5fa;
+  --grade-c: #f59e0b;
+  --grade-d: #f97316;
+  --grade-f: #ef4444;
+
+  /* --- Glow effects (ambient orbs, status dots) --- */
+  --glow-cyan: rgba(34, 211, 238, 0.06);
+  --glow-blue: rgba(59, 130, 246, 0.05);
+  --glow-teal: rgba(20, 184, 166, 0.1);
+
+  /* --- GEX / Skylit palette (yellow walls, purple puts, cyan arc) --- */
+  --gex-positive: #eab308;         /* yellow-500 — call walls, max gamma (light) */
+  --gex-positive-bg: rgba(234, 179, 8, 0.12);
+  --gex-negative: #9333ea;         /* purple-600 — put walls, extremes (light) */
+  --gex-negative-bg: rgba(147, 51, 234, 0.12);
+  --gex-mid: #f97316;              /* orange-500 — mid-strikes bridge */
+  --gex-mid-bg: rgba(249, 115, 22, 0.1);
+  --gex-neutral: #e2e8f0;          /* slate-200 — baseline heatmap cell (light) */
+  --gex-neutral-bg: rgba(226, 232, 240, 0.4);
+  --gex-wall-call: #eab308;        /* alias for call wall */
+  --gex-wall-put: #9333ea;         /* alias for put wall */
+  --gex-flip: #f97316;             /* gamma flip line */
+  --gex-star: #eab308;             /* max gamma star marker */
+  --gex-alert: #ef4444;            /* red-500 — alert ring */
+  --projection-glow: #06b6d4;      /* cyan-500 — Skylit arc (light) */
+  --projection-glow-soft: rgba(6, 182, 212, 0.15);
+
+  /* --- Typography --- */
+  --font-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: 'Spline Sans Mono', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace;
+
+  /* --- Layout --- */
+  --radius: 0.5rem;
+  --radius-card: 0.625rem; /* 10px — consistent card radius */
+  --radius-button: 0.5rem; /* 8px */
+  --radius-badge: 0.25rem; /* 4px */
+  --spacing: 0.25rem;
+  --tracking-normal: 0em;
+
+  /* --- Section spacing (consistent vertical rhythm) --- */
+  --section-gap: 2.5rem;    /* 40px between major sections */
+  --section-gap-sm: 1.5rem; /* 24px between sub-sections */
+  --card-gap: 0.625rem;     /* 10px between cards in grids */
+
+  /* --- Shadows (light — minimal, flat) --- */
+  --shadow-2xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-xs: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-sm: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 1px 2px -1px rgba(0, 0, 0, 0.04);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 6px 12px -2px rgba(0, 0, 0, 0.08), 0 3px 7px -3px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 24px -4px rgba(0, 0, 0, 0.1), 0 8px 16px -4px rgba(0, 0, 0, 0.06);
+  --shadow-xl: 0 20px 40px -6px rgba(0, 0, 0, 0.12), 0 12px 24px -8px rgba(0, 0, 0, 0.08);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+
+  /* --- Auto-computed borders --- */
+  --sidebar-primary-border: hsl(var(--sidebar-primary));
+  --sidebar-primary-border: hsl(from hsl(var(--sidebar-primary)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
+  --sidebar-accent-border: hsl(var(--sidebar-accent));
+  --sidebar-accent-border: hsl(from hsl(var(--sidebar-accent)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
+  --primary-border: hsl(var(--primary));
+  --primary-border: hsl(from hsl(var(--primary)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
+  --secondary-border: hsl(var(--secondary));
+  --secondary-border: hsl(from hsl(var(--secondary)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
+  --muted-border: hsl(var(--muted));
+  --muted-border: hsl(from hsl(var(--muted)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
+  --accent-border: hsl(var(--accent));
+  --accent-border: hsl(from hsl(var(--accent)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
+  --destructive-border: hsl(var(--destructive));
+  --destructive-border: hsl(from hsl(var(--destructive)) h s calc(l + var(--opaque-button-border-intensity)) / alpha);
+}
+
+/* DARK MODE */
+.dark {
+  /* --- Interaction overlays --- */
+  --button-outline: rgba(255,255,255, .08);
+  --badge-outline: rgba(255,255,255, .06);
+  --opaque-button-border-intensity: 8;
+  --elevate-1: rgba(255,255,255, .04);
+  --elevate-2: rgba(255,255,255, .08);
+
+  /* --- Core palette: "Cold Read" ------------------------------------------
+     Every value here used to be `0 0%` — pure neutral grey, no hue at all.
+     That is most of why the UI read as generic: a hueless base is the default
+     any dark theme falls back to, and it makes an acid accent the only thing
+     carrying identity. These carry a navy cast instead, so the surface reads
+     as evidence rather than console, and the accent no longer has to shout to
+     be seen against it.
+     Deep Navy #0E1420 · Slate #161E2C · Cold Light #D6DEE8 */
+  --background: 220 39% 9%;
+  --foreground: 213 28% 87%;
+  --border: 218 25% 20%;
+
+  /* --- Cards --- */
+  --card: 218 33% 13%;
+  --card-foreground: 213 28% 87%;
+  --card-border: 218 25% 20%;
+
+  /* --- Sidebar --- */
+  --sidebar: 0 0% 5%;
+  --sidebar-foreground: 0 0% 85%;
+  --sidebar-border: 0 0% 10%;
+  --sidebar-primary: 0 0% 100%;
+  --sidebar-primary-foreground: 0 0% 0%;
+  --sidebar-accent: 0 0% 10%;
+  --sidebar-accent-foreground: 0 0% 70%;
+  --sidebar-ring: 0 0% 50%;
+
+  /* --- Popover --- */
+  --popover: 0 0% 7%;
+  --popover-foreground: 0 0% 96%;
+  --popover-border: 0 0% 15%;
+
+  /* --- Actions --- */
+  --primary: 0 0% 100%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 0 0% 11%;
+  --secondary-foreground: 0 0% 80%;
+  --muted: 0 0% 10%;
+  /* Raised 45% → 70%. Measured on the live Oracle board, 437 text nodes at
+     ≤12px were failing 3:1 against the card; the 11px tier bottomed out at
+     1.58:1 and the 9px tier averaged 2.75:1. Root cause was this token being
+     already-muted and then halved again by ~825 `text-muted-foreground/NN`
+     opacity suffixes.
+
+     The reference site avoids this by starting from WHITE and reducing alpha
+     (#fff9 = 7.1:1, #ffffff80 = 5.3:1, #fff6 = 3.8:1) rather than starting from
+     a mid-grey. At 70% this token reads 7.71:1 at full opacity — their body
+     tier — and 3.65:1 at /60, their faintest. Foreground is 12.16:1, so the
+     hierarchy step is preserved rather than flattened. */
+  --muted-foreground: 213 15% 70%;
+  --accent: 160 84% 39%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  /* --- Inputs --- */
+  --input: 0 0% 11%;
+  --ring: 160 84% 39%;
+
+  /* --- Chart palette --- */
+  --chart-1: 217 91% 60%;
+  --chart-2: 142 71% 55%;
+  --chart-3: 45 93% 58%;
+  --chart-4: 0 84% 60%;
+  --chart-5: 263 70% 60%;
+
+  /* --- Surface layers (panels, shells) --- */
+  --surface-base: #0a0a0b;
+  --surface-raised: #111113;
+  --surface-overlay: rgba(10, 10, 10, 0.8);
+  --surface-glass: rgba(10, 10, 10, 0.8);
+  --surface-glass-border: rgba(34, 34, 34, 0.8);
+
+  /* --- Terminal / code blocks --- */
+  --terminal-bg: #0a0a0a;
+  --terminal-bg-secondary: #111111;
+  --terminal-bg-tertiary: #0d0d0d;
+  --terminal-border: #222222;
+  --terminal-border-hover: #333333;
+  --terminal-text: #ffffff;
+  --terminal-text-secondary: #94a3b8;
+  --terminal-text-muted: #525252;
+
+  /* --- Trading semantic (same values, desaturated bg for dark mode) --- */
+  --trade-bullish: #6E9E7A;  /* Moss — direction without the casino */
+  --trade-bullish-bg: rgba(110, 158, 122, 0.08);
+  --trade-bullish-bg-subtle: rgba(110, 158, 122, 0.04);
+  --trade-bearish: #B5705F;  /* Clay — a fault light, not a catastrophe */
+  --trade-bearish-bg: rgba(181, 112, 95, 0.08);
+  --trade-bearish-bg-subtle: rgba(181, 112, 95, 0.04);
+  --trade-neutral: #f59e0b;
+  --trade-neutral-bg: rgba(245, 158, 11, 0.08);
+  --trade-neutral-bg-subtle: rgba(245, 158, 11, 0.04);
+
+  /* --- AI / Confidence --- */
+  --ai-primary: #6E9E7A;
+  --ai-secondary: #3b82f6;
+  --confidence-high: #6E9E7A;
+  --confidence-medium: #3b82f6;
+  --confidence-low: #f59e0b;
+
+  /* --- Glow effects (brighter in dark mode) --- */
+  --glow-cyan: rgba(34, 211, 238, 0.08);
+  --glow-blue: rgba(59, 130, 246, 0.06);
+  --glow-teal: rgba(20, 184, 166, 0.15);
+
+  /* --- GEX / Skylit palette (dark — saturated yellow/purple on black) --- */
+  --gex-positive: #facc15;         /* yellow-400 — call walls, max gamma */
+  --gex-positive-bg: rgba(250, 204, 21, 0.18);
+  --gex-negative: #a855f7;         /* purple-500 — put walls, extremes */
+  --gex-negative-bg: rgba(168, 85, 247, 0.18);
+  --gex-mid: #fb923c;              /* orange-400 — mid-strikes bridge */
+  --gex-mid-bg: rgba(251, 146, 60, 0.15);
+  --gex-neutral: #134e4a;          /* teal-900 — baseline heatmap cell */
+  --gex-neutral-bg: rgba(19, 78, 74, 0.35);
+  --gex-wall-call: #facc15;
+  --gex-wall-put: #a855f7;
+  --gex-flip: #fb923c;
+  --gex-star: #facc15;
+  --gex-alert: #ef4444;
+  --projection-glow: #67e8f9;      /* cyan-300 — Skylit arc */
+  --projection-glow-soft: rgba(103, 232, 249, 0.22);
+
+  /* --- Typography --- */
+  --font-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: 'Spline Sans Mono', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace;
+
+  /* --- Layout --- */
+  --radius: 0.5rem;
+  --radius-card: 0.625rem;
+  --radius-button: 0.5rem;
+  --radius-badge: 0.25rem;
+  --spacing: 0.25rem;
+  --tracking-normal: -0.01em;
+
+  /* --- Section spacing --- */
+  --section-gap: 2.5rem;
+  --section-gap-sm: 1.5rem;
+  --card-gap: 0.625rem;
+
+  /* --- Shadows (dark — deeper, bluer) --- */
+  --shadow-2xs: 0 1px 2px hsl(222 47% 2% / 0.3);
+  --shadow-xs: 0 1px 3px hsl(222 47% 2% / 0.4);
+  --shadow-sm: 0 2px 4px -1px hsl(222 47% 2% / 0.4), 0 1px 3px -1px hsl(222 47% 2% / 0.3);
+  --shadow: 0 4px 6px -1px hsl(222 47% 2% / 0.5), 0 2px 4px -1px hsl(222 47% 2% / 0.3);
+  --shadow-md: 0 6px 12px -2px hsl(222 47% 2% / 0.5), 0 3px 7px -3px hsl(222 47% 2% / 0.3);
+  --shadow-lg: 0 10px 24px -4px hsl(222 47% 2% / 0.6), 0 8px 16px -4px hsl(222 47% 2% / 0.4);
+  --shadow-xl: 0 20px 40px -6px hsl(222 47% 2% / 0.7), 0 12px 24px -8px hsl(222 47% 2% / 0.5);
+  --shadow-2xl: 0 25px 50px -12px hsl(222 47% 2% / 0.8);
+}
+
+/* Night is the low-luminance terminal setting. Semantic direction colours and
+   type remain unchanged; only the evidence surfaces step down for long sessions. */
+.dark.terminal-night {
+  --background: 222 47% 5%;
+  --card: 220 42% 8%;
+  --card-border: 218 25% 16%;
+  --popover: 222 47% 6%;
+  --secondary: 220 35% 9%;
+  --muted: 220 32% 8%;
+  --surface-base: #080d16;
+  --surface-raised: #0d1420;
+  --surface-overlay: rgba(8, 13, 22, .92);
+  --surface-glass: rgba(8, 13, 22, .78);
+  --terminal-bg: #080d16;
+  --terminal-bg-secondary: #0d1420;
+  --terminal-bg-tertiary: #121b29;
+  --terminal-border: #1d2a3b;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   NEXUS — the operator's reference-terminal palette, verbatim.
+
+   Every hex below is lifted straight from the reference mock's :root —
+   --cyan:#3b8cff, --green:#6ee7b7, --red:#ff6b3d, --amber:#f5b642,
+   --bg:#06070a, --panel-solid:#0e1117, cyan-tinted borders — mapped onto
+   this app's token names. That is the whole point of the token system: the
+   look is a palette assignment, not a fork of the components. Where a token
+   is an HSL triplet (shadcn convention) the value is the same colour
+   converted; where it is a literal, the mock's literal is used unchanged.
+
+   Bands map exactly as the mock's band-S/A/B/C chips: S green, A cyan,
+   B amber, C dim. Note what that swaps: dark's moss/clay ("direction
+   without the casino") become the mock's saturated green/red here. That is
+   the reference's deliberate look and this theme reproduces it faithfully —
+   the default theme keeps the muted read.
+   ═══════════════════════════════════════════════════════════════ */
+.dark.terminal-nexus {
+  /* core surfaces — #06070a / #0a0c11 / #0e1117 / #131720 */
+  --background: 225 25% 3%;
+  --foreground: 218 31% 93%;        /* #e8ecf3 */
+  --border: 187 30% 10%;            /* rgba(59,140,255,.08) composited on bg */
+  --card: 220 24% 7%;               /* #0e1117 */
+  --card-foreground: 218 31% 93%;
+  --card-border: 187 30% 12%;
+  --popover: 220 24% 7%;
+  --popover-foreground: 218 31% 93%;
+  --secondary: 222 25% 10%;         /* #131720 */
+  --secondary-foreground: 220 12% 59%;
+  --muted: 222 25% 10%;
+  --muted-foreground: 220 12% 59%;  /* #8b93a3 */
+  --accent: 174 59% 56%;            /* #3b8cff */
+  --accent-foreground: 225 25% 3%;
+  --destructive: 350 100% 66%;      /* #ff6b3d */
+  --destructive-foreground: 0 0% 100%;
+  --input: 220 24% 7%;
+  --ring: 174 59% 56%;
+
+  --surface-base: #06070a;
+  --surface-raised: #0a0c11;
+  --surface-overlay: rgba(10, 12, 17, .92);
+  --surface-glass: rgba(14, 17, 23, .72);       /* mock --panel */
+  --surface-glass-border: rgba(59,140,255, .18); /* mock --border-hi */
+  --terminal-bg: #0e1117;
+  --terminal-bg-secondary: #0a0c11;
+  --terminal-bg-tertiary: #131720;
+  --terminal-border: rgba(59,140,255, .08);   /* mock --border */
+  --terminal-border-hover: rgba(59,140,255, .18);
+  --terminal-text: #e8ecf3;
+  --terminal-text-secondary: #8b93a3;
+  --terminal-text-muted: #7f889a; /* WCAG AA on terminal panels; was #525a6b */
+
+  /* brand accents — cyan/teal inherit the canonical :root ramp */
+  --brand-blue: #60a5fa;
+  --brand-gold: #f5b642;
+
+  /* trading semantics — the mock's saturated pair */
+  --trade-bullish: #6ee7b7;
+  --trade-bullish-bg: rgba(110,231,183, .08);
+  --trade-bullish-bg-subtle: rgba(110,231,183, .04);
+  --trade-bearish: #ff6b3d;
+  --trade-bearish-bg: rgba(255,107,61, .08);
+  --trade-bearish-bg-subtle: rgba(255,107,61, .04);
+  --trade-neutral: #facc15;
+  --trade-neutral-bg: rgba(250,204,21, .08);
+  --trade-neutral-bg-subtle: rgba(250,204,21, .04);
+
+  /* bands — exactly the mock's band-S/A/B/C chip colours */
+  --grade-s: #6ee7b7;
+  --grade-a: #3b8cff;
+  --grade-b: #f5b642;
+  --grade-c: #8b93a3;
+  --grade-d: #f97316;
+  --grade-f: #ff6b3d;
+
+  --ai-primary: #3b8cff;
+  --ai-secondary: #60a5fa;
+  --confidence-high: #6ee7b7;
+  --confidence-medium: #60a5fa;
+  --confidence-low: #f5b642;
+
+  --glow-cyan: rgba(59,140,255, .08);
+  --glow-blue: rgba(96, 165, 250, .06);
+  --glow-teal: rgba(59,140,255, .15);
+  --projection-glow: #6ee7db;                   /* mock --cyan-bright */
+  --projection-glow-soft: rgba(110, 231, 219, .22);
+
+  /* charts — the mock's accent family: blue, green, amber, red, purple */
+  --chart-1: 213 94% 68%;
+  --chart-2: 154 72% 55%;
+  --chart-3: 39 89% 61%;
+  --chart-4: 350 100% 66%;
+  --chart-5: 255 92% 76%;
+
+  /* the mock's type: Inter body, JetBrains Mono figures */
+  --font-sans: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Spline Sans Mono', Menlo, Monaco, 'Courier New', monospace;
+}
+
+/* The mock sets its display type — brand, section titles, card tickers — in
+   Space Grotesk while the body runs Inter. Same split here. */
+.terminal-nexus .qe-ov2-title,
+.terminal-nexus .qe-page-title {
+  font-family: 'Space Grotesk', var(--font-sans);
+}
+
+/* The mock's glow signature, scoped to the theme so the default stays quiet:
+   the section eyebrow, the tape symbols and the heartbeat all carry the soft
+   cyan bloom that defines its look. */
+.terminal-nexus .qe-ov2-num {
+  text-shadow: 0 0 8px rgba(59,140,255, .4);
+}
+.terminal-nexus .qe-tape-item b {
+  text-shadow: 0 0 10px rgba(59,140,255, .25);
+}
+.terminal-nexus .qe-kpi-tile::before {
+  opacity: .45;
+}
+.terminal-nexus .qe-sig-card:hover {
+  box-shadow: 0 8px 24px rgb(0 0 0 / .4), 0 0 0 1px rgba(59,140,255, .18);
+}
+
+/* ========================================
+   TERMINAL CARD COMPONENT STYLES
+   ======================================== */
+.terminal-card {
+  background: var(--terminal-bg);
+  border: 1px solid var(--terminal-border);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.terminal-card:hover {
+  border-color: var(--terminal-border-hover);
+  box-shadow: 0 4px 20px rgba(20, 184, 166, 0.1);
+}
+
+.terminal-card-light {
+  background: var(--terminal-light-bg);
+  border: 1px solid var(--terminal-light-border);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.terminal-card-light:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: rgba(20, 184, 166, 0.3);
+}
+
+/* Terminal Header Bar */
+.terminal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: var(--terminal-bg-secondary);
+  border-bottom: 1px solid var(--terminal-border);
+}
+
+.terminal-header-light {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: var(--terminal-light-bg-secondary);
+  border-bottom: 1px solid var(--terminal-light-border);
+}
+
+/* Traffic Light Dots */
+.terminal-dots {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.terminal-dots span {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+}
+
+.terminal-dots .dot-red { background: #ff5f57; }
+.terminal-dots .dot-yellow { background: #febc2e; }
+.terminal-dots .dot-green { background: #28c840; }
+
+/* --- Layout density (spacing axis) — compact is the Bloomberg-dense default.
+   DensityProvider (ui/qe/density.tsx) sets data-density on <html>; components
+   read these vars for row height / card padding / grid gap. --- */
+:root,
+[data-density='compact'] {
+  --row-h: 28px;
+  --card-pad: 0.5rem;     /* 8px  */
+  --gap-grid: 0.625rem;   /* 10px */
+}
+[data-density='comfortable'] {
+  --row-h: 34px;
+  --card-pad: 0.75rem;    /* 12px */
+  --gap-grid: 0.875rem;   /* 14px */
+}
+[data-density='spacious'] {
+  --row-h: 42px;
+  --card-pad: 1rem;       /* 16px */
+  --gap-grid: 1.25rem;    /* 20px */
+}
+
+/* Monospace Typography */
+.font-terminal {
+  font-family: 'Spline Sans Mono', 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
+  letter-spacing: -0.02em;
+}
+
+/* Clean Badge Styles */
+.badge-bullish {
+  background: var(--trade-bullish-bg);
+  color: var(--trade-bullish);
+  border: 1px solid rgba(20, 184, 166, 0.3);
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-bearish {
+  background: var(--trade-bearish-bg);
+  color: var(--trade-bearish);
+  border: 1px solid rgba(181, 112, 95, 0.3);
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Progress/Confidence Bar */
+.confidence-bar {
+  height: 0.375rem;
+  background: rgba(51, 65, 85, 0.4);
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.confidence-bar-fill {
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
+
+.confidence-bar-fill.high {
+  background: linear-gradient(to right, var(--brand-cyan), var(--trade-bullish));
+}
+
+.confidence-bar-fill.medium {
+  background: linear-gradient(to right, #06b6d4, #3b82f6);
+}
+
+.confidence-bar-fill.low {
+  background: linear-gradient(to right, #f59e0b, #f97316);
+}
+
+/* Clean Input Styles */
+.terminal-input {
+  background: var(--terminal-bg-tertiary);
+  border: 1px solid var(--terminal-border);
+  border-radius: 0.5rem;
+  padding: 0.625rem 0.875rem;
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 0.875rem;
+  color: var(--terminal-text);
+  transition: all 0.2s ease;
+}
+
+.terminal-input:focus {
+  outline: none;
+  border-color: var(--ai-primary);
+  box-shadow: 0 0 0 2px rgba(20, 184, 166, 0.2);
+}
+
+.terminal-input::placeholder {
+  color: var(--terminal-text-muted);
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  background: rgba(10, 10, 10, 0.8);
+  border: 1px solid #222;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none;
+}
+
+.glass:hover {
+  background: rgba(17, 17, 17, 0.9);
+  box-shadow: none;
+}
+
+.glass:active {
+  background: rgba(10, 10, 10, 0.7);
+  box-shadow: none;
+}
+
+.glass-secondary {
+  background: rgba(17, 17, 17, 0.9);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: 1px solid #222;
+  box-shadow: none;
+}
+
+.glass-secondary:hover {
+  background: rgba(26, 26, 26, 0.95);
+  border-color: #333;
+}
+
+.glass-danger {
+  background: rgba(255, 69, 58, 0.20);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 69, 58, 0.30);
+  box-shadow: 0 4px 16px rgba(255, 69, 58, 0.15);
+}
+
+.glass-danger:hover {
+  background: rgba(255, 69, 58, 0.30);
+  box-shadow: 0 6px 24px rgba(255, 69, 58, 0.25);
+}
+
+.glass-success {
+  background: rgba(52, 199, 89, 0.20);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(52, 199, 89, 0.30);
+  box-shadow: 0 4px 16px rgba(52, 199, 89, 0.15);
+}
+
+.glass-success:hover {
+  background: rgba(52, 199, 89, 0.30);
+  box-shadow: 0 6px 24px rgba(52, 199, 89, 0.25);
+}
+
+.glass-warning {
+  background: rgba(255, 159, 10, 0.20);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 159, 10, 0.30);
+  box-shadow: 0 4px 16px rgba(255, 159, 10, 0.15);
+}
+
+.glass-warning:hover {
+  background: rgba(255, 159, 10, 0.30);
+  box-shadow: 0 6px 24px rgba(255, 159, 10, 0.25);
+}
+
+/* GLASS — the single definition (Phase 3). Replaces three competing
+   definitions, including the fake-blur dark-mode override
+   (.dark .glass-card with backdrop-filter: none). Glass is real frosted
+   blur on a themed translucent surface, in every theme. */
+.glass-card {
+  background: var(--surface-glass);
+  border: 1px solid var(--surface-glass-border);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-radius: 0.5rem;
+}
+
+/* Graph Grid Background - Tech-minimalist pattern */
+.graph-grid {
+  background-image:
+    linear-gradient(rgba(110, 158, 122, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(110, 158, 122, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.graph-grid-subtle {
+  background-image:
+    linear-gradient(rgba(110, 158, 122, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(110, 158, 122, 0.02) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Emerald Grid — 60px cells matching login page pattern */
+.emerald-grid {
+  background-image:
+    linear-gradient(rgba(110, 158, 122, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(110, 158, 122, 0.07) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Dot grid background for dashboard pages */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(110, 158, 122, 0.07) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Terminal scanline effect for retro quant feel */
+.scanlines {
+  position: relative;
+}
+.scanlines::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  pointer-events: none;
+}
+
+/* Terminal cursor blink */
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.cursor-blink {
+  animation: cursor-blink 1s step-end infinite;
+}
+
+/* Pulse ring — subtle scale pulse for convergence point */
+@keyframes pulse-ring {
+  0%, 100% { transform: scale(1); opacity: 0.3; }
+  50% { transform: scale(1.15); opacity: 0.1; }
+}
+
+/* Data badge - for displaying key metrics */
+.data-badge {
+  background: rgba(110, 158, 122, 0.1);
+  border: 1px solid rgba(110, 158, 122, 0.3);
+  font-family: var(--font-mono);
+}
+
+/* Terminal-style data display */
+.terminal-data {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(110, 158, 122, 0.2);
+}
+
+/* Quant card with left accent - Dark mode */
+.dark .quant-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-left: 2px solid rgba(110, 158, 122, 0.5);
+}
+
+/* Quant card with left accent - Light mode */
+.quant-card {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 2px solid rgba(110, 158, 122, 0.6);
+}
+
+/* Glass subtle - for badges/pills - Dark mode */
+.dark .glass-subtle {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Glass subtle - for badges/pills - Light mode */
+.glass-subtle {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* Crisp text rendering for statistics over glass backgrounds */
+.stat-text {
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dark .stat-text {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+/* Inner stat container - Dark mode */
+.dark .stat-glass {
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Inner stat container - Light mode */
+.stat-glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* ========================================
+   BLOOMBERG × APPLE — DATA DENSITY SYSTEM
+   Premium trading terminal aesthetic with
+   Apple-level polish. Mono fonts for all
+   numerical data, tight spacing, glass panels
+   with accent borders.
+   ======================================== */
+
+/* Bloomberg-style data cell — tabular mono numbers */
+.data-cell {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum' 1, 'lnum' 1;
+  letter-spacing: -0.02em;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Ticker symbol — tight, uppercase, slightly tracked */
+.ticker-font {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Stat row — horizontal key-value pair with dot leader */
+.stat-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  border-bottom: 1px solid transparent;
+}
+
+.stat-row:not(:last-child) {
+  border-bottom-color: var(--surface-glass-border);
+}
+
+.stat-row .stat-label {
+  color: hsl(var(--muted-foreground));
+  font-size: 0.6875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.stat-row .stat-value {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  color: hsl(var(--foreground));
+  text-align: right;
+}
+
+/* Bloomberg accent card — left-border color accent */
+.accent-card {
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.accent-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  border-radius: 2px 0 0 2px;
+}
+
+.accent-card--cyan::before    { background: var(--brand-cyan); }
+.accent-card--teal::before    { background: var(--brand-teal); }
+.accent-card--gold::before    { background: var(--brand-gold); }
+.accent-card--bullish::before { background: var(--trade-bullish); }
+.accent-card--bearish::before { background: var(--trade-bearish); }
+.accent-card--blue::before    { background: var(--brand-blue); }
+.accent-card--s::before       { background: var(--grade-s); }
+.accent-card--a::before       { background: var(--grade-a); }
+
+/* Top accent bar variant */
+.accent-card-top::before {
+  top: 0; left: 0; right: 0;
+  width: auto; height: 2px;
+  bottom: auto;
+  border-radius: 0;
+}
+
+/* Bloomberg glass panel — tighter, data-dense */
+.bloomberg-panel {
+  background: var(--surface-glass);
+  border: 1px solid var(--surface-glass-border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.bloomberg-panel .panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--surface-glass-border);
+  background: var(--surface-raised);
+}
+
+.dark .bloomberg-panel .panel-header {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.bloomberg-panel .panel-header .panel-title {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: hsl(var(--muted-foreground));
+}
+
+.bloomberg-panel .panel-body {
+  padding: 0.5rem 0.75rem;
+}
+
+/* Compact data table — Bloomberg-density */
+.data-table-compact {
+  width: 100%;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.6875rem;
+  line-height: 1.5;
+  border-collapse: collapse;
+}
+
+.data-table-compact th {
+  padding: 0.375rem 0.5rem;
+  text-align: left;
+  font-weight: 500;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: hsl(var(--muted-foreground));
+  border-bottom: 1px solid hsl(var(--border));
+  white-space: nowrap;
+}
+
+.data-table-compact td {
+  padding: 0.3125rem 0.5rem;
+  border-bottom: 1px solid hsl(var(--border) / 0.5);
+  white-space: nowrap;
+}
+
+.data-table-compact tbody tr:hover {
+  background: hsl(var(--muted) / 0.5);
+}
+
+/* Price display — large mono with tabular alignment */
+.price-display {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum' 1;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.price-display-lg {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.price-display-md {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.price-display-sm {
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+/* Inline change indicator — +2.45% style */
+.change-indicator {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  padding: 0.0625rem 0.375rem;
+  border-radius: 0.1875rem;
+}
+
+.change-indicator--up {
+  color: var(--trade-bullish);
+  background: var(--trade-bullish-bg);
+}
+
+.change-indicator--down {
+  color: var(--trade-bearish);
+  background: var(--trade-bearish-bg);
+}
+
+.change-indicator--flat {
+  color: var(--trade-neutral);
+  background: var(--trade-neutral-bg);
+}
+
+/* Mini sparkline container */
+.sparkline-cell {
+  display: inline-flex;
+  align-items: center;
+  height: 1.25rem;
+  width: 3.5rem;
+}
+
+/* Compact metric block — for dashboard stat grids */
+.metric-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  background: hsl(var(--muted) / 0.3);
+  border: 1px solid hsl(var(--border) / 0.5);
+}
+
+.metric-block .metric-label {
+  font-size: 0.5625rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: hsl(var(--muted-foreground));
+  line-height: 1;
+}
+
+.metric-block .metric-value {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  line-height: 1.2;
+}
+
+/* Section chrome — thin panel header with mono label */
+.section-chrome {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0;
+  margin-bottom: 0.5rem;
+}
+
+.section-chrome::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: hsl(var(--border) / 0.5);
+}
+
+.section-chrome .section-label {
+  font-family: var(--font-mono);
+  font-size: 0.5625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: hsl(var(--muted-foreground));
+  white-space: nowrap;
+}
+
+/* Inset panel — nested data container */
+.inset-panel {
+  background: hsl(var(--muted) / 0.25);
+  border: 1px solid hsl(var(--border) / 0.4);
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+}
+
+.dark .inset-panel {
+  background: rgba(255, 255, 255, 0.015);
+  border-color: rgba(255, 255, 255, 0.04);
+}
+
+/* Horizontal data strip — for compact inline stats */
+.data-strip {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.375rem 0.625rem;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.6875rem;
+  background: hsl(var(--muted) / 0.2);
+  border-radius: 0.375rem;
+  border: 1px solid hsl(var(--border) / 0.3);
+  overflow-x: auto;
+}
+
+.data-strip .data-strip-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  white-space: nowrap;
+}
+
+.data-strip .data-strip-label {
+  color: hsl(var(--muted-foreground));
+  font-weight: 400;
+  font-size: 0.625rem;
+}
+
+.data-strip .data-strip-value {
+  color: hsl(var(--foreground));
+  font-weight: 600;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Premium scrollbar — thin, branded */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.2);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.35);
+  }
+  .dark ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.08);
+  }
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  /* Selection color — branded */
+  ::selection {
+    background: rgba(20, 184, 166, 0.25);
+    color: inherit;
+  }
+
+  /* Fix autofill styling - force dark text on white autofill backgrounds */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active,
+  textarea:-webkit-autofill {
+    -webkit-text-fill-color: #000000 !important;
+    color: #000000 !important;
+    caret-color: #000000 !important;
+  }
+}
+
+/**
+ * Using the elevate system.
+ * Automatic contrast adjustment.
+ *
+ * <element className="hover-elevate" />
+ * <element className="active-elevate-2" />
+ *
+ * // Using the tailwind utility when a data attribute is "on"
+ * <element className="toggle-elevate data-[state=on]:toggle-elevated" />
+ * // Or manually controlling the toggle state
+ * <element className="toggle-elevate toggle-elevated" />
+ *
+ * Elevation systems have to handle many states.
+ * - not-hovered, vs. hovered vs. active  (three mutually exclusive states)
+ * - toggled or not
+ * - focused or not (this is not handled with these utilities)
+ *
+ * Even without handling focused or not, this is six possible combinations that
+ * need to be distinguished from eachother visually.
+ */
+@layer utilities {
+
+  /* Hide ugly search cancel button in Chrome until we can style it properly */
+  input[type="search"]::-webkit-search-cancel-button {
+    @apply hidden;
+  }
+
+  /* Placeholder styling for contentEditable div */
+  [contenteditable][data-placeholder]:empty::before {
+    content: attr(data-placeholder);
+    color: hsl(var(--muted-foreground));
+    pointer-events: none;
+  }
+
+  /* .no-default-hover-elevate/no-default-active-elevate is an escape hatch so consumers of
+   * buttons/badges can remove the automatic brightness adjustment on interactions
+   * and program their own. */
+  .no-default-hover-elevate {}
+
+  .no-default-active-elevate {}
+
+
+  /**
+   * Toggleable backgrounds go behind the content. Hoverable/active goes on top.
+   * This way they can stack/compound. Both will overlap the parent's borders!
+   * So borders will be automatically adjusted both on toggle, and hover/active,
+   * and they will be compounded.
+   */
+  .toggle-elevate::before,
+  .toggle-elevate-2::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: 0px;
+    /*border-radius: inherit;   match rounded corners */
+    border-radius: inherit;
+    z-index: -1;
+    /* sits behind content but above backdrop */
+  }
+
+  .toggle-elevate.toggle-elevated::before {
+    background-color: var(--elevate-2);
+  }
+
+  /* If there's a 1px border, adjust the inset so that it covers that parent's border */
+  .border.toggle-elevate::before {
+    inset: -1px;
+  }
+
+  /* Does not work on elements with overflow:hidden! */
+  .hover-elevate:not(.no-default-hover-elevate),
+  .active-elevate:not(.no-default-active-elevate),
+  .hover-elevate-2:not(.no-default-hover-elevate),
+  .active-elevate-2:not(.no-default-active-elevate) {
+    position: relative;
+    z-index: 0;
+  }
+
+  .hover-elevate:not(.no-default-hover-elevate)::after,
+  .active-elevate:not(.no-default-active-elevate)::after,
+  .hover-elevate-2:not(.no-default-hover-elevate)::after,
+  .active-elevate-2:not(.no-default-active-elevate)::after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: 0px;
+    /*border-radius: inherit;   match rounded corners */
+    border-radius: inherit;
+    z-index: 999;
+    /* sits in front of content */
+  }
+
+  .hover-elevate:hover:not(.no-default-hover-elevate)::after,
+  .active-elevate:active:not(.no-default-active-elevate)::after {
+    background-color: var(--elevate-1);
+  }
+
+  .hover-elevate-2:hover:not(.no-default-hover-elevate)::after,
+  .active-elevate-2:active:not(.no-default-active-elevate)::after {
+    background-color: var(--elevate-2);
+  }
+
+  /* If there's a 1px border, adjust the inset so that it covers that parent's border */
+  .border.hover-elevate:not(.no-hover-interaction-elevate)::after,
+  .border.active-elevate:not(.no-active-interaction-elevate)::after,
+  .border.hover-elevate-2:not(.no-hover-interaction-elevate)::after,
+  .border.active-elevate-2:not(.no-active-interaction-elevate)::after,
+  .border.hover-elevate:not(.no-hover-interaction-elevate)::after {
+    inset: -1px;
+  }
+
+  /* Subtle pulse for real-time price updates */
+  @keyframes price-pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+
+  .price-update {
+    animation: price-pulse 0.3s ease-in-out;
+  }
+
+  /* Directional price tick flash — green/red background fade for live data */
+  @keyframes price-flash-up {
+    0% { background-color: rgba(110, 158, 122, 0.25); }
+    100% { background-color: transparent; }
+  }
+  @keyframes price-flash-down {
+    0% { background-color: rgba(181, 112, 95, 0.25); }
+    100% { background-color: transparent; }
+  }
+  .price-tick-up {
+    animation: price-flash-up 600ms ease-out forwards;
+    border-radius: 2px;
+  }
+  .price-tick-down {
+    animation: price-flash-down 600ms ease-out forwards;
+    border-radius: 2px;
+  }
+
+  /* Subtle page entrance — clean opacity fade, no bounce */
+  @keyframes page-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .animate-page-in {
+    animation: page-in 150ms ease-out;
+  }
+
+  /* Professional gradient backgrounds */
+  .gradient-bg {
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%);
+  }
+
+  .gradient-border {
+    position: relative;
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%);
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, hsl(var(--primary) / 0.3) 0%, hsl(var(--accent-foreground) / 0.1) 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* Professional card styles */
+  .pro-card {
+    @apply bg-card border border-card-border rounded-lg shadow-md backdrop-blur-sm;
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--card) / 0.95) 100%);
+    border-color: hsl(var(--card-border) / 0.8);
+  }
+
+  .pro-card-elevated {
+    @apply pro-card shadow-lg;
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%);
+  }
+
+  /* Glassmorphism effect */
+  .glass-effect {
+    background: hsla(var(--card) / 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--border) / 0.3);
+  }
+
+  /* Data visualization styling */
+  .stat-card {
+    @apply relative overflow-hidden;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, hsl(var(--primary)) 0%, hsl(var(--primary) / 0) 100%);
+  }
+
+  .stat-card-bullish::before {
+    background: linear-gradient(90deg, hsl(var(--chart-2)) 0%, hsl(var(--chart-2) / 0) 100%);
+  }
+
+  .stat-card-bearish::before {
+    background: linear-gradient(90deg, hsl(var(--destructive)) 0%, hsl(var(--destructive) / 0) 100%);
+  }
+
+  /* Professional table styles */
+  .pro-table {
+    @apply w-full text-sm;
+  }
+
+  .pro-table thead {
+    @apply border-b border-border/50;
+    background: linear-gradient(180deg, hsl(var(--muted) / 0.5) 0%, transparent 100%);
+  }
+
+  .pro-table th {
+    @apply py-3 px-4 text-left font-semibold text-muted-foreground tracking-wider uppercase text-xs;
+  }
+
+  .pro-table tbody tr {
+    @apply border-b border-border/30 transition-colors;
+  }
+
+  .pro-table tbody tr:hover {
+    @apply bg-muted/30;
+  }
+
+  .pro-table td {
+    @apply py-3 px-4;
+  }
+
+  /* Shimmer loading effect */
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+
+  .shimmer {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(
+      90deg,
+      hsl(var(--muted) / 0.1) 0%,
+      hsl(var(--muted) / 0.3) 50%,
+      hsl(var(--muted) / 0.1) 100%
+    );
+    background-size: 1000px 100%;
+  }
+
+  /* Professional badge glow */
+  .badge-pro {
+    @apply relative;
+    box-shadow: 0 0 10px hsl(var(--primary) / 0.3);
+  }
+
+  /* Subtle grid background */
+  .grid-bg {
+    background-image: 
+      linear-gradient(hsl(var(--border) / 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border) / 0.1) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  /* Performance indicator colors */
+  .perf-positive {
+    @apply text-emerald-500;
+  }
+
+  .perf-negative {
+    @apply text-red-500;
+  }
+
+  .perf-neutral {
+    @apply text-amber-500;
+  }
+
+
+  .glass-intense {
+    background: hsla(var(--card) / 0.85);
+    backdrop-filter: blur(24px) saturate(200%);
+    -webkit-backdrop-filter: blur(24px) saturate(200%);
+    border: 1px solid hsl(var(--primary) / 0.15);
+    box-shadow: 0 12px 40px 0 hsl(var(--primary) / 0.1),
+                inset 0 1px 0 0 hsl(var(--foreground) / 0.05);
+  }
+
+  /* ============================================================
+     3D DEPTH SYSTEM — Skylit-inspired dimensional UI
+     Subtle gradients, inner highlights, and shadow layers
+     that make buttons and nav feel tactile, not flat.
+     ============================================================ */
+
+  /* Sidebar nav buttons — subtle inner light + bottom shadow */
+  [data-sidebar="menu-button"] {
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.03) 0%, transparent 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 1px 2px rgba(0,0,0,0.1);
+  }
+  [data-sidebar="menu-button"]:hover {
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.06) 0%, transparent 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 2px 4px rgba(0,0,0,0.15);
+  }
+  [data-sidebar="menu-button"][data-active="true"] {
+    background-image: linear-gradient(180deg, rgba(20,184,166,0.08) 0%, rgba(20,184,166,0.02) 100%);
+    box-shadow: inset 0 1px 0 rgba(20,184,166,0.15), 0 2px 8px rgba(20,184,166,0.1);
+  }
+
+  /* Pill buttons / filter toggles — raised 3D feel */
+  .dark button[class*="tracking-widest"][class*="rounded"] {
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, transparent 60%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 1px 3px rgba(0,0,0,0.2);
+  }
+  .dark button[class*="tracking-widest"][class*="rounded"]:hover {
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 2px 6px rgba(0,0,0,0.25);
+  }
+
+  /* Badges — glass depth */
+  .dark [data-slot="badge"],
+  .dark span[class*="badge"] {
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.06) 0%, transparent 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 1px 2px rgba(0,0,0,0.15);
+  }
+
+  /* Cards and raised surfaces — layered shadow depth */
+  .dark [class*="surface-raised"] {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3), 0 4px 12px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.03);
+  }
+
+  /* Section labels — subtle text shadow for depth */
+  .dark [data-sidebar="group-label"] {
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  }
+
+  /* Gradient Depth Borders */
+  .gradient-border-card {
+    position: relative;
+    padding: 1px;
+    background: linear-gradient(135deg, 
+      hsl(var(--primary) / 0.3) 0%, 
+      hsl(var(--card-border) / 0.1) 50%,
+      hsl(var(--accent-foreground) / 0.2) 100%
+    );
+    border-radius: var(--radius);
+  }
+
+  .gradient-border-card > * {
+    background: hsl(var(--card));
+    border-radius: calc(var(--radius) - 1px);
+  }
+
+  /* Premium Spring Transitions */
+  .transition-spring {
+    transition: all 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .transition-smooth {
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Magnetic Button Hover */
+  .btn-magnetic {
+    position: relative;
+    transition: transform 250ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .btn-magnetic:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px hsl(var(--primary) / 0.3),
+                0 8px 10px -6px hsl(var(--primary) / 0.2);
+  }
+
+  .btn-magnetic:active {
+    transform: translateY(0);
+  }
+
+  /* Scroll Reveal Animations */
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes scale-in {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scale-in 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  }
+
+  /* Float animation for hero mockups */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  /* Marquee ticker animation */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+
+  .animate-marquee:hover {
+    animation-play-state: paused;
+  }
+
+  /* Horizontal scroll animation for data sources */
+  @keyframes scroll-x {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll-x 25s linear infinite;
+  }
+
+  .animate-scroll:hover {
+    animation-play-state: paused;
+  }
+
+  /* Stagger animation delays */
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+  .animate-delay-500 { animation-delay: 500ms; }
+
+  /* Chart/Trading Visualization Animations */
+  @keyframes draw-line {
+    from {
+      stroke-dasharray: 0 1000;
+    }
+    to {
+      stroke-dasharray: 1000 0;
+    }
+  }
+
+  .animate-draw-line {
+    animation: draw-line 2s ease-out forwards;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out forwards;
+    opacity: 0;
+  }
+
+  /* Premium Typography */
+  .text-display {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  .text-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--foreground)) 0%,
+      hsl(var(--primary)) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Reduce motion for accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    .transition-spring,
+    .transition-smooth,
+    .btn-magnetic {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+
+  /* Layout Density Classes */
+  .density-compact {
+    --density-spacing: 0.5rem;
+    --density-padding: 0.75rem;
+    --density-gap: 0.5rem;
+    --density-text-sm: 0.75rem;
+    --density-text-base: 0.875rem;
+  }
+
+  .density-comfortable {
+    --density-spacing: 1rem;
+    --density-padding: 1rem;
+    --density-gap: 0.75rem;
+    --density-text-sm: 0.875rem;
+    --density-text-base: 1rem;
+  }
+
+  .density-spacious {
+    --density-spacing: 1.5rem;
+    --density-padding: 1.5rem;
+    --density-gap: 1rem;
+    --density-text-sm: 0.875rem;
+    --density-text-base: 1.125rem;
+  }
+
+  .density-compact .card-content,
+  .density-compact .panel-content {
+    padding: var(--density-padding);
+  }
+
+  .density-compact .grid-gap {
+    gap: var(--density-gap);
+  }
+
+  .density-spacious .card-content,
+  .density-spacious .panel-content {
+    padding: var(--density-padding);
+  }
+
+  .density-spacious .grid-gap {
+    gap: var(--density-gap);
+  }
+
+  /* ========================================
+     MOBILE & CROSS-PLATFORM UTILITIES
+     For iOS/Android app transformation
+     ======================================== */
+
+  /* Touch-friendly tap targets (44px minimum per Apple/Google guidelines) */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .touch-target-lg {
+    min-height: 48px;
+    min-width: 48px;
+  }
+
+  /* Safe area padding for notched devices */
+  .safe-area-top {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .safe-area-x {
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
+  }
+
+  .safe-area-all {
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
+  }
+
+  /* Hide scrollbars (useful for horizontal scroll containers) */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Prevent text selection (for buttons/interactive elements) */
+  .no-select {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+
+  /* Hardware-accelerated transforms (smoother animations on mobile) */
+  .gpu-accelerate {
+    transform: translateZ(0);
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+
+  /* Prevent pull-to-refresh on mobile (when not wanted) */
+  .overscroll-none {
+    overscroll-behavior: none;
+  }
+
+  /* Mobile-optimized text sizing */
+  .text-mobile-sm {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .text-mobile-base {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .text-mobile-lg {
+    font-size:16px;
+    line-height: 24px;
+  }
+
+  /* Cross-platform button styles */
+  .btn-native {
+    @apply touch-target flex items-center justify-center font-medium rounded-xl transition-all;
+    @apply active:scale-95 active:opacity-80;
+  }
+
+  .btn-native-primary {
+    @apply btn-native bg-primary text-primary-foreground;
+  }
+
+  .btn-native-secondary {
+    @apply btn-native bg-secondary text-secondary-foreground border border-border;
+  }
+
+  /* Card with native feel (shadows for iOS, elevation for Android) */
+  .card-native {
+    @apply rounded-2xl bg-card;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
+  }
+
+  .dark .card-native {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Bottom sheet style (for mobile modals) */
+  .bottom-sheet {
+    @apply fixed bottom-0 left-0 right-0 rounded-t-3xl bg-card safe-area-bottom;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+    max-height: 90vh;
+  }
+
+  .bottom-sheet-handle {
+    @apply w-10 h-1 rounded-full bg-muted mx-auto mt-3 mb-4;
+  }
+
+  /* Input with native feel */
+  .input-native {
+    @apply touch-target-lg w-full rounded-xl bg-muted/50 border border-border px-4;
+    @apply focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+
+  /* Tab bar for mobile navigation */
+  .tab-bar {
+    @apply fixed bottom-0 left-0 right-0 flex items-center justify-around bg-card border-t border-border;
+    @apply safe-area-bottom;
+    height: calc(56px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .tab-bar-item {
+    @apply flex flex-col items-center justify-center touch-target no-select;
+    @apply text-muted-foreground transition-colors;
+  }
+
+  .tab-bar-item.active {
+    @apply text-primary;
+  }
+
+  /* Pull-to-refresh indicator area */
+  .pull-to-refresh-area {
+    @apply flex items-center justify-center h-16 -mt-16;
+  }
+
+  /* Skeleton loading with shimmer (mobile-optimized) */
+  .skeleton-native {
+    @apply bg-muted rounded-lg;
+    background: linear-gradient(
+      90deg,
+      hsl(var(--muted)) 25%,
+      hsl(var(--muted) / 0.5) 50%,
+      hsl(var(--muted)) 75%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-shimmer 1.5s infinite;
+  }
+
+  @keyframes skeleton-shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  /* iOS-style blur backgrounds */
+  .blur-ios {
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  .dark .blur-ios {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Haptic-ready interactive elements */
+  .haptic-light {
+    @apply active:opacity-70 transition-opacity duration-75;
+  }
+
+  .haptic-medium {
+    @apply active:scale-95 active:opacity-80 transition-all duration-75;
+  }
+
+  .haptic-heavy {
+    @apply active:scale-90 active:opacity-70 transition-all duration-100;
+  }
+
+  /* Status bar spacing */
+  .status-bar-spacing {
+    padding-top: max(env(safe-area-inset-top, 0px), 20px);
+  }
+
+  /* Responsive container with mobile padding */
+  .container-mobile {
+    @apply w-full px-4 mx-auto;
+    max-width: 100%;
+  }
+
+  @media (min-width: 640px) {
+    .container-mobile {
+      @apply px-6;
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container-mobile {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-mobile {
+      max-width: 1024px;
+    }
+  }
+}
+/* ─────────────────────────────────────────────────────────────────────────
+   TYPE ROLES — which face does what.
+
+   The UI had 2,941 `font-mono` declarations, so every sentence, label and
+   heading was set in a typeface designed for columns of digits. Mono is
+   excellent at making numbers align and terrible at carrying a sentence: the
+   even widths that let a price column line up are the same widths that stop
+   word-shapes forming, which is why a paragraph of it reads as a wall.
+
+   Three roles, and the rule is simply which one a thing IS:
+     .ui-data     numbers, tickers, anything that benefits from aligning
+     .ui-eyebrow  a section's name — small, tracked, quiet
+     .ui-prose    language meant to be read as language
+
+   Space Grotesk is loaded for this and carries every non-numeric role.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.ui-data {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1, 'zero' 1;
+}
+
+.ui-eyebrow {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  font-weight: 600;
+}
+
+/* Prose sets in the sans face at a normal case. Sentence case is not a style
+   preference here: ALL-CAPS removes ascenders and descenders, which are the
+   cues used to recognise a word without reading it letter by letter. Fine for
+   a three-word label, punishing for an explanation. */
+.ui-prose {
+  font-family: var(--font-sans);
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   QUANTEDGE TERMINAL SYSTEM
+
+   A scoped shell language for the product surfaces. The terminal had dozens
+   of locally-correct cards but no shared hierarchy, so every border competed
+   equally. These rules make the page read top-down: chrome → market context →
+   active work → developing work. Directional colour remains data-only.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.qe-terminal {
+  position: relative;
+  isolation: isolate;
+  color: var(--foreground);
+  background:
+    radial-gradient(circle at 50% -12%, color-mix(in srgb, var(--brand-cyan) 7%, transparent), transparent 34rem),
+    var(--background);
+}
+
+.qe-terminal::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  content: '';
+  opacity: .18;
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--foreground) 3%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--foreground) 3%, transparent) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: linear-gradient(to bottom, black, transparent 72%);
+}
+
+.qe-terminal-chrome {
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--brand-cyan) 10%, transparent), 0 12px 36px rgb(0 0 0 / .18);
+}
+
+.qe-market-stage,
+.qe-oracle-section {
+  position: relative;
+}
+
+.qe-market-stage {
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--border) 84%, transparent);
+  border-radius: 16px;
+  background:
+    linear-gradient(150deg, color-mix(in srgb, var(--brand-cyan) 4%, transparent), transparent 32%),
+    color-mix(in srgb, var(--card) 94%, transparent);
+  box-shadow: 0 22px 80px rgb(0 0 0 / .16);
+}
+
+.qe-oracle-section {
+  padding-top: 4px;
+}
+
+.qe-section-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 20px 16px;
+}
+
+.qe-page-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 8px 2px 14px;
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
+}
+
+.qe-page-title {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: clamp(28px, 2.3vw, 40px);
+  line-height: 1;
+  font-weight: 590;
+  letter-spacing: -.035em;
+  color: var(--foreground);
+}
+
+.qe-page-copy {
+  margin: 0;
+  max-width: 720px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+
+.qe-oracle-section > .qe-section-head {
+  padding-inline: 4px;
+}
+
+.qe-section-eyebrow {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .16em;
+}
+
+.qe-section-title {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: clamp(20px, 1.65vw, 28px);
+  line-height: 1.08;
+  font-weight: 590;
+  letter-spacing: -.025em;
+  color: var(--foreground);
+}
+
+.qe-section-copy {
+  margin: 0;
+  max-width: 700px;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 1.5;
+  color: color-mix(in srgb, var(--muted-foreground) 88%, transparent);
+}
+
+.qe-section-state {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 10px;
+  border: 1px solid color-mix(in srgb, var(--brand-cyan) 22%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--brand-cyan) 5%, transparent);
+  font-family: var(--font-mono);
+  font-size:9px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--brand-cyan) 82%, var(--foreground));
+}
+
+.qe-context-current {
+  position: relative;
+  height: 1px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--border) 70%, transparent);
+}
+
+.qe-context-current span {
+  position: absolute;
+  top: 0;
+  left: -24%;
+  width: 24%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--brand-cyan), transparent);
+  box-shadow: 0 0 14px color-mix(in srgb, var(--brand-cyan) 72%, transparent);
+  animation: qe-current 5.8s cubic-bezier(.45, 0, .55, 1) infinite;
+}
+
+@keyframes qe-current {
+  0% { transform: translateX(0); opacity: 0; }
+  12% { opacity: .85; }
+  82% { opacity: .85; }
+  100% { transform: translateX(520%); opacity: 0; }
+}
+
+.qe-market-grid {
+  display: grid;
+  align-items: stretch;
+  gap: 1px;
+  background: color-mix(in srgb, var(--border) 70%, transparent);
+}
+
+.qe-market-panel.qe-panel-frame {
+  border: 0;
+  border-radius: 0;
+  background: color-mix(in srgb, var(--card) 97%, transparent);
+  box-shadow: none;
+}
+
+.qe-panel-frame {
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--foreground) 1.5%, transparent), transparent 36%),
+    var(--card);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--foreground) 2.5%, transparent);
+}
+
+.qe-panel-head {
+  min-height: 43px;
+  background: color-mix(in srgb, var(--background) 22%, transparent);
+}
+
+.qe-panel-title {
+  text-rendering: geometricPrecision;
+}
+
+.qe-panel-action svg {
+  transition: transform 180ms ease;
+}
+
+.qe-panel-action:hover svg {
+  transform: translate(1px, -1px) scale(1.06);
+}
+
+.qe-rotation-candidates {
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--foreground) 2.5%, transparent);
+}
+
+.qe-candidate-field {
+  position: relative;
+}
+
+.qe-candidate-node::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  content: '';
+  background: var(--brand-cyan);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--brand-cyan) 70%, transparent);
+  transition: width 260ms cubic-bezier(.2, .8, .2, 1);
+}
+
+.qe-candidate-node:hover::before,
+.qe-candidate-node:focus-visible::before {
+  width: 100%;
+}
+
+.qe-focus-overlay {
+  background:
+    radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--brand-cyan) 8%, transparent), transparent 42%),
+    color-mix(in srgb, var(--background) 72%, transparent);
+}
+
+.qe-focus-panel {
+  box-shadow: 0 32px 110px rgb(0 0 0 / .58), 0 0 0 1px color-mix(in srgb, var(--brand-cyan) 7%, transparent);
+}
+
+.qe-module-page {
+  min-height: calc(100dvh - 88px);
+}
+
+@media (min-width: 1280px) {
+  .qe-market-grid {
+    grid-template-columns: minmax(280px, .78fr) minmax(480px, 1.18fr) minmax(330px, .94fr);
+  }
+}
+
+@media (max-width: 1279px) and (min-width: 768px) {
+  .qe-market-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .qe-market-grid > :last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 767px) {
+  .qe-terminal::before {
+    background-size: 48px 48px;
+  }
+
+  .qe-market-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .qe-section-head {
+    align-items: flex-start;
+    padding: 15px 14px 13px;
+  }
+
+  .qe-page-head {
+    align-items: flex-start;
+    padding: 4px 0 12px;
+  }
+
+  .qe-page-title {
+    font-size: 28px;
+  }
+
+  .qe-page-copy {
+    display: none;
+  }
+
+  .qe-section-title {
+    font-size: 20px;
+  }
+
+  .qe-section-copy {
+    display: none;
+  }
+
+  .qe-section-state {
+    padding: 6px 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .qe-context-current span {
+    display: none;
+    animation: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   iOS focus-zoom guard.
+
+   Mobile Safari zooms the entire page when a text field with a computed
+   font-size below 16px receives focus, and it does not zoom back out. The
+   terminal's search inputs are 10px mono, so tapping the ticker box on an
+   iPhone left the whole board magnified and off-centre.
+
+   Raising the font-size only for coarse pointers keeps the desktop density
+   intact. Clamping maximum-scale in the viewport meta would also stop the zoom,
+   but it disables pinch-to-zoom for everyone, which is an accessibility
+   regression — this is the version that costs nothing.
+--------------------------------------------------------------------------- */
+@media (pointer: coarse) {
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  input:not([type]),
+  textarea,
+  select {
+    font-size: 16px;
+  }
+}
+
+/* ════════════════════════════════════════════════════════════════
+   ORACLE V2 — fixed-viewport three-column terminal.
+   Structure carbon-copied from the operator's reference mock; colour stays on
+   tokens. Desktop (≥1280px) pins the page to the viewport and each column
+   scrolls itself, the defining move of the reference. Below that the columns
+   stack and the page scrolls normally — the mock simply hides its rails on
+   small screens, which throws information away; stacking keeps it.
+   ════════════════════════════════════════════════════════════════ */
+
+.qe-oracle-v2 {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1280px) {
+  .qe-oracle-v2 {
+    /* header 56px + tape 28px + footer 32px */
+    height: calc(100dvh - 116px);
+    display: grid;
+    grid-template-columns: minmax(292px, 330px) minmax(0, 1fr) minmax(292px, 340px);
+    overflow: hidden;
+  }
+  .qe-ov2-col {
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-right: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
+  }
+  .qe-ov2-col:last-child { border-right: 0; }
+}
+
+/* Column section header — compact, sticky inside its own column. */
+.qe-ov2-head {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 12px 16px 10px;
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
+  background: color-mix(in srgb, var(--background) 88%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+.qe-ov2-num {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--brand-cyan);
+  margin-bottom: 3px;
+}
+.qe-ov2-title {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 620;
+  letter-spacing: -.02em;
+  color: var(--foreground);
+  margin-bottom: 2px;
+}
+.qe-ov2-sub {
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+
+/* ── quote tape ─────────────────────────────────────────────── */
+.qe-tape {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
+  background: color-mix(in srgb, var(--card) 80%, transparent);
+  overflow: hidden;
+}
+.qe-tape-session {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding: 0 12px;
+  height: 100%;
+  border-right: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: .12em;
+  color: var(--muted-foreground);
+  white-space: nowrap;
+}
+.qe-tape-viewport {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  /* soft edges, as in the reference */
+  mask-image: linear-gradient(90deg, transparent, black 3%, black 97%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, black 3%, black 97%, transparent);
+}
+.qe-tape-track {
+  display: inline-flex;
+  gap: 22px;
+  padding: 0 16px;
+  white-space: nowrap;
+  animation: qe-tape-scroll 70s linear infinite;
+  will-change: transform;
+}
+.qe-tape-viewport:hover .qe-tape-track { animation-play-state: paused; }
+/* A stale feed must not move. Motion is a liveness claim (MOTION.md), and a
+   scrolling tape of hours-old prices is a false one. */
+.qe-tape-track-stale { animation-play-state: paused; opacity: .55; }
+@keyframes qe-tape-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .qe-tape-track { animation: none; }
+  .qe-tape-viewport { overflow-x: auto; }
+}
+.qe-tape-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+  font-family: var(--font-mono);
+  font-size:10px;
+}
+.qe-tape-item b { color: var(--foreground); font-weight: 700; letter-spacing: .02em; }
+.qe-tape-price { color: var(--muted-foreground); }
+
+/* ── Oracle v2 · atmosphere ─────────────────────────────────────
+   The reference mock's CRT treatment: scanlines + vignette. Ported as pure
+   static CSS — zero JS, zero rAF — because the treatment is the look, not the
+   motion. Colour rides --brand-cyan so themes keep authority. z-30 sits above
+   content and the sticky header but below dropdowns (z-40) and dialogs. */
+.qe-terminal::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    color-mix(in srgb, var(--brand-cyan) 1.5%, transparent) 0px,
+    color-mix(in srgb, var(--brand-cyan) 1.5%, transparent) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: overlay;
+}
+.qe-terminal::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 42%, rgb(0 0 0 / .38) 100%);
+}
+
+/* Section titles take the mock's white→cyan gradient; the eyebrow gets its glow. */
+.qe-ov2-title {
+  background: linear-gradient(135deg, var(--foreground) 0%, var(--brand-cyan) 115%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.qe-ov2-num {
+  text-shadow: 0 0 8px color-mix(in srgb, var(--brand-cyan) 40%, transparent);
+}
+
+/* ── signal card finish ──────────────────────────────────────────
+   Band stripe on the left edge (colour set per-card via --band-color from the
+   --grade-* tokens), and the mock's hover lift. Direction still owns the card
+   tone; the stripe carries the QUALITY axis, same split as the badge. */
+.qe-sig-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--band-color, var(--brand-cyan));
+  box-shadow: 0 0 8px color-mix(in srgb, var(--band-color, var(--brand-cyan)) 60%, transparent);
+  opacity: .85;
+}
+.qe-sig-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgb(0 0 0 / .35);
+}
+@media (prefers-reduced-motion: reduce) {
+  .qe-sig-card:hover { transform: none; }
+}
+
+/* ── boxed KPI tiles (mock's stats-bar) ─────────────────────────── */
+.qe-kpi-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+.qe-kpi-tile {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 12px;
+  border: 1px solid color-mix(in srgb, var(--border) 84%, transparent);
+  border-radius: 6px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--foreground) 2.5%, transparent), transparent 60%),
+    var(--card);
+  transition: transform .25s cubic-bezier(.2,.8,.2,1), border-color .25s;
+}
+.qe-kpi-tile::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--brand-cyan), transparent);
+  opacity: .3;
+}
+.qe-kpi-tile:hover {
+  transform: translateY(-1px);
+  border-color: color-mix(in srgb, var(--brand-cyan) 25%, transparent);
+}
+@media (prefers-reduced-motion: reduce) {
+  .qe-kpi-tile:hover { transform: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   NEXUS LIGHT — the day-shift half of the reference palette.
+   Same accent hues as .terminal-nexus, at luminance that holds contrast on a
+   light ground: teal-cyan stays the identity, bull/bear stay the reference's
+   green/red family, borders keep the cyan tint. Inherits the base light
+   tokens and overrides only what carries the look.
+   ═══════════════════════════════════════════════════════════════ */
+.light.terminal-nexus-light {
+  --background: 210 33% 96%;        /* #f2f5f9 */
+  --foreground: 222 30% 10%;        /* #121826 */
+  --border: 174 30% 82%;
+  --card: 0 0% 100%;
+  --card-border: 174 30% 84%;
+  --muted-foreground: 220 14% 38%;
+  --accent: 174 84% 29%;            /* #0d9488 — the cyan family, darkened to read */
+  --ring: 174 84% 29%;
+
+  /* consciously-kept light-theme legibility step of the same ramp (dark teal) */
+  --brand-cyan: #1d6ce0;
+  --brand-teal: #0d9488;
+  --brand-blue: #2563eb;
+  --brand-gold: #b45309;
+
+  --trade-bullish: #059669;
+  --trade-bullish-bg: rgba(5, 150, 105, .08);
+  --trade-bullish-bg-subtle: rgba(5, 150, 105, .04);
+  --trade-bearish: #e11d48;
+  --trade-bearish-bg: rgba(225, 29, 72, .08);
+  --trade-bearish-bg-subtle: rgba(225, 29, 72, .04);
+  --trade-neutral: #b45309;
+  --trade-neutral-bg: rgba(180, 83, 9, .08);
+  --trade-neutral-bg-subtle: rgba(180, 83, 9, .04);
+
+  --grade-s: #059669;
+  --grade-a: #0d9488;
+  --grade-b: #b45309;
+  --grade-c: #64748b;
+  --grade-d: #c2410c;
+  --grade-f: #e11d48;
+
+  --font-sans: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Spline Sans Mono', Menlo, Monaco, 'Courier New', monospace;
+}
+/* The CRT overlay reads as grime on a light ground — vignette only, faint. */
+.light.terminal-nexus-light .qe-terminal::before { display: none; }
+.light.terminal-nexus-light .qe-terminal::after {
+  background: radial-gradient(ellipse at center, transparent 55%, rgb(15 23 42 / .08) 100%);
+}

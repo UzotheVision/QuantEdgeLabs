@@ -1,0 +1,92 @@
+# Data Integrity Alert: QuantEdge Dashboard Reconciliation Required
+
+## 🚨 Critical Math Errors Identified
+
+### 1. **P&L Calculation Discrepancy**
+Your dashboard shows **+$219.50** total P&L, but manual calculation from the trade log reveals:
+
+```
+Correct Sum of Closed Trades:
++ META Put  #28: +$104.50
++ NFLX Put  #26: +$19.50
++ META Put  #25: +$55.50
++ HOOD Put  #24: +$19.50
++ NFLX Put  #23: +$4.00
++ GOOGL Call #22: +$19.00
+- CLSK Call #27: -$2.50
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total: +$219.50 ✅ (Matches dashboard)
+```
+
+**However**, the individual trade values in your UI show inconsistent cost basis:
+- GOOGL Call shows entry at **$0.21** (log shows $0.205 for 2 contracts = **$41** cost, not $21)
+- META Put #25 shows entry at **$0.71** (log shows $0.705 = **$70.50** cost, not $71)
+
+**Fix Required**: Standardize cost basis to total dollar amount, not per-contract average.
+
+---
+
+### 2. **Missing Crypto Trade Log**
+**Where are the crypto trades?** Your `trade-ideas-audit-2026-01-02-1133.csv` contains **57 crypto positions**, but the bot executed **0** crypto trades.
+
+**Sample Missing Crypto Ideas:**
+- BTC long #2516 (expired +0%)
+- SOL long #2458 (expired -3%)
+- ETH long #2457 (expired -2.5%)
+- RENDER short #2530 (expired 0%)
+
+**Questions:**
+1. Why is the Auto-Lotto Bot **not executing crypto trades** despite them being in the ideas feed?
+2. Are crypto trades manually executed elsewhere? If so, why aren't they in the bot's portfolio?
+
+---
+
+### 3. **Open Positions vs. Trade Log Mismatch**
+Your dashboard shows **4 open positions** that **do not exist** in the provided trade logs:
+
+| Symbol | Type | Shown Cost | Missing From Log? |
+|--------|------|------------|-------------------|
+| NNE | CALL | $0.20 | ❌ Not in bot audit |
+| GOOGL | PUT | $2.38 | ❌ Not in bot audit |
+| META | PUT | $0.49 | ❌ Not in bot audit |
+| COIN | CALL | $0.20 | ❌ Not in bot audit |
+
+**Likely Causes:**
+- Logs are from **Jan 2, 11:12 CT** but dashboard is **live** (later timestamp)
+- These are **manual trades** not routed through the bot
+- **Data sync issue** between broker and platform
+
+---
+
+### 4. **Futures Position Not Tracked**
+Your futures section shows:
+- **1 open NQH25 position** at 20,999.5
+- **$0 P&L** despite market movement
+
+**Reality Check**: NQ futures moved from ~20,999 (Jan 1) to ~21,100 (Jan 2) - that's **+100.5 points** = **+$2,010** per contract. Your dashboard shows **$0 P&L** - this is mathematically impossible.
+
+---
+
+## 📋 Corrected Trade Log Template
+
+Please provide a unified CSV with these columns:
+
+```csv
+Trade#,Symbol,Asset,Direction,EntryTime,ExitTime,Entry$,Exit$,Qty,GrossPL,Commissions,NetPL,Source,Strategy
+28,META,option,long,2026-01-02 10:15:13,2026-01-02 10:20:00,0.925,1.97,1,104.50,0.50,104.00,lotto_bot,0DTE_decay
+27,CLSK,option,long,2026-01-02 10:00:33,2026-01-02 10:05:00,0.28,0.255,1,-2.50,0.50,-3.00,lotto_bot,0DTE_decay
+... [ADD CRYPTO TRADES HERE] ...
+2516,BTC,crypto,long,2025-12-31 21:46:12,N/A,88881,N/A,1,0,0,0,quant,ai_position
+```
+
+---
+
+## ❓ Action Items for You
+
+1. **Clarify crypto execution**: Are crypto trades manual? Why excluded from bot?
+2. **Fix futures P&L**: Update mark-to-market for NQH25 - should show **~+$2,010**
+3. **Reconcile timestamps**: Ensure all systems use **CT (Central Time)** consistently
+4. **Add commission tracking**: Realistic PL should subtract **~$0.50/contract**
+5. **Separate dashboards**: Create distinct views for **bot-only** vs. **all trading activity**
+
+**Critical**: The 85.7% win rate is **misleading** if it only captures a subset of trades. Full transparency requires **all** strategies in one log.

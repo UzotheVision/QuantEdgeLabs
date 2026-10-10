@@ -1,0 +1,55 @@
+Fine. The right side right now looks like every “AI fintech but make it neon” landing page from the last 18 months. It explains things, but it does not signal power. You want compression. Outcome. Authority. Less diagram, more inevitability.
+
+Here are three strong visual prompt directions. Pick one based on how aggressive you want to be. These are written to drop straight into Sora / Midjourney / Runway.
+
+⸻
+
+OPTION 1: “Signal Convergence Core” (Clean, premium, institutional)
+
+This is the safest and strongest default.
+
+Prompt:
+
+Ultra-clean dark fintech interface visual. Three luminous data streams labeled AI, QUANT, and FLOW originate from different directions, composed of charts, headlines, order flow heatmaps, and numerical signals. The streams spiral inward and merge into a single glowing core labeled “EDGE”. As they converge, noise and random data dissolve into clarity. Subtle grid background, restrained neon accents in cyan, violet, and blue. Minimalist, high-credibility, institutional trading platform aesthetic. No people. No clutter. Precision over flash.
+
+Why it works:
+It visually encodes your entire value prop in one second. Inputs → convergence → edge. No reading required. Hedge fund vibes without cosplay.
+
+⸻
+
+OPTION 2: “From Chaos to Conviction” (More emotional, higher contrast)
+
+This one hits harder and sells the problem you solve.
+
+Prompt:
+
+Split-scene cinematic fintech visualization. Left side shows chaotic, noisy market data exploding outward: conflicting indicators, red and green candles, scattered headlines, emotional volatility. Right side shows a calm, focused output: a single clean trade signal card with confidence score, risk parameters, and direction highlighted. Between them, an abstract AI-driven engine filters and compresses the chaos into clarity. Dark background, sharp lighting contrast, modern trading dashboard style, premium AI research platform look.
+
+Why it works:
+People feel overwhelmed. This shows relief. Traders buy relief.
+
+⸻
+
+OPTION 3: “Decision Engine” (Bold, futuristic, slightly flexy)
+
+If you want it to feel like proprietary tech.
+
+Prompt:
+
+Futuristic AI decision engine visualization floating in a dark digital space. Modular components labeled AI Engine, Quant Engine, and Flow Scanner feed into a central decision matrix. Live market data pulses through transparent layers, being scored, filtered, and ranked in real time. Final output emerges as a single high-conviction trade signal with probability and risk metrics. Sleek, minimal UI elements, high-tech glow, no gimmicks, professional trading platform aesthetic.
+
+Why it works:
+This frames QuantEdge as infrastructure, not content. Big difference.
+
+⸻
+
+What I would NOT do
+	•	No percentages floating randomly. That belongs lower on the page.
+	•	No cartoon arrows.
+	•	No human silhouettes pretending traders look heroic.
+	•	No overexplaining text baked into the visual.
+
+The visual should answer one question silently:
+“Why should I trust this engine over my own brain?”
+
+If you want, I can tune one of these prompts exactly to your brand colors and typography so it snaps perfectly into that top-right space instead of fighting the headline.

@@ -1,0 +1,143 @@
+QE
+QuantEdge
+RESEARCH
+
+Home
+
+Trade Desk
+
+Trading Rules
+More
+
+Performance
+
+Market
+
+Chart Analysis
+System
+
+Settings
+
+Collapse
+Toggle theme
+Toggle theme
+Chart Analysis
+AI + Quantitative analysis for precise trade setups
+
+AI Vision
+Quant Engine
+Upload Chart
+Chart preview
+Click to change
+
+Symbol
+MARA
+Chart Timeframe
+What time period does each candle/bar represent on your chart?
+
+
+5 Minutes
+15 Min
+1 Hour
+4 Hour
+Daily
+Context (Optional)
+Market conditions, specific patterns to look for...
+Analyze
+Reset
+MARA
+5m
+BULLISH
+75% Confidence • 1 Patterns
+
+Draft
+Price Context
+
+Current MARA price is $9.94 - the suggested entry of $2.24 is 77% away. This may be a breakout/breakdown level, or the chart might be from an older time period.
+
+Alternative: If entering at current price:
+
+Entry
+
+$9.94
+
+Target
+
+$11.36
+
+Stop
+
+$9.72
+
+Entry
+
+$2.24
+
+Target
+
+$2.56
+
++14.3%
+
+Stop
+
+$2.19
+
+-2.2%
+
+R:R
+
+6.4:1
+
+Validation Alerts
+
+• R:R of 6.4:1 is unusually high - verify levels
+AI Analysis
+Quant Signals
+Levels
+Predicted Trend
++14.3%
+Expected
+
+AI Confidence
+75%
+Bears
+Signal Balance
+Bulls
+0%
+100%
+Price Target Range
+Stop $2.19
+Entry $2.24
+Target $2.56
+Detected Patterns
+Descending Triangle
+Technical Analysis
+The chart for MARA on the 5-minute timeframe shows a significant preceding downtrend, followed by a consolidation phase forming a Descending Triangle pattern. This pattern is characterized by a clear horizontal support level and a declining resistance trendline. The horizontal support is well-established around 2.06, indicated by multiple price touches. The declining resistance trendline connects the high point after the initial drop (approximately 2.38) with the current price action, which is presently testing this trendline around 2.22. The price is pressing against this key resistance level, indicating a potential attempt by buyers to reverse the short-term trend. For an immediate trade setup, we are looking at a potential **bullish breakout** from this Descending Triangle. While a descending triangle typically resolves bearishly, the current price action challenging the upper trendline presents an opportunity for a reversal or strong bounce if successful. **Trade Setup Details:** * **Entry Point**: A conservative entry is set at 2.24, requiring a clear break and sustained close above the declining resistance trendline to confirm the bullish momentum. * **Target Price**: The target is calculated by projecting the height of the triangle from its widest point (approx. 2.38 high to 2.06 support, a difference of 0.32) upwards from the breakout point. This results in a target of 2.24 + 0.32 = 2.56. This target aligns closely with a previous resistance level (dashed line) around 2.60, adding confluence. * **Stop Loss**: A stop loss is placed at 2.19, just below the recent swing low and the declining trendline, to manage risk effectively in case of a false breakout or a reversal downwards. **Sentiment**: The overall immediate sentiment is **bullish**, anticipating a successful breakout above the descending resistance. However, it's crucial to acknowledge the preceding bearish trend and the typical bearish implications of a descending triangle if it were to break downwards through support.
+
+View in Trade Desk
+Publish
+Educational purposes only. Not financial advice. Always conduct your own research before trading.
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CST
+© 2025 QuantEdge Research. All rights reserved.•by UN/TITLD
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past performance does not guarantee future results.
+0

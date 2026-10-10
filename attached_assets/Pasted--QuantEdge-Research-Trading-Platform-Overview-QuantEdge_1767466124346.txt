@@ -1,0 +1,235 @@
+
+QuantEdge Research - Trading Platform
+Overview
+QuantEdge Research is a dual-engine quantitative trading research platform (AI Analysis + Quantitative Signals) for US equities, options, crypto, and futures markets. Its purpose is to provide educational, research-grade market analysis with robust risk parameters and real-time data, emphasizing strong risk controls and educational disclaimers. The platform focuses on a dark-themed UI for rapid data scanning and is designed for research and educational purposes only, not financial advice. Tagline: "Multiple Engines, One Edge"
+
+User Preferences
+All timestamps displayed in America/Chicago (CT) timezone with market session context
+Dark/light theme toggle (dark mode is primary)
+Educational disclaimers must be emphasized on every screen
+Clear risk/reward calculations and position sizing tools
+Fresh research briefs highlighted immediately upon opening
+Platform functions fully without external AI dependencies (quantitative fallback)
+Helpful error messages for API billing, rate limits, and authentication issues
+Liquidity warnings for penny stocks and low-float securities
+System Architecture
+The platform features a React 18, TypeScript, and Tailwind CSS frontend (Shadcn UI, TanStack Query, Wouter) and an Express.js, TypeScript backend with PostgreSQL (Neon serverless) and Drizzle ORM. Authentication uses session-based methods with bcrypt, Replit Auth, and Google OAuth. The system integrates two core engines: an AI Engine (Anthropic Claude, OpenAI GPT, Google Gemini) and a Quantitative Engine (RSI(2) Mean Reversion, VWAP Institutional Flow, Volume Spike Early Entry, ADX Regime Filtering).
+
+UI/UX is designed with a "Tech-Minimalist" philosophy, drawing inspiration from institutional trading interfaces. It features a dark-mode-first design, a specific color palette (slate, cyan, green, red, amber, purple, blue), glassmorphism-inspired components, and a clear typography hierarchy using Inter (primary) and JetBrains Mono (data/code).
+
+Core features include public informational pages, user authentication, a main application dashboard, a trade desk with research briefs, a live trading journal, market overview, performance analytics, and various research tools like chart analysis and a historical trade pattern library. The platform includes a Data Intelligence System for historical performance analytics, a Loss Analysis System for automatic post-mortem of failed trades, and a Data Integrity System ensuring consistent statistics across the platform. An Auto-Lotto Bot provides an automated paper trading system with sample size gating for performance metrics. An Educational Blog System offers content on trading skills, while a Real-time Pricing Service consolidates market data from various providers. A Chart Analysis System provides comprehensive technical pattern recognition and support/resistance detection.
+
+External Dependencies
+Market Data
+Coinbase WebSocket: Real-time crypto prices (~1s latency) for 20 major coins
+Yahoo Finance: Real-time quotes, discovery, historical stock/futures data
+CoinGecko: Cryptocurrency metadata, market cap, 24h stats (fallback: Yahoo Finance)
+Tradier: Options chains, delta targeting, and live options pricing
+Alpha Vantage: Financial news feeds and earnings calendar
+Real-Time Price Service
+Located in server/realtime-price-service.ts:
+
+Crypto: Coinbase WebSocket (wss://ws-feed.exchange.coinbase.com) - sub-second updates
+Futures: Yahoo Finance polling every 10 seconds (NQ, ES, GC)
+Status endpoint: GET /api/realtime-status - shows connection status and all live prices
+Automatic reconnection on WebSocket disconnect
+AI Providers
+Anthropic (Claude Sonnet 4): Primary AI engine and research assistant.
+OpenAI (GPT-4): Backup for fundamental analysis.
+Google (Gemini): Alternative AI analysis.
+Other Integrations
+Discord: Webhook notifications.
+Magic UI Components
+Custom animated components located in client/src/components/magicui/:
+
+NumberTicker: Animated number counting for price displays (supports prefix/suffix, decimal places)
+ShimmerButton: Button with animated shimmer effect for premium CTAs
+BorderBeam: Glowing animated border beam effect for card highlights
+SparklesText: Text with animated sparkle particles (available for gain indicators)
+Tailwind keyframes configured: border-beam, shimmer-slide, spin-around, pulse-glow
+
+Usage:
+
+BorderBeam on Options (purple) and Futures (cyan) portfolio cards in watchlist-bot
+NumberTicker for animated balance/P&L displays
+ShimmerButton on landing page CTA sections
+Timing Intelligence System
+Located in server/timing-intelligence.ts, this system calculates optimal entry/exit windows for trades.
+
+Holding Period Classification:
+
+Day trades: Exit by market close same day (4:00 PM ET)
+Swing trades: Exit +3 trading days at market close (weekends skipped)
+Position trades: Exit +10 trading days at market close (weekends skipped)
+Auto-Promotion Logic (when no explicit holdingPeriod provided):
+
+Position: confidence >= 80% AND low volatility
+Swing: confidence >= 65% AND (low OR normal volatility)
+Day: default
+Key Fields:
+
+holdingPeriod: Explicit override ('day' | 'swing' | 'position')
+exitWindowMinutes: Always recalculated from final exitBy timestamp for consistency
+exitBy: ISO timestamp of exit deadline
+Prop Firm Mode
+Located in server/auto-lotto-trader.ts, Prop Firm Mode is a conservative futures trading system designed for funded account evaluations (e.g., Topstep).
+
+Account Parameters:
+
+Starting Capital: $50,000
+Daily Loss Limit: $1,000
+Max Drawdown: $2,500
+Profit Target: $3,000
+Max Contracts: 2 (NQ only)
+Risk Management:
+
+15-point stop loss, 30-point target (2:1 R:R)
+Force-liquidation when risk limits are breached
+Only trades during CME hours and optimal sessions (9:30-11:00 AM, 2:00-3:30 PM CT)
+Requires 70%+ confidence score for entry
+P&L Calculation:
+
+Futures use point-based P&L with contract multipliers:
+NQ (E-mini Nasdaq): $20 per point
+GC (Gold): $100 per point
+Options use $100 multiplier (100 shares per contract)
+closePaperPosition in server/storage.ts is the single source of truth for portfolio updates
+Data Architecture:
+
+Each bot has separate portfolios: options, futures, crypto, prop-firm
+Daily P&L tracked in-memory (propFirmDailyPnL), resets at start of each trading day
+Paper positions use flat $100 margin per contract (not full notional value)
+Market Scanner
+Located in server/market-scanner.ts, the Market Scanner tracks 500+ stocks across multiple timeframes.
+
+Stock Universe Categories:
+
+sp500: 155 symbols including S&P 500 components and major tech stocks
+growth: 70 growth/momentum stocks (AI, quantum computing, crypto miners, nuclear)
+penny: 50 penny stocks (EVs, space, clean energy, biotech)
+etf: 50 ETFs (index, sector, leveraged)
+all: Combined universe (325+ unique symbols)
+API Endpoints:
+
+GET /api/market-scanner - Scan stocks by category, with optional historical data
+GET /api/market-scanner/movers - Get top gainers/losers by timeframe
+GET /api/market-scanner/sectors - Sector performance via ETF proxies
+Timeframes:
+
+day: Daily change
+week: 5-day change
+month: 22-day change
+ytd: Year-to-date change
+year: 52-week change
+Data Source:
+
+Yahoo Finance API with 5-minute cache TTL
+Batch processing (10 stocks at a time, 100ms delay between batches)
+Automatic rate limiting and error handling
+CT Tracker (Crypto Twitter Tracker)
+Located in client/src/pages/ct-tracker.tsx, tracks crypto influencer calls and sentiment.
+
+Features:
+
+Track Twitter/X, Bluesky, Reddit, Discord, Telegram influencers
+Auto-detect ticker mentions and sentiment (bullish/bearish/neutral)
+Performance tracking for influencer calls
+Top trending tickers analysis
+Auto-Follow Trades:
+
+Toggle per source to automatically copy trades from tracked influencers
+Default max position size: $100 (designed for small accounts)
+Uses real-time crypto prices from Coinbase WebSocket for accurate entry pricing
+API: PATCH /api/ct/sources/:id with autoFollowTrades: boolean, maxAutoTradeSize: number
+API Endpoints:
+
+GET /api/ct/sources - List tracked influencer sources
+POST /api/ct/sources - Add new source
+PATCH /api/ct/sources/:id - Update source settings (auto-follow, etc.)
+DELETE /api/ct/sources/:id - Remove source
+GET /api/ct/mentions - Get recent mentions with sentiment
+GET /api/ct/top-tickers - Get trending tickers by mention count
+POST /api/ct/copy-trade - Manually copy a trade to paper portfolio
+npm run dev
+3m
+ • 
+3 minutes ago
+Remote Updates
+origin/main•upstream
+last fetched 7 hours ago
+Commit
+There are no changes to commit.
+Secrets
+Secrets are accessible to anyone who has access to this App. To restrict secret access, you must update App invite permissions. For more information, visit our documentation.
+SESSION_SECRET
+••••••••
+ALPHA_VANTAGE_API_KEY
+••••••••
+ANTHROPIC_API_KEY
+••••••••
+GEMINI_API_KEY
+••••••••
+OPENAI_API_KEY
+••••••••
+TRADIER_ACCOUNT_ID
+••••••••
+DATABASE_URL
+••••••••
+PGDATABASE
+••••••••
+PGHOST
+••••••••
+PGPORT
+••••••••
+PGUSER
+••••••••
+PGPASSWORD
+••••••••
+ADMIN_PASSWORD
+••••••••
+ADMIN_ACCESS_CODE
+••••••••
+TRADIER_API_KEY
+••••••••
+GOOGLE_CLIENT_ID
+••••••••
+GOOGLE_CLIENT_SECRET
+••••••••
+DISCORD_WEBHOOK_URL
+••••••••
+DISCORD_WEBHOOK_LOTTO
+••••••••
+DISCORD_WEBHOOK_WEEKLYWATCHLISTS
+••••••••
+DISCORD_WEBHOOK_CHARTANALYSIS
+••••••••
+DISCORD_WEBHOOK_GAINS
+••••••••
+GROK_API_KEY
+••••••••
+DISCORD_WEBHOOK_FUTURE_TRADES
+••••••••
+DISCORD_WEBHOOK_QUANTBOT
+••••••••
+DATABENTO_API_KEY
+••••••••
+NOTION_API_KEY
+••••••••
+NOTION_DATABASE_ID
+••••••••
+Configurations
+Configurations are similar to secrets, but should only be used for non-sensitive information. They're useful for having a variable that's different between your published app and when testing on Replit.
+ADMIN_EMAIL
+abdulmalikajisegiri@gmail.com
+DISCORD_WEBHOOK_FUTURE_TRADES
+5 results in 1 file
+118
+* #futures            │ DISCORD_WEBHOOK_FUTURE_TRADES│ NQ/GC futures trades only
+675
+ const webhookUrl = process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_URL;
+678
+   logger.warn('⚠️ No DISCORD_WEBHOOK_FUTURE_TRADES configured - skipping futures notification');
+989
+   ? (process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_QUANTBOT || proces
+1078
+   ? (process.env.DISCORD_WEBHOOK_FUTURE_TRADES || process.env.DISCORD_WEBHOOK_QUANTBOT || proces

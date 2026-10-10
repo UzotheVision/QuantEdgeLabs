@@ -1,0 +1,513 @@
+Here’s the **copy-paste-ready code** to transform that homepage from vibe-coded to Bloomberg Terminal aesthetic in **under 4 hours**.
+
+---
+
+## **Step 1: Add Global Glassmorphism Variables**
+
+Paste this at the top of your global CSS file:
+
+```css
+/* Root Variables - Glassmorphism Theme */
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-glass: rgba(30, 30, 32, 0.4);
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --accent-cyan: #00d4ff;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --danger-red: #ff453a;
+  --success-green: #30d158;
+  --warning-orange: #ff9f0a;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Glass Card Base */
+.glass-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-glass);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+```
+
+---
+
+## **Step 2: Replace Your Header**
+
+Your current header is plain. Replace it with this glass version:
+
+```html
+<header class="glass-header">
+  <div class="logo-section">
+    <div class="logo">QE</div>
+    <div class="brand-name">QuantEdge</div>
+  </div>
+  
+  <nav class="main-nav">
+    <a href="/trade-desk" class="nav-item active">Trade Desk</a>
+    <a href="/performance" class="nav-item">Performance</a>
+    <a href="/market" class="nav-item">Market</a>
+    <a href="/settings" class="nav-item">Settings</a>
+  </nav>
+  
+  <div class="user-section">
+    <span class="market-status market-closed">Market Closed</span>
+    <div class="user-avatar">A</div>
+  </div>
+</header>
+
+<style>
+.glass-header {
+  background: rgba(20, 20, 22, 0.7);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-glass);
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  background: var(--accent-cyan);
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: var(--bg-primary);
+  font-size: 14px;
+}
+
+.brand-name {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-item {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+}
+
+.nav-item.active {
+  background: rgba(0, 212, 255, 0.1);
+  color: var(--accent-cyan);
+}
+
+.market-status {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-right: 16px;
+}
+
+.market-status.market-open {
+  color: var(--success-green);
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+</style>
+```
+
+---
+
+## **Step 3: Redesign Stats Section (The Core Problem)**
+
+Your current stats are demotivating. Replace with this:
+
+```html
+<div class="stats-dashboard">
+  <!-- Left: Key Metrics -->
+  <div class="metrics-row">
+    <div class="metric-card">
+      <div class="metric-label">Win Rate (Real)</div>
+      <div class="metric-value down">58%</div>
+      <div class="metric-change">-3% vs last week</div>
+    </div>
+    
+    <div class="metric-card">
+      <div class="metric-label">Expectancy</div>
+      <div class="metric-value">+$2.40</div>
+      <div class="metric-change">Per $1 risked</div>
+    </div>
+    
+    <div class="metric-card">
+      <div class="metric-label">Weekly P&L</div>
+      <div class="metric-value down">$0</div>
+      <div class="metric-change">Goal: $200</div>
+    </div>
+  </div>
+
+  <!-- Right: Quick Actions -->
+  <div class="action-buttons">
+    <button class="btn-primary">Generate Ideas</button>
+    <button class="btn-secondary">Review Rules</button>
+  </div>
+</div>
+
+<style>
+.stats-dashboard {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.metrics-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.metric-card {
+  @extend .glass-card;
+  padding: 16px;
+}
+
+.metric-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.metric-value {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.metric-value.up {
+  color: var(--success-green);
+}
+
+.metric-value.down {
+  color: var(--danger-red);
+}
+
+.metric-change {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn-primary, .btn-secondary {
+  @extend .glass-card;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 16px;
+}
+
+.btn-primary {
+  background: rgba(0, 212, 255, 0.25);
+  border-color: rgba(0, 212, 255, 0.3);
+  color: var(--text-primary);
+}
+
+.btn-primary:hover {
+  background: rgba(0, 212, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: rgba(42, 42, 43, 0.2);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+</style>
+```
+
+---
+
+## **Step 4: Fix "Watch Out For" Section (Too Cluttered)**
+
+Your current list of 15 stocks is overwhelming. Show **5 high-quality signals** with clear reasoning:
+
+```html
+<div class="signals-section">
+  <h3>Top 5 Signals Today</h3>
+  
+  <div class="signal-list">
+    <div class="signal-item">
+      <div class="signal-header">
+        <span class="symbol">NVDA</span>
+        <span class="type-tag flow">Flow 3x</span>
+        <span class="status valid">Passes Filters</span>
+      </div>
+      <div class="signal-detail">
+        RSI(2): 8 | VWAP: $1.81 | Volume: 2.1x avg
+      </div>
+    </div>
+
+    <div class="signal-item">
+      <div class="signal-header">
+        <span class="symbol">SPY</span>
+        <span class="type-tag ai">AI Pick</span>
+        <span class="status valid">Passes Filters</span>
+      </div>
+      <div class="signal-detail">
+        RSI(2): 9 | VWAP: $580.00 | Volume: 1.8x avg
+      </div>
+    </div>
+
+    <!-- Add 3 more signals -->
+  </div>
+</div>
+
+<style>
+.signals-section {
+  @extend .glass-card;
+  margin-top: 24px;
+}
+
+.signals-section h3 {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.signal-item {
+  padding: 12px;
+  border-bottom: 1px solid var(--border-glass);
+}
+
+.signal-item:last-child {
+  border-bottom: none;
+}
+
+.signal-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.symbol {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.type-tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.type-tag.flow {
+  background: rgba(0, 212, 255, 0.15);
+  color: var(--accent-cyan);
+}
+
+.type-tag.ai {
+  background: rgba(255, 159, 10, 0.15);
+  color: var(--warning-orange);
+}
+
+.status.valid {
+  margin-left: auto;
+  color: var(--success-green);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.signal-detail {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+</style>
+```
+
+---
+
+## **Step 5: Simplify the Footer**
+
+Your current footer is cluttered. Make it minimal and professional:
+
+```html
+<footer class="glass-footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <div class="logo-small">QE</div>
+      <span>QuantEdge Research</span>
+    </div>
+    
+    <div class="footer-links">
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <a href="https://sec.gov" target="_blank">SEC Education</a>
+    </div>
+    
+    <div class="footer-right">
+      <span class="disclaimer">Not financial advice. Educational only.</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+.glass-footer {
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid var(--border-glass);
+  padding: 16px 24px;
+  margin-top: 48px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-small {
+  width: 20px;
+  height: 20px;
+  background: var(--accent-cyan);
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: var(--bg-primary);
+  font-size: 10px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-links a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--text-primary);
+}
+
+.disclaimer {
+  max-width: 200px;
+  text-align: right;
+}
+</style>
+```
+
+---
+
+## **Step 6: Add Mobile Responsiveness**
+
+Add this to your global CSS:
+
+```css
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .stats-dashboard {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .metrics-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .glass-header {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  
+  .main-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .signal-header {
+    flex-wrap: wrap;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .disclaimer {
+    max-width: none;
+    text-align: center;
+  }
+}
+```
+
+---
+
+## **What to Do Right Now (Next 4 Hours)**
+
+1. **Add the CSS variables** to your global stylesheet
+2. **Wrap every major section** (Trade Desk, Performance, etc.) in `<div class="glass-card">`
+3. **Replace your header** with the glass header code
+4. **Redesign the stats section** with the metric cards
+5. **Limit "Watch Out For" to 5 signals** using the new design
+6. **Replace the footer** with the minimalist version
+
+**Then:** DM 10 traders and get them using it. Design improvements are useless without users to validate them.
+
+Want help with the DM script or paper trading workflow next?

@@ -1,0 +1,353 @@
+QuantEdge
+QuantEdge
+2 Engines. 1 Edge.
+TRADING TOOLS
+
+Dashboard
+
+Research Desk
+Popular
+
+Live Trading
+ANALYSIS & RESEARCH
+
+Chart Analysis
+AI
+
+Performance
+
+Market Data
+
+Chart Database
+LEARNING
+
+Trading Rules
+
+Academy
+
+Blog
+ACCOUNT
+
+Pricing
+
+Settings
+
+Admin
+Admin
+Abdulmalik
+abdulmalikajisegiri@gmail.com
+Market Closed
+abdulmalikajisegiri@gmail.com
+Platform Performance
+245 total briefs • 236 closed
+
+74.8%
+Win Rate
+Calibrated
+231W / 78L
++1.72%
+Expectancy
+Per Trade
+2.08
+Profit Factor
+Gains / Losses
+9
+Open Positions
+Active
+Engine Pulse (7d)
+Flow Scanner
+82%
++3.1%
+Lotto Detector
+0%
+—
+Quant Engine
+34%
++0.0%
+AI Engine
+53%
++0.9%
+Data-Driven Insights
+411 Resolved Trades
+Engine Performance
+Flow
+81.9%
+(163W/36L)
+Ai
+76.8%
+(43W/13L)
+Quant
+54.3%
+(19W/16L)
+Hybrid
+63.6%
+(14W/8L)
+Based on 319 resolved trades
+Top Symbols
+1
+SPY
+100% (21)
+2
+AAPL
+100% (11)
+3
+SOFI
+100% (10)
+4
+AMD
+100% (10)
+5
+NFLX
+100% (9)
+Avoid: SOL, AAVE, RIOT
+Confidence Calibration
+NEEDS FIX
+A
+Expected 90%
+93%
++3
+B+
+Expected 80%
+50%
+-30
+B
+Expected 70%
+64%
+-6
+C+
+Expected 60%
+73%
++13
+C
+Expected 50%
+65%
++15
+D
+Expected 40%
+77%
++37
+C+ band outperforming A band - recalibration needed
+Data Pipeline Transparency
+From 2422 raw trades → 245 filtered → 118 decided (78W/40L)
+
+1.
+Raw Database Total
+2422
+2.
+After Buggy/Test Filter
+-3
+2419
+3.
+After Options Filter
+-2068
+351
+4.
+After Flow/Lotto Filter
+-80
+271
+5.
+After Legacy Engine Filter
+-26
+245
+9
+Open
+75
+Expired
+118
+Decided
+Confidence Band Comparison
+Compare win rates: High confidence (A/B+) vs All bands (A-D)
+
+HIGH
+A + B+ (85+)
+85.4%
+41W / 7L from 48 trades
+ALL
+All Bands (A-D)
+74.8%
+231W / 78L from 309 trades
+High confidence trades outperform as expected - confidence scores are well calibrated.
+
+Confidence Band Performance (Calibrated Dec 2025)
+Well Calibrated
+Actual win rates by confidence band. D band often outperforms due to Flow engine (81.9% win rate) generating moderate-confidence signals.
+
+A (90+)
+93%
+37W/3L
+(40 trades)
+B+ (85-89)
+50%
+4W/4L
+(8 trades)
+B (78-84)
+64%
+9W/5L
+(14 trades)
+C+ (72-77)
+71%
+20W/8L
+(28 trades)
+C (65-71)
+63%
+26W/15L
+(41 trades)
+D (<65)
+76%
+135W/43L
+(178 trades)
+Why D Band Often OutperformsThe Flow engine (81.9% historical win rate) generates most of its signals with moderate confidence scores that fall into the D band. This is expected behavior - Flow's conservative scoring means its high-quality signals appear in lower bands.
+Engine × Confidence Correlation
+Win rate breakdown by engine and confidence level. Green = well-calibrated, Red = needs recalibration.
+
+Flow
+199 decided trades
+81.9%
+Calibrated
+High
+97%
+57W / 2L
+Medium
+81%
+70W / 17L
+Low
+67%
+33W / 16L
+AI
+56 decided trades
+76.8%
+Inverted
+High
+44%
+4W / 5L
+Medium
+—
+Low
+83%
+39W / 8L
+Quant
+35 decided trades
+54.3%
+Limited Data
+High
+62%
+16W / 10L
+Medium
+33%
+3W / 6L
+Low
+—
+Hybrid
+22 decided trades
+63.6%
+Inverted
+High
+29%
+2W / 5L
+Medium
+60%
+3W / 2L
+Low
+90%
+9W / 1L
+Chart Analysis
+4 decided trades
+50.0%
+Limited Data
+High
+33%
+1W / 2L
+Medium
+100%
+1W / 0L
+Low
+—
+Lotto
+2 decided trades
+0.0%
+High
+—
+Medium
+—
+Low
+0%
+0W / 2L
+Calibrated: High conf > Low conf
+Inverted: Low conf beats High conf
+Limited Data: Not enough trades
+Detailed Engine Metrics
+(click to expand)
+Time Range:
+
+All Time
+Filter by Engine:
+
+All Engines
+All Time Performance
+Complete platform history • 245 total ideas (236 closed, 9 open)
+
+78
+Wins
+40
+Losses
+75
+Expired
+245
+Total Briefs
+Actual Engine Performance
+Verified win rates from resolved trades - this is the PROOF
+
+Current Performance Streak
+Symbol Performance Leaderboard
+All engines - Top/worst performing symbols
+
+Loading chart...
+Time-of-Day Performance
+Win rate by hour (9 AM - 4 PM ET)
+
+Confidence Score Calibration
+Actual win rates by confidence score band
+
+Calibration Accuracy Curve
+Predicted confidence vs actual outcome - how accurate are our predictions?
+
+Performance by Source
+AI vs. Quant vs. Hybrid vs. News vs. Flow
+
+AI
+101 ideas
+43W/13L
+76.8%
+Avg Gain
++1.71%
+QUANT
+71 ideas
+19W/16L
+54.3%
+Avg Gain
++0.61%
+HYBRID
+51 ideas
+14W/8L
+63.6%
+Avg Gain
++3.15%
+CHART_ANALYSIS
+21 ideas
+2W/2L
+50.0%
+Avg Gain
++2.11%
+MANUAL
+1 ideas
+0W/1L
+0.0%
+Avg Gain
+-3.58%
+Educational Research Only: Pattern analysis and market research for educational purposes. NOT financial advice. YOU decide your own entries, exits, and risk. Past patterns do not guarantee future results.Engine: v3.x
+QE
+QuantEdge Research
+Privacy
+Terms
+SEC Education
+Not financial advice.Educational only.

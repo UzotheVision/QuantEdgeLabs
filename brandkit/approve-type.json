@@ -1,0 +1,11 @@
+{
+  "approval_summary": "User selected Technical Editorial — Space Grotesk display with Spline Sans Mono for data.",
+  "typography": {
+    "display": { "family": "Space Grotesk", "source": "google:Space Grotesk", "style": "normal", "weight": 700 },
+    "body": { "family": "Spline Sans Mono", "source": "google:Spline Sans Mono", "style": "normal", "weight": 400 },
+    "font_links": [
+      "https://fonts.google.com/specimen/Space+Grotesk",
+      "https://fonts.google.com/specimen/Spline+Sans+Mono"
+    ]
+  }
+}

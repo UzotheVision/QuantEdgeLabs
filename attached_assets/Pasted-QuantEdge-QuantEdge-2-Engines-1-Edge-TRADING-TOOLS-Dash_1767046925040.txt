@@ -1,0 +1,396 @@
+QuantEdge
+QuantEdge
+2 Engines. 1 Edge.
+TRADING TOOLS
+
+Dashboard
+
+Research Desk
+Popular
+
+Live Trading
+ANALYSIS & RESEARCH
+
+Chart Analysis
+AI
+
+Performance
+
+Market Data
+
+Chart Database
+LEARNING
+
+Trading Rules
+
+Academy
+
+Blog
+ACCOUNT
+
+Pricing
+
+Settings
+
+Admin
+Admin
+Abdulmalik
+abdulmalikajisegiri@gmail.com
+Market Closed
+abdulmalikajisegiri@gmail.com
+Platform Performance
+266 total briefs • 257 closed
+
+59.1%
+Win Rate
+Calibrated
+169W / 117L
++1.70%
+Expectancy
+Per Trade
+2.06
+Profit Factor
+Gains / Losses
+9
+Open Positions
+Active
+Engine Pulse (7d)
+Flow Scanner
+82%
++3.1%
+Lotto Detector
+—
+—
+Quant Engine
+34%
++2.0%
+AI Engine
+53%
+-55.2%
+Confidence vs Win Rate (Historical Data)
+Recalibration In Progress
+Shows historical win rates by confidence level. Ideally, higher confidence should correlate with higher win rates.
+
+High (70+)
+52.3%
+92W / 84L (176 trades)
+Medium (50-69)
+70.0%
+77W / 33L (110 trades)
+Low (<50)
+67.8%
+82W / 39L (121 trades)
+Confidence Inversion DetectedHistorical data shows lower confidence trades outperforming higher confidence trades. Confidence algorithms have been recalibrated - new trades will have corrected scores.
+Engine × Confidence Correlation
+Win rate breakdown by engine and confidence level. Green = well-calibrated, Red = needs recalibration.
+
+Quant
+68 decided trades
+47.1%
+Limited Data
+High
+55%
+28W / 23L
+Medium
+24%
+4W / 13L
+Low
+—
+AI
+59 decided trades
+74.6%
+Inverted
+High
+44%
+4W / 5L
+Medium
+—
+Low
+80%
+40W / 10L
+Hybrid
+21 decided trades
+61.9%
+Inverted
+High
+29%
+2W / 5L
+Medium
+50%
+2W / 2L
+Low
+90%
+9W / 1L
+Chart Analysis
+4 decided trades
+50.0%
+Limited Data
+High
+33%
+1W / 2L
+Medium
+100%
+1W / 0L
+Low
+—
+Calibrated: High conf > Low conf
+Inverted: Low conf beats High conf
+Limited Data: Not enough trades
+Detailed Engine Metrics
+(click to expand)
+Flow Scanner
+Today
+
+380
+
+7 Days
+
+604
+
+Win Rate
+
+81.9%
+
+Expectancy
+
++3.11%
+
+Lotto Detector
+Today
+
+40
+
+7 Days
+
+107
+
+Win Rate
+
+N/A
+
+Expectancy
+
+N/A
+
+Quant Engine
+Today
+
+0
+
+7 Days
+
+0
+
+Win Rate
+
+34.4%
+
+Expectancy
+
++2.05%
+
+AI Engine
+Today
+
+12
+
+7 Days
+
+41
+
+Win Rate
+
+53.5%
+
+Expectancy
+
+-55.20%
+
+Time Range:
+
+All Time
+Filter by Engine:
+
+All Engines
+All Time Performance
+Complete platform history • 266 total ideas (257 closed, 9 open)
+
+Engine Performance Trends (Last 8 Weeks)
+Weekly win rate comparison across all trading engines
+Nov 3
+Nov 10
+Dec 15
+Dec 22
+Dec 29
+undefined NaN
+0
+25
+50
+75
+100
+Win Rate %
+AIQUANTHYBRIDFLOWNEWS
+80
+Wins
+43
+Losses
+77
+Expired
+266
+Total Briefs
+Current Performance Streak
+Streak Tracker
+Current and historical winning/losing streaks
+Current Streak
+
+1 Win Streak
+Keep the momentum going!
+
+Longest Win Streak
+31
+Longest Loss Streak
+16
+Symbol Performance Leaderboard
+All engines - Top/worst performing symbols
+
+Symbol Leaderboard
+Best and worst performing symbols by win rate
+Top Performers
+20 symbols
+Symbol	Trades	Wins	Losses	Win Rate	Avg Gain	Avg Loss
+AAPL	11	11	0	100.0%	+4.80%	0.00%
+SOFI	10	10	0	100.0%	+5.00%	0.00%
+AMD	10	10	0	100.0%	+5.00%	0.00%
+NFLX	9	9	0	100.0%	+5.00%	0.00%
+QQQ	9	9	0	100.0%	+4.60%	0.00%
+AMZN	8	8	0	100.0%	+5.00%	0.00%
+GOOGL	6	6	0	100.0%	+5.00%	0.00%
+ETH	5	5	0	100.0%	+8.90%	0.00%
+HOOD	4	4	0	100.0%	+5.20%	0.00%
+MSFT	11	10	1	90.9%	+5.80%	-3.30%
+COIN	11	10	1	90.9%	+5.00%	-5.00%
+DIS	10	9	1	90.0%	+5.00%	-3.30%
+META	13	11	2	84.6%	+6.80%	-6.70%
+NVDA	35	28	7	80.0%	+5.00%	-4.50%
+MSTR	9	7	2	77.8%	+5.00%	-8.10%
+TSLA	15	11	4	73.3%	+5.90%	-3.50%
+SPY	25	18	7	72.0%	+8.20%	-0.60%
+RIOT	7	4	3	57.1%	+5.00%	-4.40%
+PLTR	15	8	7	53.3%	+5.00%	-8.30%
+MARA	8	4	4	50.0%	+7.40%	-4.10%
+Underperformers
+10 symbols
+Symbol	Trades	Wins	Losses	Win Rate	Avg Gain	Avg Loss
+ITGR	3	0	3	0.0%	+0.00%	-3.30%
+SMCI	3	0	3	0.0%	+0.00%	-2.00%
+AAVE	4	0	4	0.0%	+0.00%	-3.80%
+SOL	6	0	6	0.0%	+0.00%	-4.20%
+BTC	36	16	20	44.4%	+4.70%	-2.80%
+MARA	8	4	4	50.0%	+7.40%	-4.10%
+PLTR	15	8	7	53.3%	+5.00%	-8.30%
+RIOT	7	4	3	57.1%	+5.00%	-4.40%
+SPY	25	18	7	72.0%	+8.20%	-0.60%
+TSLA	15	11	4	73.3%	+5.90%	-3.50%
+Time-of-Day Performance
+Win rate by hour (9 AM - 4 PM ET)
+
+Time of Day Performance
+Win rate by hour during market hours
+9 AM
+10 AM
+11 AM
+12 PM
+1 PM
+2 PM
+3 PM
+4 PM
+0
+25
+50
+75
+100
+Win Rate %
+Market opens at 9:30 AM ET, closes at 4:00 PM ET. Performance measured during regular trading hours only.
+
+Strong (70%+)
+Moderate (40-70%)
+Weak (<40%)
+Confidence Score Calibration
+Actual win rates by confidence score band
+
+Confidence Calibration
+Predicted confidence vs actual win rate by confidence band
+Lower confidence scores often perform BETTER - inverse relationship observed
+
+90-100%
+80-89%
+70-79%
+60-69%
+<60%
+Confidence Band
+0
+25
+50
+75
+100
+Actual Win Rate %
+90-100%
+
+61 trades
+
+80-89%
+
+29 trades
+
+70-79%
+
+42 trades
+
+60-69%
+
+61 trades
+
+<60%
+
+148 trades
+
+Performance by Source
+AI vs. Quant vs. Hybrid vs. News vs. Flow
+
+AI
+98 ideas
+43W/13L
+76.8%
+Avg Gain
++1.79%
+QUANT
+97 ideas
+22W/19L
+53.7%
+Avg Gain
++0.29%
+HYBRID
+49 ideas
+13W/8L
+61.9%
+Avg Gain
++3.11%
+CHART_ANALYSIS
+21 ideas
+2W/2L
+50.0%
+Avg Gain
++2.11%
+MANUAL
+1 ideas
+0W/1L
+0.0%
+Avg Gain
+-3.58%
+QE
+QuantEdge Research
+Privacy
+Terms
+SEC Education
+Not financial advice.Educational only.
+9 AM

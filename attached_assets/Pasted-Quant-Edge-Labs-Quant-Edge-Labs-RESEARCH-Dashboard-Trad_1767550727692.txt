@@ -1,0 +1,524 @@
+Quant Edge Labs
+Quant Edge
+Labs
+RESEARCH
+
+Dashboard
+
+Trade Desk
+
+Futures
+
+My Watchlist
+
+Market Scanner
+500+
+AUTOMATIONS
+
+Automations Hub
+NEW
+
+Auto-Lotto Bot
+LIVE
+ANALYTICS
+
+Performance
+
+Chart Analysis
+LEARN
+
+Academy
+ACCOUNT
+
+My Account
+
+Settings
+ADMIN
+
+Admin
+MARKET CLOSED
+abdulmalikajisegiri@gmail.com
+MARKET INTELLIGENCE
+
+Market Overview
+Track 500+ stocks across multiple sectors and timeframes
+
+Market Closed
+Jan 04, 2026 12:18 PM CT CT
+Search any stock or crypto (e.g., AAPL, SOL, DOGE)...
+Watch Out For These
+RGTI
+STOCK
+2026 Breakout Candidate - Quantum Computing
+--
+AFRM
+STOCK
+2026 Breakout Candidate - Fintech
+--
+APP
+STOCK
+2026 Breakout Candidate - AdTech/Gaming
+--
+PATH
+STOCK
+2026 Breakout Candidate - AI/Automation
+--
+DNA
+STOCK
+2026 Breakout Candidate - Biotech/Synbio
+--
+HIMS
+STOCK
+2026 Breakout Candidate - Healthcare/Telehealth
+--
+RIOT
+STOCK
+2026 Breakout Candidate - Crypto/Mining
+--
+MARA
+STOCK
+2026 Breakout Candidate - Crypto/Mining
+--
+Overview
+Scanner
+Sectors
+TRACKED ASSETS
+
+9
+
+Stocks, Options & Crypto
+
+MARKET SENTIMENT
+
++1.87%
+
+Average Change
+
+TOTAL VOLUME
+
+267.8M
+
+Combined Trading Volume
+
+ACTIVE CATALYSTS
+
+0
+
+Market-Moving Events
+
+MOVERS
+
+Top Gainers
+YYAI
+$0.90
++15.50%
+EOSE
+$12.97
++13.18%
+IWM
+$248.78
++1.07%
+XRP
+$2.09
++0.00%
+AAPL
+$271.01
+-0.32%
+MOVERS
+
+Top Losers
+PLTR
+$167.86
+-5.57%
+TSLA
+$438.07
+-2.60%
+MSFT
+$472.94
+-2.21%
+TSLY
+$36.36
+-2.19%
+AAPL
+$271.01
+-0.32%
+REAL-TIME
+
+Live Market Data
+TSLA
+STOCK
+$438.07
+-2.60%
+Vol: 85.54M
+YYAI
+STOCK
+$0.90
++15.50%
+Vol: 1.33M
+EOSE
+STOCK
+$12.97
++13.18%
+Vol: 15.22M
+TSLY
+STOCK
+$36.36
+-2.19%
+Vol: 1.62M
+IWM
+STOCK
+$248.78
++1.07%
+Vol: 40.01M
+XRP
+CRYPTO
+$2.09
++0.00%
+Vol: 0.00M
+MCap: 114.00B
+AAPL
+STOCK
+$271.01
+-0.32%
+Vol: 37.84M
+MSFT
+STOCK
+$472.94
+-2.21%
+Vol: 25.57M
+PLTR
+STOCK
+$167.86
+-5.57%
+Vol: 60.63M
+Market Catalysts
+Latest events and news impacting trade opportunities
+Date:
+
+All Time
+Type:
+
+All Types
+0 of 0 catalysts
+No catalysts match your filters
+
+PERSONAL
+
+Watchlist
+47 symbols
+Watchlist
+Track your selected symbols and price targets
+C: 47
+RGTI
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Quantum Computing
+Added Jan 03, 2026 11:25 AM CT
+AFRM
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Fintech
+Added Jan 03, 2026 11:25 AM CT
+APP
+STOCK
+C
+C (50)
+2026 Breakout Candidate - AdTech/Gaming
+Added Jan 03, 2026 11:25 AM CT
+PATH
+STOCK
+C
+C (50)
+2026 Breakout Candidate - AI/Automation
+Added Jan 03, 2026 11:25 AM CT
+DNA
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Biotech/Synbio
+Added Jan 03, 2026 11:25 AM CT
+HIMS
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Healthcare/Telehealth
+Added Jan 03, 2026 11:25 AM CT
+RIOT
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Crypto/Mining
+Added Jan 03, 2026 11:25 AM CT
+MARA
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Crypto/Mining
+Added Jan 03, 2026 11:25 AM CT
+JOBY
+STOCK
+C
+C (50)
+2026 Breakout Candidate - eVTOL/Flying Cars
+Added Jan 03, 2026 11:25 AM CT
+ACHR
+STOCK
+C
+C (50)
+2026 Breakout Candidate - eVTOL/Flying Cars
+Added Jan 03, 2026 11:25 AM CT
+AI
+STOCK
+C
+C (50)
+2026 Breakout Candidate - AI/ML
+Added Jan 03, 2026 11:25 AM CT
+OKLO
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Nuclear/Clean Energy
+Added Jan 03, 2026 11:25 AM CT
+SMR
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Nuclear/Clean Energy
+Added Jan 03, 2026 11:25 AM CT
+NNE
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Nuclear/Clean Energy
+Added Jan 03, 2026 11:25 AM CT
+LUNR
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Space
+Added Jan 03, 2026 11:25 AM CT
+RKLB
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Space
+Added Jan 03, 2026 11:25 AM CT
+QBTS
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Quantum Computing
+Added Jan 03, 2026 11:25 AM CT
+IONQ
+STOCK
+C
+C (50)
+2026 Breakout Candidate - Quantum Computing
+Added Jan 03, 2026 11:25 AM CT
+BBAI
+STOCK
+C
+C (50)
+2026 Breakout Candidate - AI/ML
+Added Jan 03, 2026 11:25 AM CT
+SOUN
+STOCK
+C
+C (50)
+2026 Breakout Candidate - AI/ML
+Added Jan 03, 2026 11:25 AM CT
+PATH
+STOCK
+C
+C (50)
+Target: $16.39
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+AMZN
+STOCK
+C
+C (50)
+Target: $230.82
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+TSLA
+STOCK
+C
+C (50)
+Target: $449.72
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+NVO
+STOCK
+C
+C (50)
+Target: $50.88
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+RKLB
+STOCK
+C
+C (50)
+Target: $69.76
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+ASTS
+STOCK
+C
+C (50)
+Target: $72.63
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+IREN
+STOCK
+C
+C (50)
+Target: $37.77
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+NBIS
+STOCK
+C
+C (50)
+Target: $83.71
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+ZETA
+STOCK
+C
+C (50)
+Target: $20.35
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+ONDS
+STOCK
+C
+C (50)
+Target: $9.76
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:53 PM CT
+PATH
+STOCK
+C
+C (50)
+Target: $16.39
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+AMZN
+STOCK
+C
+C (50)
+Target: $230.82
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+TSLA
+STOCK
+C
+C (50)
+Target: $449.72
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+NVO
+STOCK
+C
+C (50)
+Target: $50.88
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+RKLB
+STOCK
+C
+C (50)
+Target: $69.76
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+ASTS
+STOCK
+C
+C (50)
+Target: $72.63
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+IREN
+STOCK
+C
+C (50)
+Target: $37.77
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+NBIS
+STOCK
+C
+C (50)
+Target: $83.71
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+ZETA
+STOCK
+C
+C (50)
+Target: $20.35
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+ONDS
+STOCK
+C
+C (50)
+Target: $9.76
+User watchlist - momentum tracking
+Added Jan 01, 2026 11:52 PM CT
+TSLY
+STOCK
+C
+C (50)
+Added Oct 22, 2025 4:27 PM CT
+EOSE
+STOCK
+C
+C (50)
+Tracking for insights and opportunities
+Added Oct 22, 2025 3:17 PM CT
+YYAI
+STOCK
+C
+C (50)
+Tracking for insights and opportunities
+Added Oct 22, 2025 3:17 PM CT
+TSLA
+STOCK
+C
+C (50)
+Target: $484.86
+Added from symbol search - Current: $440.78
+Added Oct 22, 2025 8:57 AM CT
+XRP
+CRYPTO
+C
+C (50)
+Quant Analysis Available
+Target: $2.60
+Added from symbol search - Current: $2.36
+Added Oct 18, 2025 6:47 AM CT
+AAPL
+STOCK
+C
+C (50)
+Target: $277.52
+Added from symbol search - Current: $252.29
+Added Oct 18, 2025 3:00 AM CT
+AAPL
+STOCK
+C
+C (50)
+Target: $277.52
+Added from symbol search - Current: $252.29
+Added Oct 18, 2025 2:54 AM CT
+Quant Edge Labs
+|
+Privacy
+Terms
+Not financial advice
+•
+Educational only

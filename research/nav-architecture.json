@@ -1,0 +1,69 @@
+{
+  "routes": 36,
+  "redirects": 77,
+  "tabs": 10,
+  "linkTargets": 54,
+  "N1_dead": {},
+  "N2_viaRedirect": {},
+  "N3_orphanPageFiles": [
+    "backtest",
+    "history",
+    "landing-nexus"
+  ],
+  "N4_unreachableRoutes": [],
+  "N5_navModel": {
+    "tabs": [
+      "NEXUS",
+      "CHART",
+      "FLOW",
+      "GEX",
+      "LEAPS",
+      "CRYPTO",
+      "CATALYST",
+      "BOT",
+      "POSITIONS",
+      "JOURNAL"
+    ],
+    "pages": [
+      "/slate",
+      "/radar",
+      "/alerts",
+      "/how-to",
+      "/settings"
+    ]
+  },
+  "N6_redundantJobs": {
+    "Rank today's trade ideas": [
+      "/t (NEXUS board)",
+      "/slate",
+      "/trade-desk"
+    ],
+    "Scan for chart setups": [
+      "/radar",
+      "/t (NEXUS pattern radar)",
+      "/slate"
+    ],
+    "Measure track record": [
+      "/performance",
+      "/t?tab=journal",
+      "/trade-ideas/:id/audit"
+    ],
+    "Guide / how to use": [
+      "/how-to",
+      "terminal Guide drawer",
+      "/academy"
+    ],
+    "Alerts": [
+      "/alerts",
+      "terminal Alerts drawer"
+    ],
+    "Preferences": [
+      "/settings",
+      "terminal Preferences drawer"
+    ],
+    "Per-ticker research": [
+      "/r/:symbol",
+      "ticker workup overlay"
+    ]
+  }
+}

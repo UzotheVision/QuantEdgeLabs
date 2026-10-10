@@ -1,0 +1,226 @@
+QE
+QuantEdge
+RESEARCH
+
+Home
+
+Trade Desk
+
+Live Trading
+
+Trading Rules
+More
+
+Performance
+
+Market
+
+Chart Analysis
+System
+
+Pricing
+
+Settings
+
+Admin
+Abdulmalik
+abdulmalikajisegiri@gmail.com
+abdulmalikajisegiri@gmail.com
+Performance Tracker
+Validate trade ideas and analyze performance metrics
+
+Metrics v3.0+ - Performance metrics now filter to v3.0.0+ engine only (research-backed RSI2, VWAP, Volume signals). Old v2.x trades (131 total with 39% WR using broken MACD/ML signals) are excluded from calculations.
+Time Range:
+
+Today Only
+Filter by Engine:
+
+All Engines
+Showing filtered data
+All metrics below reflecttoday's performance only(24 ideas, 13 closed)
+Today's Performance
+Friday, December 26, 2025 • 24 trade ideas posted today
+Ideas Posted
+24
+11 open
+Quant Accuracy
+10.9%
+Building
+Win Rate
+28.6%
+2W / 5L
+Directional Accuracy
+4.2%
+25%+ to target
+Improvement Opportunities for Today
+• Consider reviewing entry timing on today's signals
+• Multiple signals moving against prediction - check market conditions
+• 11 open positions - monitor risk exposure
+Platform Learning Phase:
+2 wins, 5 losses so far (13 total closed ideas)
+Market Win Rate
+Overall success rate across all closed positions
+28.6
+%
+2
+Wins
+5
+Losses
+6
+Expired
+13
+Total Closed
+Platform Stats
+Core platform metrics
+Total Ideas
+24
+All time
+Open Positions
+11
+Currently active
+Current Performance Streak
+Streak Tracker
+Current and historical winning/losing streaks
+Current Streak
+
+1 Loss Streak
+Longest Win Streak
+112
+Longest Loss Streak
+11
+Engine Performance Trends
+Weekly win rates for all engines over the last 8 weeks
+
+Engine Performance Trends (Last 8 Weeks)
+Weekly win rate comparison across all trading engines
+0
+25
+50
+75
+100
+Win Rate %
+AIQUANTHYBRIDFLOWNEWS
+Symbol Performance Leaderboard
+All engines - Top/worst performing symbols
+
+Symbol Leaderboard
+Best and worst performing symbols by win rate
+Top Performers
+20 symbols
+Symbol	Trades	Wins	Losses	Win Rate	Avg Gain	Avg Loss
+AAPL	11	11	0	100.0%	+4.80%	0.00%
+COIN	11	11	0	100.0%	+4.10%	0.00%
+SOFI	10	10	0	100.0%	+5.00%	0.00%
+AMD	10	10	0	100.0%	+5.00%	0.00%
+MSFT	9	9	0	100.0%	+4.80%	0.00%
+MSTR	9	9	0	100.0%	+2.10%	0.00%
+PLTR	9	9	0	100.0%	+3.90%	0.00%
+DIS	9	9	0	100.0%	+5.00%	0.00%
+NFLX	9	9	0	100.0%	+5.00%	0.00%
+META	9	9	0	100.0%	+5.00%	0.00%
+QQQ	9	9	0	100.0%	+4.60%	0.00%
+AMZN	8	8	0	100.0%	+5.00%	0.00%
+GOOGL	6	6	0	100.0%	+5.00%	0.00%
+RIOT	6	6	0	100.0%	+1.70%	0.00%
+ETH	5	5	0	100.0%	+8.90%	0.00%
+HOOD	4	4	0	100.0%	+5.20%	0.00%
+NVDA	32	26	6	81.3%	+5.00%	-3.60%
+TSLA	14	11	3	78.6%	+4.10%	-3.10%
+SPY	25	19	6	76.0%	+7.60%	-0.40%
+MARA	8	5	3	62.5%	+4.90%	-3.80%
+Underperformers
+10 symbols
+Symbol	Trades	Wins	Losses	Win Rate	Avg Gain	Avg Loss
+ITGR	3	0	3	0.0%	+0.00%	-3.30%
+SMCI	3	0	3	0.0%	+0.00%	-2.00%
+AAVE	4	0	4	0.0%	+0.00%	-3.80%
+SOL	6	0	6	0.0%	+0.00%	-4.20%
+BTC	35	15	20	42.9%	+4.80%	-2.80%
+MARA	8	5	3	62.5%	+4.90%	-3.80%
+SPY	25	19	6	76.0%	+7.60%	-0.40%
+TSLA	14	11	3	78.6%	+4.10%	-3.10%
+NVDA	32	26	6	81.3%	+5.00%	-3.60%
+HOOD	4	4	0	100.0%	+5.20%	0.00%
+Time-of-Day Performance
+Win rate by hour (9 AM - 4 PM ET)
+
+Time of Day Performance
+Win rate by hour during market hours
+0
+25
+50
+75
+100
+Win Rate %
+Market opens at 9:30 AM ET, closes at 4:00 PM ET. Performance measured during regular trading hours only.
+
+Strong (70%+)
+Moderate (40-70%)
+Weak (<40%)
+Confidence Score Calibration
+Actual win rates by confidence score band
+
+Confidence Calibration
+Predicted confidence vs actual win rate by confidence band
+Lower confidence scores often perform BETTER - inverse relationship observed
+
+Confidence Band
+0
+25
+50
+75
+100
+Actual Win Rate %
+61 trades
+
+29 trades
+
+38 trades
+
+45 trades
+
+130 trades
+
+Performance by Source
+AI vs. Quant vs. Hybrid vs. News vs. Flow
+CHART_ANALYSIS
+14 ideas
+1W/3L
+25.0%
+Avg Gain
+-0.66%
+AI
+8 ideas
+0W/1L
+0.0%
+Avg Gain
+-0.36%
+HYBRID
+2 ideas
+1W/1L
+50.0%
+Avg Gain
++0.75%
+QuantEdge Research
+Quantitative Trading Intelligence
+Trade Ideas
+Performance
+Watchlist
+Signals
+Privacy Policy
+Terms of Service
+SEC Education ↗
+FINRA Resources ↗
+Live Data Sources:
+Yahoo Finance
+CoinGecko
+Alpha Vantage
+CST
+© 2025 QuantEdge Research. All rights reserved.•by UN/TITLD
+
+NOT FINANCIAL ADVICE
+•
+Educational research platform. Trading involves substantial risk of loss.
+•
+Past performance does not guarantee future results.
+0

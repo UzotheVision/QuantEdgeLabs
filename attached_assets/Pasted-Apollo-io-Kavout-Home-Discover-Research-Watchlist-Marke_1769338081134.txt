@@ -1,0 +1,296 @@
+Apollo.io
+Kavout
+Home
+Discover
+Research
+Watchlist
+Market Movers
+AI Stock Picker
+Smart Signals
+Smart Money
+Portfolio Toolbox
+History
+Chat History
+Research History
+
+Upgrade
+
+abdulmalikajisegiri@gmail.com
+Search for companies, tickers, or crypto
+
+Pricing Plans
+Your Research Library
+Specialized agents providing institutional-grade deep research across stocks, crypto, forex, and ETFs.
+Make confident trading and investing decisions 24/7.
+
+What do you want to do?
+Quick Guide
+I want to trade
+
+Swing Trade Analysis
+Days to weeks opportunities
+Stocks
+·
+ETFs
+·
+Crypto
+·
+Forex
+
+Trading Signals QuickView
+Quick multi-timeframe signals
+Stocks
+·
+ETFs
+·
+Crypto
+·
+Forex
++1
+I want to invest
+
+Buy or Sell
+Investment ratings & analysis
+Stocks
+·
+ETFs
+·
+Crypto
+·
+Forex
+
+Fundamental Analyst
+Valuations & financial health
+Stocks
+I want to read the market
+
+Market Outlook
+Global market momentum
+US
+·
+Europe
+·
+China
+·
++3
+
+News Sentiment
+Bullish or bearish news signals
+Stocks
+·
+ETFs
+·
+Crypto
+·
+Forex
+I want to trade commodities
+
+Swing Trade Analysis
+Entry & exit timing
+Commodities
+·
+Futures
+
+Trend Analysis
+Gold, oil, corn trend direction
+Commodities
+·
+Futures
+Your Research
+Every analysis you've run, organized and ready to revisit
+
+
+
+Select Agent
+Search by ticker or analysis type...
+Your analyses will appear here
+Select an Agent below the search box to get started
+
+Select Agent
+Home
+Kavout
+Discover
+Investgpt
+Portfolio Toolbox
+Tools
+Watchlist
+Market Movers
+AI Stock Picker
+Smart Signals
+Smart Money
+Stocklist
+Resources
+Affiliate Program
+Academy
+API for Signal DB
+Pricing Plans
+Podcast
+Other
+Privacy Policy
+Terms of Use
+Disclaimer
+About Us
+Contact Us
+Disclaimer: The information and market data provided here and on kavout.com are for general informational purposes only. Real-time quotes and financial data are provided for U.S. stocks, ETFs, cryptocurrencies, and major forex pairs; quotes for certain other instruments, including commodity futures and indices, may be delayed by approximately 15–20 minutes. Nothing on this site constitutes investment, financial, trading, or any other form of advice, and Kavout makes no recommendations regarding any investment decisions. You are solely responsible for your investment decisions. Please conduct your own research and consult qualified financial advisors before investing. Past performance does not guarantee future results.
+© 2026 Kavout. All rights reserved.
+AI Financial Research Agents | 8 Specialized Analysts for Stock, Crypto & Forex Research | Kavout
+USAR
+
+History
+1
+
+Is There a Swing Trade in USAR?
+AI Research Assistant
+Analysis completed • 4/4 steps
+
+1. Executive Summary
+Asset: USAR - Stock (Materials/Rare Earths)
+
+Near-Term Signal (1-5 days): WAIT for Pullback/Consolidation
+
+Swing Signal (3-15 days): BUY on Pullback
+
+Preferred Horizon: Swing (3-15 days)
+
+Bottom Line: USAR is experiencing a massive, fundamentally driven breakout, confirmed by multi-timeframe technical alignment and extreme volume due to the announced $1.6 billion US government investment. The trend is strongly bullish (Weekly/Daily aligned). However, the stock is currently extremely extended and overbought (Daily/4H RSI > 73). An immediate entry is unfavorable due to high risk of an imminent 1-3 day pullback. The strategy is to WAIT for a healthy consolidation or test of prior support/pivot levels (ideally $22.00 - $23.00) before initiating a swing long position aiming for the next major technical resistance near $30.00.
+
+2. Technical Analysis by Horizon
+Near-Term Setup (1-5 Days)
+4H Chart Focus: The 4H chart shows a near-parabolic vertical ascent, pushing the RSI to 75.69, indicating extreme short-term overextension. While the MACD histogram remains strongly positive, this vertical climb usually precedes a sharp consolidation or minor pullback.
+
+Structure: Price is far above the 5-period and 10-period moving averages. The immediate support is the previous daily close/pivot cluster near $22.70.
+Momentum: Extreme overbought conditions suggest selling pressure or sideways churning is necessary to normalize indicators.
+Entry trigger: A potential near-term trade could be a short aimed at a quick profit on a corrective dip, but the overwhelming bullish catalyst makes shorting highly dangerous. Therefore, the optimal near-term action is to wait.
+Confidence: Medium (Due to overextension risk)
+Near-Term Levels (If a quick pullback occurs):
+
+Entry zone: $22.00 - $22.80 (Daily Pivot / 4H support cluster)
+Stop: $21.50 (Below recent 4H swing low area)
+Target(s): $24.77 (Prior high re-test)
+R/R: Poor at current price; improves drastically on a $2-3 pullback.
+Swing Setup (3-15 Days)
+Multi-Timeframe Analysis:
+
+Daily Structure: The daily chart shows a powerful breakout from a multi-week base, accompanied by huge volume. All major daily SMAs (5, 10, 20, 50, 100, 200) are trending upward and stacked correctly. This is a very powerful trend initiation pattern, supported by a major catalyst.
+Weekly Context: The weekly RSI (62.137) is healthy and rising, indicating the long-term trend has plenty of room to run before becoming extremely overbought. The weekly chart confirms the overall strength of the breakout.
+4H Confirmation: Crucial for entry timing. We need the 4H momentum to "reset" (RSI dipping below 70, or MACD crossing down briefly) before resuming the daily trend. An entry without this reset exposes the swing trade to unnecessary early drawdown.
+Swing Technical Factors:
+
+Daily pattern quality: Strong (Major volume breakout)
+4H momentum alignment: Diverging (Overbought, needs reset)
+Weekly trend support: Aligned (Strong bullish foundation)
+Confidence: High (If entered on a favorable pullback)
+Swing Levels:
+
+Entry zone: $22.00 - $23.00 (Daily Pivot P: $22.16 and prior resistance zone)
+Stop: $21.00 (Below Daily S1 $20.47 and recent 4H structure)
+Target 1: $26.09 (Daily R2)
+Target 2: $30.02 (Daily R3 / Measured move potential)
+R/R (assuming $22.50 entry): 5:1 ($7.50 reward / $1.50 risk)
+Timeframe Alignment Summary
+Timeframe	Trend/Signal	Focus
+1H	Bullish (Overextended)	Near-term trigger (Wait for dip)
+4H	Extreme Bullish (Overbought)	CRITICAL for entry timing and risk definition
+Daily	Strong Bullish Breakout	Swing structure and Target setting
+Weekly	Strong Bullish	Major trend support
+Best opportunity	Swing on Pullback	
+3. Entry & Risk Management by Horizon
+Near-Term Trade Plan (1-5 Days)
+If Trading Now: The risk/reward is poor for a long. Wait for $22.00 - $23.00.
+
+Near-Term Catalysts: Price action will be driven by profit-taking and consolidation following the massive news. The $24.40 (Daily R1) level, which USAR closed above, needs to hold as immediate support. Failure to hold $24.00 could trigger a rapid move back toward the $23.00 area.
+
+Swing Trade Plan (3-15 Days)
+If Taking Swing Position:
+
+Entry: Initiate long position if the price pulls back to the $22.00 - $23.00 zone, confirmed by a bullish 1H or 4H candle close (e.g., hammer, engulfing).
+Stop: $21.00 (4H swing low validation point, providing a structural stop below the Daily S1). (6.7% risk from $22.50 entry)
+Target 1: $30.02 (Daily R3 projection)
+Target 2: $34.00 (Based on technical measured move potential)
+R/R (T1): ~5:1 (Extremely favorable)
+Management: Use the 4H chart for trailing stops once the stock moves past $26.09. If the 4H MACD crosses down but the price holds $22.00, treat it as a momentum reset for entry.
+Swing Execution Using 4H:
+
+Entry timing: Wait for the 4H chart to confirm support in the $22.00 - $23.00 zone. An ideal trigger would be the 4H RSI dipping near 50-60 and reversing, signaling the end of the cooling period.
+Profit taking: Scale out at $30.00.
+Swing Catalysts: The primary driver is the institutional money and accelerated development plan. The next major event risk is the earnings release on 2026-02-05, which falls within the 3-15 day window and could cause volatility. Traders should look to be profitable or exit prior to this date.
+
+Horizon Comparison
+Aspect	Near-Term (1-5d)	Swing (3-15d)
+Primary Chart	4H + 1H	Daily + 4H
+Confirmation	1H entry	4H entry
+Stop Method	4H swing	4H within Daily
+Risk	Poor R/R now	Excellent R/R on dip
+Recommendation	WAIT	BUY on Pullback
+Optimal Approach: Prioritize the Swing horizon. The massive fundamental news warrants holding a position for 3-15 days to capture the full breakout move. Patience is key, as the technicals demand a temporary cool-down period.
+
+4. Risk Assessment by Horizon
+Near-Term Risks (1-5 Days)
+Immediate Concerns: High probability of a quick, sharp drop (profit-taking) due to the overextended RSI and parabolic move. Volume has been massive, which can create volatility pockets as large players exit.
+
+Near-Term Invalidation: Setup fails if the stock cannot hold $24.00, signaling a deeper correction than anticipated.
+
+Swing Risks (3-15 Days)
+Broader Concerns:
+
+Profit Taking: A substantial correction (10-15%) is possible given the stock's run from $15 to $25.
+Event Risk: The 02-05 earnings date introduces volatility risk near the end of the swing window.
+Liquidity: While volume is currently high, small-cap stocks are susceptible to rapid liquidity drying up.
+Swing Invalidation: The breakout thesis fails if the stock closes below $21.00, invalidating the recent low structure and potentially signaling the end of the bullish move for now.
+Risk Comparison
+Near-Term Risk Level: High (Risk of immediate, sharp correction)
+
+Primary risk: Buying the top of a parabolic move.
+Mitigation: Wait for 4H RSI reset.
+Swing Risk Level: Medium (Excellent structural support defined by stop, but high volatility)
+
+Primary risk: A sharp dip taking out stops before the move continues.
+Mitigation: Place stop precisely below daily structure ($21.00) and use a measured position size.
+Key Decision Point: If USAR gaps up and holds $26.00 without pulling back, the initial entry zone is missed. A chase entry above $26.50 would require an immediate, tighter stop (e.g., $25.00) and reduces the R/R dramatically.
+
+DECISION SUMMARY
+DUAL-HORIZON ANALYSIS  
+------------------------  
+Asset: USAR (Stock)
+
+NEAR-TERM (1-5 Days):  
+Signal: WAIT  
+Setup: Strong (But Overextended)  
+Confidence: Low (Due to timing risk)  
+Entry: N/A (Wait for $22.00 - $23.00)  
+Stop: N/A  
+Target: N/A  
+Decision: Pass immediate entry, monitor for structural pullback.
+
+SWING (3-15 Days):  
+Signal: BUY on Pullback  
+Setup: Strong  
+Confidence: High (Due to fundamental catalyst + structure)  
+Entry: $22.00 - $23.00 (On 4H Bullish Reversal Signal)  
+Stop: $21.00 (~6.7% risk from $22.50 entry)  
+Target: $30.02 (44% potential gain)  
+R/R: ~5:1  
+Decision: Wait for ideal entry criteria, then take trade.
+
+RECOMMENDED FOCUS:  
+Swing  
+Reason: The recent fundamental news (US government financing) provides a major, multi-week catalyst, supporting a breakout move toward the $30.00 area. However, the price extension requires waiting for a necessary technical correction (RSI reset) to establish an optimal, high R/R entry point.  
+Report generated successfully
+Disclaimer: The information provided here and on kavout.com is for general informational purposes only. It does not constitute investment advice, financial advice, trading advice, or any other sort of advice. Kavout makes no recommendations regarding investment decisions based on this information. You are solely responsible for your investments. Please conduct your own research and consult qualified financial advisors before investing. Past performance does not guarantee future results.
+
+Copy
+
+Export PDF
+
+Swing Trade Analysis
+
+Buy or Sell
+
+Technical Analyst
+
+News Sentiment
+
+Fundamental Analyst
+
+Trading Signals QuickView
+AI can make mistakes. Information only, not financial advice

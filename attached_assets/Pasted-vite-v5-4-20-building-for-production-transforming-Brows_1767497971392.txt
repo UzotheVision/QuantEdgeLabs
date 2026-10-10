@@ -1,0 +1,225 @@
+vite v5.4.20 building for production...
+transforming...
+Browserslist: browsers data (caniuse-lite) is 15 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+✓ 5062 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/public/index.html                                             1.05 kB │ gzip:   0.57 kB
+../dist/public/assets/business_person_thin_ec170101-MiKU339x.jpg     74.93 kB
+../dist/public/assets/stock_trading_risk_m_e3a95378-Cz0LOaKv.jpg    135.14 kB
+../dist/public/assets/stock_trading_risk_m_d5015c58-DJXMuFsl.jpg    157.92 kB
+../dist/public/assets/business_person_thin_3d22268f-DkZQKClz.jpg    167.90 kB
+../dist/public/assets/cryptocurrency_bitco_a0a19b3e-B0qvotQZ.jpg    181.10 kB
+../dist/public/assets/stock_market_trading_8de20e16-7Mlvx7r1.jpg    195.35 kB
+../dist/public/assets/stock_market_trading_86b3df18-CJm-BE09.jpg    268.94 kB
+../dist/public/assets/cryptocurrency_bitco_69b7fa93-CEOUy3hJ.jpg    297.45 kB
+../dist/public/assets/image (1)_1761160822785-Ba6DqE7j.png          354.45 kB
+../dist/public/assets/stock_trading_risk_m_32dd27bb-CPrWLdH6.jpg    359.43 kB
+../dist/public/assets/malikpic_1760579415191-jBQNnBh7.jpg         2,944.36 kB
+../dist/public/assets/index-DhtS0tzM.css                            181.95 kB │ gzip:  26.70 kB
+../dist/public/assets/index-BdQq_4o_.js                               0.06 kB │ gzip:   0.08 kB
+../dist/public/assets/collapsible-DENmtAPp.js                         0.10 kB │ gzip:   0.11 kB
+../dist/public/assets/index-Bn8PY5Fn.js                               0.14 kB │ gzip:   0.14 kB
+../dist/public/assets/index-FUy2x9iT.js                               0.16 kB │ gzip:   0.15 kB
+../dist/public/assets/skeleton-DVCJX8V8.js                            0.17 kB │ gzip:   0.16 kB
+../dist/public/assets/index-CwQpJ2Rk.js                               0.23 kB │ gzip:   0.17 kB
+../dist/public/assets/subHours-a9e2Vyf1.js                            0.24 kB │ gzip:   0.17 kB
+../dist/public/assets/LineChart-Ciw6Nh2M.js                           0.28 kB │ gzip:   0.21 kB
+../dist/public/assets/minus-KGR6ZQAU.js                               0.29 kB │ gzip:   0.24 kB
+../dist/public/assets/check-BYAGnVyU.js                               0.29 kB │ gzip:   0.24 kB
+../dist/public/assets/endOfMonth-ClPwntKn.js                          0.29 kB │ gzip:   0.20 kB
+../dist/public/assets/chevron-down-BvkY1prp.js                        0.30 kB │ gzip:   0.24 kB
+../dist/public/assets/chevron-left-BuIbFX4u.js                        0.30 kB │ gzip:   0.25 kB
+../dist/public/assets/chevron-right-DXoGeLY3.js                       0.30 kB │ gzip:   0.25 kB
+../dist/public/assets/BarChart-Bts1WeI9.js                            0.32 kB │ gzip:   0.23 kB
+../dist/public/assets/plus-rZA1eZoT.js                                0.32 kB │ gzip:   0.25 kB
+../dist/public/assets/filter-Dl4PzawN.js                              0.33 kB │ gzip:   0.26 kB
+../dist/public/assets/arrow-left-CZvglI2P.js                          0.33 kB │ gzip:   0.27 kB
+../dist/public/assets/arrow-right-BBtPeFtr.js                         0.33 kB │ gzip:   0.27 kB
+../dist/public/assets/arrow-up-right-DEIcXSuI.js                      0.33 kB │ gzip:   0.26 kB
+../dist/public/assets/search-BGQZT2jp.js                              0.34 kB │ gzip:   0.27 kB
+../dist/public/assets/arrow-down-right-Bbi3mqJo.js                    0.34 kB │ gzip:   0.27 kB
+../dist/public/assets/circle-check-BhOear2a.js                        0.34 kB │ gzip:   0.27 kB
+../dist/public/assets/gauge-DPhWQFCI.js                               0.35 kB │ gzip:   0.27 kB
+../dist/public/assets/clock-33W3IsWj.js                               0.35 kB │ gzip:   0.27 kB
+../dist/public/assets/message-square-L9Xnrgst.js                      0.35 kB │ gzip:   0.27 kB
+../dist/public/assets/circle-check-big-Db8Qiunf.js                    0.36 kB │ gzip:   0.28 kB
+../dist/public/assets/info-DovVyAD5.js                                0.37 kB │ gzip:   0.28 kB
+../dist/public/assets/circle-x-BS8xZLDQ.js                            0.37 kB │ gzip:   0.28 kB
+../dist/public/assets/trending-down-CAIxIywL.js                       0.38 kB │ gzip:   0.28 kB
+../dist/public/assets/bell-CObQ4dCM.js                                0.38 kB │ gzip:   0.29 kB
+../dist/public/assets/star-thadeLa7.js                                0.38 kB │ gzip:   0.29 kB
+../dist/public/assets/dollar-sign-ol9Gsas2.js                         0.39 kB │ gzip:   0.30 kB
+../dist/public/assets/activity-B2IswkgY.js                            0.40 kB │ gzip:   0.30 kB
+../dist/public/assets/database-B0iLHYcM.js                            0.41 kB │ gzip:   0.30 kB
+../dist/public/assets/circle-alert-CPl_TxRa.js                        0.42 kB │ gzip:   0.29 kB
+../dist/public/assets/chart-column-DMLOAt9e.js                        0.42 kB │ gzip:   0.30 kB
+../dist/public/assets/eye-Ds2ElNIm.js                                 0.42 kB │ gzip:   0.30 kB
+../dist/public/assets/calendar-zTaeqCJL.js                            0.43 kB │ gzip:   0.31 kB
+../dist/public/assets/log-in-D5lqjluy.js                              0.43 kB │ gzip:   0.32 kB
+../dist/public/assets/download-D18cThv7.js                            0.43 kB │ gzip:   0.32 kB
+../dist/public/assets/triangle-alert-C-_gmj0T.js                      0.43 kB │ gzip:   0.31 kB
+../dist/public/assets/chart-pie-CfVaqXP0.js                           0.44 kB │ gzip:   0.33 kB
+../dist/public/assets/award-ByBZMSH7.js                               0.44 kB │ gzip:   0.33 kB
+../dist/public/assets/flame-BzU9n8qE.js                               0.45 kB │ gzip:   0.33 kB
+../dist/public/assets/coins-DFuHb39_.js                               0.45 kB │ gzip:   0.33 kB
+../dist/public/assets/wallet-CrJzKVpn.js                              0.46 kB │ gzip:   0.31 kB
+../dist/public/assets/lightbulb-DTWysFWX.js                           0.46 kB │ gzip:   0.33 kB
+../dist/public/assets/send-CHOW5ajf.js                                0.46 kB │ gzip:   0.33 kB
+../dist/public/assets/users-DE0-QXwy.js                               0.47 kB │ gzip:   0.32 kB
+../dist/public/assets/user-plus-B8SVIgKx.js                           0.48 kB │ gzip:   0.33 kB
+../dist/public/assets/refresh-cw-C0pwPR_9.js                          0.49 kB │ gzip:   0.33 kB
+../dist/public/assets/file-search-CUqjjSnW.js                         0.49 kB │ gzip:   0.34 kB
+../dist/public/assets/textarea-DIZqdNlK.js                            0.50 kB │ gzip:   0.33 kB
+../dist/public/assets/graduation-cap-DPhu_YH6.js                      0.50 kB │ gzip:   0.35 kB
+../dist/public/assets/file-text-dVj6Z-iE.js                           0.50 kB │ gzip:   0.32 kB
+../dist/public/assets/bitcoin-CeRWtamt.js                             0.50 kB │ gzip:   0.36 kB
+../dist/public/assets/newspaper-TjYu4S_e.js                           0.51 kB │ gzip:   0.34 kB
+../dist/public/assets/trash-2-Boq7hNFS.js                             0.53 kB │ gzip:   0.35 kB
+../dist/public/assets/crown-VSv5vXeN.js                               0.53 kB │ gzip:   0.36 kB
+../dist/public/assets/scale-2viYsvSp.js                               0.53 kB │ gzip:   0.34 kB
+../dist/public/assets/label-89i6Pbw6.js                               0.55 kB │ gzip:   0.37 kB
+../dist/public/assets/volume-2-Dycp2zVa.js                            0.56 kB │ gzip:   0.38 kB
+../dist/public/assets/chart-candlestick-BQj4Pc6g.js                   0.59 kB │ gzip:   0.37 kB
+../dist/public/assets/arrow-up-BxnP5r5Y.js                            0.61 kB │ gzip:   0.31 kB
+../dist/public/assets/rocket-C0jCHkXk.js                              0.62 kB │ gzip:   0.41 kB
+../dist/public/assets/trophy-Dpjt6bkF.js                              0.63 kB │ gzip:   0.39 kB
+../dist/public/assets/cpu-x1UmCcn3.js                                 0.67 kB │ gzip:   0.36 kB
+../dist/public/assets/sparkles-CcA5LZkP.js                            0.68 kB │ gzip:   0.40 kB
+../dist/public/assets/not-found-DvvJMT2B.js                           0.68 kB │ gzip:   0.38 kB
+../dist/public/assets/calculator-BL8DQ_lm.js                          0.70 kB │ gzip:   0.39 kB
+../dist/public/assets/badge-DAHz-niz.js                               0.77 kB │ gzip:   0.43 kB
+../dist/public/assets/alert-CORwsWsd.js                               0.90 kB │ gzip:   0.46 kB
+../dist/public/assets/brain-BqTXzI0S.js                               0.90 kB │ gzip:   0.46 kB
+../dist/public/assets/card-C4nAlMaQ.js                                1.03 kB │ gzip:   0.38 kB
+../dist/public/assets/table-hdVp0_YV.js                               1.49 kB │ gzip:   0.51 kB
+../dist/public/assets/page-header-Gc_M_Zzl.js                         1.89 kB │ gzip:   0.63 kB
+../dist/public/assets/progress-B1ZJS0Iq.js                            1.90 kB │ gzip:   0.95 kB
+../dist/public/assets/dialog-BSJFy6Jj.js                              2.14 kB │ gzip:   0.84 kB
+../dist/public/assets/index-BDJj8_pT.js                               2.16 kB │ gzip:   0.97 kB
+../dist/public/assets/constants-g5ETKFPE.js                           2.21 kB │ gzip:   0.94 kB
+../dist/public/assets/switch-BTBpDziM.js                              2.37 kB │ gzip:   1.20 kB
+../dist/public/assets/parseISO-J1Usjb5Q.js                            2.68 kB │ gzip:   1.18 kB
+../dist/public/assets/checkbox-CPwb1Aee.js                            2.82 kB │ gzip:   1.40 kB
+../dist/public/assets/engine-trends-chart-BGkkRQrp.js                 3.30 kB │ gzip:   1.27 kB
+../dist/public/assets/symbol-leaderboard-CuphNCCU.js                  3.97 kB │ gzip:   1.39 kB
+../dist/public/assets/streak-tracker-Nni7vPBj.js                      4.07 kB │ gzip:   1.31 kB
+../dist/public/assets/time-of-day-heatmap-omh2lx4r.js                 4.13 kB │ gzip:   1.51 kB
+../dist/public/assets/index-CEz2JUjh.js                               4.35 kB │ gzip:   1.99 kB
+../dist/public/assets/confidence-calibration-DY1BKWGM.js              4.48 kB │ gzip:   1.75 kB
+../dist/public/assets/accordion-DGqZDqix.js                           4.60 kB │ gzip:   1.84 kB
+../dist/public/assets/engine-actual-performance-BPorop7s.js           4.63 kB │ gzip:   1.60 kB
+../dist/public/assets/risk-disclosure-BHjhHBkU.js                     5.20 kB │ gzip:   1.69 kB
+../dist/public/assets/seo-head-D5t-0PM4.js                            5.77 kB │ gzip:   1.82 kB
+../dist/public/assets/login-D46MHpaY.js                               5.78 kB │ gzip:   1.95 kB
+../dist/public/assets/signup-BFpePsEx.js                              6.08 kB │ gzip:   1.98 kB
+../dist/public/assets/tier-gate-DXz7HwF1.js                           6.16 kB │ gzip:   1.96 kB
+../dist/public/assets/tabs-DntTQzoV.js                                6.48 kB │ gzip:   2.57 kB
+../dist/public/assets/CartesianGrid-CJFf29l0.js                       6.84 kB │ gzip:   2.39 kB
+../dist/public/assets/privacy-policy-CtxjvTPl.js                      7.71 kB │ gzip:   2.21 kB
+../dist/public/assets/success-stories-C5mwEDNj.js                     8.23 kB │ gzip:   2.11 kB
+../dist/public/assets/signal-attribution-dashboard-C8_xey5f.js        8.42 kB │ gzip:   2.52 kB
+../dist/public/assets/terms-of-service-Bt-c-Q_d.js                    9.51 kB │ gzip:   2.69 kB
+../dist/public/assets/pricing-CyD-lSJa.js                             9.70 kB │ gzip:   3.25 kB
+../dist/public/assets/chart-database-BfCVQJpR.js                      9.95 kB │ gzip:   2.42 kB
+../dist/public/assets/Line-DsCY0-1n.js                               10.97 kB │ gzip:   4.22 kB
+../dist/public/assets/loss-patterns-dashboard-CNg7z0dE.js            11.06 kB │ gzip:   3.39 kB
+../dist/public/assets/scroll-area-DlnQW9L7.js                        12.52 kB │ gzip:   3.94 kB
+../dist/public/assets/blog-Co5MNtcC.js                               13.31 kB │ gzip:   3.61 kB
+../dist/public/assets/academy-RvndntkN.js                            14.04 kB │ gzip:   4.15 kB
+../dist/public/assets/dashboard-D8XKke_G.js                          14.59 kB │ gzip:   4.01 kB
+../dist/public/assets/backtest-COlUVeIQ.js                           15.01 kB │ gzip:   3.82 kB
+../dist/public/assets/settings-B4to45za.js                           15.82 kB │ gzip:   3.66 kB
+../dist/public/assets/admin-security-BaqztoaJ.js                     16.20 kB │ gzip:   4.11 kB
+../dist/public/assets/about-Di-CpUAR.js                              16.41 kB │ gzip:   4.30 kB
+../dist/public/assets/market-scanner-B4htpiFg.js                     16.75 kB │ gzip:   4.08 kB
+../dist/public/assets/wallet-tracker-DHjpdmnZ.js                     16.76 kB │ gzip:   4.56 kB
+../dist/public/assets/my-account-B9yvHAyf.js                         17.98 kB │ gzip:   4.85 kB
+../dist/public/assets/paper-trading-CmB9WYYr.js                      20.08 kB │ gzip:   4.94 kB
+../dist/public/assets/technical-guide-DVHNRzoi.js                    20.15 kB │ gzip:   5.54 kB
+../dist/public/assets/automations-D-EjWvAL.js                        20.66 kB │ gzip:   3.85 kB
+../dist/public/assets/ct-tracker-s7SvoTk6.js                         21.12 kB │ gzip:   5.94 kB
+../dist/public/assets/select-R6DF2kRW.js                             21.44 kB │ gzip:   7.51 kB
+../dist/public/assets/data-audit-center-ZgMhLY80.js                  22.23 kB │ gzip:   4.71 kB
+../dist/public/assets/purify.es-C5KSVp3G.js                          22.74 kB │ gzip:   8.79 kB
+../dist/public/assets/home-DZzDr_sk.js                               23.77 kB │ gzip:   6.20 kB
+../dist/public/assets/PieChart-ByBFq81_.js                           26.02 kB │ gzip:   7.04 kB
+../dist/public/assets/admin-reports-BsMag4cX.js                      26.52 kB │ gzip:   5.40 kB
+../dist/public/assets/futures-CvC8ivc8.js                            27.88 kB │ gzip:   5.87 kB
+../dist/public/assets/trade-audit-dfLg7ESU.js                        28.71 kB │ gzip:   6.00 kB
+../dist/public/assets/features-B90GBsMd.js                           28.95 kB │ gzip:   5.18 kB
+../dist/public/assets/calibration-curve-DHxChdM3.js                  30.78 kB │ gzip:   8.42 kB
+../dist/public/assets/pdf-export-BdmTLa5N.js                         38.05 kB │ gzip:  11.93 kB
+../dist/public/assets/landing-Bu6aPo8M.js                            40.88 kB │ gzip:   8.32 kB
+../dist/public/assets/performance-BpTrXpZh.js                        42.65 kB │ gzip:   9.49 kB
+../dist/public/assets/trading-rules-BCDeNscF.js                      43.54 kB │ gzip:   5.63 kB
+../dist/public/assets/chart-analysis-Cc2n5Q63.js                     63.68 kB │ gzip:  15.07 kB
+../dist/public/assets/blog-post-DJlRJLMI.js                          66.96 kB │ gzip:  18.32 kB
+../dist/public/assets/admin-VNMmgvNz.js                              70.87 kB │ gzip:  14.54 kB
+../dist/public/assets/market-CN0O0F1y.js                             75.00 kB │ gzip:  16.90 kB
+../dist/public/assets/form-CZT2t6Xs.js                               82.39 kB │ gzip:  22.92 kB
+../dist/public/assets/index-Dn9VSvex.js                             117.53 kB │ gzip:  36.12 kB
+../dist/public/assets/watchlist-bot-EedrXppq.js                     124.72 kB │ gzip:  29.27 kB
+../dist/public/assets/index.es-HZqnzW9U.js                          150.60 kB │ gzip:  51.53 kB
+../dist/public/assets/lightweight-charts.production-CJhR9a5F.js     172.10 kB │ gzip:  55.36 kB
+../dist/public/assets/trade-desk-BPmkg9zT.js                        193.91 kB │ gzip:  47.72 kB
+../dist/public/assets/html2canvas.esm-CBrSDip1.js                   201.42 kB │ gzip:  48.03 kB
+../dist/public/assets/generateCategoricalChart-CIcY6AWq.js          367.63 kB │ gzip: 101.69 kB
+../dist/public/assets/index-DX_tUuBd.js                             374.04 kB │ gzip: 119.95 kB
+../dist/public/assets/jspdf.es.min-BwbWI-23.js                      413.71 kB │ gzip: 135.04 kB
+../dist/public/assets/market-globe-huWF3jeT.js                      826.14 kB │ gzip: 224.23 kB
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 21.28s
+▲ [WARNING] Duplicate member "getBlogPosts" in class body [duplicate-class-member]
+    server/storage.ts:1653:8:
+      1653 │   async getBlogPosts(_status?: BlogPostStatus): Promise<BlogPost...
+           ╵         ~~~~~~~~~~~~
+  The original member "getBlogPosts" is here:
+    server/storage.ts:581:8:
+      581 │   async getBlogPosts(status?: BlogPostStatus): Promise<BlogPost[]> {
+          ╵         ~~~~~~~~~~~~
+▲ [WARNING] Duplicate member "getBlogPostBySlug" in class body [duplicate-class-member]
+    server/storage.ts:1657:8:
+      1657 │   async getBlogPostBySlug(_slug: string): Promise<BlogPost | nul...
+           ╵         ~~~~~~~~~~~~~~~~~
+  The original member "getBlogPostBySlug" is here:
+    server/storage.ts:587:8:
+      587 │   async getBlogPostBySlug(slug: string): Promise<BlogPost | null> {
+          ╵         ~~~~~~~~~~~~~~~~~
+▲ [WARNING] Duplicate member "createBlogPost" in class body [duplicate-class-member]
+    server/storage.ts:1661:8:
+      1661 │   async createBlogPost(_post: InsertBlogPost): Promise<BlogPost> {
+           ╵         ~~~~~~~~~~~~~~
+  The original member "createBlogPost" is here:
+    server/storage.ts:591:8:
+      591 │   async createBlogPost(post: InsertBlogPost): Promise<BlogPost> {
+          ╵         ~~~~~~~~~~~~~~
+✘ [ERROR] Could not resolve "./signal-attribution"
+    server/routes.ts:45:74:
+      45 │ ...tion, getSignalPerformanceFromCache } from "./signal-attribution";
+         ╵                                               ~~~~~~~~~~~~~~~~~~~~~~
+▲ [WARNING] Duplicate member "updateBlogPost" in class body [duplicate-class-member]
+    server/storage.ts:1665:8:
+      1665 │   async updateBlogPost(_id: string, _post: Partial<InsertBlogPos...
+           ╵         ~~~~~~~~~~~~~~
+  The original member "updateBlogPost" is here:
+    server/storage.ts:602:8:
+      602 │   async updateBlogPost(id: string, post: Partial<InsertBlogPost>)...
+          ╵         ~~~~~~~~~~~~~~
+▲ [WARNING] Duplicate member "deleteBlogPost" in class body [duplicate-class-member]
+    server/storage.ts:1669:8:
+      1669 │   async deleteBlogPost(_id: string): Promise<boolean> {
+           ╵         ~~~~~~~~~~~~~~
+  The original member "deleteBlogPost" is here:
+    server/storage.ts:610:8:
+      610 │   async deleteBlogPost(id: string): Promise<boolean> {
+          ╵         ~~~~~~~~~~~~~~
+5 warnings and 1 error
+==> Build failed 😞
+==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
